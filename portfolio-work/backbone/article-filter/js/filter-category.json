@@ -1,0 +1,55 @@
+{
+	"results":[
+		{
+			"image":"http://www.bayercropscience.us/learning-center/Assets/thumbnails/thumb_weatherContent.jpg",
+			"url":"http://www.bayercropscience.us/learning-center/articles?storyId=D3FBF158-4866-4B52-8E97-5679073C4807",
+			"title":"Keeping Corn Fields Healthy: Fungicide Use and Weather",
+			"date":"06/24/2013",
+			"content":"Applying fungicides like Stratego YLD can pay off in any weather conditions. Applying early in the season and at tassel can help protect corn that is more prone to disease, allowing growers to maximize yields.",
+			"tags":[
+				{"label":"corn","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=c67826e3-5fc3-4d8c-9a4b-80fd77327fb3#LC_landingPageCtr"},
+				{"label":"drought","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=682ba592-66f7-45c4-b718-a875949c94d3#LC_landingPageCtr"},
+				{"label":"Fungicides","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=f089532a-143c-47d7-9255-d7f08da8d8d9#LC_landingPageCtr"},
+				{"label":"Stratego YLD","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=5c82b0eb-8145-4022-8dda-23add48b715d#LC_landingPageCtr"}
+			]
+		},
+		{
+			"image":"http://www.bayercropscience.us/learning-center/Assets/thumbnails/thumb_aboveandbeyond.jpg",
+			"url":"http://www.bayercropscience.us/learning-center/articles?storyId=5E700A4E-621D-4DDB-B854-AA39792B198B",
+			"title":"Resistance Management: Above and Beyond",
+			"date":"05/28/2013",
+			"content":"Resistance is a growing problem–one that affects select insecticides as well as herbicides. In many areas, pests like corn earworm and soybean looper are now surviving pyrethroid applications. Belt® insecticide offers a different mode of action for controlling these and other pests.",
+			"tags":[
+				{"label":"Belt","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=8079ac62-c675-4416-b977-9948b0a4465e#LC_landingPageCtr"},
+				{"label":"corn","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=c67826e3-5fc3-4d8c-9a4b-80fd77327fb3#LC_landingPageCtr"},
+				{"label":"cotton","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=66091fac-0a1d-4ff9-a7b9-79f0780417b6#LC_landingPageCtr"}
+			]
+		}
+	],
+	"filters":[
+		{
+			"id":"pests",
+			"options":[
+				{"label":"als resistance","value":"b619a450-214a-44ad-ba91-4b0ead0e6a4f","selected":""},
+				{"label":"certified fibermax","value":"8f118cb6-a952-486c-a23d-da86a8149349","selected":""},
+				{"label":"DON","value":"5c5ebaa7-18e3-40ac-89b8-7f31e2cb9d1a","selected":""},
+				{"label":"drought","value":"682ba592-66f7-45c4-b718-a875949c94d3","selected":""},
+				{"label":"glyphosate","value":"07392859-3fdd-45a1-a150-22826f813379","selected":""},
+				{"label":"glyphosate resistance","value":"d86034fe-f693-4064-952e-1eb218051d69","selected":""}
+			]
+		},
+		{
+			"id":"crops",
+			"options":[
+				{"label":"barley","value":"7e5b57a5-604c-4582-93f8-b52ccbcfb088","selected":""},
+				{"label":"cereals","value":"cd147420-54f5-4687-8653-731311900abb","selected":"selected"},
+				{"label":"citrus","value":"7039f6bb-66b4-4ee5-9609-972132df3971","selected":""},
+				{"label":"corn","value":"c67826e3-5fc3-4d8c-9a4b-80fd77327fb3","selected":""}
+			]
+		}
+	],
+	"pages":{
+		"current":"5",
+		"total":"32"
+	}
+}
