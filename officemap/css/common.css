@@ -1,0 +1,22 @@
+#mouse { float:right; }
+.name { color:#CC2222; font-weight:bold; white-space:nowrap; }
+h3.floor3,
+h3.floor4 { color:#666666; font-size:25px; margin-top:0;}
+h4 { color:#CC2222; margin:10px 0; }
+
+body { background-color:#000; margin:0; padding:0; }
+#visual-wrapper { background-color: #F4F4F4; margin: 0 auto; width:1030px; }
+#header { padding:10px; }
+#offices { border-right: 2px solid #000000; float:left; height:604px; overflow:auto; padding:10px; width:200px;  }
+  #offices #sortby { cursor:pointer; text-align:right; text-decoration:underline; }
+    #offices #sortby .sortby-name { display:none; }
+  #offices p { margin:0 0 5px; }
+  #offices .name { color:#000; cursor:pointer; font-weight:normal; }
+  #offices .name:hover { color:#CC2222; text-decoration:underline; }
+#map { background:transparent url('../img/office_map_sprite.jpg') left top no-repeat; float:right; height:604px; padding-right:5px; position:relative; width:800px; }
+  #map-name { padding:10px; }
+    #map-name .floor3 { display:none; }
+  #result-wrapper { display:none; left:500px; position:absolute; top:110px; }
+    #result { background-color:#F6F6F6; border: 2px solid #333333; border-radius:5px; left:20px; padding:5px; position:relative; top:-37px; }
+    .pointer { border: 10px solid transparent; border-right:10px solid #333333; height:0; left:0; position:relative; top:10px; width:0; }
+    .pointer2 { border: 10px solid transparent; border-right:10px solid #F6F6F6; height:0; left:2px; position:relative; top:-10px; width:0; z-index:6; }

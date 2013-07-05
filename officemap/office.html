@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>CIDC Office Map</title>
+	<script type="text/javascript" src="js/jquery-1.6.2.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+</head>
+<body>
+<div id="visual-wrapper">
+<div id="header"><img src="img/CIDC_logo.gif" /><div id="mouse"></div></div>
+<div id="offices">
+	<div id="sortby">+ <span class="sortby-location">location</span><span class="sortby-name">name</span></div>
+	<h4>Conference Rooms</h4>
+	<div id="conferences" class="offices"></div>
+	<h4>Employee Offices</h4>
+	<div id="employees" class="offices"></div>
+	<h4>Other Rooms</h4>
+	<div id="other" class="offices"></div>
+</div>
+<div id="map">
+	<div id="map-name"><h3 class="floor4">Fourth Floor</h3><h3 class="floor3">Third Floor</h3></div>
+	<div id="result-wrapper">
+		<div class="pointer"></div>
+		<div class="pointer2"></div>
+		<div id="result"></div>
+	</div>
+</div>
+<div style="clear:both; overflow:auto;"></div>
+<div id="footer"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<offices>
+  <office>
+	<office_number>302</office_number>
+	<name>Copy Room - 3rd floor</name>
+	<title></title>
+	<email></email>
+	<phone></phone>
+	<category>other</category>
+  </office>
+  <office>
+    <office_number>303</office_number>
+	<name>Beijing</name>
+	<title></title>
+	<email></email>
+	<phone></phone>
+	<category>conference</category>
+  </office>
+  <office>
+	<office_number>306</office_number>
+	<name>Mom's Room</name>
+	<title></title>
+	<email></email>
+	<phone></phone>
+	<category>other</category>
+  </office>
+  <office>
+    <office_number>430</office_number>
+	<name>London</name>
+	<title></title>
+	<email></email>
+	<phone></phone>
+	<category>conference</category>
+  </office>
+  <office>
+    <office_number>436</office_number>
+	<name>Amsterdam</name>
+	<title></title>
+	<email></email>
+	<phone></phone>
+	<category>conference</category>
+  </office>
+  <office>
+    <office_number>4062</office_number>
+	<name>Jonathan Dallas</name>
+	<title>Team Lead, Web Developer</title>
+	<email>test@example.com</email>
+	<phone>555.555.5555</phone>
+	<category>employee</category>
+  </office>
+</offices>
