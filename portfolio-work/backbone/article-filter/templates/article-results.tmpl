@@ -1,0 +1,20 @@
+<!-- results underscore template -->
+<% _.each(results, function(result){ %>
+<div class="articleMod clearfix<% if(Date.parse(result.date) > Date.parse(recent_date)){ %> new<% } %>">
+	<a href="<%= result.url %>" class="withImage">
+		<img alt="<%= _.escape(result.title) %>" src="<%= result.image %>" />
+	</a>
+	<h4>
+		<a href="<%= result.url %>"><%= result.title %></a>
+	</h4>
+	<p>
+		<em class="featureDate"><%= result.date %></em>
+		<%= result.content %>
+		<span class="article-tags">
+			<% _.each(result.tags, function(tag){ %>
+				<a href="<%= tag.url %>"><%= tag.label %></a>,
+			<% }); %>
+		</span>	
+	</p>			
+</div>
+<% }); %>

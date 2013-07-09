@@ -4,7 +4,20 @@
 			"image":"http://www.bayercropscience.us/learning-center/Assets/thumbnails/thumb_weatherContent.jpg",
 			"url":"http://www.bayercropscience.us/learning-center/articles?storyId=D3FBF158-4866-4B52-8E97-5679073C4807",
 			"title":"Keeping Corn Fields Healthy: Fungicide Use and Weather",
-			"date":"06/24/2013",
+			"date":"06/30/2013",
+			"content":"New Applying fungicides like Stratego YLD can pay off in any weather conditions. Applying early in the season and at tassel can help protect corn that is more prone to disease, allowing growers to maximize yields.",
+			"tags":[
+				{"label":"corn","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=c67826e3-5fc3-4d8c-9a4b-80fd77327fb3#LC_landingPageCtr"},
+				{"label":"drought","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=682ba592-66f7-45c4-b718-a875949c94d3#LC_landingPageCtr"},
+				{"label":"Fungicides","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=f089532a-143c-47d7-9255-d7f08da8d8d9#LC_landingPageCtr"},
+				{"label":"Stratego YLD","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=5c82b0eb-8145-4022-8dda-23add48b715d#LC_landingPageCtr"}
+			]
+		},
+		{
+			"image":"http://www.bayercropscience.us/learning-center/Assets/thumbnails/thumb_weatherContent.jpg",
+			"url":"http://www.bayercropscience.us/learning-center/articles?storyId=D3FBF158-4866-4B52-8E97-5679073C4807",
+			"title":"Keeping Corn Fields Healthy: Fungicide Use and Weather",
+			"date":"06/27/2013",
 			"content":"Applying fungicides like Stratego YLD can pay off in any weather conditions. Applying early in the season and at tassel can help protect corn that is more prone to disease, allowing growers to maximize yields.",
 			"tags":[
 				{"label":"corn","url":"http://www.bayercropscience.us/learning-center/pages/default.aspx?tagId=c67826e3-5fc3-4d8c-9a4b-80fd77327fb3#LC_landingPageCtr"},
@@ -42,14 +55,14 @@
 			"id":"crops",
 			"options":[
 				{"label":"barley","value":"7e5b57a5-604c-4582-93f8-b52ccbcfb088","selected":""},
-				{"label":"cereals","value":"cd147420-54f5-4687-8653-731311900abb","selected":"selected"},
-				{"label":"citrus","value":"7039f6bb-66b4-4ee5-9609-972132df3971","selected":""},
+				{"label":"cereals","value":"cd147420-54f5-4687-8653-731311900abb","selected":""},
+				{"label":"citrus","value":"7039f6bb-66b4-4ee5-9609-972132df3971","selected":"selected"},
 				{"label":"corn","value":"c67826e3-5fc3-4d8c-9a4b-80fd77327fb3","selected":""}
 			]
 		}
 	],
 	"pages":{
-		"current":"5",
+		"current":"1",
 		"total":"32"
 	}
 }

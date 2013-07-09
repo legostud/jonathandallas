@@ -21,10 +21,12 @@
 				
 				var timerID = setTimeout(function(){CalculatePopulation();},1000)
 			}
-			window.onload = function(){
-				window.onload;
-				init();
-			};	
+			window.onLoad = function(onLoad){
+			  	return function(){
+			    	oldLoad && onLoad();
+			    	init();
+			  	}
+			})(window.onLoad);
 		})();
 	</script>
 </head>

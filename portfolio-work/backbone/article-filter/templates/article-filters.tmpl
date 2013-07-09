@@ -1,0 +1,9 @@
+<label for="<%= select_id %>"><%= select_label %></label>
+<select class="filter-group" id="<%= select_id %>">
+	<option class="filter-item" value="">Select</option>
+<% _.each(options, function(option){ %>
+	<option class="filter-item" <%= (_.escape(option.selected)) %> value="<%= _.escape(option.value) %>">
+		<%= _.escape(option.label) %>
+	</option>
+<% }); %>
+</select>
