@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<script>
+		;(function(){
+			// API from US Census (not sure if JSONP) http://www.census.gov/popclock/data/population/world
+			var start_population = 7096889961;
+			var start_date = new Date(2013,6,8,16,47,16) // July 8th 2013 4:47 pm;  
+			var growth_per_second = 2.46011305 //taken from the world census site 
+			function init(){
+				CalculatePopulation()
+			}
+
+			function CalculatePopulation(){     
+				var nowDate = new Date(); 
+				var current_population = (nowDate.getTime() - start_date.getTime() )/1000 * growth_per_second + start_population;
+				
+				try{
+					document.getElementById("pop-clock").innerHTML = parseInt(current_population);
+				} catch(err){ }
+				
+				var timerID = setTimeout(function(){CalculatePopulation();},1000)
+			}
+			window.onload = function(){
+				window.onload;
+				init();
+			};	
+		})();
+	</script>
+</head>
+<body>
+	<h1>World Population - fake counter</h1>
+	<div id="pop-clock"></div>
+
+</body>
+</html>
