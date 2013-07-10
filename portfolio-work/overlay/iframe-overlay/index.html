@@ -1,0 +1,67 @@
+<!doctype html>
+<head>
+
+<style>
+	#iframe_overlay_wrapper,
+	.iframe_overlay_bg {
+		height:100%;
+		left:0;
+		position:fixed;
+		top:0;
+		width:100%;
+	}
+	#iframe_overlay_wrapper{
+		display:none;
+		z-index: 9999;
+	}
+	.iframe_overlay_bg {
+		background-color: #182738;
+		filter: alpha(opacity=70);
+		opacity: 0.7;
+	}
+	.iframe_overlay {
+		border: 1px solid #0072bc;
+		height:600px;
+		margin:-300px auto;
+		position:relative;
+		top:50%;
+		width:500px;
+		z-index:9999;
+	}
+	.iframe_overlay iframe{
+		height:100%;
+		width:100%;
+	}
+</style>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+;(function($){
+
+	$(function(){ 
+		$('#iframe_overlay_wrapper').click(function(){
+			$(this).hide();
+		});
+		$('.show_iframe_overlay').click(function(){
+			$('#iframe_overlay_wrapper iframe').attr('src',$(this).data('iframe'));
+			$('#iframe_overlay_wrapper').show();
+		});
+	});
+	
+})(jQuery);
+</script>
+</head>
+<body style="height:100%;width:100%;">
+
+<a href="#" class="show_iframe_overlay" data-iframe="http://www.velir.com">Velir</a>
+<a href="#" class="show_iframe_overlay" data-iframe="http://www.bing.com">Bing</a>
+
+<div id="iframe_overlay_wrapper">
+	<div class="iframe_overlay_bg"></div>
+	<div class="iframe_overlay">
+		<iframe src=""></iframe>
+	</div>
+</div>
+
+</body>
+</html>
