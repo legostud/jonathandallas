@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<style>
+#color-chart {
+	color:#333;
+	text-shadow: 2px 2px 1px #aaa;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<h1>RWJF Color Chart</h1>
+	<div id="color-chart"></div>
+</div>
+<script>
+function d2h(d) {return d.toString(16);}
+function h2d(h) {return parseInt(h,16);}
+
+var colors = [
+	'000000',
+	'00365f',
+	'00375e',
+	'005067',
+	'0065a6',
+	'0066a6',
+	'008fcf',
+	'063865',
+	'0680ba',
+	'07a6e0',
+	'0b3759',
+	'118fc8',
+	'118fca',
+	'1190cc',
+	'121212',
+	'152958',
+	'193b6e',
+	'1f4d81',
+	'1f1f1f',
+	'2a92ce',
+	'2b2320',
+	'323232',
+	'333333',
+	'39312e',
+	'393330',
+	'3b322f',
+	'404347',
+	'403B39',
+	'443b3b',
+	'453e3b',
+	'474341',
+	'4b4240',
+	'58809c',
+	'606060',
+	'645b57',
+	'666666',
+	'696969',
+	'707070',
+	'70a52f',
+	'78af33',
+	'7baf3f',
+	'7c7a73',
+	'7c7c7c',
+	'7d7979',
+	'888888',
+	'8f8982',
+	'8f8989',
+	'971396',
+	'999999',
+	'9a9a9a',
+	'a3b1c5',
+	'a39898',
+	'a39999',
+	'a5b0bc',
+	'a79891',
+	'a7b0b2',
+	'a99f9f',
+	'aaaaaa',
+	'aea8a6',
+	'afb9bf',
+	'b0b0b0',
+	'BBBBBB',
+	'b3b3b3',
+	'b4b1b1',
+	'b9b8b8',
+	'c0c0c0',
+	'c2c2c2',
+	'c9ddea',
+	'cbc7c4',
+	'cbcbcb',
+	'cccccc',
+	'cecece',
+	'cfcece',
+	'CFE3F4',
+	'cfe9f5',
+	'd1cfcf',
+	'd1e6ed',
+	'd4ddc6',
+	'd6d6d6',
+	'd6e3c2',
+	'd7d7d7',
+	'd7e3e6',
+	'd9d9d9',
+	'dbdad9',
+	'dddddd',
+	'ddeff8',
+	'ddf0f8',
+	'dfdfdf',
+	'dfebee',
+	'eaf2e0',
+	'eef8fd',
+	'EEEEEE',
+	'E1E9D3',
+	'e37206',
+	'e3e0e0',
+	'e5e5e5',
+	'e5edf0',
+	'e67300',
+	'e6e6e6',
+	'e6e7e5',
+	'e7e5e4',
+	'e9d6e8',
+	'ebebeb',
+	'edece9',
+	'eeeeee',
+	'efeeec',
+	'EFEFEF',
+	'f4e7cf',
+	'f6f5f2',
+	'f7f8f8',
+	'ff5033',
+	'ffffff'
+	
+];
+
+
+// convert to lowercase
+var temp = colors.filter(function(elem, pos) {
+	colors[pos] = elem.toLowerCase();
+    return true;
+});
+console.log(colors.length);
+// remove duplicates
+colors = colors.filter(function(elem, pos) {
+    return colors.indexOf(elem) == pos;
+});
+console.log(colors.length);
+// split into R, G, B and convert to decimal
+var rgbArr = [];
+for(var i=0;i<colors.length;i++){
+	rgbArr[i] = [
+		h2d(colors[i].substring(0,2)),
+		h2d(colors[i].substring(2,4)),
+		h2d(colors[i].substring(4,6))
+	];
+}
+
+function rgbToHsl(c){
+    var r = c[0]/255, g = c[1]/255, b = c[2]/255;
+    var max = Math.max(r, g, b), min = Math.min(r, g, b);
+    var h, s, l = (max + min) / 2;
+
+    if(max == min){
+        h = s = 0; // achromatic
+    }else{
+        var d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        switch(max){
+            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+            case g: h = (b - r) / d + 2; break;
+            case b: h = (r - g) / d + 4; break;
+        }
+        h /= 6;
+    }
+    return new Array(h * 360, s * 100, l * 100);
+}
+var hslArr=new Array();
+for(var i=0;i<rgbArr.length;i++){
+    //Transforming rgb to hsl
+    //`hslArr[i][1]` (`i`) is a reference to the rgb color, in order to retrieve it later
+    hslArr[i]=[rgbToHsl(rgbArr[i]),i]; 
+}
+var sortedHslArr=new Array();
+//Sorting `hslArr` into `sortedHslArr`
+outerloop:
+for(var i=0;i<hslArr.length;i++){
+    for(var j=0;j<sortedHslArr.length;j++){
+        if(sortedHslArr[j][0][0]>hslArr[i][0][0]){
+            sortedHslArr.splice(j,0,hslArr[i]);
+            continue outerloop;
+        }
+    }
+    sortedHslArr.push(hslArr[i]);
+}
+var sortedRgbArr=new Array();
+
+//Retrieving rgb colors
+for(var i=0;i<sortedHslArr.length;i++){
+    sortedRgbArr[i]=rgbArr[sortedHslArr[i][1]];
+} 
+
+// output the results
+var element = document.getElementById("color-chart");
+var inner_html = "";
+var rgb;
+for (var i=0;i<sortedRgbArr.length;i++){
+	rgb = d2h(sortedRgbArr[i][0]) + d2h(sortedRgbArr[i][1]) + d2h(sortedRgbArr[i][2]);
+console.log(rgb);
+	inner_html = inner_html + '<div class="color" style="background-color:#'+rgb+'">#'+rgb+'</div>';
+}
+
+element.innerHTML = inner_html;
+
+
+</script>
+</body>
+</html>
