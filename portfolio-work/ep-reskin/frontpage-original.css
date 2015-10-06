@@ -1,0 +1,443 @@
+/*
+  This file is based on the ploneCustom.css.dtml file shipped with Plone.
+
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+/*
+** FRONTPAGE STYLES 
+*/
+
+/* The global section tabs. */
+#portal-globalnav li a {
+    background: url('&dtml-portal_url;/front_global-navigation-background.gif') top left repeat-x;
+}
+#portal-globalnav li.firstTab a {
+    background-image: url('&dtml-portal_url;/front_global-navigation-left.gif');
+    background-repeat: no-repeat;    
+}
+#portal-globalnav li a span { 
+    background: transparent url('&dtml-portal_url;/front_global-navigation-center.gif') top right no-repeat;
+}
+#portal-globalnav li.lastTab a span {
+    background-image: url('&dtml-portal_url;/front_global-navigation-right.gif');
+    background-repeat: no-repeat;    
+}
+#frontpage-promotions {
+    height: 342px;
+    position:relative;
+    z-index: 0;
+    background: #000; 
+	margin: 0px 1px 0px 1px;
+}
+#frontpage-promo-image {
+    position:absolute;
+    z-index:0;    
+    top: 0;
+    left: 0;
+    height: 342px;
+    width: 873px;
+}
+#promo-blocks {
+    position:relative;
+    z-index: 1;
+    padding: 0;
+    margin: 37px 0 0 35px;
+	letter-spacing:.05em;
+    color: #fff;  
+	width: 44em !important;
+}
+h2#frontpage-title {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+	border:none;
+    color: &dtml-evpLightGreen;;
+    font-weight: 100;
+    font-size: 220%;
+}
+#frontpage-promo1 p {
+	color:#FFFFFF;
+	font-size:1em;
+    line-height:.7em;
+	margin:1px;
+	padding-left:20px;
+}
+#frontpage-promo1 h1 {
+	background:transparent;
+	border:none;
+	padding:5px 0 10px;
+	margin:0;
+	color:#CCCCCC;
+	font-size:1.5em;
+	font-weight:normal;
+}
+/* #frontpage-promo1 ul {
+	list-style:none;
+	margin-left:3em;
+}
+#frontpage-promo1 ul li{
+	list-style-image:url("bullet-heart.gif");
+} */
+
+#frontpage-promo2 {
+    margin-top: 5px;
+	/*padding-left:20px;*/
+}
+#frontpage-promo3 {
+    color:#CCCCCC;
+    margin: 0px;
+	width: 342px;
+	height: 342px;
+	overflow: hidden;
+    position:relative;
+    z-index: 1;
+    text-align:right;
+    float: right;
+}
+a.promoarea-download {
+	display: block;
+	width: 342px;
+	height: 342px;
+	background: transparent;
+}
+#frontpage-promo3 a img {
+	text-decoration: none;
+}
+#portal-columns {
+    background: #000 url('&dtml-portal_url;/faded-blackbackground.jpg') top left repeat-x;
+    color: #fff;
+    padding-top:0;
+}
+#columns-wrapper {
+    background: transparent;
+    width: 100%;
+    padding-top: 0;
+}
+#clear-space-after-content {
+    height: 1px;
+    background: transparent;
+}
+#portal-breadcrumbs {
+    display: none;
+}
+.contentViews li a {
+    color: #fff;
+}
+
+#portal-column-content {
+    margin-bottom: 0;
+}
+
+.documentContent {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+#content-column-wrapper,
+.documentContent {
+    margin: 0 !important;
+    width: 100% !important;
+}
+.evp-frontpage-news {
+    padding: 14px;
+}
+#clear-space-before-wrapper-table {
+    clear: none;
+    display: none;
+}
+#portal-footer-wrapper {
+	background: #000000;
+}
+
+/*
+FRONTPAGE PORTLET STYLES
+*/
+
+#frontpage-portlets { 
+    padding-top: 18px;
+    margin-top: 0;
+    min-height: 245px;
+    color: &dtml-evpLightGrey;;
+	letter-spacing:.05em;
+}
+#frontpage-portlets h2 {
+    padding: 5px 0 10px;
+    margin:0;
+    background: transparent;
+	border: none;
+    color: &dtml-evpLightGreen;;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+#frontpage-portlets h2 a, #frontpage-portlets h2 a:hover {
+    color: &dtml-evpLightGreen; !important;
+	text-decoration: none !important;
+	background: transparent !important;
+	font-size: 1em !important;
+	border: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	font-weight: normal !important;
+}
+#frontpage-portlets h2 a:hover {
+	text-decoration: underline !important;
+}
+#frontpage-portlets p { 
+	margin-bottom:0;
+	padding-bottom:0px;
+	padding-left:0;
+	color:#CCCCCC;
+	letter-spacing:-.03em;
+}
+#frontpage-portlets a {  
+    border-top: 1px solid #333333;
+	display:block;
+	color:#DDDDDD;
+	/*line-height:1.0em;*/
+	font-size:1.1em;
+	font-weight:bold;
+	padding-bottom:10px;
+	padding-top:12px;
+	margin-top:4px;
+	text-decoration:none;
+}
+
+#frontpage-portlets .contentPortlets {
+    padding-top: 14px;
+}
+#frontpage-portlets div.portletWrapper {
+    float: left;
+    background: transparent url('&dtml-portal_url;/frontpage_portlets_bg.jpg') top center no-repeat;           
+    padding: 14px 18px 0px;
+    width: 210px;
+    margin-left: 8px;
+}
+#frontpage-portlets .managePortletsLink {
+    clear: left;
+}
+#frontpage-portlets #portletFlash-wrapper {
+    width: 355px;
+    float: right;
+    margin:0;
+    padding:0;
+    background: none;
+    background-color: #000000;
+}
+#frontpage-portlets dl.portlet .portletItemDetails {
+    color: &dtml-evpLightGrey;;    
+}
+#frontpage-portlets dl.portlet .portletItem {
+    margin: 0;
+}
+#frontpage-portlets .portletListingPortlet dd.portletItem {
+    background: transparent;
+    padding: 0.5em 0 0;    
+}
+#frontpage-portlets .evp-portlet-one,
+#frontpage-portlets .evp-portlet-oneleft,
+#frontpage-portlets .evp-portlet-onetop,
+#frontpage-portlets .evp-portlet-oneleft,
+#frontpage-portlets .evp-portlet-twotop,
+#frontpage-portlets .evp-portlet-twoleft,
+#frontpage-portlets .evp-portlet-three {
+    width:auto;
+}
+#frontpage-portlets dl.portlet.portletFlash .portletItem {
+    padding: 0;
+}
+#frontpage-portlets dl.portlet dt.portletHeader a {
+    color: &dtml-evpLightGreen;;    
+}
+#frontpage-portlets p.discreet { 
+    color: &dtml-evpLightGreen;;
+	font-size:0.8em;
+	line-height:1.1em;
+	padding-top:0px;
+}
+#frontpage-portlets .evp-portlet-item a {
+	text-decoration:none;
+	padding:1em;
+	padding-left:.25em;
+	display: block;
+	float:left;
+	clear:both;
+}
+#frontpage-portlets .evp-portlet-itemtitle, 
+#frontpage-portlets a.evp-portlet-itemtitle {
+/*  width:191px;*/
+    display: block;
+	color:#FFF!important;
+	font-size:120%;
+	font-weight:100;
+	margin-bottom:-1em;
+	padding:1em .25em 1em .25em;
+	text-transform:capitalize;
+}
+#frontpage-portlets .evp-portlet-itemdescription
+#frontpage-portlets a.evp-portlet-itemdescription {
+	font-weight:100;
+	margin-bottom:.25em;
+	padding:1em .25em 1em .25em;
+}
+
+#frontpage-portlets .portletDualListingPortlet dd.portletItem div.evp-portlet-item,
+#frontpage-portlets a.evp-portlet-morelink:link,
+#frontpage-portlets a.evp-portlet-morelink:visited,
+#frontpage-portlets a.evp-portlet-morelink:active {
+    background: transparent;
+}
+#frontpage-portlets a {
+	padding-right:16px;
+}
+#frontpage-portlets a:hover,
+#frontpage-portlets a.evp-portlet-morelink:hover {
+/*  width:191px;*/
+    display: block;
+	background:#282828 url("&dtml-portal_url;/rollover-indent.jpg") top left no-repeat;
+	background-position: 0px 11px;
+	padding-left:16px;
+	padding-right:0px;	
+}
+#frontpage-portlets .managePortletsLink a:hover {
+    background: none;
+    padding-left: 0;
+    width: auto;
+}
+#frontpage-portlets .evp-portlet-item {
+	overflow:visible;
+}	
+
+
+/*
+** SEO BOX STYLES 
+*/
+
+.container-seo {
+	margin-top: 1em;
+	background: #000000 url('&dtml-portal_url;/faded-blackbackground.jpg') repeat-x;
+	overflow: auto;
+	padding: 14px 25px 14px 25px;
+	text-align: left;
+}
+#portal-header .container-seo {
+    /*display: none;*/
+    position: absolute;
+    left: -10000px;
+    /*height: 1px;*/ 
+    /*width: 1px*/
+}
+.container-seo h2 {
+	color: #cccccc;
+	padding: 0;
+    margin: 0 0 1em 0;
+    border:none;
+	background: transparent;
+    font-weight: normal;
+    font-size: 1.6em;
+}
+.container-seobox {
+    width: 823px;
+    margin: 0 auto;
+    padding: 0;
+	background:#141414 url('&dtml-portal_url;/seo-background.gif') no-repeat;
+	color: #CCCCCC;
+	font-size:.8em;
+	line-height:1.6em;
+}
+.container-seobox-top {
+  width: 823px;  
+	padding: 0;
+	background:#0D0D0D url('&dtml-portal_url;/seo-top.gif') bottom left no-repeat;
+	height: 10px;
+}
+.container-seobox-content {
+/*  width: 800px;*/
+	background: #141414 url('&dtml-portal_url;/seo-fadedbackground.gif') top left no-repeat;
+	padding: 0px 14px 0px 8px;
+	clear: both;
+}
+/*.container-seobox-content-columnleft {
+    float: left;
+    width: 206px;
+}
+.container-seobox-content-columnright {
+    float: right;
+    width: 582px;
+    text-align: left;
+}*/
+.container-seobox-bottom {
+    width: 823px;
+	height: 10px;
+	background: #0D0D0D url('&dtml-portal_url;/seo-bottom.gif') top left no-repeat;
+	clear: both;
+}
+/*.container-seobox-content-columnright p {
+    color: #bebebe;
+    font: normal 10px Verdana;
+    padding: 0px;
+    margin: 0px;
+}*/
+
+#content.hasRightColumn {
+    padding-right: 0 !important;
+}
+
+body.kssActive #frontpage-promotions .inlineEditable:hover, 
+body.kssActive #frontpage-promotions .formlibInlineEditable:hover,
+body.kssActive #portal-columns .inlineEditable:hover, 
+body.kssActive #portal-columns .formlibInlineEditable:hover {
+    color: #000;
+}
+
+/* Styling for new table formatted global navigation  */
+.globalnav_table {
+	height: 27px;
+    background:transparent url(&dtml-portal_url;/front_global-navigation-background.gif) top left repeat-x;
+}
+.globalnav_leftside {
+	height: 27px;
+    background:transparent url(&dtml-portal_url;/frontpage_globalleft.gif) top left no-repeat;
+}
+.globalnav_rightside {
+	height: 27px;
+    background:transparent url(&dtml-portal_url;/frontpage_globalright.gif) top right no-repeat;
+}
+.globalnav_divider {
+	height: 27px;
+    background:transparent url(&dtml-portal_url;/global-navigation-center.gif) top center no-repeat;
+}
+.globalnav_table tr td a {
+	display: block;
+	margin-top: 0px;
+}
+
+.paragraphIconHeart {
+	padding-left: 16px !important;
+	margin-left: 18px !important;
+	line-height: 1.2em !important;
+	background: transparent url("&dtml-portal_url;/bullet-heart.gif") top left no-repeat;
+	background-position: 0px 3px;
+}
+.paragraphIconSpade {
+	padding-left: 16px !important;
+	margin-left: 18px !important;
+	line-height: 1.2em !important;
+	background: transparent url("&dtml-portal_url;/bullet-spade.gif") top left no-repeat;
+	background-position: 0px 3px;
+}
+.paragraphIconDiamond {
+	padding-left: 16px !important;
+	margin-left: 18px !important;
+	line-height: 1.2em !important;
+	background: transparent url("&dtml-portal_url;/bullet-diamond.gif") top left no-repeat;
+	background-position: 0px 3px;
+}
+.paragraphIconClub {
+	padding-left: 16px !important;
+	margin-left: 18px !important;
+	line-height: 1.2em !important;
+	background: transparent url("&dtml-portal_url;/bullet-club.gif") top left no-repeat;
+	background-position: 0px 3px;
+}
+/* </dtml-with> */

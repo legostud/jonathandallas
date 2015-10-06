@@ -1,0 +1,722 @@
+/*
+  This file is based on the ploneCustom.css.dtml file shipped with Plone.
+
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+body {
+    background: #000000 url('&dtml-portal_url;/background.jpg') 50% 0% no-repeat;
+	text-align: center;
+}
+body#content {
+    text-align: left;
+    font-size: 1em;
+}
+pre {
+    background: &dtml-evpLightGrey;;
+}
+h1, h2, h3 {
+    font-size: 1em;
+	border-top: 1px dotted #666666;
+	border-bottom: 1px dotted #666666;
+	background-color:#F5F5F5;
+    /*background: url('&dtml-portal_url;/main_headline.gif') 0% 0% repeat;*/
+    font-weight: bold;
+    padding: 0.5em;
+}
+h1 {
+    font-size: 110%;
+}
+#visual-portal-wrapper {
+    width:876px;
+    margin: 28px auto 0;
+    text-align: left;
+    position:relative;
+	background: #1D1D1D url('&dtml-portal_url;/gradient-site-background.jpg') top center no-repeat;
+}
+#portal-columns {
+    background: &dtml-backgroundColor; url('&dtml-portal_url;/content-dark-background.jpg') top left repeat-x;
+    padding-top: 7px;
+    padding-bottom: 14px;
+	margin: 0px 1px 0px 1px;
+    width:874px !important;
+}
+#portal-footer,
+#portal-colophon {
+    color: #fff;
+}
+#site-header {
+    background: #006519 url('&dtml-portal_url;/header-background.jpg') top left repeat;
+    height: 117px;
+    border-bottom: 1px solid &dtml-globalBorderColor;;
+    border-top: 1px solid &dtml-globalBorderColor;;
+	margin: 0px 1px;
+    clear: left;
+}
+#header {
+    background: #006519 url('&dtml-portal_url;/header-background.jpg') top left repeat;
+    border: 1px solid &dtml-globalBorderColor;;
+    clear: left;
+	color: #fff;
+	text-align: center;
+	height: auto;
+}
+
+/*
+** FORMS.CSS STYLES 
+*/
+
+legend {
+    background: #fff;
+    font-weight: bold;
+}
+.context, 
+.formControls .actionButtons .button, 
+.documentEditable * .context,
+.standalone, 
+.documentEditable * .standalone {
+    background-repeat: repeat-x;
+    background-position: 0px 50% !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;    
+    padding-top: 0;    
+    padding-bottom: 0;    
+    border-color: #eee !important;
+    border-style: solid;
+    height: 21px;
+    min-width: 50px;
+    margin-bottom: 0;
+}
+.standalone, 
+.documentEditable * .standalone {
+    color: #fff;
+}
+#portal-column-one .field {
+    clear: none;
+}
+input.searchButton {
+    background-color: #fff;
+}
+
+/*
+** AUTHORING.CSS STYLES 
+*/
+
+.contentActions {
+    border-bottom: 1px solid &dtml-contentViewBorderColor;;
+}
+.documentEditable .documentContent {
+    border:none;
+}
+.documentContent.dr56 {
+    width: 609px !important;
+}
+dl.expandedInlineCollapsible dt.collapsibleHeader, 
+dl.expandedBlockCollapsible dt.collapsibleHeader {
+    background-color: #fff;
+}
+ul.formTabs {
+    border: none;
+    margin-bottom:-2.5em;
+}
+ul.formTabs li a {
+    background: #fff url('&dtml-portal_url;/front_global-navigation-background.gif') 0px 50% repeat-x;
+    text-transform: uppercase;
+    padding-top:0.7em;
+    padding-bottom:0.7em;    
+}
+li.formTab a:hover,
+li.formTab a.selected {
+    background: #fff url('&dtml-portal_url;/footer-navigation-background.gif') top left repeat-x;
+    color: #fff;
+}
+
+/*
+** COLUMNS.CSS STYLES 
+*/
+
+#portal-column-content {
+    float: right;
+    padding: 0;
+/*    width:626px;
+    padding: 0 15px;*/
+	margin: 0;
+}
+#portal-column-one {
+
+}
+#portal-column-one .visualPadding {
+    margin-left: 14px; /* we had to decrease the margin for 1px to decrease teh width of the column. Everything for IE */
+    padding: 30px 20px 1em;
+    background: transparent url('&dtml-portal_url;/side-nav-background.jpg') top left no-repeat;
+    min-height:393px;
+}
+
+/*
+** GLOBAL NAVIGATION STYLES 
+*/
+
+#global-navigation {
+	height: 18px;
+	position:absolute;
+	top:-18px;
+}
+#global-navigation ul {
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	list-style: none;
+	list-style-image: none;	
+}
+#global-navigation ul li {
+	width: 81px;
+	margin: 0 2px;
+	float: left;
+	text-align: center;
+	background: #626262 url('&dtml-portal_url;/tab-grey.jpg') 50% 0% no-repeat;
+	text-transform: uppercase;
+}
+#global-navigation ul li#global-poker {
+	background: &dtml-evpDarkGreen; url('&dtml-portal_url;/tab-green.jpg') 50% 0% no-repeat;
+	color: #fff;
+}
+#global-navigation ul li a {
+	padding: 3px 0px 2px 0px;
+	font: normal 10px Verdana;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+}
+#global-navigation ul li a:hover {
+	color: #fffe00;
+	text-decoration: none;
+}
+#global-navigation ul li#global-poker a:hover {
+	background: &dtml-evpDarkGreen; url('&dtml-portal_url;/tab-green.jpg') 50% 0% no-repeat;
+}
+#global-navigation ul li#global-casino a:hover {
+	background: #652c1f url('&dtml-portal_url;/tab-red.jpg') 50% 0% no-repeat;
+}
+#global-navigation ul li#global-sports a:hover {
+	background: #324251 url('&dtml-portal_url;/tab-blue.jpg') 50% 0% no-repeat;
+}
+
+#columns-wrapper {
+    background: #fff url("&dtml-portal_url;/content-topcurves.png") 50% 0px no-repeat;
+    margin:0 auto;
+    padding-top:25px;
+    width:862px;
+}
+#clear-space-after-content {
+    background:#fff url("&dtml-portal_url;/content-bottomcurves.gif") bottom left no-repeat;
+    height:10px;
+    margin:0 auto;
+    width:862px;
+}
+#site-bottom {
+    background: transparent url('&dtml-portal_url;/background_bottom.png') 0% 100% repeat-x;
+    height:341px;
+    margin-top: -341px;
+}
+#portal-footer-wrapper {
+    background:#000 url("&dtml-portal_url;/faded-blackbackground.jpg") top left repeat-x;
+	margin: 0px 1px 0px 1px;
+    padding:14px 0 0;
+    text-align: center;
+    padding-bottom: 3em;
+}
+#portal-colophon {
+    display: none;
+}
+
+/*
+** FOOTER STYLES 
+*/
+
+#footer-nav {
+    background-color: transparent;
+    white-space: nowrap;
+    list-style: none;
+    height: auto;
+    line-height: 27px;
+    /*position: relative;*/
+    display: block;
+    margin: 0 0 27px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 0.9em;
+}
+#footer-nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#footer-nav li a {
+    /* this isn't supported by all browsers, so we keep it in a separate rule */
+    display: -moz-inline-box;        
+    display: inline-block;    
+}
+#footer-nav li a {
+    /* The normal, unselected tabs. They are all links */
+    color: #fff;
+    line-height: 27px;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;    
+    font-weight: bold;
+    margin: 0;
+    background: &dtml-evpLightGrey; url('&dtml-portal_url;/footer-navigation-background.gif') top left repeat-x;
+}
+#footer-nav li.firstTab a {
+    background-image: url('&dtml-portal_url;/footer-navigation-left.gif');
+    background-position: top left;
+}
+#footer-nav li a span {
+    padding: 0em 1.25em;
+    line-height: 27px;
+    display: block;
+    background: transparent url('&dtml-portal_url;/footer-navigation-center.gif') top right no-repeat;
+}
+#footer-nav li.lastTab a span {
+    background-image: url('&dtml-portal_url;/footer-navigation-right.gif');
+    background-position: top right;
+}
+#footer-nav li a:hover {
+    text-decoration: underline;
+}
+#footer-languageselector,
+#portal-footeractions {
+    list-style: none;
+    list-style-image: none;
+    margin: 0 0 1em;
+    padding: 0;
+    font-size: &dtml-fontSmallSize;;
+}
+#footer-languageselector li,
+#portal-footeractions li {
+    display: inline;
+}
+
+#footer-languageselector li a,
+#portal-footeractions li a {
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding: 0 0.5em;
+}
+#footer-languageselector li a:hover,
+#portal-footeractions li a:hover {
+    color: &dtml-linkColor;;
+}
+.lastItem,
+.lastItem a {
+    border: none !important;
+}
+
+#portal-affiliates {
+    list-style: none;
+    list-style-image: none;
+    margin:22px 0;
+    padding: 0;
+}
+#portal-affiliates li {
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0 4px;
+}
+
+/*
+** NAVTREE STYLES 
+*/
+
+.portletNavigationTree {
+    margin: 0;
+}
+.portletNavigationTree .portletHeader {
+    background: transparent;
+	border: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navTreeCurrentItem {
+    background-color:transparent;
+    border: none !important;
+    color: &dtml-fontColor; !important;
+    font-weight: bold;
+	line-height: 20px;
+}
+.navTreeItem a, dd.portletItem .navTreeItem a {
+    color: &dtml-fontColor; !important;
+}
+.navTreeItem a:hover, dd.portletItem .navTreeItem a:hover {
+    background: transparent;
+    text-decoration: underline;
+    border: none;
+}
+.portletNavigationTree .portletItem {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+.navTreeItem, dd.portletItem .navTreeItem {
+    padding: 0.5em;
+    background: transparent url('&dtml-portal_url;/bullet-light-bar.gif') top left repeat-x;    
+}
+.navTree {
+    margin-top: 0;
+}
+.navTree li {
+    margin-bottom: 0;
+}
+.navTreeLevel1 .navTreeItem, 
+dd.portletItem .navTreeLevel1 .navTreeItem {
+    background-image: none;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navTreeLevel1 .navTreeItem a, 
+dd.portletItem .navTreeLevel1 .navTreeItem a {
+    background: transparent url('&dtml-portal_url;/bullet-navtree.gif') 0px .5em no-repeat;
+    padding-left: 11px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*
+** KUPU STYLES 
+*/
+
+.kupu-dialog-button {
+    background-repeat: repeat;
+    background-position: left top;
+    border-style:none solid;
+    font-weight:bold;
+    height:21px;
+    min-width:50px;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    padding-top:0;
+    text-transform:uppercase;
+}
+
+/*
+** ADDITIONAL STYLES 
+*/
+
+.featureBlock,
+dl.portletListingPortlet dd.portletItem {
+    /* 100% wide block containing large image and text below it */
+    background: transparent url('&dtml-portal_url;/feature_bg.jpg') 50% 0% no-repeat;
+    padding: 13px;
+    margin: 0 auto 1em;
+}
+dl.portletListingPortlet.noneHeader dd.portletItem {
+    background:transparent;
+    padding: 0;
+}
+.evp-portlet-onetop,
+.evp-portlet-twotop,
+.evp-portlet-twoleft,
+.evp-portlet-three {
+    width: 583px;
+    min-height: 175px;
+}
+
+.evp-portlet-one {
+/*    width: 230px;*/
+    min-height: 100px;
+}
+
+.evp-portlet-oneleft {
+/*    width: 293px;*/
+    min-height: 100px;
+}
+.dualPortletWrapper {
+    width: 584px;
+    margin: 0 auto;    
+}
+.portletDualListingPortlet {
+/*    width: 271px;*/
+/*    width: 293px;*/
+    width: 50%;
+    float: left;
+}
+.portletDualListingPortlet.leftColumn {
+/*    margin-left:19px;
+    margin-right: 3px;*/
+}
+.portletDualListingPortlet.rightColumn {
+    margin-right: 19px;
+}
+.portletDualListingPortlet dd.portletItem {
+    padding: 0;
+    margin: 0 auto;
+    min-height: 175px;    
+    width: 293px;
+}
+.evp-portlet-item {
+    margin-left: 13px;
+}
+.firstListingItem {
+    margin-left: 0 !important;
+}
+.evp-portlet-twotop .evp-portlet-item {
+    width: 271px;
+}
+.evp-portlet-twoleft .evp-portlet-item {
+    width: 271px;
+}
+.smallFeatureBlock,
+.portletDualListingPortlet dd.portletItem div.evp-portlet-item,
+dl.portletListingPortlet.noneHeader dd.portletItem div.evp-portlet-item {
+    /* usually 50% wide block containing small floated to the left image and text 
+    wrapping around the image. Usually 2 such blocks in a row */
+    background: transparent url('&dtml-portal_url;/feature_small_bg.jpg') 50% 0% no-repeat;
+    width: 261px;    
+    padding: 13px;
+    margin: 0 3px;
+}
+.portletDualListingPortlet div.evp-portlet-item {
+    margin-left: 3px !important;
+}
+.portletListingPortlet dt.portletHeader.evp-portlet-green,
+.portletDualListingPortlet dt.portletHeader.evp-portlet-green,
+h2.specialHeader,
+table.smallFeatures th {
+    /* Green-background header to mark some special information on the page */
+    line-height: 29px;
+    padding: 0 19px;
+    position:relative;
+    margin: 0 auto;
+    width: 545px;
+}
+.portletDualListingPortlet dt.portletHeader {
+    width: 255px !important;
+}
+
+h2.specialHeader,
+.portletDualListingPortlet dt.portletHeader {
+    width: auto;
+}
+.portletListingPortlet dt.portletHeader.evp-portlet-grey,
+.portletDualListingPortlet dt.portletHeader.evp-portlet-grey {
+    line-height: 26px;
+    margin-bottom: 3px;
+    /*background: &dtml-evpLightGrey; url('&dtml-portal_url;/main_headline.gif') 0% 50% repeat-x;    */
+}
+.portletListingPortlet dt.evp-portlet-green,
+.portletDualListingPortlet dt.evp-portlet-green,
+h2.specialHeader {
+	border:none;
+    background: &dtml-evpGreen; url('&dtml-portal_url;/header_green_bg.gif') 0px 50% repeat-x;
+    color: #fff;
+}
+.portletListingPortlet dt.evp-portlet-green a
+.portletDualListingPortlet dt.evp-portlet-green a,
+h2.specialHeader a,
+table.smallFeatures th a {
+    color: #fff !important;
+    text-decoration: none;
+    line-height: 29px;   
+}
+table.smallFeatures th span.leftCorner,
+table.smallFeatures th span.rightCorner,
+.portletListingPortlet dt.portletHeader span.portletTopLeft,
+.portletListingPortlet dt.portletHeader span.portletTopRight,
+.portletDualListingPortlet dt.portletHeader span.portletTopLeft,
+.portletDualListingPortlet dt.portletHeader span.portletTopRight,
+h2.specialHeader span.leftCorner,
+h2.specialHeader span.rightCorner {
+    background-color: transparent;
+    background-position: 0px 50%;    
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 29px;
+    display: block;
+    position: absolute;
+}
+table.smallFeatures th span.leftCorner,
+h2.specialHeader span.leftCorner,
+.portletListingPortlet dt.portletHeader span.portletTopLeft,
+.portletDualListingPortlet dt.portletHeader span.portletTopLeft {
+    left: 0;
+    top: 0;
+    background-image: url('&dtml-portal_url;/header_green_left.gif');
+}
+table.smallFeatures th span.rightCorner,
+h2.specialHeader span.rightCorner,
+.portletListingPortlet dt.portletHeader span.portletTopRight,
+.portletDualListingPortlet dt.portletHeader span.portletTopRight {
+    right: 0;
+    top: 0;
+    background-image: url('&dtml-portal_url;/header_green_right.gif');
+}
+.portletListingPortlet dt.evp-portlet-frontpage span.portletTopRight,
+.portletDualListingPortlet dt.evp-portlet-frontpage span.portletTopRight,
+.portletListingPortlet dt.evp-portlet-frontpage span.portletTopLeft,
+.portletDualListingPortlet dt.evp-portlet-frontpage span.portletTopLeft {
+    display: none;
+}
+
+.portletListingPortlet dt.evp-portlet-grey span.portletTopRight,
+.portletDualListingPortlet dt.evp-portlet-grey span.portletTopRight,
+.portletListingPortlet dt.evp-portlet-grey span.portletTopLeft,
+.portletDualListingPortlet dt.evp-portlet-grey span.portletTopLeft {
+    display: none;
+}
+table.smallFeatures {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 577px;
+    margin: 0 auto;
+}
+table.smallFeatures th {
+    width: auto;
+}
+table.smallFeatures td {
+    vertical-align: top;
+    width: 50%;
+}
+h2.shortHeader {
+    width: 50%;
+}
+.listingPortletPicture {
+    text-align: center;
+    margin-bottom: 13px;
+    position:relative;
+    overflow: hidden !important;
+    border: none;
+    width: 100%;
+}
+.listingPortletPicture.image-left,
+.evp-portlet-onetop .listingPortletPicture {
+    width: auto !important;
+}
+.listingPortletPicture img {
+    margin: 0 auto;
+}
+div.listingMoreLink {
+    margin-top: 13px;
+}
+a.evp-portlet-morelink {
+    background: transparent url('&dtml-portal_url;/bullet.gif') 0% 50% no-repeat;
+    padding-left: 20px;
+}
+#portal-header {
+    position:relative;
+    z-index: 99;
+}
+
+
+/*
+** SECTION DOWNLOAD STYLES 
+*/
+
+#download-content {
+    min-height:460px;
+    clear:both;
+}
+#download-top {
+    height:270px;
+    padding:20px 20px 0;
+    clear:both;
+    overflow:auto;
+}
+#download-text {
+    float:left;
+    clear:both;
+    line-height:1.5em;
+    margin-bottom:1em;
+}
+#download-text h2 {
+    background:transparent;
+    border:none;
+    font-size: 180%;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding-bottom:10px;    
+}
+#download-button {
+    float:left;
+    clear:both;
+    cursor:pointer;
+    margin-top:5px;
+    margin-left:5px;
+}
+#download-bottom {
+    margin-left:35px;
+    height:100px;
+    clear:both;
+}
+#download-column-first {
+    float:left;
+    clear:left;
+    width:200px;
+}
+#download-column-middle {
+    float:left;
+    width:245px;
+    padding:0px 20px;
+}
+#download-column-last {
+    float:left;
+    clear:right;
+    width:240px;
+    padding-left:20px;
+}
+#download-bottom ul {
+    line-height:1em;
+    list-style-image:none;
+    list-style-type:none;
+    margin-left:0;
+}
+#download-bottom p {
+    line-height:1.5em;
+}
+
+
+/* @group right column related */
+#content.hasRightColumn {
+    padding-right:218px;
+}
+#content.hasRightColumn h1.documentFirstHeading,
+#content.hasRightColumn #plone-document-byline,
+#content.hasRightColumn .documentDescription,
+#content.hasRightColumn #portal-column-two {
+    margin-right: -218px;
+}
+#portal-column-two {
+    width: 212px;
+    margin-left: 6px;
+    float: right;
+    background: transparent url('&dtml-portal_url;/vertical_border.png') 0 0 repeat-y;
+}
+#content.hasRightColumn #abovecontent-portlets {
+    float:left;
+    width:100%;
+}
+dd.listingPortletDesc {
+    padding: 0.5em 13px !important;
+    margin-left: 0;
+    background-image: none !important;
+}
+
+div.bannerViewlet {
+    background:transparent url(&dtml-portal_url;/feature_bg.jpg) 50% 0 no-repeat;
+    padding: 10px;
+    text-align: center;
+    width: 573px;
+    margin: 6px;
+}
+
+/* </dtml-with> */
+
+/* Latest version of the documentation on pre-defined properties from Plone 
+   can be found in CMFPlone/skins/plone_styles/ploneCustom.css.dtml */
+
