@@ -1,0 +1,33 @@
+[{
+	"name":"Kitchen 4th",
+	"phone":"",
+	"seat_num":"41"
+},{
+	"name":"Kitchen 1st",
+	"phone":"",
+	"seat_num":"16"
+},{
+	"name":"Mordor",
+	"phone":"555.555.5555",
+	"seat_num":"40"
+},{
+	"name":"Rohan",
+	"phone":"555.555.5555",
+	"seat_num":"17"
+},{
+	"name":"The Shire",
+	"phone":"555.555.5555",
+	"seat_num":"42"
+},{
+	"name":"Pod 1",
+	"phone":"555.555.5555",
+	"seat_num":"11"
+},{
+	"name":"Pod 2",
+	"phone":"555.555.5555",
+	"seat_num":"12"
+},{
+	"name":"Pod 3",
+	"phone":"555.555.5555",
+	"seat_num":"13"
+}]

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Velir</title>
+
+	<link rel="stylesheet" href="./css/normalize.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<script src="./js/modernizr.min.js"></script>
+</head>
+<body>
+	<div class="visual-wrapper">
+		<header>
+			<h1><img src="./img/velir-logo.svg" /> Velir Office Map</h1>
+		</header>
+		<nav>
+			<section class="rooms">
+				<h4>Rooms</h4>			
+			</section>
+			<section class="employees">
+				<h4>Employees</h4>
+			</section>
+		</nav>
+		<section class="map floor1"> <!-- white-space between elements takes up 1% width -->
+
+			<div class="overlay">
+				<div class="pointer"></div>
+				<div class="pointer2"></div>
+				<div class="data">
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="./js/handlebars.js"></script>
+	<script src="./js/main.js"></script>
+</body>

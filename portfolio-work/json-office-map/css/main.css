@@ -1,0 +1,114 @@
+* {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+}
+html,
+body,
+.visual-wrapper {
+	height:100%;
+	width:100%;
+}
+.visual-wrapper {
+	position:relative;
+}
+header{
+	background-color:#ffffff;
+	background-color:rgba(255,255,255,0.8);
+	border-bottom:#CCCCCC 2px solid;
+	height:80px;
+	padding:0 1em;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index: 3;
+}
+nav {
+	background-color:#CCCCCC;
+	border:2px solid #666666;
+	border-left:none;
+	border-radius:0 5px 5px 0;
+	left:0;
+	padding:10px;
+	position:fixed;
+	top:90px;
+	width:200px;
+	z-index:4;
+}
+nav > section {
+	display:none;
+}
+nav ul {
+	list-style: none;
+	padding-left: 10px;
+}
+nav li {
+	cursor:pointer;
+}
+nav h4 {
+	margin:0;
+}
+.map{
+	background:url(../img/floor1.jpg) no-repeat;
+	float:left;
+	height:585px;
+	margin-left:210px;
+	margin-top:85px;
+	position:relative;
+	width:460px;
+}
+.csstransitions .map {
+	-webkit-transition:background 1s linear;  
+	transition:background 1s linear;		
+}
+.map.floor4 {
+	background:url(../img/floor4.jpg) no-repeat;
+	height:500px;
+	width:1500px;
+}
+.map .overlay {
+	background-color: #F6F6F6;
+	border: 2px solid #333333;
+	border-radius: 5px;
+	display:none;
+	left:10px;
+	margin-left:10px;
+	margin-top:-20px;
+	padding: 10px;
+	position: absolute;
+	top:10px;
+	z-index:2;
+}
+.csstransitions .map .overlay {
+	-webkit-transition-property:top, left;   
+	-webkit-transition-duration: 1s, 1s;   
+	-webkit-transition-timing-function: ease, ease;  
+	transition-property:top, left;   
+	transition-duration: 1s, 1s;   
+	transition-timing-function: ease, ease;  
+}
+.map .overlay .pointer {
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #333333;
+	height: 0;
+	left: -10px;
+	position: absolute;
+	top: 10px;
+	width: 0;
+}
+.map .overlay .pointer2 {
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #F6F6F6;
+	height: 0;
+	left: -8px;
+	position: absolute;
+	top: 10px;
+	width: 0;
+	z-index: 6;
+}
+.map .overlay ul {
+	list-style: none;
+	margin:0;
+	padding-left: 0;
+}
