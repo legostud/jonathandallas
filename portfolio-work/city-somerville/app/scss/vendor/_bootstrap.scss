@@ -1,0 +1,31 @@
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Core CSS
+@import "bootstrap/tables";
+@import "bootstrap/buttons";
+
+// Components
+@import "bootstrap/dropdowns";
+@import "bootstrap/button-groups";
+
+.text-center {
+    text-align: center;
+}
+.text-muted {
+    color: $gray-light;
+}
+// Icon Font replacements
+i.glyphicon.glyphicon-chevron-left:after {
+    content: "<";
+    display: inline-block;
+    font-weight: bolder;
+    font-style: normal;
+}
+i.glyphicon.glyphicon-chevron-right:after {
+    content: ">";
+    display: inline-block;
+    font-weight: bolder;
+    font-style: normal;
+}
