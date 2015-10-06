@@ -1,0 +1,17 @@
+  header .logo  { max-height:106px; max-width:440px; }
+  header .search { clear: right; display:block; float:right; padding:0.5em 0.5em 0.2em 0; text-align:right;}
+    header .search #header-textbox { background: url("../img/bg_search.jpg") no-repeat scroll right -22px #FFFFFF; color: #000000;  padding-left: 2px;  }
+
+.content-wrapper { width:100%; }
+  .content-wrapper  .content-main {  right: 20%; width:100%; }
+    .content-wrapper .content-main .content-nav { background-color: #F2F2F2; right: 60%; width:100%; }
+      .content-wrapper .content-main .content-nav .col1 { left:101%; width: 58%; }
+        .content-wrapper .content-main .content-nav .col1 article:last-child { border:none; margin-bottom:none; }
+        .content-wrapper .content-main .content-nav .col1 .stories{ display:block; }
+      .content-wrapper .content-main .content-nav .col2 { left:23.5%; width: 17%; }
+      .content-wrapper .content-main .content-nav .col3 { display:block; left:86.5%; width: 17%; }
+        #gl_extra { font-size:1.2em; }
+	      #gl_extra .block-box-right h2 { background: transparent url('../img/Brick-Green.gif') repeat-x left top; color:#FFFFFF; font-size: 1em; line-height:28px; margin-top:0.5em; padding-top:0.2em; text-align: center; }
+	      #gl_extra .block-box-right  h3 { margin:0; }
+	      #gl_extra .block-box-right  ul { list-style-type: none; margin:0; padding:0; }
+            #gl_extra #LEGOFansites { text-align:center; }   

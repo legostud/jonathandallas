@@ -1,0 +1,28 @@
+/* CSS for tablets - overrides main.css */
+body { }
+
+header { border:none; font-size: 1.5em; padding:0.2em 0 0; }
+  header .logo { padding-left:27%; }
+    header .logo a {  }
+      header .logo a img {  }
+
+  header nav { clear:both; float:none; height:auto; padding:0; }
+    header nav .menu-link { display:none; }
+	header nav .global-nav { background: transparent url('../img/Brick-Red.gif') repeat-x left top; border:none; display:inline-block; height:28px; padding:0; position:static; text-align:center; width:100%; }
+	header nav:hover .global-nav { display:inline-block; }
+      header nav .global-nav  li { border:none; display:inline-block; padding-top:0.4em;}
+	    header nav .global-nav li a { color:white; }
+	    header nav .global-nav li a:hover {  }
+
+.content-wrapper { width:100%; }
+  .content-wrapper  .content-main { right:0; width:100%; }
+    .content-wrapper .content-main .content-nav { right:76.6%; width:100%; }
+      .content-wrapper .content-main .content-nav .col1 { left:101%; width: 74%; }
+        .content-wrapper .content-main .content-nav .col1 article { border-bottom: 1px solid black; display:block; margin-bottom:1em; }
+        .content-wrapper .content-main .content-nav .col1 article.featured { border-bottom:none; }
+      .content-wrapper .content-main .content-nav .col2 { display:block; left:4%; width: 21%; }
+        #gl_navigation { font-size:1.2em; }
+	        #gl_navigation .block-box-left h2 { background: transparent url('../img/Brick-Yellow.gif') repeat-x left top; color:#212121; font-size: 1em; line-height:28px; margin-top:0.5em; padding-top:0.2em; text-align: center; }
+	        #gl_navigation .block-box-left  h3 { margin:0; }
+	        #gl_navigation .block-box-left  ul { list-style-type: none; margin:0; padding:0; }
+	  .content-wrapper .content-main .content-nav .col3 { display:none; }

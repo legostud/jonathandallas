@@ -1,0 +1,38 @@
+body { background: black; font-size:10px; }
+
+.clear { clear:both; overflow:auto; }
+
+.visual-wrapper { background: white; min-width:320px; width:100%; }
+
+header { border-bottom: 1px solid #666666; font-size:1.8em; padding:0.2em; position:relative; z-index:10; }
+  header .logo { float:left; width:50%; }
+    header .logo a {  }
+      header .logo a img { height:100%; width:100%; }
+  header .login,
+  header nav { clear: right; float:right; padding:0 0.2em 0.2em 0; text-align:right; }
+    header nav .global-nav { background-color:white; border-left:1px #666666 solid; border-top:1px #666666 solid; display:none; list-style-type: none; margin:0; padding:0; position:absolute; right:0; text-align:left; z-index:10;  }
+	header nav:hover .global-nav { display:block; }
+      header nav .global-nav  li { border-bottom: 1px #666666 solid; padding:0.2em 1em; }
+	    header nav .global-nav li a { text-decoration:none; }
+	    header nav .global-nav li a:hover { text-decoration:underline; }
+  header .search { display:none; }
+  
+.content-wrapper { background-color:#F2F2F2; clear:both; float:left; overflow:hidden; position:relative; width:100%; }
+  .content-wrapper  .content-main { background-color: #FFFFFF; float:left; position:relative; right: 0; width:100%; }
+    .content-wrapper .content-main .content-nav { background-color: #F2F2F2; float:left; position:relative; right: 100%; width:100%; }
+      .content-wrapper .content-main .content-nav .col1,
+      .content-wrapper .content-main .content-nav .col2,
+      .content-wrapper .content-main .content-nav .col3 { float:left; overflow:hidden; padding:0.5em 0; position:relative; }
+      .content-wrapper .content-main .content-nav .col1 { left:102%; width: 100%; }
+        .content-wrapper .content-main .content-nav .col1 article { display:none; font-size:1.2em; padding:0 0.3em 1em; }
+        .content-wrapper .content-main .content-nav .col1 .stories{ display:none; }
+        .content-wrapper .content-main .content-nav .col1 article:first-child { display:block; }
+          .content-wrapper .content-main .content-nav .col1 article  img.left { float:left; }
+          .content-wrapper .content-main .content-nav .col1 article  img.right{ float:right; }
+      .content-wrapper .content-main .content-nav .col2 { display:none; }
+      .content-wrapper .content-main .content-nav .col3 { display:none; }
+  
+footer { border-top: 1px solid #666666; clear:both; padding:0.5em 0; text-align:center;}
+  footer ul.legal { list-style-type: none; margin: 0px; padding: 0px; }
+    footer ul.legal li { display:inline; padding: 0 0 0 1em; }
+	footer ul.legal li:first-child { padding-left: 0; }
