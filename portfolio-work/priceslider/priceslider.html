@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+
+<style>
+
+#slider-range { border:1px solid black; height:0.5em; margin:1em; position:relative; width:300px; }
+
+.slider-range-display { background:yellow; height:100%; left:0%; position:absolute; width:100%; }
+
+.slider-handle { background:#AAAAAA; border:1px solid black; border-radius:1em; height:1em; position:absolute; width:1em; }
+.slider-handle.left { left:0%; margin-left:-1em;  top:-0.25em; }
+.slider-handle.right { left:100%; margin-left:-.1em;  top:-0.25em; }
+</style>
+
+<script type="text/javascript" src="http://qa15.staples.com/sbdpas/js/jquery-1.7.1.min.js"></script>
+
+<script>
+//Wait for the DOM to be ready
+$(function(){
+
+	var leftPos = 0,
+		rightPos = 100,
+		sliderWidth = parseInt( $('#slider-range').css('width') ),
+		pixelToPecentRatio = sliderWidth/100,
+		minPrice = $('#priceslider input#min').val();
+		maxPrice = $('#priceslider input#max').val();
+
+	$('.slider-handle.left').mousedown(function(e){
+		var startPos = e.pageX;
+		var PosTemp = leftPos;
+        //change this to be the parent wrapper for the slider-range
+        $('#priceslider').bind('mousemove',function(e){
+			var newPos = e.pageX - startPos;
+			var offset = newPos/pixelToPecentRatio;
+			if( (PosTemp + offset) <= rightPos && (PosTemp + offset) > 0 ) {
+				leftPos = PosTemp + offset;
+				//move the slider
+				$('.slider-handle.left').css('left',leftPos + '%');
+				//adjust the range display width and postion.
+				$('.slider-range-display').css('left',leftPos + '%').css('width', (rightPos - leftPos) + '%');
+				//change the value of the min price
+				var minPriceTemp = Math.floor( (maxPrice * Math.floor(leftPos)) / 100 );
+				$('#priceslider input#min').val(minPriceTemp); 
+				$('#priceslider #min-price-display').html(minPriceTemp); 
+			}
+		});
+	});
+
+	$('.slider-handle.right').mousedown(function(e){
+		var startPos = e.pageX;
+		var PosTemp = rightPos;
+        //change this to be the parent wrapper for the slider-range
+		$('#priceslider').bind('mousemove',function(e){
+			var newPos = e.pageX - startPos;
+			var offset = newPos/pixelToPecentRatio;
+			if( (PosTemp + offset) >= leftPos  && (PosTemp + offset) < 100 ) {
+				rightPos = PosTemp + offset;
+				//move the slider
+				$('.slider-handle.right').css('left',rightPos + '%');
+				//adjust the range display width.
+				$('.slider-range-display').css('width',(rightPos - leftPos) + '%');
+				//change the value of the max price
+				var maxPriceTemp = Math.ceil( (maxPrice * Math.ceil(rightPos)) / 100 );
+				$('#priceslider input#max').val(maxPriceTemp); 
+				$('#priceslider #max-price-display').html(maxPriceTemp); 
+			}
+		});
+	});
+
+    $(document).mouseup(function(e){
+        //change this to be the parent wrapper for the slider-range
+		$('#priceslider').unbind('mousemove');
+    });
+	
+});
+
+</script>
+
+</head>
+<body>
+<h2>Custom built jQuery dual handle value slider</h2>
+<h3>Built to mimic the jQueryUI slider, but without having to load the jQueryUI.js file to save load time</h3>
+<div id="priceslider">
+<p>
+	<label for="min">Price range:</label>$<span id="min-price-display">0</span> - $<span id="max-price-display">500</span><br />
+	<input type="text" id="min" value="0" />
+	<input type="text" id="max" value="500" />
+</p>
+
+<div id="slider-range">
+<div class="slider-range-display"></div>
+<div class="slider-handle left"></div>
+<div class="slider-handle right"></div>
+</div>
+
+</div>
+
+
+</body>
