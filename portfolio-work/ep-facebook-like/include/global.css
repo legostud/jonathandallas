@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+.code {background-color:black;color:white;padding:10px;}
+.code .highlight {color:#00FFAA;}
+

@@ -1,0 +1,16 @@
+<div id="fb-root"></div>
+<span id="current-language" tal:content="here/Language" style="display:none;"></span>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: 'your app id', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var locale = {da:'da_DK', de:'de_DE', el:'el_GR', en:'en_US', es:'es_LA', fi:'fi_FI', fr:'fr_FR', hu:'hu_HU', it:'it_IT', ja:'ja_JP', nl:'nl_NL', no:'nb_NO', pl:'pl_PL', pt:'pt_BR', sv:'sv_SE'};
+    var lang = document.getElementById('current-language').innerHTML;
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol + '//connect.facebook.net/' + locale[lang] + '/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+<fb:like layout="standard" show_faces="false" tal:attributes="href string:${container/absolute_url}?adv=${here/facebook_like_id|PID}" tal:define="PID string:M384F001"></fb:like>

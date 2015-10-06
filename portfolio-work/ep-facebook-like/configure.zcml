@@ -1,0 +1,269 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="evp.theme">
+
+    <!-- 'EVP Plone Theme' Zope 3 browser layer -->
+    <interface
+        interface="..interfaces.IThemeSpecific"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="EVP Plone Theme"
+        />
+
+
+    <!-- Viewlets registration -->
+    
+    <browser:viewletManager
+        name="evp.topmost"
+        provides="..interfaces.ITopMost"
+        permission="zope2.View"
+        class="plone.app.viewletmanager.manager.OrderedViewletManager"
+        />
+        
+    <browser:viewletManager
+        name="evp.portal_footer"
+        provides="..interfaces.IEVPPortalFooter"
+        permission="zope2.View"
+        class="plone.app.viewletmanager.manager.OrderedViewletManager"
+        />        
+        
+    <!-- Frontpage viewlet, containing promotions viewlet manager -->
+    <browser:viewlet
+        name="evp.frontpage.promotions"
+        for="evp.site.content.interfaces.IFrontpage"
+        view="plone.app.layout.globals.interfaces.IViewView"                
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        template="templates/frontpage_promotions.pt"        
+        layer="..interfaces.IThemeSpecific"
+        permission="zope.Public"
+        />        
+
+    <!-- The portal header -->
+    <browser:viewlet
+        name="plone.header"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        template="templates/portal_header.pt"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        />
+        
+    <!-- The site actions -->
+    <browser:viewlet
+        name="plone.site_actions"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class="plone.app.layout.viewlets.common.SiteActionsViewlet"
+        template="templates/site_actions.pt"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        />        
+
+    <!-- The SEO paragrpaph -->
+    <browser:viewlet
+        name="evp.seo_pragraph"        
+        for="evp.site.content.interfaces.IFrontpage"
+        manager="..interfaces.ITopMost"
+        class=".viewlets.SEOParagraphViewlet"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        />
+        
+    <!-- The global tabs viewlet -->
+    <browser:viewlet
+        name="evp.global_tabs"        
+        for="*"
+        manager="..interfaces.ITopMost"
+        class=".viewlets.GlobalTabsViewlet"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        />
+
+    <!-- Language switcher viewlet -->
+    <browser:viewlet  
+        name="evp.languageselector"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.EVPLanguageSelector"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+        
+    <!-- The global sections -->
+    <browser:viewlet
+        name="plone.global_sections"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class="plone.app.layout.viewlets.common.GlobalSectionsViewlet"
+        template="templates/sections.pt"        
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        /> 
+        
+    <!-- The personal bar -->
+    <browser:viewlet
+        name="plone.personal_bar"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        class="plone.app.layout.viewlets.common.PersonalBarViewlet"        
+        template="templates/personal_bar.pt"
+        layer="..interfaces.IThemeSpecific"
+        permission="cmf.ListFolderContents" 
+        /> 
+
+    <include package="plone.app.portlets" />
+            
+    <!-- The breadcrumbs -->
+    <browser:viewlet
+        name="evp.path_bar"
+        manager="plone.app.layout.viewlets.interfaces.IContentViews"
+        class="plone.app.layout.viewlets.common.PathBarViewlet"
+        template="templates/path_bar.pt"        
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        />
+        
+    <!-- The portal footer -->
+    <browser:viewlet
+        name="evp.portal_footer"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        template="templates/portal_footer.pt"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        />         
+        
+    <!-- The footer navigation -->
+    <browser:viewlet
+        name="evp.footer_navigation"
+        manager="..interfaces.IEVPPortalFooter"
+        class=".viewlets.FooterNavigationViewlet"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        />   
+        
+    <!-- Footer language switcher viewlet -->
+    <browser:viewlet  
+        name="evp.footer.languageselector"
+        manager="..interfaces.IEVPPortalFooter"
+        class=".viewlets.EVPFooterLanguageSelector"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View"
+        /> 
+        
+    <!-- The footer navigation -->
+    <browser:viewlet
+        name="evp.footer_actions"
+        manager="..interfaces.IEVPPortalFooter"
+        class=".viewlets.FooterActionsViewlet"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View" 
+        />  
+
+    <!-- Affiliates -->
+    <browser:viewlet
+        name="evp.affiliates"
+        manager="..interfaces.IEVPPortalFooter"
+        class=".viewlets.AffiliatesViewlet"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope.Public"
+        />               
+        
+    <!-- Footer -->
+    <browser:viewlet
+        name="evp.footer"
+        for="*"
+        manager="..interfaces.IEVPPortalFooter"
+        class=".viewlets.FooterActionsViewlet"
+        template="templates/footer.pt"        
+        layer="..interfaces.IThemeSpecific"
+        permission="zope.Public"
+        />
+
+    <!-- Colophon -->
+    <browser:viewlet
+        name="plone.colophon"
+        for="*"
+        manager="..interfaces.IEVPPortalFooter"
+        template="templates/colophon.pt"        
+        layer="..interfaces.IThemeSpecific"
+        permission="zope.Public"
+        />                                             
+        
+    <!-- Viewlet, containg above-content portletManager -->
+    <browser:viewlet
+        name="evp.abovecontent.portlets"
+        for="Products.CMFCore.interfaces.IContentish"        
+        view="plone.app.layout.globals.interfaces.IViewView"        
+        manager="plone.app.layout.viewlets.interfaces.IAboveContentBody"
+        template="templates/evp_abovecontent_portlets.pt"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+        
+    <!-- Viewlet, containg below-content portletManager -->
+    <browser:viewlet
+        name="evp.belowcontent.portlets"
+        for="Products.CMFCore.interfaces.IContentish"        
+        view="plone.app.layout.globals.interfaces.IViewView"        
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+        template="templates/evp_belowcontent_portlets.pt"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />  
+        
+    <!-- Viewlet, containg right-hand column -->
+    <browser:viewlet
+        name="evp.rightcolumn.portlets"
+        for="Products.CMFCore.interfaces.IContentish"
+        view="plone.app.layout.globals.interfaces.IViewView"
+        manager="plone.app.layout.viewlets.interfaces.IAboveContentBody"
+        class=".viewlets.RightcolumnPortlets"
+        template="templates/evp_rightcolumn_portlets.pt"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+        
+    <browser:viewlet
+        name="evp.theme.facebook.like"
+        for="evp.site.content.interfaces.IPromotion"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+        template="templates/facebook_like.pt"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+
+    <!-- Viewlet for the content banner -->
+	<browser:viewlet
+        name="evp.theme.contentbanner"
+        for="*"
+        class=".viewlets.ContentBannerViewlet"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+        layer="..interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+
+    
+    <!-- Zope 3 browser resources -->
+    
+    <!-- Manage content portlets -->
+    <browser:page
+      for="plone.portlets.interfaces.ILocalPortletAssignable"
+      class="plone.app.portlets.browser.manage.ManageContextualPortlets"
+      name="manage-portlets"
+      template="templates/evp-manage-contextual.pt"
+      layer="..interfaces.IThemeSpecific"
+      permission="plone.app.portlets.ManagePortlets" />   
+
+    <!-- Frontpage promote -->
+    <browser:page
+      for="plone.app.layout.navigation.interfaces.INavigationRoot"
+      class=".promotion_xml.PromotionXML"
+      name="images.xml"
+      template="templates/promotion_xml.pt"
+      layer="..interfaces.IThemeSpecific"
+      permission="zope2.View" />   
+      
+    <browser:page
+      for="Products.ATContentTypes.interface.IATDocument"
+      class=".promotion_xml.PromotionXML"
+      name="no_description"
+      template="templates/document_no_description.pt"
+      layer="..interfaces.IThemeSpecific"
+      permission="zope2.View" />   
+      
+</configure>

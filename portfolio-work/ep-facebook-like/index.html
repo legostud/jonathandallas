@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Facebook Like button for Everest Poker promotions</title>
+
+<link rel="stylesheet" type="text/css" href="include/global.css" />
+<link rel="stylesheet" href="../../codemirror/lib/codemirror.css">
+
+<script src="../../codemirror/lib/codemirror.js"></script>
+<script src="../../codemirror/mode/javascript/javascript.js"></script>
+
+</head>
+
+<body>
+<p>The SEO team requested we add Facebook Like buttons to all of the Promotion Pages on EverestPoker.fr.</p>
+<p>The EverestPoker.fr site is built using Plone and the Promotions use a custom "promotion" content type</p>
+<hr />
+<p>First step was to create a viewlet to contain the Facebook code</p> 
+<textarea rows="34" cols="100" id="viewlet">
+<div id="fb-root"></div>
+<span id="current-language" tal:content="here/Language" style="display:none;"></span>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: 'your app id', status: true, cookie: true,xfbml: true});
+};
+(function() {
+var locale = {
+    da:'da_DK', 
+    de:'de_DE', 
+    el:'el_GR', 
+    en:'en_US', 
+    es:'es_LA', 
+    fi:'fi_FI', 
+    fr:'fr_FR', 
+    hu:'hu_HU', 
+    it:'it_IT', 
+    ja:'ja_JP', 
+    nl:'nl_NL', 
+    no:'nb_NO', 
+    pl:'pl_PL', 
+    pt:'pt_BR', 
+    sv:'sv_SE'
+};
+var lang = document.getElementById('current-language').innerHTML;
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol + '//connect.facebook.net/' + locale[lang] + '/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+<fb:like layout="standard" show_faces="false" 
+	tal:attributes="href string:${container/absolute_url}?adv=${here/facebook_like_id|PID}" 
+	tal:define="PID string:M384F001"></fb:like>
+</textarea>
+<p class="note">This code is designed to work in 15 different languages and contain a generic Partner ID (PID) that can be manually overwritten</p>
+<hr />
+<p>Second step is to add the required meta tags to the head section of site found in the "main_template"</p>
+<textarea rows="13" cols="100" id="meta">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xml:lang="en"
+    lang="en"
+    xmlns:og="http://ogp.me/ns#"
+    xmlns:fb="http://www.facebook.com/2008/fbml"
+    tal:define="lang language"
+    tal:attributes="lang lang;
+    xml:lang lang">
+<meta tal:define="ep_title string:Everest Poker" property="og:title" tal:attributes="content here/Title|ep_title" />
+<meta property="og:type" content="game"/>
+<meta property="og:url" tal:attributes="content string:${here/absolute_url}" />
+<meta property="og:image" tal:attributes="content string:${here/absolute_url}/icon_image" />
+</textarea>
+<hr />
+<p>Third step is to register the viewlet in two files</p>
+<p>Configure.zcml:</p>
+<textarea rows="8" cols="100" id="register-config">
+<browser:viewlet
+    name="evp.theme.facebook.like"
+    for="evp.site.content.interfaces.IPromotion"
+    manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+    template="templates/facebook_like.pt"
+    layer="..interfaces.IThemeSpecific"
+    permission="zope2.View"
+/>
+</textarea>
+<p>viewlets.xml</p>
+<textarea rows="5" cols="100" id="register-viewlet">
+  <order manager="plone.belowcontenttitle" skinname="EVP Plone Theme"
+         based-on="Plone Default">
+    <viewlet name="evp.theme.facebook.like" insert-before="evp.theme.contentbanner" />
+    <viewlet name="evp.theme.contentbanner" />  
+  </order>  
+</textarea>
+<hr />
+<p>The last step is to add a custom field to the Promotion content type for the Partner ID.
+<textarea rows="8" cols="100" id="field">
+atapi.StringField(
+    name='facebook_like_id',
+    required=False,
+    widget=atapi.StringWidget(
+        label=_(u"Facebook Like Partner ID"),
+        description=_(u"Adds a specific Partner ID to the like button"),
+    ),
+)
+</textarea>
+<hr />
+<p>Below are screen shots of what the final product would have looked like (wasn't released because of Facebook policy in regards to gambling sites).</p>
+<p><img src="PromoPageEnglish.png" /></p>
+<p><img src="PromoPageDutch.png" /></p>
+
+<script>
+	var elements = document.getElementsByTagName("textarea");
+	var first = elements[0],
+		second = elements[1],
+		third = elements[2],
+		fourth = elements[3],
+		fifth = elements[4];
+	
+	CodeMirror.fromTextArea(first,codeStyle());
+	CodeMirror.fromTextArea(second,codeStyle());
+	CodeMirror.fromTextArea(third,codeStyle());
+	CodeMirror.fromTextArea(fourth,codeStyle());
+	CodeMirror.fromTextArea(fifth,codeStyle());
+
+	function codeStyle() {
+		return {
+			lineNumbers:true,
+			name:"javascript",
+			readOnly:"nocursor"
+		};
+	}
+	
+</script>
+<style>
+	.CodeMirror { border: 1px #AAAAAA solid; border-radius:5px; }
+	.CodeMirror-scroll{height: auto; overflow: visible;}
+</style>
+
+</body>
+</html>

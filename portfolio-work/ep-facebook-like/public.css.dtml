@@ -1,0 +1,17 @@
+/*
+  This file is based on the ploneCustom.css.dtml file shipped with Plone.
+
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+/************* Facebook Like Button Promotions ****************/
+#Promotion_Content_Type .fb_iframe_widget {padding:8px 0;} 
+
+/************* End Facebook like button ****************/
+
+/* </dtml-with> */
+
+/* Latest version of the documentation on pre-defined properties from Plone 
+   can be found in CMFPlone/skins/plone_styles/ploneCustom.css.dtml */
+
