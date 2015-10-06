@@ -1,0 +1,91 @@
+{
+	"filters":[
+		{
+			"title":"Department",
+			"options": [
+				{
+					"value": "All Departments",
+					"display": "All Departments"
+				},
+				{
+					"value": "Finance-1",
+					"display": "Finance"
+				},
+				{
+					"value": "Labor Expense-2",
+					"display": "Labor Expense"
+				},
+				{
+					"value": "Nursing-3",
+					"display": "Nursing"
+				},
+				{
+					"value": "Performance Improvement",
+					"display": "Performance Improvement"
+				},
+				{
+					"value": "Physician Issues",
+					"display": "Physician Issues"
+				},
+				{
+					"value": "Revenue Cycle",
+					"display": "Revenue Cycle"
+				},
+				{
+					"value": "Supply Chain",
+					"display": "Supply Chain"
+				}
+			]
+		},
+		{
+			"title":"Event Types",
+			"options": [
+				{
+					"value": "All Types",
+					"display": "All Types"
+				},
+				{
+					"value": "Finance",
+					"display": "Finance"
+				},
+				{
+					"value": "Labor Expense",
+					"display": "Labor Expense"
+				},
+				{
+					"value": "Nursing",
+					"display": "Nursing"
+				},
+				{
+					"value": "Performance Improvement",
+					"display": "Performance Improvement"
+				}
+			]
+		},
+		{
+			"title":"Sponsored By",
+			"options": [
+				{
+					"value": "All Sponsors",
+					"display": "All Sponsors"
+				},
+				{
+					"value": "Pepsi",
+					"display": "Pepsi"
+				},
+				{
+					"value": "Nascar",
+					"display": "Nascar"
+				},
+				{
+					"value": "NRA",
+					"display": "NRA"
+				},
+				{
+					"value": "DNC",
+					"display": "DNC"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,310 @@
+{
+  "source": "http://beta.json-generator.com/Bl02Lg",
+  "availableFacets": {
+    "contentType": {
+      "displayName": "Content Type",
+      "key": "contentType",
+      "facets": [
+        {"value":"1","displayName":"Alert"},
+        {"value":"2","displayName":"Event"},
+        {"value":"3","displayName":"FAQs"},
+        {"value":"4","displayName":"News"},
+        {"value":"5","displayName":"Program"}
+      ]
+    },
+    "department": {
+      "displayName": "Departments",
+      "key": "department",
+      "facets": [
+        {"value":"1","displayName":"Animal Control"},
+        {"value":"2","displayName":"City Clerk"},
+        {"value":"3","displayName":"Communications"},
+        {"value":"4","displayName":"Constituent Services (311)"},
+        {"value":"5","displayName":"Department of Public Works"},
+        {"value":"6","displayName":"Recycling"}
+      ]
+    }
+  },
+  "results": [
+    {
+      "_id": "555ba995019f57c0d3f4eb61",
+      "contentType": "Alert",
+      "title": "cillum occaecat consectetur",
+      "description": "Occaecat aute sint irure Lorem irure. Dolor magna fugiat quis velit dolore irure nostrud occaecat ut voluptate do qui. Excepteur sint velit mollit sit voluptate incididunt fugiat cupidatat et amet qui nostrud magna aliqua. Proident quis nostrud veniam labore eu dolor voluptate labore ipsum proident quis laboris sit.\r\n",
+      "published": 1402685230753
+    },
+    {
+      "_id": "555ba995ab867d2e43f3b0d7",
+      "contentType": "Program",
+      "title": "incididunt et culpa",
+      "description": "Magna eu dolore ad laborum. Do ex sint cillum laborum sunt cillum id elit sunt. Pariatur cillum dolor do exercitation aliqua ipsum aliquip dolore.\r\n",
+      "published": 1412235584680
+    },
+    {
+      "_id": "555ba99545053460ddf8f978",
+      "contentType": "FAQs",
+      "title": "fugiat reprehenderit consectetur",
+      "description": "Commodo consequat pariatur quis proident est. Quis commodo labore elit excepteur ullamco minim ex et duis cillum excepteur velit. Laborum ut aliqua ex consequat laboris nulla magna laborum mollit incididunt anim deserunt. Nostrud aute labore incididunt est veniam cupidatat excepteur culpa ut duis occaecat labore officia enim.\r\n",
+      "published": 1402514958379
+    },
+    {
+      "_id": "555ba995134b4dd6db804648",
+      "contentType": "Event",
+      "title": "esse anim mollit",
+      "description": "Ipsum proident exercitation laborum labore sunt mollit veniam pariatur proident ullamco ipsum veniam commodo est. Cupidatat elit laborum Lorem quis cillum mollit Lorem nisi veniam voluptate sint. Veniam deserunt adipisicing deserunt nostrud consectetur officia ad culpa eiusmod minim sunt. Minim Lorem elit deserunt laborum sunt dolor consectetur elit.\r\n",
+      "published": 1403121017409
+    },
+    {
+      "_id": "555ba995dc2960e173763f60",
+      "contentType": "Alert",
+      "title": "veniam sit ut",
+      "description": "Ad pariatur tempor do veniam nisi. Nisi pariatur tempor eu officia nulla enim excepteur ex. Sint veniam ex esse eu cupidatat. Elit ex voluptate dolor ut. Pariatur cillum esse velit mollit consequat consectetur pariatur velit ex est do. Veniam dolore quis ea elit nostrud velit incididunt quis amet labore reprehenderit voluptate veniam eiusmod. Id minim ut magna ut ullamco do irure sint in.\r\n",
+      "published": 1427111468468
+    },
+    {
+      "_id": "555ba9951cd64eb6092a59c6",
+      "contentType": "FAQs",
+      "title": "dolore eiusmod non",
+      "description": "Ipsum adipisicing labore occaecat nisi in labore sunt aliqua labore velit esse enim. Nostrud voluptate irure ea commodo laboris labore commodo magna sunt ea nisi mollit laborum aliqua. Deserunt minim amet mollit laboris ut quis et.\r\n",
+      "published": 1399065514209
+    },
+    {
+      "_id": "555ba9953b58a7d79042c169",
+      "contentType": "FAQs",
+      "title": "sint anim ut",
+      "description": "Adipisicing laborum in magna laborum ipsum consequat. Sit aliqua adipisicing velit sit amet eu aliqua id quis enim tempor. Incididunt occaecat non ipsum cupidatat Lorem. Esse aliqua sit non ad laboris ullamco elit enim qui consequat. Commodo esse occaecat fugiat consectetur ullamco id do ullamco cupidatat dolore. Mollit fugiat ullamco proident qui do elit occaecat commodo tempor eiusmod.\r\n",
+      "published": 1426101555307
+    },
+    {
+      "_id": "555ba9958a83627cba44ba38",
+      "contentType": "News",
+      "title": "aliquip dolore ex",
+      "description": "Minim esse nostrud culpa consectetur. Laborum reprehenderit cupidatat excepteur amet deserunt eiusmod. Esse quis duis nostrud id ipsum.\r\n",
+      "published": 1411127974743
+    },
+    {
+      "_id": "555ba9958bb3d31d104598d4",
+      "contentType": "News",
+      "title": "consectetur ex excepteur",
+      "description": "Incididunt ex ad in mollit cupidatat nisi et laboris ullamco irure eu veniam. Lorem mollit duis dolore commodo enim sit incididunt proident duis. Eu anim aliquip commodo non. Aute nisi ullamco commodo ut. Officia exercitation est irure quis elit dolor. Aliqua magna pariatur irure qui non. Proident eiusmod commodo incididunt aute dolore exercitation tempor aliqua dolore labore exercitation occaecat.\r\n",
+      "published": 1402689978461
+    },
+    {
+      "_id": "555ba9955c5d6a17bf95b1cb",
+      "contentType": "FAQs",
+      "title": "deserunt ut commodo",
+      "description": "Irure dolore ut irure incididunt tempor pariatur ullamco quis irure tempor cillum pariatur. Ea mollit officia consequat id et quis sunt duis laboris reprehenderit incididunt. Tempor in quis commodo consequat mollit enim fugiat pariatur duis aliquip. Quis enim dolor magna id.\r\n",
+      "published": 1406555782296
+    },
+    {
+      "_id": "555ba995cb259816e4a175a7",
+      "contentType": "Event",
+      "title": "ad incididunt laborum",
+      "description": "Tempor duis tempor laborum amet velit qui elit cupidatat magna incididunt nisi aliquip non id. Laboris mollit ex irure duis irure eiusmod id et anim minim velit. Aliqua veniam in et et. Cupidatat laboris ea ut sint magna laboris. Proident proident dolor et exercitation nostrud ad ad.\r\n",
+      "published": 1404814877442
+    },
+    {
+      "_id": "555ba9951e896c51606ce37a",
+      "contentType": "News",
+      "title": "ipsum fugiat cillum",
+      "description": "Ullamco proident exercitation mollit et minim laborum reprehenderit labore. Sunt et in ullamco tempor commodo do irure nulla mollit Lorem. Enim commodo voluptate id duis cupidatat mollit excepteur minim. Do ullamco veniam aliquip ex est cupidatat do.\r\n",
+      "published": 1423231594841
+    },
+    {
+      "_id": "555ba995940b69c0ba608d82",
+      "contentType": "Event",
+      "title": "officia aliqua esse",
+      "description": "Qui labore dolore veniam nostrud consectetur. Magna laborum enim eiusmod velit laboris exercitation laboris anim laboris amet excepteur officia enim. Excepteur pariatur nulla Lorem aliqua.\r\n",
+      "published": 1428447314039
+    },
+    {
+      "_id": "555ba9953aa569b36ce23d8f",
+      "contentType": "News",
+      "title": "magna nisi cupidatat",
+      "description": "Eu sunt dolore ex aute eu eu consectetur labore id reprehenderit Lorem aute velit. Magna dolore proident laboris elit sunt ipsum culpa adipisicing duis eiusmod minim laboris. Laborum in id occaecat non ea aliquip magna velit anim magna consectetur cupidatat non aliqua. Veniam qui consequat mollit mollit qui voluptate eiusmod nostrud tempor. Ullamco sint consectetur anim culpa adipisicing do ut dolore enim mollit officia non nulla. Consectetur cupidatat velit fugiat proident exercitation.\r\n",
+      "published": 1409277638284
+    },
+    {
+      "_id": "555ba995651f129c4aeef803",
+      "contentType": "FAQs",
+      "title": "fugiat amet consequat",
+      "description": "Qui dolor magna et tempor ut exercitation nostrud deserunt deserunt. Minim non nulla do culpa aliquip veniam et culpa laboris non id dolor mollit qui. Culpa Lorem reprehenderit pariatur consequat labore nulla consectetur fugiat amet non.\r\n",
+      "published": 1424475032125
+    },
+    {
+      "_id": "555ba99540bae4ec6392cbbc",
+      "contentType": "FAQs",
+      "title": "fugiat tempor officia",
+      "description": "Aute occaecat ad qui cupidatat incididunt ipsum et est tempor incididunt officia magna et non. Sint enim occaecat ullamco pariatur consectetur sunt laboris nulla id. Cillum velit sunt consectetur ea exercitation laboris consequat proident amet sit quis.\r\n",
+      "published": 1413607312016
+    },
+    {
+      "_id": "555ba9955f19974fe61755ca",
+      "contentType": "FAQs",
+      "title": "do duis qui",
+      "description": "Labore magna sit anim in ipsum aliquip reprehenderit magna aliquip sint aliqua. Id laboris reprehenderit aliquip ullamco ad cupidatat non. Ea quis ut aliqua reprehenderit irure. Labore voluptate ad reprehenderit incididunt est aute. Sunt sint id laborum eu.\r\n",
+      "published": 1426695652401
+    },
+    {
+      "_id": "555ba9950b2370ba499198a1",
+      "contentType": "FAQs",
+      "title": "minim excepteur enim",
+      "description": "Voluptate proident dolor occaecat Lorem pariatur consequat voluptate. Et commodo esse pariatur ipsum tempor do ad duis voluptate fugiat labore id. Labore quis est incididunt esse sunt laborum nostrud eiusmod nisi culpa Lorem sit. Nostrud culpa dolore et nisi non minim. Magna sunt adipisicing labore occaecat ea excepteur ad minim nisi enim. Enim commodo consectetur sunt reprehenderit aliqua in. Mollit duis tempor dolor est dolore tempor ad.\r\n",
+      "published": 1406997131618
+    },
+    {
+      "_id": "555ba9953a9864318eacf7a5",
+      "contentType": "FAQs",
+      "title": "aute amet officia",
+      "description": "Labore anim reprehenderit ullamco elit excepteur. Consectetur est amet reprehenderit laborum fugiat fugiat proident elit et labore eiusmod consequat incididunt. Irure exercitation adipisicing sint eu labore occaecat veniam enim.\r\n",
+      "published": 1393018449167
+    },
+    {
+      "_id": "555ba9955d4e7ec071d10c72",
+      "contentType": "FAQs",
+      "title": "mollit esse non",
+      "description": "Ullamco mollit eu eu enim magna irure cillum proident occaecat minim ipsum elit ex. Esse ullamco exercitation enim in est. Aliqua consequat laboris mollit sint laborum elit enim cupidatat duis labore excepteur laborum ea. Occaecat minim exercitation proident fugiat incididunt in esse cillum Lorem et quis consectetur velit.\r\n",
+      "published": 1406851561904
+    },
+    {
+      "_id": "555ba995e16aea9af0656675",
+      "contentType": "Alert",
+      "title": "enim incididunt commodo",
+      "description": "Exercitation est laboris do id ea aliquip non. Ut irure commodo irure qui sit nulla sit proident. Dolor consequat est pariatur exercitation ad velit Lorem magna consectetur laborum culpa nisi minim. Culpa irure nisi fugiat ex minim minim enim consequat. Mollit do minim irure aliquip incididunt esse anim incididunt deserunt et occaecat sint ex. Dolore proident eiusmod exercitation quis quis ea cillum. Eiusmod irure do dolor labore enim non laborum elit deserunt magna do.\r\n",
+      "published": 1419850864398
+    },
+    {
+      "_id": "555ba9956d9919568e848bee",
+      "contentType": "Event",
+      "title": "nostrud reprehenderit deserunt",
+      "description": "Tempor voluptate nulla aliquip commodo mollit cillum. Eiusmod enim nostrud do duis nulla duis duis id laborum sunt. Ut eiusmod veniam est excepteur sunt velit reprehenderit Lorem ea consequat ipsum consequat. Excepteur sit aliqua consequat sint enim excepteur ex et occaecat id. Minim commodo dolore dolore elit pariatur laborum dolore nostrud non velit elit laboris tempor aliquip.\r\n",
+      "published": 1427715866591
+    },
+    {
+      "_id": "555ba995a2150f3dd13f7733",
+      "contentType": "FAQs",
+      "title": "consequat aute aute",
+      "description": "Enim laboris incididunt voluptate cupidatat eiusmod mollit sint. Velit voluptate laboris nisi eiusmod Lorem qui pariatur fugiat. Dolor cillum voluptate cillum reprehenderit Lorem ex ullamco voluptate consectetur id deserunt.\r\n",
+      "published": 1407213450113
+    },
+    {
+      "_id": "555ba9951e6289950b47f75a",
+      "contentType": "Program",
+      "title": "labore occaecat sit",
+      "description": "Id anim qui nostrud qui sunt dolore aliqua ea. Id cillum quis exercitation est duis. Elit anim pariatur ea ad mollit non laborum non mollit aliquip. Ullamco do do proident tempor irure nulla officia eiusmod ipsum aliquip fugiat nostrud.\r\n",
+      "published": 1392381612987
+    },
+    {
+      "_id": "555ba995ef781a7b663ce1c3",
+      "contentType": "Program",
+      "title": "elit consequat est",
+      "description": "Dolor quis minim consequat aliquip nulla cillum. Enim labore duis exercitation et irure quis amet ullamco amet incididunt Lorem veniam. Laborum reprehenderit ex Lorem pariatur proident mollit velit id aliqua enim qui minim incididunt quis. Ex labore nisi laboris irure consectetur esse minim adipisicing reprehenderit do nostrud ea anim. Duis mollit eu excepteur id eu id nulla.\r\n",
+      "published": 1413364367790
+    },
+    {
+      "_id": "555ba99509830a23afd04c3a",
+      "contentType": "Event",
+      "title": "sunt sunt est",
+      "description": "Magna non aliqua deserunt eu cupidatat et labore sit sit. Esse eiusmod cupidatat deserunt consequat aliquip id commodo laboris magna commodo cupidatat do. Consequat adipisicing exercitation est excepteur est est. Et aute qui mollit occaecat aliqua. Ullamco consequat dolor nisi dolor ullamco occaecat velit culpa sit adipisicing voluptate. Mollit culpa cupidatat ex aute nulla ipsum nisi qui deserunt.\r\n",
+      "published": 1410181036189
+    },
+    {
+      "_id": "555ba9954a24d1e11ad8357a",
+      "contentType": "Alert",
+      "title": "reprehenderit occaecat ad",
+      "description": "Id commodo sint est magna. Deserunt fugiat deserunt eu aliqua non in officia sint et magna commodo tempor excepteur minim. Consectetur proident adipisicing sit est proident est veniam. Labore incididunt sint non labore consequat do nostrud mollit voluptate ex laborum. Duis sit sint qui adipisicing nisi labore quis irure incididunt sunt mollit.\r\n",
+      "published": 1421487779648
+    },
+    {
+      "_id": "555ba99505ac30397dc52bf4",
+      "contentType": "Event",
+      "title": "cillum nulla duis",
+      "description": "Nulla do esse qui dolore fugiat deserunt elit culpa esse mollit. Consequat anim cupidatat aliquip aliquip nostrud. Ex deserunt esse irure velit nulla aute laboris. Qui nisi nulla sint est ipsum fugiat ut id ex. Velit elit ullamco eiusmod cupidatat. Aliqua id tempor adipisicing eu id sunt do non. Ex laborum incididunt dolor exercitation sunt velit non mollit.\r\n",
+      "published": 1415333080371
+    },
+    {
+      "_id": "555ba9955a183610370e89d3",
+      "contentType": "Program",
+      "title": "commodo qui magna",
+      "description": "Adipisicing velit Lorem consectetur excepteur sint mollit aute aliqua consequat nisi sint commodo in tempor. Excepteur eu mollit cupidatat qui excepteur commodo sunt. In irure dolore id ullamco id. Elit id dolore eiusmod tempor aute est nostrud pariatur. Magna aliquip sit proident velit veniam amet incididunt. Elit excepteur est excepteur et ut aliqua veniam irure excepteur tempor non amet.\r\n",
+      "published": 1390640602510
+    },
+    {
+      "_id": "555ba9956a18712bedc56ab0",
+      "contentType": "News",
+      "title": "ut incididunt amet",
+      "description": "Laborum non exercitation cillum voluptate amet qui cillum. Dolor velit nostrud consequat aliqua consectetur tempor aute aliqua ipsum. Id dolor ex cupidatat proident do consectetur nostrud ut tempor. Nisi consectetur sit magna est. Cupidatat id duis adipisicing exercitation aliqua aute excepteur dolore ad minim ipsum.\r\n",
+      "published": 1424559442284
+    },
+    {
+      "_id": "555ba995e6274feb7e3ebb06",
+      "contentType": "Event",
+      "title": "ad cupidatat ex",
+      "description": "Consequat id Lorem aliqua ea amet deserunt commodo mollit non nisi mollit non. Laborum velit sunt elit cillum incididunt officia. Exercitation non voluptate cillum adipisicing duis nulla in. Officia sunt eiusmod esse exercitation fugiat ipsum sunt tempor nulla. Fugiat laborum labore aliquip consectetur. Lorem laborum consequat et exercitation nostrud enim. Magna excepteur tempor ut exercitation velit qui eiusmod minim eu do pariatur.\r\n",
+      "published": 1417308869216
+    },
+    {
+      "_id": "555ba99592abfd4dcacbb67b",
+      "contentType": "News",
+      "title": "dolore occaecat culpa",
+      "description": "Mollit elit elit ex et dolor. Duis nisi cillum mollit minim non dolore. Ullamco voluptate tempor esse anim laborum voluptate quis veniam eu ut. Velit amet magna est amet incididunt.\r\n",
+      "published": 1400688218169
+    },
+    {
+      "_id": "555ba995ec29ac184539e3b1",
+      "contentType": "Alert",
+      "title": "do laboris consectetur",
+      "description": "Deserunt aliqua aliquip id sit culpa ea. Voluptate consectetur elit laborum nostrud. Pariatur ad est ex mollit id magna laborum dolore consectetur nisi do et ut. Labore laborum esse et ex amet.\r\n",
+      "published": 1418555538955
+    },
+    {
+      "_id": "555ba99526f80a201f139cd4",
+      "contentType": "News",
+      "title": "officia eiusmod nulla",
+      "description": "Proident ex elit ea dolore. Quis ullamco dolore proident excepteur laborum amet. Ex ad sint qui laborum labore excepteur ad qui anim sint. In laboris laborum dolor quis consequat consequat non aliquip est amet. Fugiat proident in dolore ipsum veniam eu.\r\n",
+      "published": 1400825931835
+    },
+    {
+      "_id": "555ba995dc6301f67e24c250",
+      "contentType": "Alert",
+      "title": "deserunt commodo adipisicing",
+      "description": "Veniam voluptate sunt cupidatat qui dolor minim dolor non non ipsum mollit quis officia. Fugiat cupidatat cupidatat ea fugiat duis eu non exercitation occaecat labore do aute. Esse reprehenderit id consequat sunt aliqua ex aliquip ad adipisicing sunt.\r\n",
+      "published": 1389503086547
+    },
+    {
+      "_id": "555ba995b0353bd1ac959456",
+      "contentType": "FAQs",
+      "title": "cillum voluptate nostrud",
+      "description": "Anim ex qui irure commodo pariatur consequat esse officia officia amet ex ea sit do. Officia anim excepteur ad ex incididunt proident elit veniam in officia. Commodo nisi voluptate aute sunt irure cupidatat culpa non velit eu non cupidatat reprehenderit commodo. Laborum ipsum eu voluptate Lorem consectetur elit cupidatat est.\r\n",
+      "published": 1411890885689
+    },
+    {
+      "_id": "555ba9958142efc001fd8c2a",
+      "contentType": "News",
+      "title": "in qui consequat",
+      "description": "Excepteur tempor proident tempor voluptate eiusmod ullamco culpa. Culpa est officia id adipisicing Lorem labore aliquip sunt ad commodo tempor Lorem adipisicing et. Reprehenderit eiusmod mollit ex nulla enim tempor exercitation ex. Occaecat anim occaecat qui ad laboris sit ut voluptate magna Lorem consequat.\r\n",
+      "published": 1396865261763
+    },
+    {
+      "_id": "555ba9959eac39460782b2a6",
+      "contentType": "Alert",
+      "title": "elit in ipsum",
+      "description": "Nisi nostrud do laboris deserunt nulla. Magna incididunt nostrud veniam ipsum anim. Anim fugiat cillum cupidatat enim qui et. Tempor qui cupidatat amet cillum incididunt aliqua labore tempor. Elit dolor qui et mollit adipisicing elit ex velit et. Aliquip qui laborum sit Lorem veniam magna adipisicing duis aliquip aliquip laboris aute veniam.\r\n",
+      "published": 1422575500018
+    },
+    {
+      "_id": "555ba995de31ffb91b3efa48",
+      "contentType": "Event",
+      "title": "sint quis irure",
+      "description": "Veniam voluptate elit fugiat laboris consequat tempor adipisicing eu ut duis. Culpa amet consectetur ipsum excepteur voluptate dolore esse mollit magna laborum ipsum ipsum adipisicing. Sint eu in et occaecat.\r\n",
+      "published": 1427129630292
+    },
+    {
+      "_id": "555ba99525177910ae5432d3",
+      "contentType": "Alert",
+      "title": "laborum veniam laboris",
+      "description": "Do aliquip voluptate esse ea Lorem. Ex veniam ullamco sunt cupidatat velit veniam. Velit dolore sit pariatur commodo anim tempor. Consectetur ipsum culpa laboris duis ex ad enim aute velit minim exercitation nostrud sit incididunt. Ullamco deserunt cillum non dolore mollit sit veniam cillum anim tempor proident. Incididunt magna proident occaecat tempor sit adipisicing elit duis dolore in.\r\n",
+      "published": 1405220639542
+    }
+  ]
+}
