@@ -1,0 +1,24 @@
+a:LINK {color: #FFFFFF}
+a:visited {color: #FFFFFF}
+a:hover {color: #FFFFFF; text-decoration: underline}
+.bodytextbold {  font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold}
+.bodytext {  font-family: Arial, Helvetica, sans-serif; font-size: 13px}
+.plaintext {  font-family: Arial, Helvetica, sans-serif; font-size: 12px}
+.plaintextbold {  font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold}
+.smalltextblk{  font-family: Arial, Helvetica, sans-serif; font-size: 10px ; color: #000000; text-decoration: none}
+.smallwhitetext {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #FFFFFF; text-decoration: none}
+.producttitle {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.whttextlink {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #FFFFFF; text-decoration: none}
+.bodytextbig {  font-family: Arial, Helvetica, sans-serif; font-size: 16px}
+.Arial10b {  font-family: Arial; font-size: 12px; font-weight: bold; color: #000000}
+.Arial10 {  font-family: Arial; font-size: 10pt; color: #000000; font-weight: normal}
+.Arial12 {  font-family: Arial; font-size: 12pt; color: #000000}
+.Arial12b {  font-family: Arial; font-size: 12pt; font-weight: bold; color: #000000}
+.THHeader{
+	 color :#FFFFFF ;
+	 FONT-SIZE  :13px ;
+	 FONT-FAMILY : Arial ;
+	 FONT-WEIGHT  : bold ;
+	 TEXT-DECORATION  : none ;
+	 background-color :#FF9933;
+}
