@@ -1,0 +1,12 @@
+
+body { background-color:#2F503E; color:#FFFFCC; font-family:Arial, sans-serif; font-size:10px; margin:0; padding:0; }
+
+.content { font-size:1.4em; margin:auto; padding:1em; }
+  .content a { color:#9999FF; text-decoration:none; }
+  .content a:hover { text-decoration:underline; }
+
+.logo { border-bottom: .1em solid #FFFFCC; font-family: 'Frijole', cursive;  text-align:center; padding-bottom:.5em; }
+  .logo a { color:#FFFFCC; text-decoration:none; }
+  .logo .title{ font-size:4em; }
+  .logo .subheading { font-size:2em; }
+

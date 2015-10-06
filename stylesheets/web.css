@@ -1,0 +1,8 @@
+header { padding:1em; } 
+
+.content-wrapper { width:100%; }
+  .content-wrapper  .content-main {  right: 20%; width:100%; }
+    .content-wrapper .content-main .content-nav { background-color: #F2F2F2; right: 60%; width:100%; }
+      .content-wrapper .content-main .content-nav .column1 { left:101%; width: 58%; }
+      .content-wrapper .content-main .content-nav .column2 { left:23.5%; width: 17%; }
+      .content-wrapper .content-main .content-nav .column3 { display:block; left:86.5%; width: 17%; }

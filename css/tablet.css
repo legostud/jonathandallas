@@ -1,0 +1,11 @@
+/* CSS for tablets - overrides main.css */
+body { }
+
+header { padding:0.2em 0 0; }
+
+.content-wrapper { width:100%; }
+  .content-wrapper  .content-main { right:0; width:100%; }
+    .content-wrapper .content-main .content-nav { right:76.6%; width:100%; }
+      .content-wrapper .content-main .content-nav .col1 { left:101%; width: 74%; }
+      .content-wrapper .content-main .content-nav .col2 { display:block; left:4%; width: 21%; }
+	  .content-wrapper .content-main .content-nav .col3 { display:none; }
