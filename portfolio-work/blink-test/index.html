@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	html, 
+  body{ background-color:#0099FF; height:100%; width:100%; }
+
+  p { display:block; height:200px; margin:auto; position:relative; top:25%; width:400px; }
+  a { background-color:#000; border-radius:100px; display:block; float:left; height:100px; padding:50px; width:100px; }
+  a:last-child { background-color:#fff; }
+  i { border-radius:50px; display:block; height:100%; width:100%; }
+  b { display:block; text-align:center; padding:10px 0;}
+  
+  #dark i{ background-color:#000000; }
+  #light i{ background-color:#ffffff; }
+</style>
+</head>
+
+<body>
+<!-- yes I'm doing this oddly to try and only use one character html tags -->
+<p id="dark">
+<b>Are the inner circles blinking together or alternating?</b>
+<a>
+	<i></i>
+</a>
+<a>
+	<i></i>
+</a>
+</p>
+<script>
+var loop =self.setInterval(function(){swap()},500);
+
+function swap(){
+	try{
+		document.getElementById('dark').setAttribute("id", "light");
+	} catch(e) {
+		document.getElementById('light').setAttribute("id", "dark");
+	}
+}
+
+</script>
+</body>
+</html>
