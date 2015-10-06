@@ -1,0 +1,23 @@
+
+/* Styles for the Location Component */
+.location {
+	
+	&__map-address {
+
+		a {
+			@include link-styles;
+		}
+	} // &__map-address
+
+	&__map-container {
+		
+		iframe {
+			width: 100%;
+			height: 40vmax;
+
+			@include media(min-width $break-l) {
+				height: 380px;
+			} 
+		}
+	} // &__map-container
+} //.location

@@ -1,0 +1,57 @@
+.ui-select-custom {
+
+	.ui-select-match {
+		background:$color-bg-input;
+		border: none;
+		border-radius: 0;
+		box-shadow: none !important;
+		color: $gray-dark;
+		height: 36px;
+		padding: 0;
+
+		.select2-chosen, .select2-arrow {
+			background-color: $white-darker !important;
+			border: none;
+			margin: 0;
+		}
+		.select2-arrow {
+			background-image: none !important;
+			margin-top: 11px;
+			right: 5px;
+			
+			b {
+				background: none !important;
+				border-bottom: 2px solid $gray;
+				border-right: 2px solid $gray;
+				height: 0.625rem;
+				transform: rotate(45deg);
+				width: 0.625rem;
+			}
+		}
+		.select2-chosen {
+			padding: 5px 0 5px 10px;
+			span {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+	.ui-select-dropdown {
+		background-color: $white-darker !important;
+		border: none;
+		border-top: 1px solid $gray-light;
+		border-radius: 0;
+		font-size:1rem;
+		top:100% !important; //bug with their code.
+		left:0;
+	}
+
+	&.open {
+		.select2-arrow {
+			margin-top: 16px;
+			b {
+				transform: rotate(-135deg);
+			}
+		}
+	}
+}

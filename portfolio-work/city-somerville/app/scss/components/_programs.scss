@@ -1,0 +1,65 @@
+.programs {
+
+	&__articles {
+		@include clearfix;
+	}
+	&__article {
+		.column--50 & {
+			@include media($large-min){
+				@include span-columns(4 of 8);  // two column - of 8 is to reduce margin between elements.
+				@include omega(2n);
+
+				 .article-content__media {
+				 	margin-bottom:1rem;
+					margin-right:0;
+					max-width:100%;
+				}
+			}
+		}
+		.column--75 & {
+			@include media($x-large-min){
+				@include span-columns(4 of 12);  // two column - of 8 is to reduce margin between elements.
+				@include omega(3n);
+
+				 .article-content__media {
+					margin-bottom:1rem;
+					margin-right:0;
+					max-width:100%;
+				}
+			}
+		}
+
+		.home & {
+			display:none;
+
+			&:first-child {
+				display:block;
+			}
+
+			@include media($medium-min){
+				display:block;
+			}
+		}
+	}
+
+	&__image {
+		margin-bottom:1em;
+
+		@include media($large-min){
+			@include span-columns(6);
+			margin-bottom:.75em;
+		}
+	}
+
+	&__description {
+		font-size:.9rem;
+
+		@include media($large-min){
+			margin-bottom:.75em;
+		}		
+	}
+
+	.home & {
+		margin-bottom:35px;
+	}
+}

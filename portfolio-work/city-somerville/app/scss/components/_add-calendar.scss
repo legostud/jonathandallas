@@ -1,0 +1,86 @@
+
+/* Add Calendar & Embed Styles */
+
+.calendar {
+
+	&__add-embed {
+		@include clearfix;
+
+		.embed__list {
+			@include clearfix;
+		} // embed__list
+
+		.embed__list-item {
+			float: left;
+			margin: 0 3% 3% 0;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			a {
+				display: block;
+
+			}
+		} // .embed__list-item
+	} // &__add-embed
+
+} // .calendar
+
+.calendar-detail {
+	
+	&__embed,
+	&__add {
+		float: none;
+		width: 100%;
+	} // &__embed
+
+	&__add {
+
+		input[type="text"] {
+			min-height: 40px;
+			width: 100%;
+		}
+	} // &__add
+
+	.flexbox & {
+		@include clearfix;
+		display: flex;
+		flex-direction: column;
+
+
+		&__embed,
+		&__add {
+			display: block;
+			//flex: 1 1 100%;
+			float: none;
+			width: 100%;
+		}
+	} // .flexbox &
+	
+	@include media(min-width $break-xxl) {
+		&__embed,
+		&__add {
+			float: left;
+			width: 50%;
+		} // &__embed
+	}
+
+	@include media(min-width $break-m) {
+		.flexbox & {
+			flex-direction: row;
+
+			&__embed {
+				flex: 1 0 350px;
+				float: none;
+				width: 350px;
+			}
+
+			&__add {
+				flex: 1 1 calc(100% - 350px);
+				float: none;
+				width: calc(100% - 350px);
+			}
+		} // .flexbox &
+	} // @include media(min-height $break-m)
+} // .calendar-detail

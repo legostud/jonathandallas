@@ -1,0 +1,51 @@
+.related-links {
+	background-color: $color-bg-top-searches;
+	border: 1px solid $color-border-subtle;
+	padding: 20px;
+
+	@include media($medium-min) {
+		padding: 25px 25px 15px;
+	}
+
+	.search-page & {
+		border-top: none;
+		display: none;
+
+		@include media($large-min) {
+			display: block;
+		}
+	}
+
+	&__items {
+		@include clearfix;
+		margin-left:20px;
+	}
+
+	&__item {
+		margin-bottom: 10px;
+
+		@include media($medium-min) {
+			@include span-columns(6);
+			@include omega(2n);
+		}
+		.column--25 & {
+			@include media($large-min) {
+				@include span-columns(12);
+			}
+		}
+		&:before {
+			content: "\203A\00a0\00a0\00a0";
+			margin-left: -20px;
+			padding-left: 2px;
+		}
+
+		a {
+			@include link-styles;
+			border-bottom:none;
+
+			&:hover{
+				border-bottom:none;
+			}
+		}
+	}
+}

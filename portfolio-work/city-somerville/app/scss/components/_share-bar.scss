@@ -1,0 +1,10 @@
+.share-bar {
+	background-color: $color-bg-bar;
+	color: $white;
+	height: 50px;
+
+	&__main-content {
+		max-width: 1220px;
+		margin: 0 auto;
+	}
+}

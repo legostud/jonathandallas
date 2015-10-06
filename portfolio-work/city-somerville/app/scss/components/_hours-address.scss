@@ -1,0 +1,112 @@
+.hours-address {
+
+	&__status {
+		color:$color-text-base;
+		display:inline-block;
+		font-size:1rem;
+		font-style:italic;
+		font-weight: 500;
+		letter-spacing: normal; 
+		padding-bottom:.2em;
+		text-transform: none;
+		vertical-align: middle;
+		white-space: nowrap;
+
+		@include media($medium-min){
+			font-size:rem(18);
+		}
+	}
+	
+	&__status-icon {
+		display:inline-block;
+		height: 1.3em;
+		vertical-align: middle;
+		width:1.3em;
+	
+		.is-open & {
+			fill:$color-icon-checkmark;
+		}
+		.is-closed & {
+			fill:$color-icon-crossmark;
+		}
+	}
+
+	.is-open {
+		+.hours-address__tip {
+			display:none;
+		}
+	}
+
+	.is-closed {
+		margin-bottom:10px;
+
+		.home & {
+			margin-bottom:20px;
+		}
+
+		+.hours-address__tip {
+			display:block;
+			width:100%;
+			margin-bottom:20px;
+
+			@include media($x-small-min){
+				margin-left:36%;
+			}
+
+			.home & {
+				display:none;
+			}
+		}
+	}
+
+	&__read-more {
+		margin-bottom:1em;
+		display:none;
+
+		.home & {
+			display:block;
+		}
+
+		@include media($medium-min){
+			margin-bottom:2em;
+			text-align:center;
+		}
+	}
+	
+	&__hours {
+
+		@include media($medium-min) {
+			padding-right:9%;
+			position:relative;
+			text-align:right;
+
+			&:after {
+				border-right:1px solid $color-border-divider-subtle;
+				content:"";
+				height:100%;
+				position:absolute;
+					right:-4.13223%; // width of the margin between a 50/50 column component.
+					top:0;
+			}
+
+			p:last-child {
+				margin-bottom:0;
+			}
+
+		}
+
+		svg {
+			display:inline-block;
+		}
+	}  //hours
+
+	&__address {
+
+		@include media($medium-min){
+			padding-left:9%;
+		}
+	}
+	&__time {
+		white-space: nowrap;
+	}
+}

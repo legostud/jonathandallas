@@ -1,0 +1,76 @@
+.site-alert {
+	background-color:$color-bg-alert;
+	font-weight: 600;
+	height:0;
+	opacity:0;
+	overflow:hidden;
+	padding:0 25px;
+	transition: opacity 2s;
+
+	&.is-visible {
+		
+		.site-alert__message {
+			padding: 10px 0px;
+		}
+
+		height:auto;
+		// opacity has to be last due to transition affect.
+		opacity:1;
+	}
+	&--page {
+		//background-color:$color-bg-alert-page;
+		background-color: $blue;
+		
+		&.is-visible {
+			padding:0;
+
+			.site-alert__message {
+				padding: 10px 25px;
+			}
+		}
+	}
+
+	&__message {
+		@include outer-container;
+		color:$color-text-alert;
+
+		p {
+			margin:0;
+			
+			@include media($medium-min){
+				font-size: rem(18);
+			}
+		}
+	}
+	&__close {
+		border-bottom:none;
+		display:block;
+		float:right;
+		height:15px;
+		position:relative;
+		width:15px;
+
+		&:hover{
+			opacity: 0.7;
+		}
+
+		&:before, 
+		&:after {
+			border:none;
+			content:''; 
+			height:3px; 
+			width:1em; 
+			display:inline-block; 
+			background:$color-text-alert; 
+			border-radius:1px;
+			position:absolute; 
+			top:.5em; 
+			left:0; 
+			transform:rotate(-45deg);
+		}
+
+		&:after{
+			transform:rotate(45deg);
+		}
+	}
+}

@@ -1,0 +1,112 @@
+.not-calendar-picker {
+	@include media($small-to-large){
+		@include span-columns(6);
+	}
+}
+.calendar-picker {
+
+	@include media($small-to-large){
+		@include span-columns(6);
+	}
+
+	&__wrapper {
+		table {
+			max-width:300px;
+		}
+	}
+
+	&__calendar {
+		&:focus, *:focus {
+			outline: none;
+		}
+		.btn-default { 
+			color: $color-text-input;
+			background-color: transparent; 
+			border-color:transparent;
+		}
+		.btn-default:hover, 
+		.btn-default:focus, 
+		.btn-default.focus, 
+		.open>.btn-default.dropdown-toggle { 
+			background-color: $color-bg-input; 
+			border-color: $color-border-subtle; 
+		}
+		.btn-default:active, 
+		.btn-default.active {
+			background-color: transparent; 
+			border-color:transparent;
+		} 
+		.btn-info,
+		.btn-info:hover, 
+		.btn-info:focus, 
+		.btn-info.focus, 
+		.btn-info:active, 
+		.btn-info.active, 
+		.btn:active,
+		.btn.active,
+		.open > .btn-info.dropdown-toggle {
+			background-color: $color-bg-button; 
+			border: none;
+			box-shadow: none;
+			color: $white;
+			outline:none;
+
+			&:hover {
+				background-color: tint($color-bg-button,20%); 
+			}
+		}
+		.btn-danger {
+			border:none;
+		}
+		.btn-success {
+			background-color: $color-bg-button; 
+			border: none;
+
+			&:hover {
+				background-color: tint($color-bg-button,20%); 
+			}
+		}
+
+		.btn-sm, 
+		.btn-group-sm > .btn { 
+			border-radius: 0; 
+			font-size: rem(14); 
+			padding: 5px 8px; 
+		}
+
+		thead { 
+			border-bottom: 1px solid $color-border-fancy-heading;
+
+			tr:first-child button{ 
+				@extend h5; 
+			}
+			tr:nth-child(2) th { 
+				padding: 0 0 5px; 
+			}
+			.btn-default {
+				i {
+					border-right: 2px solid $color-text-link-secondary;
+					border-top: 2px solid $color-text-link-secondary;
+					display:inline-block;
+					height: rem(10);
+					right: rem(28);
+					transform: rotate(45deg);
+					width: rem(10);
+				
+					&:after {
+						display:none;
+					}
+				}
+				&:hover {
+					background:none;
+					border-color:transparent;
+				}
+			}
+			th:first-child .btn-default {
+				transform: scaleX(-1);
+			}
+
+		}
+
+	}
+}

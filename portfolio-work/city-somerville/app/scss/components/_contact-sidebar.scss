@@ -1,0 +1,38 @@
+.contact-sb {
+	@include media($large-min){
+		border: 5px solid #d5d5d5;
+		padding: 20px 25px;
+	}
+
+	section {
+		border-bottom: 1px solid $color-border-divider-subtle;
+		margin-bottom:1em;
+
+		&:last-child {
+			border-bottom:none;
+			margin-bottom:0;
+		}
+	}
+	p {
+		font-size:1rem;
+		margin-bottom:1em;
+	}
+	&__phone {
+		white-space: nowrap;
+	}
+	&__accordion-contnet {
+		display:none;
+	}
+	&__map-link {
+		margin-bottom:1em;
+	}
+	.accordion-link {
+		color:$color-text-heading;
+
+		&:after {
+			@include media($large-min){
+				display:none;
+			}
+		}
+	}
+}

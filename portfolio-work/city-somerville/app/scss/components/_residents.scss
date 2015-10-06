@@ -1,0 +1,45 @@
+.residents {
+	&__title {
+		
+	} // .residents__title
+}
+
+.residents-address {
+	&__input-address {
+		display: block;
+		margin-bottom: 0.3em;
+		margin-right: 1em;
+	} // .residents-address__input-address
+
+	&__input-field {
+		margin-right: 1em;
+		min-width: 175px;
+		width: 50%;
+
+		.column--50 {
+			width: 50%;
+		}
+
+		@include media($medium-min) {
+			width: 300px;
+		}
+	} // .residents-address__input-field
+
+	&__description {
+		font-size: rem(14);
+
+		@include media($medium-min) {
+			font-size: rem(16);
+		}
+	} // .residents-address__description
+} // .residents-address
+
+.residents-alerts {
+	&__description {
+		font-size: rem(14);
+
+		@include media($medium-min) {
+			font-size: rem(16);
+		}
+	} // .residents-alerts__description
+} // .residents-alerts

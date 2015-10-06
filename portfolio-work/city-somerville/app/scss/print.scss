@@ -1,0 +1,124 @@
+@media print {
+
+// Header
+   .site-header {
+      border-bottom:none;
+
+      &__logo {
+         position:absolute;
+         top:0;
+         left:0;
+      }
+   }
+
+// Navigation
+   .global-nav {
+   		display:none;
+
+   		&__sub-nav {
+   			display:none;
+   		}
+   		
+   		&__item-wrapper {
+   			display:none;
+   		}
+   }
+
+.page-share {
+	display:none;
+}
+
+.breadcrumbs {
+	display:none;
+}
+
+// Leave Feedback
+   .leave-feedback {
+   		display:none;
+   }
+
+// Calendar
+   .calendar-detail {
+		&__print {			
+         &--button {
+				display:none;
+			}
+		}
+
+		&__register-button {
+			display:none;
+		}
+   }
+
+   .calendar-content {
+   		.button-secondary {
+   			display:none;
+   		}
+
+   		&__accommodations {
+   			display:none;
+   		}
+   }
+
+   .calendar__add-embed {
+   		display:none!important;
+   }
+
+   .upcoming-events-images {
+      .article-content {
+         &__media {
+            img {
+               display:none;
+            }
+         }
+
+         .date-display {
+            color:$color-text-heading;
+            background-color:transparent;
+            padding-top:0;
+         }
+      }
+   }
+
+// Page Banner
+   .page-banner {
+      &__content {
+         text-align:left;
+         float:left;
+
+         hr {
+            display:none;
+         }
+      }
+
+      &__title,
+      &__description {
+         color:$color-text-heading;
+      }
+   }
+
+// Sidebar
+	.accordion-link:after {
+		content:none;
+	}
+
+   .map-link, .other-events-link__link {
+   		display:none;
+   }
+
+// Buttons
+   .cta-primary {
+   		display:none;
+   }
+
+// Footer
+   .footer,
+   .footer-bottom {
+      border:none;
+      background-color:transparent;
+   }
+   
+   .footer-nav, .footer-apps__wrapper, .footer-social {
+		display:none;
+	}
+}

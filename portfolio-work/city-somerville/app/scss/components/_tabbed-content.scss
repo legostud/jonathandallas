@@ -1,0 +1,109 @@
+.tabbed-content {
+
+	&__tabs {
+		border-bottom:1px solid $color-border-subtle;
+		display:none;
+		list-style: none;
+		margin:0;
+		margin-bottom:30px;
+		padding:0;
+
+		@include media($medium-min) {
+			display:flex;
+
+			.no-flexbox & {
+				border:none;
+				display:table;
+				width:100%;
+			}
+		}
+	}
+
+	&__tab {
+		border-left:1px solid $color-border-subtle;
+		border-right:1px solid transparent;
+		border-top:5px solid transparent;
+		display:inline-block;
+		margin-top:1rem;
+		margin-bottom:1rem;
+		padding:0 .5em;
+		text-align:center;
+		width:20%;
+		vertical-align:baseline;
+
+		&.active + &,
+		&:first-child {
+			border-left-color:transparent;
+		}
+
+		&.active {
+			border:1px solid $color-border-subtle;
+			border-bottom:1px solid $white;
+			border-top:5px solid $color-border-selected;
+			margin: -1px 0;
+			padding-top:1rem;
+			padding-bottom:1rem;
+		}
+
+		&:hover {
+			cursor: pointer;
+			
+			.tabbed-content__tab-icon {
+				fill: $color-icon-active;
+			}
+		}
+		.no-flexbox & {
+			border-bottom:1px solid $color-border-subtle;
+			display:table-cell;
+			
+			&.active {
+				border-bottom:1px solid $white;
+			}
+		}
+	}
+
+	// SVG icon
+	&__tab-icon {
+		display:block;
+		fill:$color-icon-inactive;
+		height:65px;
+		width:65px;
+		margin:0 auto 10px auto;
+	
+		transition: fill 0.3s ease;
+
+		.tabbed-content .active & {
+			fill:$color-icon-active;
+		}
+	}
+	.article-list {
+		margin-bottom:0;
+	}
+
+	&__panels {
+
+	}
+
+	&__panel {
+		.accordion-link {
+			@include media($medium-min){
+				display:none;
+			}
+		}
+		.accordion-content {
+			display:none;
+			
+			@include media($medium-min){
+				display:block;
+			}
+		}
+
+		&.ng-hide {
+			display:block !important;  // overriding Angular tabs.
+
+			@include media($medium-min){
+				display:none !important;  // overriding Angular tabs.
+			}
+		}
+	}
+}

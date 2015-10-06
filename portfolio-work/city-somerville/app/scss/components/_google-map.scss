@@ -1,0 +1,7 @@
+.google-map {
+	height:300px;
+
+	@include media($medium-min){
+		height:500px;
+	}
+}

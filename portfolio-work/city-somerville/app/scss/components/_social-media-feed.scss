@@ -1,0 +1,17 @@
+.social-media-feed {
+	.column--25 & {
+		display:none;
+
+		@include media($large-min) { // bottom of the page component
+			display:block;
+		}
+	}
+
+	.column--100 & {
+		display:block;
+
+		@include media($large-min) { // bottom of the page component
+			display:none;
+		}
+	}
+} // (contact__media)

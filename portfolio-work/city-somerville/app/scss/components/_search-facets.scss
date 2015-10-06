@@ -1,0 +1,157 @@
+.search-facets {
+	border: 5px solid $color-border-divider-subtle;
+	font-size:1rem;
+	margin-bottom: 20px;
+	max-height: 40px;
+	overflow: hidden;
+	padding: 5px 30px 15px;
+	transition: max-height 1.5s ease-in-out;
+
+	&.is-expanded {
+		max-height: 800px;
+	}
+	&.has-overflow {
+		overflow: visible;
+	}
+	@include media($medium-min){
+		margin-bottom: 0;
+		max-height: 100%;
+		overflow: visible;
+		padding-top: 25px;
+	}
+
+	&__display-toggle {
+		margin-bottom: 20px;
+		text-align: center;
+
+		@include media($medium-min){
+			display: none;
+		}
+	}
+
+	&__header {
+		color: $color-text-heading-secondary;
+		font-family: $font-family-special;
+		font-style: normal;
+		font-weight: 500;
+		letter-spacing: normal;
+		margin-bottom: 15px;
+		padding-bottom: 5px;
+		text-transform: none;
+	}
+
+	&__pdf {
+		border-bottom: 3px solid $color-border-divider-subtle;
+		font-size:1rem;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+
+		label {
+			vertical-align: middle;
+		}
+
+		@include media($medium-min) {
+			text-align: left;
+		}
+	}
+
+	&__facet {
+		border-bottom: 1px solid $color-border-divider-subtle;
+		margin-bottom: 20px;
+
+		&:last-child {
+			border-bottom:none;
+			margin-bottom: 0;
+		}
+	}
+
+	&__facet-header {
+		line-height: 1.5;
+		margin-bottom: 10px;
+	}
+
+	&__items {
+		@include ul-reset();
+		margin-bottom: 20px;
+	}
+
+	&__item {
+		&:not(:last-child) {
+			margin-bottom: 5px;
+		}
+
+		label {
+			position: relative;
+		}
+
+		input {
+			margin-right: 10px;
+			padding: 3px 3px 3px 8px;
+		}
+
+		input:not([type="checkbox"]) {
+			background-color: $color-bg-top-searches;
+			border: none;
+			color: $color-text-input;
+			font-family: $font-family-base;
+			font-size: 1rem;
+			font-style: normal;
+			font-weight: 400;
+		}
+	}
+
+	&__show-all {
+		display: block;
+		text-align: center;
+	}
+
+	&__clear {
+		color:$color-text-link;
+		float: right;
+		font-size: rem(14);
+		font-weight: 500;
+	}
+
+	.search-page & {
+		@include media($medium-min) {
+			float: left;
+			min-width: 300px;
+			padding-right: 30px;
+			width: 25%;
+		}
+	}
+
+	// Datepicker styles
+	.dropdown-menu {
+		padding: 5px;
+		width: 310px;
+
+		@include media($x-small){
+			left:-40px !important;
+		}
+		
+		@include media($small-min){
+			left: 100% !important;
+			top: -6px !important;
+		}
+		&:focus, *:focus {
+			outline: none;
+		}
+
+		table {
+			table-layout: fixed;
+			width: 100%;
+		}
+		td {
+			width: 12.5%;
+		}
+		th {
+			text-align: center;
+
+			button {
+				float: none;
+			}
+		}
+	}
+}

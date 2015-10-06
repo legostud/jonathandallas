@@ -1,0 +1,98 @@
+// Color Values
+
+$black:#2b2b2b;
+
+$blue-light:#3d96c5;
+$blue:#0d7cb7;
+
+$gray-lightest:#d5d5d5;
+$gray-light: #aaaaaa;
+$gray:#737373;
+$gray-dark:#525252;
+
+$green-light:#4eaf48;
+$green:#397f34;
+$green-android:#a4c639;
+
+$orange:#ee6c43;
+
+$red:#df3114;
+
+$white-darker:#e8e8e8;
+$white-dark:#eeeeee;
+$white:#ffffff;
+
+// yet another gray naming convention?
+// $gray9:shade($white,9%);
+
+
+//---------------------------------------------------
+// Available color variables
+
+$color-text-alert:$white;
+$color-text-base:$gray;
+$color-text-button:$green;
+$color-text-button-secondary:$blue;
+$color-text-featured:$white;
+$color-text-heading:$black;
+$color-text-heading-secondary:$gray-dark;
+$color-text-input:$gray-dark;
+$color-text-link:$blue;
+$color-text-link-secondary:$green;
+$color-text-link-banner:$orange;
+$color-text-subtle:$gray-lightest;
+$color-text-sharetool:$white;
+
+$color-bg-alert:$red;
+$color-bg-alert-page:$green;
+$color-bg-bar: $black;
+$color-bg-button:$green;
+$color-bg-button-secondary:$blue;
+$color-bg-calendar: $gray-dark;
+$color-bg-content-highlight: $white-dark;
+$color-bg-date: $black;
+$color-bg-featured:$black;
+$color-bg-icon:$blue;
+$color-bg-input:$white-darker;
+$color-bg-nav: $black;
+$color-bg-select-highlight:$blue;
+$color-bg-top-searches:$white-darker;
+
+$color-border-button:$green;
+$color-border-button-secondary:$blue;
+$color-border-component: $green-light;
+$color-border-divider: $gray;
+$color-border-divider-subtle: $gray-lightest;
+$color-border-fancy-heading: $orange;
+$color-border-images: $gray-light;
+$color-border-input: $gray-light;
+$color-border-page-header: $green-light;
+$color-border-nav: $gray-lightest;
+$color-border-selected: $orange;
+$color-border-subnav: $gray-dark;
+$color-border-subtle: $gray-lightest;
+
+
+$color-icon-active: $orange;
+$color-icon-inactive: $gray;
+$color-icon-checkmark:$green;
+$color-icon-crossmark:$red;
+$color-icon-subtle:$gray-light;
+$color-icon-sorting:$orange;
+
+// component specific
+$color-carousel-arrow:$gray-light;
+$color-carousel-button:$black;
+
+$color-search-icon:$green;
+
+$color-social-android:$green-android;
+
+$color-services311-icon:$gray-dark;
+
+
+$color-border-status-bar:$gray-dark;
+
+$color-form-required:$red;
+
+$color-hp-search-input:$white;

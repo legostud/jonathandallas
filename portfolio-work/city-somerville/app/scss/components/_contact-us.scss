@@ -1,0 +1,161 @@
+.contact-us-content {
+	margin-bottom:40px;
+
+	.hours-address {
+		&__hours {
+			text-align:left;
+
+			@include media($medium-min) {
+				padding-right:0;
+			}
+		}
+
+		&__address {
+			@include media($medium-min) {
+				padding-left:0;
+			}
+		}
+
+		.helpful-sb {
+			@include media($large-to-xx-large) {
+				clear:left;
+				margin-top:60px;
+			}
+
+			.helpful-content {
+				@include media($large-to-xx-large) {
+					margin-bottom:0;
+				}
+			}
+		}			
+	}
+
+	.reach-us {
+		clear:both;
+		text-align:center;
+
+		@include media($x-small-min) {
+			text-align:left;
+		}
+
+		&__title {
+			float:left;
+			vertical-align:bottom;
+			margin-bottom:10px;
+			line-height:55px;
+		}
+
+		svg {
+			margin-right:0;
+			margin-bottom:20px;
+			
+			@include media($x-small-min) {
+				float:left;
+				margin-bottom:0;
+			}
+		}
+
+		.services-311-contact{
+			&__items {
+				clear:both;
+				text-align:left;
+			}
+			&__item {
+				display:block;
+				margin-bottom: 10px;
+
+				&--phoneNumbers {
+					h3 {
+						line-height:normal;
+					}
+				}
+			}
+		}
+	}
+
+	.leave-message {
+		fieldset {
+			border:5px solid $color-border-divider-subtle;
+			padding:1.75em;
+		}
+
+		.form-elements {
+			label {
+				margin-bottom:0.35em;
+				display: inline-block;
+			}
+
+			input {
+				width:100%;
+
+				&.full {
+					@include media($medium-min) {
+						width:60%;
+					}
+				}
+			}
+
+			textarea {
+				width:100%;
+			}
+
+			.name,
+			.email {
+				@include media($medium-min) {
+					float:left;
+					margin-right:20px;
+					width:29%;
+				}
+
+				.half {
+					@include media($small-min) {
+						width:100%;
+					}
+				}
+			}
+
+			select {
+				.full {
+					width:29%;
+				}
+			}
+
+			.required {
+				&:after {
+					content:"*";
+					color:$color-form-required;
+				}
+			}
+
+			.address {
+				clear:both;
+			}
+
+			.message {
+				margin-bottom:15px;
+
+				textarea {
+					height:200px;
+
+					@include media($medium-min) {
+						min-height: 250px;
+					}
+				}
+			}
+
+			.note {
+				text-align:right;
+				margin: 0 0 em(30, 16) 0;
+				font-size: 1rem;
+
+				&.full {
+					width:100%;
+				}
+			}
+
+			.small-btn {
+				width:auto;
+			}
+		}
+	}
+}

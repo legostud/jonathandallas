@@ -1,0 +1,51 @@
+.columns {
+	@include clearfix;
+
+	&--reversed {
+		.column:first-child {
+			float:right;
+			margin-right:0;
+		}
+	}
+}
+.column, .column--100 {
+	@include span-columns(12);
+}
+.column--25 {
+	@include media($large-min){
+		@include span-columns(4);
+	}
+	@include media($xx-large-min){
+		@include span-columns(3);
+	}
+}
+.column--33 {
+	@include media($large-min){
+		@include span-columns(5);
+	}
+	@include media($xx-large-min){
+		@include span-columns(4);
+	}
+
+}
+.column--50 {
+	@include media($medium-min){
+		@include span-columns(6);
+	}
+}
+.column--66 {
+	@include media($large-min){
+		@include span-columns(7);
+	}
+	@include media($xx-large-min){
+		@include span-columns(8);
+	}
+}
+.column--75 {
+	@include media($large-min){
+		@include span-columns(8);
+	}
+	@include media($xx-large-min){
+		@include span-columns(9);
+	}
+}

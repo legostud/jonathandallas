@@ -1,0 +1,113 @@
+.page-banner {
+	background-image:url('/img/castle-small.png');  // default if inline style doesn't override
+	background-size: cover;
+	background-position: center;
+	transition: all 1s;
+	
+	@include media($small-min) {
+		min-height:300px;
+	}
+
+	@include media($medium-min) {
+		background-color: $black;
+		background-image:url('/img/castle-large.png'),url('img/castle-small.png');  // default if inline style doesn't override
+		min-height:350px;
+		padding: 35px 0;
+
+		&.hp-site-search {
+			min-height:575px;
+		}
+	}
+	&__inner {
+		width:100%;
+
+		@include media($small-min) {
+			display:flex;
+			flex-direction: row;
+			align-items:center;
+			min-height:300px;
+			height:10px;
+
+			.no-flexbox & {
+				display:table;
+				width:100%;
+			}
+		}
+		@include media($medium-min) {
+			min-height:350px;
+
+			.hp-site-search &{
+				min-height:575px;
+			}
+		}
+	}
+
+	&__content-area {
+		background-color: rgba($black,.6);
+		display:block;
+		text-align: center;
+		width: 100%;
+
+		@include media($small-min) {
+			background-color:transparent;
+			background-image: linear-gradient(90deg, transparent 0%, rgba($black,.6) 20%, rgba($black,.75) 50%, rgba($black,.6) 80%, transparent 100%);
+
+			.no-cssgradients & {
+				background-color: rgba($black,.6);
+			}
+		}
+
+		@include media($medium-min) {
+			padding: 35px 0;
+			//margin: 35px 0;
+
+			.no-flexbox & {
+				display:table-cell;
+				vertical-align: middle;
+			}
+		}
+
+		@include media($large-min) {
+			background-image: linear-gradient(90deg, transparent 0%, rgba($black,.6) 40%, rgba($black,.75) 50%, rgba($black,.6) 60%, transparent 100%);			
+			
+		}
+
+		@include media($x-large-min) {
+			max-width: 1260px;
+			margin: 0 auto;
+		}
+	}
+
+	&__content {
+		@include outer-container;
+		display:inline-block;
+		padding:10px;
+		text-align:center;
+
+		hr {
+			border: 2px solid $color-border-fancy-heading;
+			width:60%
+		}
+		.no-flexbox & {
+			display:table;
+		}
+
+	}
+	&__title {
+		color:$white;
+		display:inline-block;
+	}
+	&__details {
+		max-width:500px;
+		margin: 0 auto 1em;		
+	}
+	&__description {
+		clear:both;
+		color:$white;
+		margin-bottom: 1em;		
+
+		@include media($small) {
+			display:none;
+		}
+	}
+}

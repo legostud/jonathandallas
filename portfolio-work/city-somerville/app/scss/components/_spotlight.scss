@@ -1,0 +1,39 @@
+.spotlight {
+	@include clearfix;
+
+	&__media {
+		float: none;
+		margin-bottom: 1em;
+		width: 100%;
+
+		@include media($medium-min) {
+			float: left;
+			margin-right: 4%;
+			width: 48%;
+		}
+	} // .spotlight__media
+
+	&__description {
+		font-size: rem(14);
+		float: none;
+		width: 100%;
+
+		@include media($medium-min) {
+			font-size: rem(16);
+			float: left;
+			width: 48%;
+
+			p {
+				font-size: rem(16);
+			}
+		}
+	} // .spotlight__description
+
+	&__description-header {
+		margin-bottom: 0.5em;
+
+		@include media($medium-min) {
+			margin-bottom: 0.8em;
+		}
+	} // .spotlight__description-header
+} // .spotlight

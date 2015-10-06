@@ -1,0 +1,111 @@
+.contact {
+	@include clearfix;
+	display: flex;
+		align-items: flex-start;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+	.no-flexbox & {
+		display: table;
+	}
+
+	&__media {
+		flex: 0 0 270px;
+		margin-bottom: 1em;
+		
+		.no-flexbox & {
+			display: block;
+		}
+
+		@include media($medium-min) {
+			float: left;
+			margin-right: 2%;
+
+			.no-flexbox & {
+				display: table-cell;
+				float: none;
+				vertical-align: top;
+			}
+		}
+		
+	} // .contact__media (social-media-feed)
+} // .contact
+
+.contact-content {
+	border: 5px solid $gray-lightest;
+	padding: 1.5em 2em;
+	width: 100%;
+	
+	.home & {
+		border:0;
+		padding:2em 0 0;
+		border-top:1px solid $color-border-divider-subtle;
+	}
+
+	.no-flexbox & {
+		display: block;
+	}
+
+	@include media($medium-min) {
+		float: left;
+		flex: 1 1;
+
+		.no-flexbox & {
+			display: table-cell;
+			margin-left: 20px;
+			vertical-align: top;
+			width: auto;
+		}
+	}
+
+	&__title {
+		margin-bottom: 1em;
+	} // .contact-content__title
+
+	&__description {
+		font-size: rem(14);
+
+		.home & {
+			display:none;
+		}
+
+		@include media($medium-min) {
+			font-size: rem(16);
+		}
+	} // .contact-content__description
+
+	&__input-label {
+		display: block;
+		margin-right: 1em;
+		margin-bottom: 0.35em;
+
+		@include media($medium-min) {
+			display: block;
+			width: auto;
+		}
+	} // .contact-content__input-label
+
+	&__input-field {
+		display: block;
+		margin-right: 1em;
+		margin-bottom: 1em;
+
+		.column--75,
+		.column--25 {
+			width: 80%;
+		}
+
+		@include media($medium-min) {
+			display: inline-block;
+			width: 300px;
+		}
+	} // .contact-content__input-field
+
+	.form-elements {
+		label {
+			.home & {
+				display:none;
+			}
+		}
+	}
+} // .contact-content

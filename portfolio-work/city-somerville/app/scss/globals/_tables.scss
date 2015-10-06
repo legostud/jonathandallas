@@ -1,0 +1,37 @@
+.table-element {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 30px;
+
+	tr {
+		border-bottom: 1px solid $color-border-divider-subtle;
+	}
+
+	th {
+		border-bottom: 5px solid $color-border-divider-subtle;
+		color: $gray-dark;
+		font-family: $font-family-special;
+		font-size: rem(24);
+		font-style: normal;
+		font-weight: 500;
+		padding: 12px;
+	}
+
+	td {
+		font-size: rem(16);
+		padding: 12px;
+	}
+}
+
+.scrollable & {
+	.table-wrapper & {
+		-webkit-overflow-scrolling: touch;
+	}
+}
+
+.table-wrapper {
+	.pinned {
+		border-left: none;
+		-webkit-overflow-scrolling: touch;
+	}
+}

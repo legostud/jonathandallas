@@ -1,0 +1,42 @@
+.helpful-content {
+	@include clearfix;
+	font-size:1rem;
+	border: 5px solid $color-border-subtle; 
+	padding: 15px 25px;
+
+	@include media($small-to-large){
+		// two column if two more 
+		&:not(:only-of-type) {
+			@include span-columns(3 of 6);  // increasing the gap
+			@include omega(2n);
+		}
+		&:not(:only-of-type):nth-child(2n+1) {
+			position:relative;
+
+			&:after {
+				border-right:1px solid $color-border-divider-subtle;
+				content:"";
+				height:100%;
+				position:absolute;
+					right:-8%;
+					top:0;
+			}
+		}
+	}
+
+	.columns--reversed .column--25 & {
+		@include media($large){
+			display:none;
+		}
+	}
+
+	p {
+		font-size:1em;
+		margin-bottom:.5em;
+	}
+
+	a {
+		clear:both;
+		float:right;
+	}
+}
