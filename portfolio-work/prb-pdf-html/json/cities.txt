@@ -1,0 +1,272 @@
+[
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "country_code": "JPN",
+        "population": "37.22",
+		"percentage": "29",
+        "x_cord": "876",
+        "y_cord": "172"
+    },
+    {
+        "city": "Delhi",
+        "country": "India",
+        "country_code": "IND",
+        "population": "22.65",
+        "percentage": "02",
+		"x_cord": "705",
+        "y_cord": "209"
+    },
+    {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "country_code": "MEX",
+        "population": "20.45",
+        "percentage": "17",
+		"x_cord": "218",
+        "y_cord": "227"
+    },
+    {
+        "city": "New York",
+        "country": "United States of America",
+        "country_code": "USA",
+		"population": "20.35",
+        "percentage": "06",
+		"x_cord": "284",
+        "y_cord": "163"
+    },
+    {
+        "city": "Shanghai",
+        "country": "China",
+        "country_code": "CHN",
+        "population": "20.21",
+        "percentage": "01",
+		"x_cord": "825",
+        "y_cord": "187"
+    },
+    {
+        "city": "S&atilde;o Paulo",
+        "country": "Brazil",
+        "country_code": "BRA",
+        "population": "19.92",
+        "percentage": "10",
+		"x_cord": "359",
+        "y_cord": "372"
+    },
+    {
+        "city": "Mumbai",
+        "country": "India",
+        "country_code": "IND",
+        "population": "19.74",
+        "percentage": "02",
+		"x_cord": "693",
+        "y_cord": "228"
+    },
+    {
+        "city": "Beijing",
+        "country": "China",
+        "country_code": "CHN",
+        "population": "15.59",
+        "percentage": "01",
+		"x_cord": "811",
+        "y_cord": "159"
+    },
+    {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "country_code": "BGD",
+        "population": "15.39",
+        "percentage": "10",
+		"x_cord": "737",
+        "y_cord": "216"
+    },
+    {
+        "city": "Kolkata",
+        "country": "India",
+        "country_code": "IND",
+        "population": "14.40",
+        "percentage": "01",
+		"x_cord": "725",
+        "y_cord": "225"
+    },
+    {
+        "city": "Karachi",
+        "country": "Pakistan",
+        "country_code": "PAK",
+        "population": "13.88",
+        "percentage": "08",
+		"x_cord": "673",
+        "y_cord": "207"
+    },
+    {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "country_code": "ARG",
+        "population": "13.53",
+        "percentage": "33",
+		"x_cord": "331",
+        "y_cord": "399"
+    },
+    {
+        "city": "Los Angeles",
+        "country": "United States of America",
+        "country_code": "USA",
+        "population": "13.40",
+        "percentage": "04",
+		"x_cord": "157",
+        "y_cord": "173"
+    },
+    {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "country_code": "BRA",
+        "population": "11.96",
+        "percentage": "06",
+		"x_cord": "377",
+        "y_cord": "363"
+    },
+    {
+        "city": "Manila",
+        "country": "Philippines",
+        "country_code": "PHL",
+        "population": "11.86",
+        "percentage": "12",
+		"x_cord": "825",
+        "y_cord": "239"
+    },
+    {
+        "city": "Moscow",
+        "country": "Russian Federation",
+        "country_code": "RUS",
+        "population": "11.62",
+        "percentage": "08",
+		"x_cord": "590",
+        "y_cord": "110"
+    },
+    {
+        "city": "Osaka",
+        "country": "Japan",
+        "country_code": "JPN",
+        "population": "11.49",
+        "percentage": "09",
+		"x_cord": "868",
+        "y_cord": "180"
+    },
+    {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "country_code": "TUR",
+        "population": "11.25",
+        "percentage": "15",
+		"x_cord": "569",
+        "y_cord": "161"
+    },
+    {
+        "city": "Lagos",
+        "country": "Nigeria",
+        "country_code": "NGA",
+        "population": "11.22",
+        "percentage": "06",
+		"x_cord": "500",
+        "y_cord": "267"
+    },
+    {
+        "city": "Cairo",
+        "country": "Egypt",
+        "country_code": "EGY",
+        "population": "11.17",
+        "percentage": "13",
+		"x_cord": "578",
+        "y_cord": "195"
+    },
+    {
+        "city": "Guangzhou",
+        "country": "China",
+        "country_code": "CHN",
+        "population": "10.85",
+        "percentage": "01",
+		"x_cord": "805",
+        "y_cord": "218"
+    },
+    {
+        "city": "Shenzhen",
+        "country": "China",
+        "country_code": "CHN",
+        "population": "10.63",
+        "percentage": "01",
+		"x_cord": "811",
+        "y_cord": "216"
+    },
+    {
+        "city": "Paris",
+        "country": "France",
+        "country_code": "FRA",
+        "population": "10.62",
+        "percentage": "17",
+		"x_cord": "502",
+        "y_cord": "134"
+    },
+    {
+        "city": "Chongqing",
+        "country": "China",
+        "country_code": "CHN",
+        "population": "9.98",
+        "percentage": "01",
+		"x_cord": "763",
+        "y_cord": "213"
+    },
+    {
+        "city": "Jakarta",
+        "country": "Indonesia",
+        "country_code": "IDN",
+        "population": "9.77",
+        "percentage": "04",
+		"x_cord": "787",
+        "y_cord": "311"
+    },
+    {
+        "city": "Seoul",
+        "country": "Republic of Korea",
+        "country_code": "KOR",
+        "population": "9.74",
+        "percentage": "19",
+		"x_cord": "843",
+        "y_cord": "171"
+    },
+    {
+        "city": "Chicago",
+        "country": "United States of America",
+        "country_code": "USA",
+        "population": "9.68",
+        "percentage": "03",
+		"x_cord": "254",
+        "y_cord": "158"
+    },
+    {
+        "city": "Wuhan",
+        "country": "China",
+        "country_code": "CHN",
+        "population": "9.16",
+        "percentage": "01",
+		"x_cord": "787",
+        "y_cord": "193"
+    },
+    {
+        "city": "Lima",
+        "country": "Peru",
+        "country_code": "PER",
+        "population": "9.13",
+        "percentage": "30",
+		"x_cord": "282",
+        "y_cord": "333"
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GBR",
+        "population": "9.01",
+        "percentage": "14",
+		"x_cord": "491",
+        "y_cord": "123"
+    }
+]

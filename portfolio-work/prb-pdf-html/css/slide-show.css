@@ -1,0 +1,960 @@
+	body,html,
+	.slide-show-wrapper	{
+		margin:0;
+		padding:0;
+		width:100%;
+	}
+	.slide-show-wrapper	{
+		background-color:#666666;
+		background-color: rgba(0,0,0,0.5);
+	}
+	.slide-show {
+		color:#ffffff;
+		font-family:Arial, Helvetica, sans-serif;
+		margin:0 auto;
+		max-width:1000px;
+		padding:0;
+		position:relative;
+		text-transform:uppercase;
+	}
+	.slide-show .scrolling {
+		overflow:auto;
+		max-height:800px;
+	}
+	
+	.slide-show-close {
+		background:#000000;
+		border-radius:30px;
+		color:#ffffff;
+		display:none;
+		line-height:30px;
+		position:absolute;
+		right:20px;
+		text-align:center;
+		top:0;
+		width:30px;
+		z-index:1000;
+
+	}
+	
+	.slide-show h2 {
+		font-size:40px;
+		letter-spacing:3px;
+		margin-bottom:28px;
+	}
+	.slide-show h3 {
+		font-size:18px;
+		letter-spacing:2px;
+	}
+	.slide-show h2, 
+	.slide-show h3 {
+		font-weight:normal;
+		margin-top:0;
+	}
+	.slide-show hr {
+		border:none;
+		border-top: dotted 4px #ffffff;
+		clear:both;
+		margin:10px;
+	}
+	.slide-show .no-bg hr {
+		border-top: dotted 4px #333333;
+	}
+	
+	.slide-show .lower {
+		text-transform:none;
+	}
+	.slide-show .row {
+		background-color:#000000;
+		height:750px;
+		margin:0 auto 10px;
+		overflow:hidden;
+		position:relative;
+		width:1000px;
+	}
+	.slide-show .no-bg {
+		background-color:#ffffff;
+		color:#000000;
+	}
+	
+	.slide-show .color1 .color-text,
+	.slide-show .color1.color-text	{
+		color:#ffaa00;
+	}
+	.slide-show .color1 .color-bg,
+	.slide-show .color1.color-bg {
+		background-color:#ffaa00;
+	}
+	.slide-show .color1 .color-brd,
+	.slide-show .color1.color-brd {
+		border-color:#ffaa00;
+	}
+	.slide-show .color2 .color-text,
+	.slide-show .color2.color-text {
+		color:#17c143;
+	}
+	.slide-show .color2 .color-bg,
+	.slide-show .color2.color-bg {
+		background-color:#17c143;
+	}
+	.slide-show .color2 .color-brd,
+	.slide-show .color2.color-brd {
+		border-color:#17c143;
+	}
+	
+	.slide-show .color3 .color-text,
+	.slide-show .color3.color-text,
+	.slide-show footer a,
+	.slide-show footer a:hover,
+	.slide-show footer a:visited {
+		color:#007dc3;
+	}
+	.slide-show .color3 .color-bg,
+	.slide-show .color3.color-bg,
+	.slide-show .home,
+	.slide-show .credits {
+		background-color:#007dc3;
+	}
+	.slide-show .color3 .color-brd,
+	.slide-show .color3.color-brd {
+		border-color:#007dc3;
+	}
+
+	.slide-show .color4 .color-text,
+	.slide-show .color4.color-text,
+	.no-bg .info-icon .icon,
+	.poorest-countries .info-icon .icon {
+		color:#666666;
+	}
+	.slide-show .color4 .color-bg,
+	.slide-show .color4.color-bg {
+		background-color:#666666;
+	}
+	.slide-show .color4 .color-brd,
+	.slide-show .color4.color-brd,
+	.no-bg .info-icon .icon,
+	.poorest-countries .info-icon .icon {
+		border-color:#666666;
+	}
+
+	.slide-show .color5 .color-text,
+	.slide-show .color5.color-text {
+		color:#fc8c75;
+	}
+	.slide-show .color5 .color-bg,
+	.slide-show .color5.color-bg {
+		background-color:#fc8c75;
+	}
+	.slide-show .color5 .color-brd,
+	.slide-show .color5.color-brd {
+		border-color:#fc8c75;
+	}
+
+	.slide-show .color6 .color-text,
+	.slide-show .color6.color-text {
+		color:#00dcff;
+	}
+	.slide-show .color6 .color-bg,
+	.slide-show .color6.color-bg {
+		background-color:#00dcff;
+	}
+	.slide-show .color6 .color-brd,
+	.slide-show .color6.color-brd {
+		border-color:#00dcff;
+	}
+
+	.slide-show .color7 .color-text,
+	.slide-show .color7.color-text {
+		color:#ffe600	;
+	}
+	.slide-show .color7 .color-bg,
+	.slide-show .color7.color-bg {
+		background-color:#ffe600	;
+	}
+	.slide-show .color7 .color-brd,
+	.slide-show .color7.color-brd {
+		border-color:#ffe600;
+	}
+	.slide-show .color8 .color-text,
+	.slide-show .color8.color-text {
+		color:#90AED4	;
+	}
+	.slide-show .color8 .color-bg,
+	.slide-show .color8.color-bg {
+		background-color:#90AED4	;
+	}
+	.slide-show .color8 .color-brd,
+	.slide-show .color8.color-brd {
+		border-color:#90AED4;
+	}
+
+	.slide-show .divider {
+		height:11px;
+	}
+	
+	.slide-show .column {
+		float:left;
+	}
+	
+	.info-icon {
+		font-size:10px;
+		height: 49px;
+		line-height:30px;
+		position:absolute;
+		z-index:999;
+	}
+	.info-icon .icon {
+		border: 2px solid #ffffff;
+		border-radius: 45px;
+		cursor:pointer;
+		display:inline-block;
+		font-size: 27px;
+		font-style: italic;
+		font-weight: bold;
+		line-height: 45px;
+		margin-left:10px;		
+		padding-left: 18px;
+		text-transform: none;
+		width: 27px;
+	}
+	.info-icon .icon:hover,
+	.info-icon.active .icon {
+		background:#ffffff;
+		color:#000000;
+	}
+	
+	
+	.home .info-icon {
+		bottom:17px;
+		right:25px;
+	}
+
+	.pop-numbers .info-icon,
+	.tfr .info-icon,
+	.demographics .info-icon,
+	.poorest-countries .info-icon,
+	.regional-close-up .info-icon,
+	.populous-cities .info-icon {
+		top:23px;
+		left:30px;
+	}
+
+	.home-link {
+		background:transparent url(../img/home-link.png) top right no-repeat;
+		display:block;
+		height:40px;
+		position:absolute;
+		right:30px;
+		text-decoration:none;
+		top:20px;
+		width:45px;
+		z-index:999;
+	}
+	.no-bg .home-link {
+		background-position: top left;
+	}	
+	.home-link:hover {
+		background-position: bottom right;
+	}	
+	.no-bg .home-link:hover {
+		background-position: bottom left;
+	}	
+	.overlay,
+	.chart-overlay	{
+		background-color: rgba(10,10,10,0.3);
+		display:none;
+		height:100%;
+		left:0;
+		position:absolute;
+		top:0;
+		width:100%;
+		z-index:999;
+	}
+	.no-rgba .overlay,
+	.no-rgba .chart-overlay	{
+		background-image:url('../img/overlay-bg.png');
+	}
+	.overlay-content {
+		background-color:#ffffff;
+		color:#000000;
+		font-size:14px;
+		margin:15% auto;
+		padding:20px 40px;
+		text-transform:none;
+		width:50%;
+	}
+	.overlay-content p { 
+		line-height:1.8em;
+	}
+	
+	.home header {
+		height:160px;
+		padding: 30px 0 0 77px;
+		position:relative;
+	}
+	.home header .logo {
+		position:absolute;
+		top:94px;
+		right:25px;
+	}
+	.home header .logo img {
+		border:none;
+	}
+	.home header p {
+		color:#aaaaaa;
+	}
+
+	.home .table-contents {
+		list-style:none;
+		margin-top: 50px;
+		padding-left: 70px;
+	}
+	
+	.home .table-contents a {
+		color:#ffffff;
+		font-size:16px;
+		line-height:40px;
+		text-decoration:none;
+	}
+	
+	.pop-numbers {
+		background: transparent url(../img/PRB_PopulationData_bg.png) no-repeat top left;
+	}
+	.pop-numbers h2 {
+		bottom:55px;
+		position:absolute;
+		left:50px;
+	}
+	.pop-numbers .overlay-content {
+		margin-top:25%;
+	}
+
+	.regional-close-up {
+		background-color:#000000;
+		height:750px;
+		overflow:hidden;
+	}
+	.regional-close-up .first {
+		width:650px;
+	}
+	.regional-close-up .second {
+		width:350px;
+	}
+	.regional-close-up .caption {
+		float:left;
+		height:98px;
+		margin:0;
+		padding: 30px 0 0 85px;
+		width:565px;
+	}
+	.regional-close-up h2 {
+		margin-bottom:0;
+	}
+	.regional-close-up img {
+		float:left;
+	}
+	.regional-close-up .dark {
+		opacity:.5;
+	}
+	.no-opacity .regional-close-up .dark {
+		filter:alpha(opacity=50);
+	}
+	.regional-close-up .chart-overlay {
+		background:#ffffff url(../img/regional-asia-overlay.png) top left no-repeat;
+		height:342px;
+		left:0;
+		top:408px;
+		width:516px;
+		
+	}
+	.regional-close-up .chart-overlay .arrow {
+		height:0;
+		position:absolute;
+		width:0;
+	}
+	.regional-close-up .chart-overlay.asia .arrow {
+		border-bottom:#ffffff solid 40px;
+		border-left:transparent solid 30px;
+		border-right:transparent solid 30px;
+		left:60px;
+		top:-40px;
+	}
+	.regional-close-up .chart-overlay.africa {
+		background:#ffffff url(../img/regional-africa-overlay.png) top left no-repeat;
+		left:134px;
+		top:66px;
+	}
+	.regional-close-up .chart-overlay.africa .arrow {
+		border-top:transparent solid 30px;
+		border-left:#ffffff solid 40px;
+		border-bottom:transparent solid 30px;
+		right:-40px;
+		top:230px;
+	}
+	.regional-close-up .chart-overlay.america {
+		background:#ffffff url(../img/regional-america-overlay.png) top left no-repeat;
+		height: 194px;
+		left: 133px;
+		top: 342px;
+	}
+	.regional-close-up .chart-overlay.america .arrow{
+		border-top:#ffffff solid 30px;
+		border-left:transparent solid 20px;
+		border-right:transparent solid 20px;
+		left:400px;
+		bottom:-30px;
+	}
+	.regional-close-up .chart-overlay.europe {
+		background:#ffffff url(../img/regional-europe-overlay.png) top left no-repeat;
+		left:134px;
+		top:408px;
+	}
+	.regional-close-up .chart-overlay.europe .arrow {
+		border-left:#ffffff solid 30px;
+		border-top:transparent solid 20px;
+		border-bottom:transparent solid 20px;
+		top:250px;
+		right:-30px;
+	}
+	.regional-close-up .chart-overlay.latin {
+		background:#ffffff url(../img/regional-latin-overlay.png) top left no-repeat;
+		left:484px;
+		top:66px;
+	}
+	.regional-close-up .chart-overlay.latin .arrow {
+		border-top:#ffffff solid 30px;
+		border-left:transparent solid 20px;
+		border-right:transparent solid 20px;
+		left:400px;
+		bottom:-30px;
+	}
+	.regional-close-up .chart-overlay.oceania {
+		background:#ffffff url(../img/regional-oceania-overlay.png) top left no-repeat;
+		left:0;
+		top:194px;
+	}
+	.regional-close-up .chart-overlay.oceania .arrow {
+		border-top:#ffffff solid 30px;
+		border-left:transparent solid 20px;
+		border-right:transparent solid 20px;
+		left:100px;
+		bottom:-30px;
+	}
+	.regional-close-up .overlay-content {
+		width:60%;
+	}
+	.regional-close-up .overlay-content p {
+		line-height: 1em;
+	}
+	
+	.pop-growth {
+		background: transparent url(../img/PRB_PopulationGrowth_bg.png) no-repeat top left;
+	}
+	.pop-growth h3 {
+		font-weight:bold;
+	}
+	.pop-growth > .first {
+		padding-right:86px;
+		text-align:right;
+		width:374px;
+	}
+	.pop-growth > .second {
+		width:540px;
+		margin-top:80px;
+	}
+	.pop-growth .youtube {
+		float:right;
+		margin:250px 0 40px;
+		text-align:center;
+		width:300px;
+	}
+	.pop-growth .youtube h3 {
+		margin-bottom:5px;
+	}
+	.pop-growth .content-wrapper {
+		height:190px;
+		margin-bottom:15px;
+		width:505px;
+	}
+	.pop-growth .content-bg {
+		height:100%;
+	}
+	.pop-growth .content-bg .first {
+		height:100%;
+		opacity:0.7;
+		width:215px;
+	}
+	.no-opacity .pop-growth .content-bg .first {
+		filter:alpha(opacity=70);
+	}
+	.pop-growth .content-bg .second {
+		height:100%;
+		opacity:0.5;
+		width:290px;
+	}
+	.no-opacity .pop-growth .content-bg .second {	
+		filter:alpha(opacity=50);
+	}
+	.pop-growth .content {
+		position:relative;
+		top:-190px;
+	}
+	.pop-growth .content td {
+		height:190px;
+		vertical-align:middle
+		
+	}
+	.pop-growth .content td.first {
+		text-align:center;
+		width:215px;
+	}
+	.pop-growth .content td.second {
+		font-size:16px;
+		padding-left:34px;
+		text-transform:none;
+	}
+	
+	.tfr {
+		background: transparent url(../img/PRB_RegionalTFR_bg.png) top left no-repeat;
+	}
+	.tfr .fine-print {
+		bottom:44px;
+		font-size:15px;
+		margin:0;
+		position:absolute;
+		right:15px;
+		text-transform:none;
+	}
+	.tfr .orbs {
+		height:270px;
+		padding:60px 30px 20px;
+		width:100%;
+	}
+	.tfr td {
+		text-align:center;
+	}
+	.tfr .orb {
+		cursor:pointer;
+	}
+	.tfr .africa {
+		height:195px;
+		width:195px;
+	}
+	.tfr .africa .orb {
+		background: transparent url(../img/ttf-africa.png) top center no-repeat;
+		height:193px;
+	}
+	.tfr .oceania {
+		width:135px;
+	}
+	.tfr .oceania .orb {
+		background: transparent url(../img/ttf-oceania.png) top center no-repeat;
+		height:132px;
+	}
+	.tfr .latin {
+		width:128px;
+	}
+	.tfr .latin .orb {
+		background: transparent url(../img/ttf-latin.png) top center no-repeat;
+		height:118px;
+	}
+	.tfr .america {
+		width:102px;
+	}
+	.tfr .america .orb{
+		background: transparent url(../img/ttf-america.png) top center no-repeat;
+		height:100px;
+	}
+	.tfr .asia {
+		width:116px;
+	}
+	.tfr .asia .orb {
+		background: transparent url(../img/ttf-asia.png) top center no-repeat;
+		height:115px;
+	}
+	.tfr .europe {
+		width:79px;
+	}
+	.tfr .europe .orb {
+		background: transparent url(../img/ttf-europe.png) top center no-repeat;
+		height:78px;
+	}
+	.tfr .orb.active {
+		background-position:bottom center;
+	}
+	
+	.tfr .title {
+		margin:0 10px;
+		overflow:auto;
+	}
+	.tfr h2 {
+		margin:0;
+		padding: 0 30px;
+		float:left;
+	}
+	.tfr .title p {
+		float:right;
+		font-size:12px;
+		margin: 2em 0 0;
+	}
+	.tfr .results {
+		height:300px;
+		width:100%;
+	}
+	.tfr .results.africa {
+		background:transparent url(../img/tfr-results-africa.png) top left no-repeat;
+	}
+	.tfr .results.oceania {
+		background:transparent url(../img/tfr-results-oceania.png) top left no-repeat;
+	}
+	.tfr .results.latin {
+		background:transparent url(../img/tfr-results-latin.png) top left no-repeat;
+	}
+	.tfr .results.asia {
+		background:transparent url(../img/tfr-results-asia.png) top left no-repeat;
+	}
+	.tfr .results.america {
+		background:transparent url(../img/tfr-results-america.png) top left no-repeat;
+	}
+	.tfr .results.europe {
+		background:transparent url(../img/tfr-results-europe.png) top left no-repeat;
+	}
+	
+	.demographics {
+		background: transparent url(../img/PRB_DemographicDivide_bg.png) top left no-repeat;
+	}
+	.demographics h2 {
+		bottom:25px;
+		margin:0;
+		position:absolute;
+		right:35px;
+		text-align:right;
+	}
+	
+	.populous-cities header {
+		clear:both;
+		overflow:auto;
+		padding-top: 20px;
+	}
+	.populous-cities header .column {
+		margin:0 6px;
+	}
+	.populous-cities h2 {
+		float:left;
+		padding-top:72px;
+		padding-left:30px;
+		width:415px;
+	}
+	.populous-cities .slider {
+		display:none;
+		float:right;
+		padding-top:60px;
+		padding-right:30px;
+		width:480px;
+	}
+	.populous-cities .slider .flag {
+		box-shadow:0 0 5px #999999;
+		width:150px;
+	}
+	.populous-cities .slider .flag img {
+		float:left;
+	}
+	.no-boxshadow .populous-cities .slider .flag {
+		border:1px solid #999999;
+	}
+	.populous-cities .slider .content {
+			font-size:12px;
+	}
+	.populous-cities .slider .content .location {
+		height:65px;
+		width:100px;
+	}
+	.populous-cities .slider .graph {
+		width:100px;
+	}
+	.populous-cities .slider .control {
+		background:transparent url(../img/slider-controls.png) left 32px no-repeat;
+		cursor:pointer;
+		height:100px;
+		width:20px;
+	}
+	.populous-cities .slider .control.next {
+		background-position: right 32px;
+	}
+
+	.populous-cities .map {
+		background: transparent url(../img/map.png) no-repeat center top;
+		bottom:0;
+		height:500px;
+		position:absolute;
+		width:100%;
+	}
+	.populous-cities .map .icon {
+		border-radius:20px;
+		font-size:12px;
+		left:0;
+		line-height:20px;
+		position:absolute;
+		text-align:center;
+		top:0;
+		width:20px;
+		transition: width .5s, line-height .5s, margin .5s, font-size .5s;
+	}
+	.populous-cities .map .icon.active,
+	.populous-cities .map .icon:hover {
+		border-radius:40px;
+		font-size:24px;
+		line-height:40px;
+		margin:-10px 0 0 -10px;
+		width:40px;
+		z-index:800;
+	}
+	.populous-cities .map .legend {
+		bottom:30px;
+		font-size:14px;
+		left:60px;
+		list-style:none;
+		margin:0;
+		padding:0;
+		position:absolute;
+	}
+	.populous-cities .map .legend li {
+		margin-bottom:1em;
+	}
+	.populous-cities .map .legend .circle {
+		border-radius:1em;
+		display:inline-block;
+		height:1em;
+		margin-top: 1px;
+		vertical-align: top;
+		width:1em;
+	}
+	
+	.poorest-countries {
+		height:749px;
+		overflow:hidden;
+	}
+	.poorest-countries h2 {
+		color:#000000;
+		display:inline-block;
+		float:left;
+		padding-left:32px;
+		padding-top:15px;
+	}
+	.poorest-countries img {
+		float:left;
+		margin-bottom:3px;
+	}
+	.poorest-countries .oceania {
+		float:right;
+	}
+	.poorest-countries small {
+		bottom:18px;
+		color:#888888;
+		font-size:12px;
+		position:absolute;
+		right:28px;
+	}
+	.poorest-countries .chart-overlay .arrow {
+		height:0;
+		position:absolute;
+		width:0;
+	}
+
+	.poorest-countries .chart-overlay {
+		background: #ffffff url(../img/poorest-africa-overlay.png) top left no-repeat;
+		left: 0;
+		height: 503px;
+		position: absolute;
+		top: 247px;
+		width: 100%;
+		z-index: 9999;
+	}
+	.poorest-countries .chart-overlay.africa {
+		border-top:1px solid #cccccc;
+	}
+	.poorest-countries .chart-overlay.africa .arrow {
+		border-bottom: 35px solid #cccccc;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		left: 50%;
+		top: -35px;
+	}
+	.poorest-countries .chart-overlay.africa .arrow.inner {
+		border-bottom: 33px solid #ffffff;
+		border-left: 24px solid transparent;
+		border-right: 24px solid transparent;
+		margin-left:1px;
+		margin-top:2px;
+	}
+	.poorest-countries .chart-overlay.asia {
+		background: #ffffff url(../img/poorest-asia-overlay.png) top left no-repeat;
+		border-left:1px solid #cccccc;
+		left: 628px;
+		height: 442px;
+		position: absolute;
+		top: 304px;
+		width: 372px;
+	}
+	.poorest-countries .chart-overlay.asia .arrow {
+		border-right: 35px solid #cccccc;
+		border-top: 25px solid transparent;
+		border-bottom: 25px solid transparent;
+		left: -35px;
+		top: 95px;
+	}
+	.poorest-countries .chart-overlay.asia .arrow.inner {
+		border-right: 33px solid #ffffff;
+		border-top: 24px solid transparent;
+		border-bottom: 24px solid transparent;
+		margin-top:1px;
+		margin-left:2px;
+	}
+	.poorest-countries .chart-overlay.latin {
+		background:#ffffff url(../img/poorest-latin-overlay.png) top left no-repeat;
+		border-bottom:1px solid #cccccc;
+		left: 0;
+		height: 143px;
+		position: absolute;
+		top: 439px;
+		width: 399px;
+	}
+	.poorest-countries .chart-overlay.latin .arrow {
+		border-top: 35px solid #cccccc;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		left: 62%;
+		bottom: -35px;
+	}
+	.poorest-countries .chart-overlay.latin .arrow.inner {
+		border-top: 33px solid #ffffff;
+		border-left: 24px solid transparent;
+		border-right: 24px solid transparent;
+		margin-left:1px;
+		margin-bottom:2px;
+	}
+	.poorest-countries .chart-overlay.oceania {
+		background:#ffffff url(../img/poorest-oceania-overlay.png) top left no-repeat;
+		border-right:1px solid #cccccc;
+		left: 242px;
+		height: 243px;
+		position: absolute;
+		top: 304px;
+		width: 399px;
+	}
+	.poorest-countries .chart-overlay.oceania .arrow {
+		border-left: 35px solid #cccccc;
+		border-top: 25px solid transparent;
+		border-bottom: 25px solid transparent;
+		right: -35px;
+		top: 155px;
+	}
+	.poorest-countries .chart-overlay.oceania .arrow.inner {
+		border-left: 33px solid #ffffff;
+		border-top: 24px solid transparent;
+		border-bottom: 24px solid transparent;
+		margin-top: 1px;
+		margin-right: 2px;
+	}
+	.poorest-countries .dark {
+		opacity:.7;
+	}
+	.no-opacity .poorest-countries .dark {
+		filter:alpha(opacity=70);
+	}
+
+	.wealth .first {
+		padding:40px 0 20px 60px;
+	}
+	.wealth .second {
+		margin-left:60px;
+		padding-top:90px;
+		width:300px;
+	}
+	.wealth .divider {
+		height:25px;
+		margin-bottom:10px;
+		width:165px;
+	}
+	.wealth .youtube {
+		padding-top:10px;
+		text-align:center;
+	}
+	.wealth .youtube h3 {
+		margin-bottom:0;
+	}
+	
+	.case-study .first {
+		padding-left:80px;
+		padding-top:260px;
+		width:300px
+	}
+	.case-study .divider {
+		height:30px;
+		margin-bottom:10px;
+		width:255px;
+	}
+	.case-study .second {
+		padding-right:80px;
+		padding-top:60px;
+		width:540px;
+	}
+	.case-study .graphic {
+		clear:both;
+		overflow:auto;
+		padding-top:10px;
+		text-align:center;
+	}
+	.case-study .graphic h3 {
+		margin:0;
+		margin-left:200px;
+	}
+	.case-study .graphic img {
+		clear:both;
+		float:right;
+	}
+	
+	.credits .content {
+		margin:0 50px;
+		padding-top: 50px;
+	}
+	.credits .content .column {
+		font-size:.8em;
+		position:relative;
+		width:50%;
+	}
+
+	.credits .content small {
+		font-size:.7em;
+		font-weight:bold;
+		left:-15px;
+		position:absolute;
+	}
+	
+	.credits footer {
+		bottom:0;
+		font-size:12px;
+		height:200px;
+		position:absolute;
+		width:100%;
+	}
+	.credits footer small {
+		
+	}
+	.credits footer a {
+		text-decoration:none;
+	}
+	.credits footer .divider {
+		margin-bottom:20px;
+	}
+	.credits footer p {
+		margin: 0 30px 1em;
+	}
+
+	.credits footer .logo {
+		float:left;
+		margin-right:30px;
+	}
+	.credits footer .logo img {
+		border:none;
+	}
