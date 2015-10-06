@@ -1,0 +1,460 @@
+body {
+    background: #000 url("background.jpg") top center no-repeat;
+    color: #333;
+    font-family: Verdana,"Lucida Grande",Lucida,Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+}
+a img {
+    border: 0;
+}
+p {
+	margin: 1em 0;
+}
+#website-body-wrapper {
+    background: #1D1D1D url("gradient-site-background.jpg") top left no-repeat;
+    margin: 45px auto 0;
+    width: 876px;
+}
+#footer-wrapper {
+    background: #000 url("faded-blackbackground.jpg") top left repeat-x;
+    margin: 0 1px 0 1px;
+    overflow: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+#eighteenplusheader-wrapper {
+    clear:both;
+    margin:0 auto;
+    position:relative;
+    text-align:right;
+    top:-40px;
+	width:876px;
+    height:0px;
+}
+#website-footer {
+    overflow: auto;
+    padding: 0 26px;
+}
+#footer-column-left {
+    float: left;
+    text-align: center;
+    width: 570px;
+}
+#affiliates-wrapper {
+    color: #999999;
+    float: left;
+    height:65px;
+    width: 400px;
+    padding-left:10px;
+}
+#paymentmethods-wrapper {
+    float: left;
+    margin-left: 12px;
+    width: 135px;
+    height:65px;
+}
+#paymentmethods-wrapper img {
+    padding: 16px 13px;
+}
+#affiliates-wrapper, 
+#paymentmethods-wrapper {
+    background: #151515;
+    border: 1px solid #212121;
+}
+.affiliates-graphic {
+    float: left;
+    padding: 13px 4px 8px 0px;
+    font-size:9px;
+}
+#footer-column-right {
+    background: transparent url("footer-divider.gif") center left no-repeat;
+    float: left;
+    padding-left: 57px;
+    text-align: left;
+    width: 175px;
+}
+
+#footer-column-left p, 
+#footer-column-right p {
+    color: #999999;
+    font-size: 85%;
+    line-height: 2.1em;
+}
+#self-exclusion {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+#self-exclusion p a {
+    color: #999999;
+    font-size: 95%;
+    line-height: 1.5em;
+}
+#self-exclusion p a:hover {
+    color: #AAAAAA;
+}
+
+.visualClear {
+    clear: both;
+    display: block;
+}
+/**** header file CSS ****/
+#header {
+    background:#006519 url(header-background.jpg) no-repeat scroll left top;
+    border-top: 1px solid #949494;
+	height:117px;
+    /*width:876px;*/
+    margin: 0 1px 0 1px;
+}
+#logo {
+	float:left;
+}
+#quicklinks {
+	float:right;
+    font-size:9px;
+    padding:13px 10px;
+   	text-align:right;
+}
+#quicklinks img {
+    padding-bottom:10px;
+}
+#support {
+	color:#FFFFFF;
+    text-decoration:none;
+    padding-right: 11px;
+}
+#support:hover {
+	color:#FEFF01;
+}
+#language_choice {
+    font-family:Verdana,"Lucida Grande",Lucida,Helvetica,Arial,sans-serif;
+    font-size:9px;
+}
+/**** End header ****/
+
+/**** body content CSS ****/
+#body-wrapper {
+    background: #000000 url("content-dark-background.jpg") top left repeat-x;
+    margin: 0;
+    padding-bottom: 14px;
+    padding-top: 7px;
+    /*width: 876px !important;*/
+    margin: 0 1px 0 1px;
+}
+#body-content {
+    background: #FFFFFF url("content-topcurves.png") no-repeat scroll 50% 0;
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: left;
+    width: 862px;
+}
+#content-wrapper {
+    padding: 0px 10px 0px 10px;
+}
+#body-bottom-curve {
+    background: #FFFFFF url("content-bottomcurves.gif") left bottom no-repeat;
+    height: 10px;
+    margin: 0 auto;
+    width: 862px;
+}
+.cssHeader {
+    background: #DFDFDF;
+    border: medium none;
+    color: #343434;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px !important;
+}
+
+.cssBodyBold, 
+.cssBodyBoldNoBg {
+    font-weight:bold;
+}
+.cssTableBgLight {
+    background-color: #DFDFDF;
+    font-size: 11px;
+}
+.smallbox {
+    background-color: #FFFFFF;
+    border: 1px solid #006418;
+    color: #000000;
+    font-family: Verdana,Helvetica,Tahoma,Arial,Sans-Serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 15px;
+}
+.largebox {
+    background-color: #FFFFFF;
+    border: 1px solid #006418;
+    color: #000000;
+    font-family: Verdana,Helvetica,Tahoma,Arial,Sans-Serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 100px;
+}
+.cssBodyLink, 
+.cssBodySmallLink {
+    color: #009900;
+    text-decoration: underline;
+}
+.indented-content {
+    padding: 0px 25px 0px 25px;
+}
+/**** End body content ****/
+
+/**** Required by Law *****/
+#arjel-logo {
+    float:right;
+    clear:right;
+    padding-right:15px;
+	position:relative;
+    text-align:right;
+    top:18px;
+}
+#arjel-logo a {
+    display:block;
+    text-align:right;
+}
+#arjel-logo span {
+    position:relative;
+    top:-5px;
+    color:#009900;
+    text-decoration:underline;
+}
+#arjel-logo #arjel-content {
+    background-color:white;
+    border: 1px #666666 solid;
+    display:none;
+    left:-100px;
+    padding:5px;
+	position:absolute;
+    text-align:left;
+    top:19px;
+    width:200px;
+    z-index:99;
+}
+#arjel-logo a:hover #arjel-content   {
+	display:block;
+}
+/**** END Required by Law *****/
+
+/**** Home page content (updated 07/25/2010) *****/
+#column1 {
+    clear:left;
+    float:left;
+    margin-left:25px;
+	width:575px;
+}
+#column1 h1, #column1 h2, #questions h2 {
+	font-size:18px;
+    margin:0px;
+    padding-top:15px;
+}
+#column1 h1 {
+	margin-top:0px;
+}
+#column1 h2 {
+}
+#form{
+    margin-left:0px;
+    margin-bottom:15px;
+}
+#form .top{
+	background: transparent url("form-content-top.jpg") top center no-repeat;
+	height:22px;
+}
+#form .middle {
+	background: transparent url("form-content-middle.jpg") top center repeat-y;
+    padding:5px 0px;
+}
+#form .middle p, #submit_button, #selector {
+	padding-left:35px;
+}
+#form .middle form{
+	margin-left:45px;
+}
+#form .middle #inputField {
+	margin:0;
+    padding-top:3px;
+}
+#form .middle #inputField1, #form .middle #inputField2 {
+	padding-left:0px;
+    display:none;
+}
+.label-bullet-1, .label-bullet-2, .label-bullet-3 {
+    font-weight:bold;
+    padding-left:35px;
+}
+.label-bullet-1, .label-bullet-2{
+    height:25px;
+}
+.label-bullet-1 {
+	background: transparent url("label-bullet1.jpg") top left no-repeat;
+    margin:0px;
+}
+.label-bullet-2 {
+	background: transparent url("label-bullet2.jpg") top left no-repeat;
+    margin-bottom:5px;
+}
+.label-bullet-3 {
+    margin-bottom:0px;
+}
+#form .middle .upload-button-enabled {
+	cursor:pointer;	
+}
+#form .middle .upload-button-disabled {
+	cursor:default;
+}
+#form .bottom {
+	background: transparent url("form-content-bottom.jpg") top center no-repeat;
+	height:22px;
+}
+#identification {
+	height:140px;
+}
+#id-images {
+	clear:right;
+    float:right;
+    padding-right:30px;
+}
+#id-images .full {
+	display:none;
+}
+#id-images img{
+	float:left;
+    padding-right:10px;
+    padding-left:0px;
+}
+#selector {
+	clear:left;
+	float:left;
+}
+#submit_button {
+	padding-top:10px;
+}
+
+/** right column **/
+#column2 {
+	background: transparent url("rt-col-middle.jpg") top center repeat-y;
+	clear:right;
+	float:right;
+	width: 235px;
+}
+#column2 .top {
+    height:17px;
+}
+#column2 .middle {
+	background: transparent url("rt-col-top.jpg") top center no-repeat;
+    padding: 10px 21px 0px; 
+}
+#column2 .bottom {
+	background: transparent url("rt-col-bottom.jpg") top center no-repeat;
+    height:13px;
+}
+#column2 .hr {
+    background: transparent url("hr-dots.jpg") top center no-repeat;
+    height: 7px;
+}
+#column2 h3, #column2 p {
+	font-size: 11px;
+	margin:0px;
+    padding:0px;
+}
+#column2 p {
+    padding-bottom:10px;
+}
+#column2 h3 {
+    padding-top:10px;
+}
+#questions {
+	clear:both;
+    width:840px;
+    margin-left:25px;
+    padding-bottom:25px;
+}
+/**** End Home Page ****/
+
+/**** Home page content ****/
+#threecolumns-home {
+    background: #FFF url("home-threecolumn.gif") top center no-repeat;
+    overflow: auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0 25px 0 25px;
+}
+.home-columns {
+    float: left;
+    width: 254px;
+}
+.home-columns p {
+    padding: 0px 5px 0px 5px;
+}
+.center-column {
+    margin: 0px 16px 0px 16px;
+}
+.last-column {
+    margin: 0px 0px 0px 16px;
+    width: 235px;
+}
+/**** End home page content ****/
+
+/**** Fax/Postal Cover Sheets ****/
+.two-column-wrapper {
+    overflow: auto;
+    padding:10px 0px;
+}
+.two-column-wrapper label{
+    float: left;
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+}
+.fax-left {
+    float: left;
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+}
+.fax-right {
+    float: right;
+    width: 68%;
+}
+.input-field, .input-box {
+    border: 1px solid #666666;
+	width:80%;
+}
+.input-box {
+	clear:left;
+    float:left;
+    height:30px;
+	width:50px;
+    background-color:#DDDDDD;
+}
+.input-box-label {
+	clear:right;
+    float:left;
+    line-height:30px;
+    padding-left:10px;
+}
+#signature {
+    height:65px;
+    margin-top:5px;
+    background-color:#DDDDDD;
+}
+#message {
+	height:300px;
+}
+.cssBodyBoldRed {
+    color: red;
+    font-weight: bold;
+}
+.fax-top-header {
+	padding-right:100px;
+	text-align:right;
+	text-transform:uppercase;
+}
+/**** End Fax/Postal Cover Sheets ****/

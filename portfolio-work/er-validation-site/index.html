@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Everest Poker - Validation</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    	<meta http-equiv="Content-Language" content="en" name="language" />
+    	<link rel="stylesheet" type="text/css" href="includes/common.css" />
+    	<link rel="stylesheet" type="text/css" href="includes/print.css" media="print" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+        <script language="JavaScript" src="includes/common.js" type="text/javascript"></script>
+    </head>
+    <body><div id="website-body-wrapper" class="en">
+    <div id="header">
+    <div id="eighteenplusheader-wrapper">
+        <a id="eighteenplusheader" href="#" target="_blank">
+            <img src="includes/eighteen-plus.png" width="168" height="37" />        </a>    </div>
+<a href="#">
+    	<img id="logo" src="includes/everest_poker_logo.jpg" />
+    </a>
+    <div id="quicklinks">
+        <a href="http://www.joueurs-info-service.fr" target="_blank"><img src="includes/moh_banner.gif" /></a>
+        <br />
+    	<a id="support" href="supportform.html">Contact Us</a>
+        <script type="text/javascript" src="includes/language-navigation.js" charset="UTF-8"></script>
+    </div>
+</div>
+    <div id="body-wrapper">
+        <div id="body-content">
+            <div id="content-wrapper" class="home">
+            	<div id="column1">
+                    <div id="arjel-logo"><a name="arjel">
+                        <img src="includes/arjel-logo-sm.jpg" width="13" height="16" /> <span>Required by Law</span>
+                    <div id="arjel-content">Online poker is now regulated in France and Everest Poker is one of the first licensed poker rooms. To satisfy these regulations, we must collect this information from you. You will experience similar changes in all licensed poker rooms.</div></a>                    </div>
+               	  <h1>Validate Your Account Now<br /> - Don't let it get closed!</h1>
+                    <p>By law, verification of your identity and bank documents is required before you may withdraw funds from your account. If this isn't completed within 30 days, your account will be frozen. <a href="#" target="_blank" class="cssBodyLink">Learn more about the regulation requirements</a>.</p>
+                    <h2>Submit your documents now</h2>
+                    <p>A valid driver's license, national identity card or passport can be used for your ID. Please make sure the following are fully visible and legible: name, photo, address, date of birth, and expiration date.</p>
+                    <div id="form">
+                        <div class="top"></div>
+                        <div class="middle">
+                            
+                            <form name="verifyForm" action="#" enctype="multipart/form-data" method="POST">
+                                <input type="hidden" name="VID" value="">
+                                <input type="hidden" name="VARS" value="">
+                                <input type="hidden" name="bs" value="">
+                                <input type="hidden" name="ln" value="">
+                                <input type="hidden" name="cs" value="">
+                                <input type="hidden" name="rd" value="">
+                                <input type="hidden" name="NS" value="">
+                                <input type="hidden" name="_PASS" value="">			
+                                <input type="hidden" name="rderr" value="">
+                                <input type="hidden" name="user_email" value="">
+                                <input type="hidden" name="user_comment2" value="">
+                                <div id="identification">
+                                	<p class="label-bullet-1">Upload your ID:</p>
+                                    <div id="selector">
+                                        <select id="id-type" onchange="showId();">
+                                            <option value="1">Select ID type</option>
+                                            <option value="2">National identity card</option>
+                                            <option value="3">Passport</option>
+                                            <option value="4">Driver's license</option>
+                                        </select>
+                                        <p id="inputField"><input type="file" name="id_file1" id="id_file1" onchange="validateFields(this, 'id_file1_remove')"> <a style="display: none;" href="javascript:clearField('inputField1')" class="cssBodyLink" id="id_file1_remove" name="id_file1_remove">Remove</a></p>
+                                        <p id="inputField"><input type="file" name="id_file2" id="id_file2" onchange="validateFields(this, 'id_file2_remove')"> <a style="display: none;" href="javascript:clearField('inputField2')" class="cssBodyLink" id="id_file2_remove" name="id_file2_remove">Remove</a></p>
+                                    </div>
+                                    <div id="id-images">
+                                        <img id="nat-thumb" class="thumb" src="includes/id-nat-thumb.jpg" />
+                                        <img id="passport-thumb" class="thumb" src="includes/id-passport-thumb.jpg" />
+                                        <img id="driver-thumb" class="thumb" src="includes/id-driver-thumb.jpg" />
+                                        <img id="nat" class="full" src="includes/id-nat.jpg" />
+                                        <img id="passport" class="full" src="includes/id-passport.jpg" />
+                                        <img id="driver" class="full" src="includes/id-driver.jpg" />
+                                    </div>
+                                </div>
+                                <p class="label-bullet-2">Upload your RIB <br />(used only for withdrawing your winnings):</p>
+                                <p class="inputField"><input type="file" name="rib_file" id="rib_file" onchange="validateFields(this, 'rib_file_remove')"> <a style="display: none;" href="javascript:clearField('inputField3')" class="cssBodyLink" id="rib_file_remove" name="rib_file_remove">Remove</a></p>
+                                <p class="label-bullet-3">Message (optional):</p>
+                                <p class="inputField"><input type="text" id="comments" name="user_comment" value="" size="60" /></p>
+                                <input type="image" src="includes/button-green-upload.jpg" class="upload-button-disabled" name="submit_button" id="submit_button" disabled>
+                            </form>
+                        </div>
+                        <div class="bottom"></div>
+					</div>
+                    <div class="form-area-bottom"></div>
+					<h2>How to capture your documents</h2>
+                    <p>Your ID and RIB can be captured for instance with a digital camera, mobile phone camera, or scanner.</p>
+                    <p>In addition, you may be able to get digital versions of your RIB directly from your bank's web site or ATM.</p>
+                    <img src="includes/camera1.jpg" />
+                    <img src="includes/camera2.jpg" />
+                    <img src="includes/scanner.jpg" />
+                </div>
+                <div id="column2">
+                    <div class="middle">
+                    	<h3>Other ways to submit your documents include email, fax and postal mail.</h3>
+                        <p><br />Be sure to include your File ID: D00000001</p>
+                        <div class="hr">&nbsp;</div>
+                        <h3>Email</h3>
+                        <p>Don't make any one email larger than 10 megabytes. Click on the email address below or copy it into your webmail message.</p>
+                        <p>Email address:<br />
+                        <div class="hr">&nbsp;</div>
+                        <h3>Fax</h3>
+						<p>Make sure documents are clearly legible as quality will be affected during transmission.</p>
+						<p>Please include our <a href="fax_cover.html" class="cssBodyLink">fax cover sheet</a>.</p>
+						<p>Fax Number:<br /></p>
+                        <div class="hr">&nbsp;</div>
+                        <h3>Postal Mail</h3>
+                        <p>Allow 2-6 weeks for delivery.</p>
+                        <p>Please include our <a href="postal_cover.html" class="cssBodyLink">Postal Cover Sheet</a>.</p>
+                        <p>Address:<br />
+                        </p>
+                        <div class="hr">&nbsp;</div>
+                        <h3>Help</h3>
+                        <p>If you have any questions, try our <a href="#" class="cssBodyLink" target="_blank">frequently asked questions</a> page.</p>
+                    </div>
+                    <div class="bottom"></div>
+                </div>
+				<div id="questions">
+                    <h2>Questions</h2>
+                    <p>If you have any questions or concerns regarding the validation process, please don't hesitate to contact our <a href="supportform.html" class="cssBodyLink">Customer Support team</a>.</p>
+                </div>               
+            </div>
+            <div id="body-bottom-curve"><!-- --></div>
+        </div>
+    </div>
+    <div id="footer-wrapper">
+    <div id="website-footer">
+        <div id="footer-column-left">
+            <div id="affiliates-wrapper">
+                <div class="affiliates-graphic">
+                    <a href="#" target="_blank"><img src="includes/eighteen-plus.png" /></a>
+                </div>
+                <div class="affiliates-graphic">
+                    <a href="#" target="_blank"><img src="includes/adictel-prevention.png" /></a>
+                    <br>
+                    0805 02 00 00
+                </div>
+                <div class="affiliates-graphic">
+                    <a href="http://www.arjel.fr" target="_blank"><img src="includes/arjel-logo.png" /></a><br>
+                    0012-PO-2010-0607
+                </div>
+            </div>
+            <div id="paymentmethods-wrapper">
+                <img src="includes/paymentmethods-animation.gif" />
+            </div>
+            <div class="visualClear"><!-- --></div>
+            <p class="regulated-copyright">
+                Copyright &copy; 2010 Everest Poker. All rights reserved.<br>You must be 18 years or older to enter. Void in the U.S. and where prohibited by law.
+            </p>
+        </div>
+        <div id="footer-column-right">
+            <p>
+                <a href="http://www.everestgaming.com" title="Everest Gaming" target="_blank"><img src="includes/everest-gaming.png" alt="Everest Gaming" /></a>
+                <br>
+                Everest Gaming Limited<br />
+				Office 95, Suite A<br />
+                Dolphin Court A, Embassy Way<br />
+				Ta' Xbiex XBX 1071 Malta 
+            </p>
+        </div>
+    </div>
+    <div class="visualClear"><!-- --></div>
+    <div id="self-exclusion">
+        <p><a href="http://www.interieur.gouv.fr/sections/a_votre_service/vos_demarches/interdiction-jeux" target="_blank">Any person who wants to be banned from gambling must make a direct request before the Ministry of the Interior. This ban applies for casinos, casino card games, and on online gaming and betting sites authorized by virtue of the May 12, 2010 Law n° 2010-476. It is pronounced for a three-year period that cannot be reduced.</a></p>
+    </div>
+</div>
+</div>
+    </body>
+</html>
+

@@ -1,0 +1,24 @@
+body {
+	background:none;
+}
+#header, 
+#footer-wrapper, 
+.fax-directions, 
+.cssHeader, 
+.cssFormButton {
+	display:none;
+}
+#website-body-wrapper {
+    border: none;
+}
+.fax-left p, 
+.fax-right p {
+    margin: 0px;
+    padding: 5px 0 5px 0;
+}
+#full-name, #login-name, #message {
+	border:white;
+}
+.input_box, #signature {
+	background:transparent;
+}

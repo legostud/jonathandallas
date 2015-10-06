@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml"><!-- Source is https://secure.everestpoker.fr/validation/supportform.html -->
+    <head>
+        <title>Everest Poker - Validation</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    	<meta http-equiv="Content-Language" content="en" name="language" />
+    	<link rel="stylesheet" type="text/css" href="includes/common.css" />
+    	<link rel="stylesheet" type="text/css" href="includes/print.css" media="print" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+        <script language="JavaScript" src="includes/common.js" type="text/javascript"></script>
+    </head>
+    <body><div id="website-body-wrapper">
+    <div id="header">
+    <div id="eighteenplusheader-wrapper">
+        <a id="eighteenplusheader" href="#">
+            <img src="includes/eighteen-plus.png" width="168" height="37" />
+        </a>
+    </div>
+    <a href="index.html">
+    	<img id="logo" src="includes/everest_poker_logo.jpg" />
+    </a>
+    <div id="quicklinks">
+        <a href="http://www.joueurs-info-service.fr" target="_blank"><img src="includes/moh_banner.gif" /></a>
+        <br />
+    	<a id="support" href="supportform.html">Contact Us</a>
+        <script type="text/javascript" src="includes/language-navigation.js" charset="UTF-8"></script>
+    </div>
+</div>
+    <div id="body-wrapper">
+        <div id="body-content">
+            <div id="content-wrapper">
+                <form name="help" action="#" method="post" onSubmit="return checkForm()">
+                    
+                    <input type="hidden" name="bs" value="er">
+                    <input type="hidden" name="ln" value="en">
+                    <input type="hidden" name="cs" value="ISO-8859-1">
+                    <input type="hidden" name="rd" value="thankyou.html">
+                    <input type="hidden" name="rderr" value="supportform.html">
+                    <input type="hidden" name="random" value="7c5f1ebf7a6f">
+                    <h1 class="cssHeader">Customer Support</h1>
+                    <div class="indented-content">
+                        <p>Our friendly, helpful Customer Support team is ready to speak your language. We have dedicated multi-lingual support specialists covering 16 major languages.</p>
+                        <p>Please type your question or comments in the box, give us some contact information so we can respond, and click "Send":</p>
+                    </div>
+                    <h2 class="cssHeader">Please tell us how to reach you:</h2>
+                    <div class="indented-content">
+                        <table border="0">
+                            <tr><td style="padding: 6px 0px 6px 0px;"><span class="cssBodyBold">Login Name:</span></td><td style="padding: 6px 0px 6px 15px;"><input type="text" class="smallbox" name="user_login" value="" size="24"></td></tr>
+                            <tr><td style="padding: 6px 0px 6px 0px;"><span class="cssBodyBold">Name:</span></td><td style="padding: 6px 0px 6px 15px;"><input type="text" class="smallbox" name="user_name" value="" size="24"></td></tr>
+                            <tr><td style="padding: 6px 0px 6px 0px;"><span class="cssBodyBold">Email Address:</span></td><td style="padding: 6px 0px 6px 15px;"><input type="text" class="smallbox" name="user_email" value="" size="24"></td></tr>
+                        </table>
+                    </div>
+                    <h3 class="cssHeader">Please tell us about your question or concern:</h3>
+                    <div class="indented-content">
+                        <p>
+                            <span class="cssBodyBold">Subject:</span> 
+                            
+                                <select name="subject">
+                                    <option value="[:001:]General Question">Please Select</option>
+                                    <option value="[:008:]Technical Questions">Technical Questions</option>
+                                    <option value="[:011:]Getting Started">Getting Started</option>
+                                    <option value="[:010:]Account Validation">Account Validation</option>
+                                    <option value="[:007:]Account Information">Account Information</option>
+                                    <option value="[:002:]Deposit">Deposit</option>
+                                    <option value="[:004:]Withdrawal">Withdrawal</option>
+                                    <option value="[:003:]Bonus Questions">Bonus Questions</option>
+                                    <option value="[:006:]Game Play">Game Play</option>
+                                    <option value="[:009:]Responsible Gaming">Responsible Gaming</option>
+                                    <option value="[:012:]Summit Point Store">Summit Point Store</option>
+                        		</select>
+                            
+                        </p>
+                        <p><textarea class="largebox" name="user_comment" rows="5" cols="81"></textarea></p>
+            			
+                        <img src="captcha.html?x=7c5f1ebf7a6f"><br>
+            			<p>Please enter the numbers as they appear in the box above:</p>
+            			<p><input type="text" class="smallbox" name="captcha" value="" size="10" maxlength="6"> <a href="javascript:openDiv('info')" class="cssBodySmallLink">What's this?</a>
+            			<div id="info" name="info" style="border:2px solid #000000;background-color:#FFFFFF;width:250px;padding:10px;position:absolute;left:400px;top:600px;visibility:hidden;z-index:100">
+            				In order to verify that this support form is only submitted by a human, we ask that you enter the six randomly generated numbers that you see. While visible to humans, these numbers are not easily read by automated scripts or "bots".
+            				<p align="right"><a href="javascript:closeDiv('info')" class="cssBodySmallLink">Close Window</a>
+            			</div>
+                        <p>
+                            <input type="submit" value="Send" class="cssFormButton">&nbsp;&nbsp;&nbsp;
+                            <a href="index.html" class="cssBodyLink">Cancel</a>
+                        </p>
+                        <p>We won't disclose your email address to third parties or send you unsolicited email.</p>
+                    </div>
+                </form>
+                <script language="JavaScript">
+                <!--
+                var ruvalid = "";
+                var bgNotValid = "#EDCD9D";
+                var bgValid = "#FFFFFF";
+                
+                function isEmail(eml)
+                // function to check whether the e-mail address is valid
+                // it must have at least this format ( char + @ + char + . + char )
+                {	
+                	a = eml.value.search(/@/i);
+                	a1 = eml.value.substring(0,a);
+                	a2 = a1.length;
+                	
+                	a = a + 1;
+                	b = eml.value.indexOf(".");
+                	b1 = eml.value.substring(a,b);
+                	b2 = b1.length;
+                	
+                	b = b + 1;
+                	c = eml.value.length;
+                	c1 = eml.value.substring(b,c);
+                	c2 = c1.length;
+                
+                	if(eml.value.indexOf("@") != "-1" && eml.value.indexOf(".") != "-1" && a2 >= 1 && b2 >= 1 && c2 >= 1)
+                		{
+                			return true;
+                		}
+                	else
+                		{
+                			return false;
+                		}		
+                }
+                
+                function setColor(el, bg) {
+                  if (el.style) el.style.backgroundColor = bg;
+                }
+                
+                function checkForm()
+                	{
+                	ruvalid = "";
+                	var doc = window.document.help;
+                	var eml = doc.user_email;
+                	var emailOK = isEmail(eml);
+                
+                	if(doc.user_comment.value == ""){ruvalid += "Please enter your comment or question.\n"; setColor(doc.user_comment, bgNotValid);}else{setColor(doc.user_comment, bgValid);}
+                	if(doc.user_email.value == "" ){ruvalid += "Please enter a valid email address.\n"; setColor(doc.user_email, bgNotValid);}else if (emailOK==false){ruvalid += "Please enter a valid email address.\r";  setColor(doc.user_email, bgNotValid);}else{setColor(doc.user_email, bgValid);}
+                	if(doc.captcha.value == ""){ruvalid += "Please enter the numbers that appear in the box.\n"; setColor(doc.captcha, bgNotValid);}else{setColor(doc.captcha, bgValid);}
+                	
+                	if(ruvalid != "" )
+                	{
+                	alert("Your form is incomplete!\n---------------------\n" + ruvalid);
+                	return false;
+                	}
+                	else
+                	{
+                	return true;
+                	}
+                }
+                
+                function findObj(n, d) {
+                	var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+                		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+                	if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+                	for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=findObj(n,d.layers[i].document);
+                	if(!x && document.getElementById) x=document.getElementById(n); return x;
+                }
+                
+                function openDiv(divName){
+                	var myDiv = findObj(divName);
+                	//alert(myDiv.style.display);
+                	myDiv.style.visibility = 'visible';
+                	
+                }
+                
+                function closeDiv(divName){
+                	var myDiv = findObj(divName);
+                	//alert(myDiv.style.display);
+                	myDiv.style.visibility = 'hidden';
+                
+                }
+                //-->
+                </script>
+            </div>
+            <div id="body-bottom-curve"><!-- --></div>
+        </div>
+    </div>
+    <div id="footer-wrapper">
+    <div id="website-footer">
+        <div id="footer-column-left">
+            <div id="affiliates-wrapper">
+                <div class="affiliates-graphic">
+                    <a href="http://www.everestpoker.fr/en/about/policies/responsible-gaming" target="_blank"><img src="includes/eighteen-plus.png" /></a>
+                </div>
+                <div class="affiliates-graphic">
+                    <a href="http://www.everestpoker.fr/en/about/policies/responsible-gaming/responsible-gambling-adictel" target="_blank"><img src="includes/adictel-prevention.png" /></a>
+                    <br>
+                    0805 02 00 00
+                </div>
+                <div class="affiliates-graphic">
+                    <a href="http://www.arjel.fr" target="_blank"><img src="includes/arjel-logo.png" /></a><br>
+                    0012-PO-2010-0607
+                </div>
+            </div>
+            <div id="paymentmethods-wrapper">
+                <img src="includes/paymentmethods-animation.gif" />
+            </div>
+            <div class="visualClear"><!-- --></div>
+            <p class="regulated-copyright">
+                Copyright &copy; 2010 Everest Poker. All rights reserved.<br>You must be 18 years or older to enter. Void in the U.S. and where prohibited by law.
+            </p>
+        </div>
+        <div id="footer-column-right">
+            <p>
+                <a href="http://www.everestgaming.com" title="Everest Gaming" target="_blank"><img src="includes/everest-gaming.png" alt="Everest Gaming" /></a>
+                <br>
+                Everest Gaming Limited<br />
+				Office 95, Suite A<br />
+                Dolphin Court A, Embassy Way<br />
+				Ta' Xbiex XBX 1071 Malta 
+            </p>
+        </div>
+    </div>
+    <div class="visualClear"><!-- --></div>
+    <div id="self-exclusion">
+        <p><a href="http://www.interieur.gouv.fr/sections/a_votre_service/vos_demarches/interdiction-jeux" target="_blank">Any person who wants to be banned from gambling must make a direct request before the Ministry of the Interior. This ban applies for casinos, casino card games, and on online gaming and betting sites authorized by virtue of the May 12, 2010 Law n° 2010-476. It is pronounced for a three-year period that cannot be reduced.</a></p>
+    </div>
+</div>
+</div>
+    </body>
+</html>
+
