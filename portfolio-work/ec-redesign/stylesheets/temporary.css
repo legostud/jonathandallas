@@ -1,0 +1,5 @@
+
+/* - temporary.css - */
+#menu ul li a { padding: 6px 18px 8px 20px; }
+
+#menu ul li:first-child a { padding: 6px 16px 8px 18px; }

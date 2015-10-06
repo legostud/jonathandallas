@@ -1,0 +1,51 @@
+.promo-index-category { background: url('++theme++cidc.themes.ec/images/bg-striped.jpg') left 32px no-repeat; clear:both; margin:0 auto; overflow:hidden; position:relative; width:500px; }
+  .promo-index-category h2 { font-size:16px; margin-bottom:10px; }
+  .promo-index-category div.clear { clear:both; }
+
+  .promo-index-category table.section-blurb { left:15px; height:150px; position:absolute; top:42px; width:150px; z-index:10; }
+    #content .promo-index-category table.section-blurb td { vertical-align: middle; }
+
+  .promo-index-category .promo-item-wrapper { float:right; padding:10px; position:relative; z-index:20; }
+    .promo-index-category .promo-item-wrapper .promo-item { float:left; font-size:10px; line-height:12px; padding:0 5px 10px; width: 150px; }
+      .promo-index-category .promo-item-wrapper .promo-item .image { background-color:#FFFFFF; margin-bottom:5px; }
+        .promo-index-category .promo-item-wrapper .promo-item .image a:hover img { opacity:0.8; filter:alpha(opacity=80); }
+      .promo-index-category .promo-item-wrapper .promo-item .copy { height:50px; overflow:hidden; }
+
+#carousel-promotions { background-color:#232323; margin-bottom: 20px; overflow:hidden; position:relative; width:500px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#202020));
+    background: -moz-linear-gradient(top,  #FFFFFF,  #202020);
+    background: -o-linear-gradient(top, #FFFFFF, #202020);
+    background: -ms-linear-gradient(top, #FFFFFF, #202020);
+    background: linear-gradient(top,  #FFFFFF,  #202020);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#202020');
+  }
+
+  #carousel-promotions .clear { clear:both; }
+  
+  /* slider width is set for five banners */
+  #carousel-promotions #carousel-promotions-slider { left:0; position:relative; top:0; width:2500px; }  
+    #carousel-promotions-slider .promo-item { float:left; width:500px; }
+      #carousel-promotions-slider .promo-item .copy { color:white; padding: 10px 10px 15px; }
+    
+  #carousel-promotions .left-action,
+  #carousel-promotions .right-action { background: url('++theme++cidc.themes.ec/images/left-right-carousel-arrows.png') no-repeat; cursor:pointer; height:60px; position:absolute; top: 45px; width:40px; z-index:30; } 
+      
+  #carousel-promotions .left-action { background-position: -48px 0; left: -40px; }
+  
+  #carousel-promotions .right-action { right:-40px; }
+      
+
+#content-core {  }
+  #content-core #parent-fieldname-text { margin-bottom:35px; }
+    
+
+#latest-promotions {  }
+
+
+#ongoing-promotions {  }
+
+
+#previous-promotions { background-image: url('++theme++cidc.themes.ec/images/bg-pixelated.jpg'); }
+  #previous-promotions .promo-item-wrapper { padding-right:172px; }
+
+

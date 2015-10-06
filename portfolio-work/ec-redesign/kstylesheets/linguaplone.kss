@@ -1,0 +1,12 @@
+
+/* - linguaplone.kss - */
+.canonicalLanguage .inlineEditable:click {
+    action-cancel: replaceField;
+}
+
+.canonicalLanguage:load {
+    action-client: removeClass;
+    removeClass-value: kssActive;
+    removeClass-kssSelector: body;
+}
+
