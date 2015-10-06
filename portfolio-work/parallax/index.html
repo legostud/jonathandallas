@@ -1,0 +1,83 @@
+<!doctype>
+<html>
+<head>
+	<style>
+		html,body{
+			background-color:gray;
+			height:100%;
+			width:100%;
+		}
+		h1{
+			text-align:center;
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+		}
+		#parallax_wrapper {
+			background-color:#f9da9a;
+			position: relative;
+			z-index: 0;
+			transition: all 0.25s ease-in;
+			-webkit-transition: all 0.25s ease-in 0;
+			height:70%;
+			margin-top:0;
+			width:100%;
+		}
+		#square,
+		#circle,
+		#triangle {
+			position:absolute;
+			top:0;
+			left:50%;
+		}
+ 		#square {
+			background-color:green;
+			border:3px black solid;
+			height:250px;
+			margin-left:-125px;
+			width:250px;
+		}
+		#circle {
+			background-color:red;
+			border:2px black solid;
+			border-radius:50%;
+			height:200px;
+			margin-left:-100px;
+			width:200px;
+		}
+		#triangle {
+			border-top:0 solid transparent;
+			border-right:75px solid transparent;
+			border-bottom:150px solid blue;
+			border-left:75px solid transparent;
+			height:0;
+			margin-left:-75px;
+			width:0;
+		}
+		#sky{
+			background-color:#a1e9f4;
+			height:30%;
+			width:100%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Move the mouse to see objects move</h1>
+	<div id="sky"></div>
+	<div id="parallax_wrapper">
+		<div id="triangle"></div>
+		<div id="circle"></div>
+		<div id="square"></div>
+	</div>
+
+<script src="./js/jquery-1.10.1.min.js"></script>
+<script src="./js/plax.js"></script>
+
+<script>
+	$('#square').plaxify({"xRange":2000,"yRange":400})
+	$('#circle').plaxify({"xRange":1000,"yRange":200})
+	$('#triangle').plaxify({"xRange":500,"yRange":100})
+	$.plax.enable()
+</script>
+</body>
