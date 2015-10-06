@@ -1,0 +1,15 @@
+.navigation nav,
+.dc-menu,
+.get-data,
+.dc-share,
+.footer-links  {
+	display:none !important;
+}
+
+.dc-component__results {
+	padding:0;
+}
+
+.dc-component__results__table th.color-bg-1 {
+	border: 1px solid #f58028;
+}
