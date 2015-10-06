@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#000000 url('../images/background.jpg') no-repeat top center;
+	color:#FFFFFF;
+    font-family:Verdana,"Lucida Grande",Lucida,Helvetica,Arial,sans-serif;
+    font-size:11px;
+    margin:0;
+    padding:0;
+}
+h1 {
+	color:#9aff66;
+    font-size:21px;
+    font-weight:normal;
+    margin-top:0px;
+    padding-top:15px;
+}
+h2 {
+	border-bottom:1px solid #222222;
+	border-top:1px solid #222222;
+    font-size:17px;
+    font-weight:normal;
+    margin:0px -18px 0px -20px;
+    padding:8px 18px 8px 20px;
+}
+p {
+    margin-bottom:10px;
+	margin-top:10px;
+}
+ul {
+	list-style-type: none;
+    margin-bottom:20px;
+	margin-top:10px;
+}
+#main-wrapper {
+	border-left:1px solid #222222;
+	border-right:1px solid #222222;
+    margin: 0 auto;
+    position:relative;
+    width: 874px;
+}
+#header {
+	background: transparent url('../images/header-background.jpg') top center no-repeat;
+    height:92px;
+}
+#content-wrapper {
+	overflow:visible;
+}
+#main-content {
+	background: transparent url('../images/content-background.jpg') top center no-repeat;
+    height:365px;
+    padding:50px 40px 0 445px;
+}
+#promotional-content {
+    clear:both;
+    color:#7cc655;
+	background:#000000 url('../images/hr-divider.jpg') bottom center no-repeat;
+    float:left;
+    font-size:12px;
+    height:120px;
+    padding:0 155px;
+}
+#promotional-content div {
+    line-height:24px;
+    padding:10px 0 0 90px;
+    margin:0;
+}
+#addtional-content {
+	background-color:#000000;
+    color:#CCCCCC;
+    font-size:12px;
+    overflow:auto;
+    padding:0 55px 0 55px;
+    line-height:25px;
+}
+#addtional-content a, #addtional-content a:visited {
+	border-bottom:thin dotted #9aff66;
+	color:#CCCCCC;
+    text-decoration:none;
+}
+#clear-space-after-content {
+	background-color:#000000;
+}
+#footer {
+	color:#666666;
+    background-color:#0F0F0F;
+    height:50px;
+    padding-top:30px;
+    text-align:center;
+    width: 874px;
+}
+#bottom-background {
+	background: green url('../images/background_bottom.png') 0% 100% repeat-x;
+    height:340px;
+	margin-top:-340px;
+}
+.li-1, .li-2, .li-3, .li-4 {
+	margin-bottom:5px;
+    margin-top:5px;
+}
+.li-1 {
+	list-style-image: url('../images/bullet_heart.gif');
+}
+.li-2 {
+	list-style-image: url('../images/bullet_club.gif');
+}
+.li-3 {
+	list-style-image: url('../images/bullet_diamond.gif');
+}
+.li-4 {
+	list-style-image: url('../images/bullet_spade.gif');
+}
+a.dload-button {
+	background: transparent url('../images/download-button.jpg') top center no-repeat;
+	color:#FFFFFF;
+    display:block;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:18px;
+    text-transform:uppercase;
+    height:45px;
+    margin-left:35px;
+    padding-top:17px;
+    text-align:center;
+    text-decoration:none;
+    width:225px;
+}
+a.dload-button:hover {
+	background-position:1px 1px;
+	padding-left:1px;
+    padding-top:18px;
+}

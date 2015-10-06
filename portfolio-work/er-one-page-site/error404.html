@@ -1,0 +1,26 @@
+<%perl>
+# redirect to index with correct info
+my $rqs = $ENV{REDIRECT_QUERY_STRING};
+my $rurl = $ENV{REDIRECT_URL};
+
+my $language;
+
+# parse directories of source
+if ($rurl =~ m#^/(\w{2})/#) {
+    $language = $1;
+}
+
+my $destination = $language ? "/$language/index.html" : '/index.html';
+
+if ($rqs) {
+    $destination .= "?$rqs";
+}
+
+#$m->cgi_object->redirect('/');
+
+
+# Hardcode to root of domain for EP.ER
+$r->headers_out->set(Location => '/');
+$r->status(301);
+
+</%perl>

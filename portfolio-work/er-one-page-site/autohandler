@@ -1,0 +1,119 @@
+<%perl>
+
+use GVWeb;
+
+# trace URL
+if ( $GVWeb::DEBUG_TRACE ) {
+    my $dt = scalar localtime;
+    print STDERR "\n[$dt] ".CGI::url(-query=>1)."\n";
+}
+
+GVWeb::loadLangMap( $r );
+
+my $self = $m->base_comp;
+
+my $language;
+# language specified in GET?
+if ( $l ) {
+    $language = GVWeb::setLanguage( $r, $l );
+}
+# language removed from URL?
+elsif ($ENV{OLDLANG}) {
+    $language = GVWeb::setLanguage( $r, $GVWeb::langmap{lc $ENV{OLDLANG}} );
+}
+
+# Collect language for potential redirection.
+my @initial_uri = split /\//, CGI::url(-query=>1);
+my $initial_cc = $initial_uri[3];
+
+if ($initial_cc =~ /^[[:alpha:]]{2}$/) {
+    # Give them 'pt' if they ask for 'ib'.
+    if ($initial_cc eq 'ib') {
+        $initial_uri[3] = 'pt';
+        $m->cgi_object->redirect(join('/', @initial_uri));
+        $m->abort();
+    }
+
+    # Give them 'en' if they ask for something we don't (quasi-)support.
+    if (not defined $GVWeb::ep_com_supported_languages{$initial_cc}) {
+        $initial_uri[3] = 'en';
+        $m->cgi_object->redirect(join('/', @initial_uri));
+        $m->abort();
+    }
+}
+
+# handle miscapitalized variables
+$MID ||= $mid;
+$IMID ||= $imid;
+
+if ($self->attr( 'dynamic_data' )) {
+    my $lang = $self->call_method( 'get_language' );
+    $language = GVWeb::setLanguage( $r, $lang );
+}
+
+# advertiser id specified in GET?
+my $advertiserID;
+my $noredirect;
+if ( $adv ) {
+    $advertiserID = $adv;
+    GVWeb::setCookie($r, 'current_adv', $advertiserID, '+1m');
+}
+# advertiser id removed from URL?
+elsif ($ENV{ADVID}) {
+    $advertiserID = $ENV{ADVID};
+    GVWeb::setCookie($r, 'current_adv', $advertiserID, '+1m');
+    $noredirect =1;
+}
+elsif ($ENV{QUERY_STRING} =~ /^[01]\w{3}$/) {
+    $advertiserID = $ENV{QUERY_STRING};
+    GVWeb::setCookie($r, 'current_adv', $advertiserID, '+1m');
+}
+elsif (my $refadv = GVWeb::getRefererAdv($r)) {
+     $advertiserID = $refadv;
+     $noredirect = 1;
+}
+
+if ( $advertiserID || $IMID ) {
+
+    $MID = GVWeb::setEVATracking($r, $advertiserID, $MID, $eva);
+
+    if ( GVWeb::okayAdv( $advertiserID, $r->dir_config('CustomDload_base_code') ) ) {
+    	GVWeb::setAdv( $r, $advertiserID, $MID, $IMID );
+		
+	unless ($noredirect) {
+	    $r->headers_out->set(Location => $ENV{SCRIPT_URI});
+	    $r->status(301);
+	    $m->abort();
+	}
+    } else {
+	$m->cgi_object->redirect( '/nospam.html' );
+	$m->abort();
+    }
+}
+
+#===============
+$m->call_next();
+#===============
+
+
+
+
+</%perl>
+
+<%args>
+    $l => undef
+    $adv => undef
+    $mid => undef
+    $imid => undef
+    $MID => undef
+    $IMID => undef
+    $eva => undef
+</%args>
+
+<%attr>
+	flags => 0
+	dload => 0
+	vip => 0
+	homepg => 0
+	dynamic_data => 0
+</%attr>
