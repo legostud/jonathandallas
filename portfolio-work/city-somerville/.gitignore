@@ -1,0 +1,12 @@
+build*
+node_modules
+
+aspnet_client
+app/css/index-generated.css
+app/js/index.js
+app/js/vendor.js
+.idea/
+app/img/svg-sprite.svg
+app/js/vendor-generated.js
+app/web.config
+app/css/vendor.css
