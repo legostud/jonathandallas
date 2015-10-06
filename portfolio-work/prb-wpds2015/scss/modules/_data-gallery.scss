@@ -1,0 +1,19 @@
+.data-gallery {
+	margin-top:40px; // offset for sticky header.
+	padding-top:60px;
+	padding-bottom: 80px;
+
+	@include media($medium){
+		display:none;
+	}
+
+	&__title {
+		text-align:center;
+
+		p {
+			display:inline-block;
+			font-size: 14px;
+			max-width:340px;		
+		}
+	}
+}

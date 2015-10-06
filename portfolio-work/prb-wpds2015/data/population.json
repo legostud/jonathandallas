@@ -1,0 +1,4571 @@
+{
+    "name": "World",
+    "population": {
+        "2015": 7336000000,
+        "2050": 9804000000
+    },
+    "fertility": {
+        "rate": 2.5,
+        "contraception": 56
+    },
+    "education": {
+        "female": 76,
+        "male": 78
+    },
+    "employment": 34,
+    "government": 20,
+    "health": {
+        "female": 73,
+        "male": 69
+    },
+    "children": [
+        {
+            "name": "Africa",
+            "population": {
+                "2015": 1171000000,
+                "2050": 2473000000
+            },
+            "fertility": {
+                "rate": 4.7,
+                "contraception": 29
+            },
+            "education": {
+                "female": 49,
+                "male": 54
+            },
+            "employment": 30,
+            "government": 21,
+            "health": {
+                "female": 61,
+                "male": 58
+            },
+            "children": [
+                {
+                    "name": "Algeria",
+                    "population": {
+                        "2015": 39948000,
+                        "2050": 60359810
+                    },
+                    "fertility": {
+                        "rate": 3,
+                        "contraception": 48
+                    },
+                    "education": {
+                        "female": 100,
+                        "male": 96
+                    },
+                    "employment": 18,
+                    "government": 26,
+                    "health": {
+                        "female": 77,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Angola",
+                    "population": {
+                        "2015": 25000000,
+                        "2050": 65500000
+                    },
+                    "fertility": {
+                        "rate": 6.1,
+                        "contraception": 12
+                    },
+                    "education": {
+                        "female": 25,
+                        "male": 38
+                    },
+                    "employment": null,
+                    "government": 37,
+                    "health": {
+                        "female": 53,
+                        "male": 50
+                    }
+                },
+                {
+                    "name": "Benin",
+                    "population": {
+                        "2015": 10583034,
+                        "2050": 21532800
+                    },
+                    "fertility": {
+                        "rate": 4.9,
+                        "contraception": 13
+                    },
+                    "education": {
+                        "female": 43,
+                        "male": 65
+                    },
+                    "employment": 26,
+                    "government": 7,
+                    "health": {
+                        "female": 61,
+                        "male": 58
+                    }
+                },
+                {
+                    "name": "Botswana",
+                    "population": {
+                        "2015": 2139900,
+                        "2050": 2478830
+                    },
+                    "fertility": {
+                        "rate": 2.9,
+                        "contraception": 51
+                    },
+                    "education": {
+                        "female": 84,
+                        "male": 79
+                    },
+                    "employment": 41,
+                    "government": 10,
+                    "health": {
+                        "female": 67,
+                        "male": 62
+                    }
+                },
+                {
+                    "name": "Burkina Faso",
+                    "population": {
+                        "2015": 18450400,
+                        "2050": 46624950
+                    },
+                    "fertility": {
+                        "rate": 6,
+                        "contraception": 18
+                    },
+                    "education": {
+                        "female": 26,
+                        "male": 31
+                    },
+                    "employment": null,
+                    "government": 13,
+                    "health": {
+                        "female": 57,
+                        "male": 56
+                    }
+                },
+                {
+                    "name": "Burundi",
+                    "population": {
+                        "2015": 10742000,
+                        "2050": 30392000
+                    },
+                    "fertility": {
+                        "rate": 6.2,
+                        "contraception": 18
+                    },
+                    "education": {
+                        "female": 29,
+                        "male": 37
+                    },
+                    "employment": null,
+                    "government": 35,
+                    "health": {
+                        "female": 61,
+                        "male": 57
+                    }
+                },
+                {
+                    "name": "Cameroon",
+                    "population": {
+                        "2015": 23739000,
+                        "2050": 51912000
+                    },
+                    "fertility": {
+                        "rate": 4.9,
+                        "contraception": 14
+                    },
+                    "education": {
+                        "female": 48,
+                        "male": 56
+                    },
+                    "employment": 26,
+                    "government": 27,
+                    "health": {
+                        "female": 58,
+                        "male": 56
+                    }
+                },
+                {
+                    "name": "Cape Verde",
+                    "population": {
+                        "2015": 514000,
+                        "2050": 738000
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 57
+                    },
+                    "education": {
+                        "female": 103,
+                        "male": 89
+                    },
+                    "employment": null,
+                    "government": 21,
+                    "health": {
+                        "female": 80,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Central African Republic",
+                    "population": {
+                        "2015": 5551900,
+                        "2050": 13931000
+                    },
+                    "fertility": {
+                        "rate": 6.2,
+                        "contraception": 9
+                    },
+                    "education": {
+                        "female": 12,
+                        "male": 24
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 52,
+                        "male": 48
+                    }
+                },
+                {
+                    "name": "Chad",
+                    "population": {
+                        "2015": 13707000,
+                        "2050": 37351000
+                    },
+                    "fertility": {
+                        "rate": 6.5,
+                        "contraception": 2
+                    },
+                    "education": {
+                        "female": 14,
+                        "male": 31
+                    },
+                    "employment": null,
+                    "government": 15,
+                    "health": {
+                        "female": 52,
+                        "male": 50
+                    }
+                },
+                {
+                    "name": "Comoros",
+                    "population": {
+                        "2015": 764000,
+                        "2050": 1332000
+                    },
+                    "fertility": {
+                        "rate": 4.3,
+                        "contraception": 14
+                    },
+                    "education": {
+                        "female": 65,
+                        "male": 63
+                    },
+                    "employment": null,
+                    "government": 3,
+                    "health": {
+                        "female": 62,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Congo",
+                    "population": {
+                        "2015": 4755000,
+                        "2050": 10202000
+                    },
+                    "fertility": {
+                        "rate": 4.8,
+                        "contraception": 20
+                    },
+                    "education": {
+                        "female": 50,
+                        "male": 57
+                    },
+                    "employment": null,
+                    "government": 12,
+                    "health": {
+                        "female": 59,
+                        "male": 57
+                    }
+                },
+                {
+                    "name": "Congo, Dem. Rep.",
+                    "population": {
+                        "2015": 73340200,
+                        "2050": 193644000
+                    },
+                    "fertility": {
+                        "rate": 6.6,
+                        "contraception": 8
+                    },
+                    "education": {
+                        "female": 33,
+                        "male": 54
+                    },
+                    "employment": null,
+                    "government": 8,
+                    "health": {
+                        "female": 52,
+                        "male": 48
+                    }
+                },
+                {
+                    "name": "Côte D'ivoire",
+                    "population": {
+                        "2015": 23281300,
+                        "2050": 46287400
+                    },
+                    "fertility": {
+                        "rate": 4.9,
+                        "contraception": 13
+                    },
+                    "education": {
+                        "female": 32,
+                        "male": 46
+                    },
+                    "employment": 21,
+                    "government": 9,
+                    "health": {
+                        "female": 52,
+                        "male": 50
+                    }
+                },
+                {
+                    "name": "Djibouti",
+                    "population": {
+                        "2015": 900000,
+                        "2050": 1244000
+                    },
+                    "fertility": {
+                        "rate": 3.4,
+                        "contraception": 18
+                    },
+                    "education": {
+                        "female": 43,
+                        "male": 53
+                    },
+                    "employment": null,
+                    "government": 13,
+                    "health": {
+                        "female": 63,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Egypt",
+                    "population": {
+                        "2015": 89074000,
+                        "2050": 162444000
+                    },
+                    "fertility": {
+                        "rate": 3.5,
+                        "contraception": 57
+                    },
+                    "education": {
+                        "female": 88,
+                        "male": 90
+                    },
+                    "employment": 19,
+                    "government": null,
+                    "health": {
+                        "female": 73,
+                        "male": 70
+                    }
+                },
+                {
+                    "name": "Equatorial Guinea",
+                    "population": {
+                        "2015": 805000,
+                        "2050": 1825000
+                    },
+                    "fertility": {
+                        "rate": 5.1,
+                        "contraception": 10
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 20,
+                    "health": {
+                        "female": 59,
+                        "male": 56
+                    }
+                },
+                {
+                    "name": "Eritrea",
+                    "population": {
+                        "2015": 5200000,
+                        "2050": 10400000
+                    },
+                    "fertility": {
+                        "rate": 4.4,
+                        "contraception": 7
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 22,
+                    "health": {
+                        "female": 65,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Ethiopia",
+                    "population": {
+                        "2015": 98148000,
+                        "2050": 165075000
+                    },
+                    "fertility": {
+                        "rate": 4.1,
+                        "contraception": 40
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 39,
+                    "government": 26,
+                    "health": {
+                        "female": 65,
+                        "male": 62
+                    }
+                },
+                {
+                    "name": "Gabon",
+                    "population": {
+                        "2015": 1751000,
+                        "2050": 3302000
+                    },
+                    "fertility": {
+                        "rate": 4.1,
+                        "contraception": 19
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 35,
+                    "government": 16,
+                    "health": {
+                        "female": 64,
+                        "male": 62
+                    }
+                },
+                {
+                    "name": "Gambia",
+                    "population": {
+                        "2015": 2021893,
+                        "2050": 4994090
+                    },
+                    "fertility": {
+                        "rate": 5.6,
+                        "contraception": 8
+                    },
+                    "education": {
+                        "female": 56,
+                        "male": 59
+                    },
+                    "employment": null,
+                    "government": 9,
+                    "health": {
+                        "female": 60,
+                        "male": 58
+                    }
+                },
+                {
+                    "name": "Ghana",
+                    "population": {
+                        "2015": 27672800,
+                        "2050": 52617110
+                    },
+                    "fertility": {
+                        "rate": 4.2,
+                        "contraception": 22
+                    },
+                    "education": {
+                        "female": 65,
+                        "male": 69
+                    },
+                    "employment": 32,
+                    "government": 11,
+                    "health": {
+                        "female": 63,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Guinea",
+                    "population": {
+                        "2015": 10985600,
+                        "2050": 24237020
+                    },
+                    "fertility": {
+                        "rate": 5.1,
+                        "contraception": 5
+                    },
+                    "education": {
+                        "female": 29,
+                        "male": 47
+                    },
+                    "employment": 18,
+                    "government": 22,
+                    "health": {
+                        "female": 61,
+                        "male": 58
+                    }
+                },
+                {
+                    "name": "Guinea-bissau",
+                    "population": {
+                        "2015": 1788000,
+                        "2050": 3504630
+                    },
+                    "fertility": {
+                        "rate": 4.9,
+                        "contraception": 14
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 14,
+                    "health": {
+                        "female": 56,
+                        "male": 53
+                    }
+                },
+                {
+                    "name": "Kenya",
+                    "population": {
+                        "2015": 44306000,
+                        "2050": 81380000
+                    },
+                    "fertility": {
+                        "rate": 3.9,
+                        "contraception": 53
+                    },
+                    "education": {
+                        "female": 65,
+                        "male": 69
+                    },
+                    "employment": 36,
+                    "government": 21,
+                    "health": {
+                        "female": 65,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Lesotho",
+                    "population": {
+                        "2015": 1924381,
+                        "2050": 2970365
+                    },
+                    "fertility": {
+                        "rate": 3.3,
+                        "contraception": 60
+                    },
+                    "education": {
+                        "female": 62,
+                        "male": 45
+                    },
+                    "employment": null,
+                    "government": 25,
+                    "health": {
+                        "female": 46,
+                        "male": 43
+                    }
+                },
+                {
+                    "name": "Liberia",
+                    "population": {
+                        "2015": 4503000,
+                        "2050": 9392000
+                    },
+                    "fertility": {
+                        "rate": 4.7,
+                        "contraception": 19
+                    },
+                    "education": {
+                        "female": 33,
+                        "male": 42
+                    },
+                    "employment": 24,
+                    "government": 11,
+                    "health": {
+                        "female": 61,
+                        "male": 59
+                    }
+                },
+                {
+                    "name": "Libya",
+                    "population": {
+                        "2015": 6317000,
+                        "2050": 8350000
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 20
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 16,
+                    "health": {
+                        "female": 74,
+                        "male": 69
+                    }
+                },
+                {
+                    "name": "Madagascar",
+                    "population": {
+                        "2015": 23047400,
+                        "2050": 52845000
+                    },
+                    "fertility": {
+                        "rate": 4.4,
+                        "contraception": 33
+                    },
+                    "education": {
+                        "female": 38,
+                        "male": 39
+                    },
+                    "employment": 37,
+                    "government": 21,
+                    "health": {
+                        "female": 66,
+                        "male": 64
+                    }
+                },
+                {
+                    "name": "Malawi",
+                    "population": {
+                        "2015": 17174000,
+                        "2050": 36585000
+                    },
+                    "fertility": {
+                        "rate": 5,
+                        "contraception": 57
+                    },
+                    "education": {
+                        "female": 35,
+                        "male": 38
+                    },
+                    "employment": null,
+                    "government": 17,
+                    "health": {
+                        "female": 62,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Mali",
+                    "population": {
+                        "2015": 16749000,
+                        "2050": 43592300
+                    },
+                    "fertility": {
+                        "rate": 5.9,
+                        "contraception": 10
+                    },
+                    "education": {
+                        "female": 40,
+                        "male": 50
+                    },
+                    "employment": null,
+                    "government": 9,
+                    "health": {
+                        "female": 53,
+                        "male": 53
+                    }
+                },
+                {
+                    "name": "Mauritania",
+                    "population": {
+                        "2015": 3641288,
+                        "2050": 7068750
+                    },
+                    "fertility": {
+                        "rate": 4.2,
+                        "contraception": 10
+                    },
+                    "education": {
+                        "female": 29,
+                        "male": 30
+                    },
+                    "employment": null,
+                    "government": 22,
+                    "health": {
+                        "female": 64,
+                        "male": 62
+                    }
+                },
+                {
+                    "name": "Mauritius",
+                    "population": {
+                        "2015": 1262660,
+                        "2050": 1240220
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": 39
+                    },
+                    "education": {
+                        "female": 98,
+                        "male": 94
+                    },
+                    "employment": 38,
+                    "government": 12,
+                    "health": {
+                        "female": 78,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Mayotte",
+                    "population": {
+                        "2015": 229890,
+                        "2050": 492000
+                    },
+                    "fertility": {
+                        "rate": 4.1,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 83,
+                        "male": 76
+                    }
+                },
+                {
+                    "name": "Morocco",
+                    "population": {
+                        "2015": 34121000,
+                        "2050": 41931000
+                    },
+                    "fertility": {
+                        "rate": 2.5,
+                        "contraception": 57
+                    },
+                    "education": {
+                        "female": 63,
+                        "male": 74
+                    },
+                    "employment": 22,
+                    "government": 11,
+                    "health": {
+                        "female": 75,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Mozambique",
+                    "population": {
+                        "2015": 25736000,
+                        "2050": 72876000
+                    },
+                    "fertility": {
+                        "rate": 5.9,
+                        "contraception": 11
+                    },
+                    "education": {
+                        "female": 25,
+                        "male": 27
+                    },
+                    "employment": null,
+                    "government": 40,
+                    "health": {
+                        "female": 56,
+                        "male": 52
+                    }
+                },
+                {
+                    "name": "Namibia",
+                    "population": {
+                        "2015": 2482100,
+                        "2050": 4705900
+                    },
+                    "fertility": {
+                        "rate": 3.6,
+                        "contraception": 55
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 43,
+                    "government": 38,
+                    "health": {
+                        "female": 67,
+                        "male": 62
+                    }
+                },
+                {
+                    "name": "Niger",
+                    "population": {
+                        "2015": 18884462,
+                        "2050": 68025560
+                    },
+                    "fertility": {
+                        "rate": 7.6,
+                        "contraception": 12
+                    },
+                    "education": {
+                        "female": 15,
+                        "male": 22
+                    },
+                    "employment": 36,
+                    "government": 13,
+                    "health": {
+                        "female": 61,
+                        "male": 59
+                    }
+                },
+                {
+                    "name": "Nigeria",
+                    "population": {
+                        "2015": 181839400,
+                        "2050": 396500000
+                    },
+                    "fertility": {
+                        "rate": 5.5,
+                        "contraception": 10
+                    },
+                    "education": {
+                        "female": 41,
+                        "male": 46
+                    },
+                    "employment": null,
+                    "government": 5,
+                    "health": {
+                        "female": 53,
+                        "male": 52
+                    }
+                },
+                {
+                    "name": "Reunion",
+                    "population": {
+                        "2015": 851060,
+                        "2050": 1207320
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 64
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 84,
+                        "male": 77
+                    }
+                },
+                {
+                    "name": "Rwanda",
+                    "population": {
+                        "2015": 11331300,
+                        "2050": 20973600
+                    },
+                    "fertility": {
+                        "rate": 4.2,
+                        "contraception": 48
+                    },
+                    "education": {
+                        "female": 34,
+                        "male": 31
+                    },
+                    "employment": 34,
+                    "government": 58,
+                    "health": {
+                        "female": 66,
+                        "male": 63
+                    }
+                },
+                {
+                    "name": "Sao Tome And Principe",
+                    "population": {
+                        "2015": 195570,
+                        "2050": 421710
+                    },
+                    "fertility": {
+                        "rate": 4.3,
+                        "contraception": 33
+                    },
+                    "education": {
+                        "female": 85,
+                        "male": 76
+                    },
+                    "employment": null,
+                    "government": 18,
+                    "health": {
+                        "female": 68,
+                        "male": 64
+                    }
+                },
+                {
+                    "name": "Senegal",
+                    "population": {
+                        "2015": 14690400,
+                        "2050": 32324400
+                    },
+                    "fertility": {
+                        "rate": 5,
+                        "contraception": 20
+                    },
+                    "education": {
+                        "female": 39,
+                        "male": 43
+                    },
+                    "employment": 27,
+                    "government": 43,
+                    "health": {
+                        "female": 67,
+                        "male": 63
+                    }
+                },
+                {
+                    "name": "Seychelles",
+                    "population": {
+                        "2015": 92833,
+                        "2050": 98410
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 75,
+                        "male": 69
+                    },
+                    "employment": 53,
+                    "government": 44,
+                    "health": {
+                        "female": 78,
+                        "male": 69
+                    }
+                },
+                {
+                    "name": "Sierra Leone",
+                    "population": {
+                        "2015": 6502960,
+                        "2050": 10595740
+                    },
+                    "fertility": {
+                        "rate": 4.9,
+                        "contraception": 16
+                    },
+                    "education": {
+                        "female": 42,
+                        "male": 48
+                    },
+                    "employment": null,
+                    "government": 12,
+                    "health": {
+                        "female": 51,
+                        "male": 50
+                    }
+                },
+                {
+                    "name": "Somalia",
+                    "population": {
+                        "2015": 11123000,
+                        "2050": 27076000
+                    },
+                    "fertility": {
+                        "rate": 6.6,
+                        "contraception": 1
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 14,
+                    "health": {
+                        "female": 57,
+                        "male": 53
+                    }
+                },
+                {
+                    "name": "South Africa",
+                    "population": {
+                        "2015": 55041000,
+                        "2050": 65241960
+                    },
+                    "fertility": {
+                        "rate": 2.6,
+                        "contraception": 60
+                    },
+                    "education": {
+                        "female": 114,
+                        "male": 107
+                    },
+                    "employment": 46,
+                    "government": 41,
+                    "health": {
+                        "female": 63,
+                        "male": 59
+                    }
+                },
+                {
+                    "name": "South Sudan",
+                    "population": {
+                        "2015": 12152000,
+                        "2050": 24760000
+                    },
+                    "fertility": {
+                        "rate": 6.9,
+                        "contraception": 1
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 24,
+                    "health": {
+                        "female": 56,
+                        "male": 54
+                    }
+                },
+                {
+                    "name": "Sudan",
+                    "population": {
+                        "2015": 40883900,
+                        "2050": 104987300
+                    },
+                    "fertility": {
+                        "rate": 5.2,
+                        "contraception": 12
+                    },
+                    "education": {
+                        "female": 39,
+                        "male": 43
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 64,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Swaziland",
+                    "population": {
+                        "2015": 1286000,
+                        "2050": 1815000
+                    },
+                    "fertility": {
+                        "rate": 3.3,
+                        "contraception": 66
+                    },
+                    "education": {
+                        "female": 60,
+                        "male": 61
+                    },
+                    "employment": null,
+                    "government": 15,
+                    "health": {
+                        "female": 48,
+                        "male": 50
+                    }
+                },
+                {
+                    "name": "Tanzania",
+                    "population": {
+                        "2015": 52291000,
+                        "2050": 129417000
+                    },
+                    "fertility": {
+                        "rate": 5.2,
+                        "contraception": 26
+                    },
+                    "education": {
+                        "female": 32,
+                        "male": 34
+                    },
+                    "employment": 33,
+                    "government": 36,
+                    "health": {
+                        "female": 63,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Togo",
+                    "population": {
+                        "2015": 7231000,
+                        "2050": 16333000
+                    },
+                    "fertility": {
+                        "rate": 4.8,
+                        "contraception": 17
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 18,
+                    "health": {
+                        "female": 57,
+                        "male": 56
+                    }
+                },
+                {
+                    "name": "Tunisia",
+                    "population": {
+                        "2015": 11026000,
+                        "2050": 12946290
+                    },
+                    "fertility": {
+                        "rate": 2.1,
+                        "contraception": 50
+                    },
+                    "education": {
+                        "female": 93,
+                        "male": 89
+                    },
+                    "employment": 28,
+                    "government": 31,
+                    "health": {
+                        "female": 78,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "Uganda",
+                    "population": {
+                        "2015": 40141000,
+                        "2050": 104077220
+                    },
+                    "fertility": {
+                        "rate": 5.9,
+                        "contraception": 26
+                    },
+                    "education": {
+                        "female": 25,
+                        "male": 29
+                    },
+                    "employment": 35,
+                    "government": 35,
+                    "health": {
+                        "female": 60,
+                        "male": 58
+                    }
+                },
+                {
+                    "name": "Western Sahara",
+                    "population": {
+                        "2015": 604000,
+                        "2050": 844000
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 70,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "Zambia",
+                    "population": {
+                        "2015": 15473900,
+                        "2050": 42022280
+                    },
+                    "fertility": {
+                        "rate": 5.6,
+                        "contraception": 45
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 13,
+                    "health": {
+                        "female": 56,
+                        "male": 51
+                    }
+                },
+                {
+                    "name": "Zimbabwe",
+                    "population": {
+                        "2015": 17354000,
+                        "2050": 37492000
+                    },
+                    "fertility": {
+                        "rate": 4.3,
+                        "contraception": 67
+                    },
+                    "education": {
+                        "female": 47,
+                        "male": 48
+                    },
+                    "employment": 34,
+                    "government": 35,
+                    "health": {
+                        "female": 62,
+                        "male": 60
+                    }
+                }
+            ]
+        },
+        {
+            "name": "North America",
+            "population": {
+                "2015": 357194388,
+                "2050": 445380000
+            },
+            "fertility": {
+                "rate": 1.8,
+                "contraception": 59
+            },
+            "education": {
+                "female": 95,
+                "male": 96
+            },
+            "employment": 48,
+            "government": 21,
+            "health": {
+                "female": 81,
+                "male": 77
+            },
+            "children": [
+                {
+                    "name": "Canada",
+                    "population": {
+                        "2015": 35833000,
+                        "2050": 46933000
+                    },
+                    "fertility": {
+                        "rate": 1.6,
+                        "contraception": 72
+                    },
+                    "education": {
+                        "female": 111,
+                        "male": 112
+                    },
+                    "employment": 50,
+                    "government": 28,
+                    "health": {
+                        "female": 84,
+                        "male": 79
+                    }
+                },
+                {
+                    "name": "United States",
+                    "population": {
+                        "2015": 321234172,
+                        "2050": 398328000
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": 58
+                    },
+                    "education": {
+                        "female": 94,
+                        "male": 94
+                    },
+                    "employment": 48,
+                    "government": 20,
+                    "health": {
+                        "female": 81,
+                        "male": 76
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Latin America & the Caribbean (LAC)",
+            "population": {
+                "2015": 630000000,
+                "2050": 776000000
+            },
+            "fertility": {
+                "rate": 2.1,
+                "contraception": 67
+            },
+            "education": {
+                "female": 92,
+                "male": 87
+            },
+            "employment": 44,
+            "government": 23,
+            "health": {
+                "female": 78,
+                "male": 72
+            },
+            "children": [
+                {
+                    "name": "Antigua And Barbuda",
+                    "population": {
+                        "2015": 90000,
+                        "2050": 108000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 113,
+                        "male": 98
+                    },
+                    "employment": 51,
+                    "government": 26,
+                    "health": {
+                        "female": 80,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "Argentina",
+                    "population": {
+                        "2015": 42426000,
+                        "2050": 58449988
+                    },
+                    "fertility": {
+                        "rate": 2.2,
+                        "contraception": 53
+                    },
+                    "education": {
+                        "female": 112,
+                        "male": 103
+                    },
+                    "employment": 42,
+                    "government": 37,
+                    "health": {
+                        "female": 80,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Bahamas",
+                    "population": {
+                        "2015": 377000,
+                        "2050": 480941
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 95,
+                        "male": 90
+                    },
+                    "employment": 52,
+                    "government": 17,
+                    "health": {
+                        "female": 77,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Barbados",
+                    "population": {
+                        "2015": 278000,
+                        "2050": 303868
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 55
+                    },
+                    "education": {
+                        "female": 111,
+                        "male": 99
+                    },
+                    "employment": 52,
+                    "government": 20,
+                    "health": {
+                        "female": 78,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Belize",
+                    "population": {
+                        "2015": 368000,
+                        "2050": 547908
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 52
+                    },
+                    "education": {
+                        "female": 89,
+                        "male": 83
+                    },
+                    "employment": null,
+                    "government": 13,
+                    "health": {
+                        "female": 77,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Bolivia",
+                    "population": {
+                        "2015": 10475500,
+                        "2050": 15793802
+                    },
+                    "fertility": {
+                        "rate": 3.2,
+                        "contraception": 34
+                    },
+                    "education": {
+                        "female": 80,
+                        "male": 80
+                    },
+                    "employment": 37,
+                    "government": 52,
+                    "health": {
+                        "female": 69,
+                        "male": 65
+                    }
+                },
+                {
+                    "name": "Brazil",
+                    "population": {
+                        "2015": 204519398,
+                        "2050": 226348000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": 77
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 47,
+                    "government": 11,
+                    "health": {
+                        "female": 79,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Chile",
+                    "population": {
+                        "2015": 18025000,
+                        "2050": 20205000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 100,
+                        "male": 99
+                    },
+                    "employment": 39,
+                    "government": 16,
+                    "health": {
+                        "female": 81,
+                        "male": 76
+                    }
+                },
+                {
+                    "name": "Colombia",
+                    "population": {
+                        "2015": 48218000,
+                        "2050": 54900000
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": 73
+                    },
+                    "education": {
+                        "female": 97,
+                        "male": 89
+                    },
+                    "employment": 46,
+                    "government": 21,
+                    "health": {
+                        "female": 79,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Costa Rica",
+                    "population": {
+                        "2015": 4832000,
+                        "2050": 6093068
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": 75
+                    },
+                    "education": {
+                        "female": 113,
+                        "male": 105
+                    },
+                    "employment": 43,
+                    "government": 33,
+                    "health": {
+                        "female": 82,
+                        "male": 77
+                    }
+                },
+                {
+                    "name": "Cuba",
+                    "population": {
+                        "2015": 11139000,
+                        "2050": 10576000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 72
+                    },
+                    "education": {
+                        "female": 92,
+                        "male": 92
+                    },
+                    "employment": 45,
+                    "government": 49,
+                    "health": {
+                        "female": 80,
+                        "male": 77
+                    }
+                },
+                {
+                    "name": "Curaçao",
+                    "population": {
+                        "2015": 158000,
+                        "2050": 191826
+                    },
+                    "fertility": {
+                        "rate": 2.1,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 89,
+                        "male": 83
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 81,
+                        "male": 75
+                    }
+                },
+                {
+                    "name": "Dominica",
+                    "population": {
+                        "2015": 68000,
+                        "2050": 59730
+                    },
+                    "fertility": {
+                        "rate": 2.1,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 100,
+                        "male": 93
+                    },
+                    "employment": null,
+                    "government": 22,
+                    "health": {
+                        "female": 77,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Dominican Republic",
+                    "population": {
+                        "2015": 10508000,
+                        "2050": 12208000
+                    },
+                    "fertility": {
+                        "rate": 2.5,
+                        "contraception": 68
+                    },
+                    "education": {
+                        "female": 80,
+                        "male": 72
+                    },
+                    "employment": 42,
+                    "government": 19,
+                    "health": {
+                        "female": 77,
+                        "male": 70
+                    }
+                },
+                {
+                    "name": "Ecuador",
+                    "population": {
+                        "2015": 16279000,
+                        "2050": 23377412
+                    },
+                    "fertility": {
+                        "rate": 2.6,
+                        "contraception": 59
+                    },
+                    "education": {
+                        "female": 106,
+                        "male": 101
+                    },
+                    "employment": 38,
+                    "government": 42,
+                    "health": {
+                        "female": 78,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "El Salvador",
+                    "population": {
+                        "2015": 6366000,
+                        "2050": 6847135
+                    },
+                    "fertility": {
+                        "rate": 2,
+                        "contraception": 68
+                    },
+                    "education": {
+                        "female": 71,
+                        "male": 70
+                    },
+                    "employment": 33,
+                    "government": 32,
+                    "health": {
+                        "female": 77,
+                        "male": 68
+                    }
+                },
+                {
+                    "name": "French Guiana",
+                    "population": {
+                        "2015": 251000,
+                        "2050": 623000
+                    },
+                    "fertility": {
+                        "rate": 3.5,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 46,
+                    "government": null,
+                    "health": {
+                        "female": 83,
+                        "male": 77
+                    }
+                },
+                {
+                    "name": "Grenada",
+                    "population": {
+                        "2015": 111000,
+                        "2050": 98952
+                    },
+                    "fertility": {
+                        "rate": 2.1,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 100,
+                        "male": 102
+                    },
+                    "employment": null,
+                    "government": 25,
+                    "health": {
+                        "female": 79,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "Guadeloupe",
+                    "population": {
+                        "2015": 407000,
+                        "2050": 399000
+                    },
+                    "fertility": {
+                        "rate": 2.2,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 54,
+                    "government": null,
+                    "health": {
+                        "female": 84,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "Guatemala",
+                    "population": {
+                        "2015": 16183752,
+                        "2050": 27488295
+                    },
+                    "fertility": {
+                        "rate": 3.1,
+                        "contraception": 44
+                    },
+                    "education": {
+                        "female": 62,
+                        "male": 68
+                    },
+                    "employment": 37,
+                    "government": 13,
+                    "health": {
+                        "female": 76,
+                        "male": 69
+                    }
+                },
+                {
+                    "name": "Guyana",
+                    "population": {
+                        "2015": 743000,
+                        "2050": 749817
+                    },
+                    "fertility": {
+                        "rate": 2.6,
+                        "contraception": 33
+                    },
+                    "education": {
+                        "female": 109,
+                        "male": 94
+                    },
+                    "employment": null,
+                    "government": 31,
+                    "health": {
+                        "female": 69,
+                        "male": 64
+                    }
+                },
+                {
+                    "name": "Haiti",
+                    "population": {
+                        "2015": 10924000,
+                        "2050": 16866785
+                    },
+                    "fertility": {
+                        "rate": 3.2,
+                        "contraception": 31
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 3,
+                    "health": {
+                        "female": 65,
+                        "male": 61
+                    }
+                },
+                {
+                    "name": "Honduras",
+                    "population": {
+                        "2015": 8340000,
+                        "2050": 11659000
+                    },
+                    "fertility": {
+                        "rate": 2.7,
+                        "contraception": 64
+                    },
+                    "education": {
+                        "female": 78,
+                        "male": 64
+                    },
+                    "employment": null,
+                    "government": 26,
+                    "health": {
+                        "female": 76,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Jamaica",
+                    "population": {
+                        "2015": 2727000,
+                        "2050": 2722105
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 68
+                    },
+                    "education": {
+                        "female": 79,
+                        "male": 76
+                    },
+                    "employment": 48,
+                    "government": 17,
+                    "health": {
+                        "female": 78,
+                        "male": 70
+                    }
+                },
+                {
+                    "name": "Martinique",
+                    "population": {
+                        "2015": 379000,
+                        "2050": 400000
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 51,
+                    "government": null,
+                    "health": {
+                        "female": 85,
+                        "male": 79
+                    }
+                },
+                {
+                    "name": "Mexico",
+                    "population": {
+                        "2015": 127000000,
+                        "2050": 163800000
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 66
+                    },
+                    "education": {
+                        "female": 91,
+                        "male": 84
+                    },
+                    "employment": 40,
+                    "government": 37,
+                    "health": {
+                        "female": 78,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Nicaragua",
+                    "population": {
+                        "2015": 6262000,
+                        "2050": 8362341
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 77
+                    },
+                    "education": {
+                        "female": 72,
+                        "male": 66
+                    },
+                    "employment": null,
+                    "government": 39,
+                    "health": {
+                        "female": 78,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Panama",
+                    "population": {
+                        "2015": 3980000,
+                        "2050": 5774000
+                    },
+                    "fertility": {
+                        "rate": 2.7,
+                        "contraception": 60
+                    },
+                    "education": {
+                        "female": 76,
+                        "male": 71
+                    },
+                    "employment": 44,
+                    "government": 19,
+                    "health": {
+                        "female": 80,
+                        "male": 75
+                    }
+                },
+                {
+                    "name": "Paraguay",
+                    "population": {
+                        "2015": 7020000,
+                        "2050": 10063000
+                    },
+                    "fertility": {
+                        "rate": 2.8,
+                        "contraception": 70
+                    },
+                    "education": {
+                        "female": 78,
+                        "male": 73
+                    },
+                    "employment": 44,
+                    "government": 17,
+                    "health": {
+                        "female": 74,
+                        "male": 70
+                    }
+                },
+                {
+                    "name": "Peru",
+                    "population": {
+                        "2015": 31151643,
+                        "2050": 40111000
+                    },
+                    "fertility": {
+                        "rate": 2.5,
+                        "contraception": 52
+                    },
+                    "education": {
+                        "female": 93,
+                        "male": 95
+                    },
+                    "employment": 37,
+                    "government": 22,
+                    "health": {
+                        "female": 78,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Puerto Rico",
+                    "population": {
+                        "2015": 3502000,
+                        "2050": 3436481
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 72
+                    },
+                    "education": {
+                        "female": 83,
+                        "male": 78
+                    },
+                    "employment": 46,
+                    "government": null,
+                    "health": {
+                        "female": 83,
+                        "male": 76
+                    }
+                },
+                {
+                    "name": "St. Lucia",
+                    "population": {
+                        "2015": 175000,
+                        "2050": 196000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 52
+                    },
+                    "education": {
+                        "female": 88,
+                        "male": 88
+                    },
+                    "employment": null,
+                    "government": 21,
+                    "health": {
+                        "female": 83,
+                        "male": 75
+                    }
+                },
+                {
+                    "name": "St. Kitts-nevis",
+                    "population": {
+                        "2015": 46000,
+                        "2050": 63000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 110,
+                        "male": 93
+                    },
+                    "employment": null,
+                    "government": 14,
+                    "health": {
+                        "female": 78,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "St. Vincent And The Grenadines",
+                    "population": {
+                        "2015": 110000,
+                        "2050": 112000
+                    },
+                    "fertility": {
+                        "rate": 2,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 101,
+                        "male": 105
+                    },
+                    "employment": null,
+                    "government": 13,
+                    "health": {
+                        "female": 74,
+                        "male": 70
+                    }
+                },
+                {
+                    "name": "Suriname",
+                    "population": {
+                        "2015": 576000,
+                        "2050": 747288
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 47
+                    },
+                    "education": {
+                        "female": 86,
+                        "male": 66
+                    },
+                    "employment": 36,
+                    "government": 12,
+                    "health": {
+                        "female": 74,
+                        "male": 68
+                    }
+                },
+                {
+                    "name": "Trinidad And Tobago",
+                    "population": {
+                        "2015": 1351000,
+                        "2050": 1159000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 38
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 46,
+                    "government": 25,
+                    "health": {
+                        "female": 78,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Uruguay",
+                    "population": {
+                        "2015": 3562000,
+                        "2050": 3781432
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": 75
+                    },
+                    "education": {
+                        "female": 96,
+                        "male": 85
+                    },
+                    "employment": 49,
+                    "government": 12,
+                    "health": {
+                        "female": 80,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Venezuela",
+                    "population": {
+                        "2015": 30620000,
+                        "2050": 40501000
+                    },
+                    "fertility": {
+                        "rate": 2.5,
+                        "contraception": 62
+                    },
+                    "education": {
+                        "female": 97,
+                        "male": 89
+                    },
+                    "employment": 44,
+                    "government": 17,
+                    "health": {
+                        "female": 78,
+                        "male": 72
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Asia",
+            "population": {
+                "2015": 4396678151,
+                "2050": 5324223591
+            },
+            "fertility": {
+                "rate": 2.2,
+                "contraception": 60
+            },
+            "education": {
+                "female": 77,
+                "male": 78
+            },
+            "employment": 25,
+            "government": 18,
+            "health": {
+                "female": 74,
+                "male": 70
+            },
+            "children": [
+                {
+                    "name": "Afghanistan",
+                    "population": {
+                        "2015": 32247000,
+                        "2050": 64252000
+                    },
+                    "fertility": {
+                        "rate": 4.9,
+                        "contraception": 20
+                    },
+                    "education": {
+                        "female": 38,
+                        "male": 70
+                    },
+                    "employment": 18,
+                    "government": 25,
+                    "health": {
+                        "female": 62,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Armenia",
+                    "population": {
+                        "2015": 3017106,
+                        "2050": 2496000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 26
+                    },
+                    "education": {
+                        "female": 104,
+                        "male": 91
+                    },
+                    "employment": 44,
+                    "government": 11,
+                    "health": {
+                        "female": 78,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Azerbaijan",
+                    "population": {
+                        "2015": 9651000,
+                        "2050": 12078917
+                    },
+                    "fertility": {
+                        "rate": 2.2,
+                        "contraception": 13
+                    },
+                    "education": {
+                        "female": 100,
+                        "male": 101
+                    },
+                    "employment": 43,
+                    "government": 16,
+                    "health": {
+                        "female": 77,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Bahrain",
+                    "population": {
+                        "2015": 1412299,
+                        "2050": 1905312
+                    },
+                    "fertility": {
+                        "rate": 2.1,
+                        "contraception": 31
+                    },
+                    "education": {
+                        "female": 99,
+                        "male": 104
+                    },
+                    "employment": 21,
+                    "government": 15,
+                    "health": {
+                        "female": 76,
+                        "male": 75
+                    }
+                },
+                {
+                    "name": "Bangladesh",
+                    "population": {
+                        "2015": 160411000,
+                        "2050": 201948000
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 54
+                    },
+                    "education": {
+                        "female": 57,
+                        "male": 50
+                    },
+                    "employment": 18,
+                    "government": 20,
+                    "health": {
+                        "female": 71,
+                        "male": 70
+                    }
+                },
+                {
+                    "name": "Bhutan",
+                    "population": {
+                        "2015": 757000,
+                        "2050": 1089000
+                    },
+                    "fertility": {
+                        "rate": 2.2,
+                        "contraception": 65
+                    },
+                    "education": {
+                        "female": 80,
+                        "male": 75
+                    },
+                    "employment": 26,
+                    "government": 8,
+                    "health": {
+                        "female": 69,
+                        "male": 68
+                    }
+                },
+                {
+                    "name": "Brunei",
+                    "population": {
+                        "2015": 413000,
+                        "2050": 526000
+                    },
+                    "fertility": {
+                        "rate": 1.6,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 107,
+                        "male": 105
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 80,
+                        "male": 77
+                    }
+                },
+                {
+                    "name": "Cambodia",
+                    "population": {
+                        "2015": 15417100,
+                        "2050": 21321750
+                    },
+                    "fertility": {
+                        "rate": 2.7,
+                        "contraception": 39
+                    },
+                    "education": {
+                        "female": 41,
+                        "male": 49
+                    },
+                    "employment": 41,
+                    "government": 19,
+                    "health": {
+                        "female": 66,
+                        "male": 61
+                    }
+                },
+                {
+                    "name": "China",
+                    "population": {
+                        "2015": 1371920000,
+                        "2050": 1365662000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 84
+                    },
+                    "education": {
+                        "female": 94,
+                        "male": 91
+                    },
+                    "employment": null,
+                    "government": 24,
+                    "health": {
+                        "female": 78,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "China, Hong Kong Sar",
+                    "population": {
+                        "2015": 7286402,
+                        "2050": 8646000
+                    },
+                    "fertility": {
+                        "rate": 1.2,
+                        "contraception": 75
+                    },
+                    "education": {
+                        "female": 98,
+                        "male": 101
+                    },
+                    "employment": 50,
+                    "government": null,
+                    "health": {
+                        "female": 87,
+                        "male": 81
+                    }
+                },
+                {
+                    "name": "China, Macao Sar",
+                    "population": {
+                        "2015": 658611,
+                        "2050": 797000
+                    },
+                    "fertility": {
+                        "rate": 1.2,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 95,
+                        "male": 97
+                    },
+                    "employment": 48,
+                    "government": null,
+                    "health": {
+                        "female": 86,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Cyprus",
+                    "population": {
+                        "2015": 1153000,
+                        "2050": 1350000
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 96,
+                        "male": 94
+                    },
+                    "employment": 52,
+                    "government": 13,
+                    "health": {
+                        "female": 82,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "Georgia",
+                    "population": {
+                        "2015": 3804000,
+                        "2050": 4715000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 35
+                    },
+                    "education": {
+                        "female": 101,
+                        "male": 100
+                    },
+                    "employment": 47,
+                    "government": 11,
+                    "health": {
+                        "female": 79,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "India",
+                    "population": {
+                        "2015": 1314097616,
+                        "2050": 1660107422
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 47
+                    },
+                    "education": {
+                        "female": 69,
+                        "male": 73
+                    },
+                    "employment": 19,
+                    "government": 12,
+                    "health": {
+                        "female": 69,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "Indonesia",
+                    "population": {
+                        "2015": 255741973,
+                        "2050": 366462795
+                    },
+                    "fertility": {
+                        "rate": 2.6,
+                        "contraception": 58
+                    },
+                    "education": {
+                        "female": 82,
+                        "male": 84
+                    },
+                    "employment": 35,
+                    "government": 17,
+                    "health": {
+                        "female": 73,
+                        "male": 69
+                    }
+                },
+                {
+                    "name": "Iran",
+                    "population": {
+                        "2015": 78483446,
+                        "2050": 99341000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": 60
+                    },
+                    "education": {
+                        "female": 83,
+                        "male": 89
+                    },
+                    "employment": 15,
+                    "government": 3,
+                    "health": {
+                        "female": 76,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Iraq",
+                    "population": {
+                        "2015": 37056000,
+                        "2050": 76519000
+                    },
+                    "fertility": {
+                        "rate": 4.2,
+                        "contraception": 33
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 12,
+                    "government": 27,
+                    "health": {
+                        "female": 71,
+                        "male": 67
+                    }
+                },
+                {
+                    "name": "Israel",
+                    "population": {
+                        "2015": 8375384,
+                        "2050": 13918598
+                    },
+                    "fertility": {
+                        "rate": 3.3,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 103,
+                        "male": 101
+                    },
+                    "employment": 51,
+                    "government": 24,
+                    "health": {
+                        "female": 84,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Japan",
+                    "population": {
+                        "2015": 126866820,
+                        "2050": 96935400
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": 44
+                    },
+                    "education": {
+                        "female": 102,
+                        "male": 102
+                    },
+                    "employment": 43,
+                    "government": 12,
+                    "health": {
+                        "female": 87,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Jordan",
+                    "population": {
+                        "2015": 8118000,
+                        "2050": 11411000
+                    },
+                    "fertility": {
+                        "rate": 3.5,
+                        "contraception": 42
+                    },
+                    "education": {
+                        "female": 89,
+                        "male": 87
+                    },
+                    "employment": 16,
+                    "government": 12,
+                    "health": {
+                        "female": 77,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Kazakhstan",
+                    "population": {
+                        "2015": 17544274,
+                        "2050": 24626000
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 50
+                    },
+                    "education": {
+                        "female": 101,
+                        "male": 100
+                    },
+                    "employment": 51,
+                    "government": 20,
+                    "health": {
+                        "female": 75,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "Korea, North",
+                    "population": {
+                        "2015": 24983000,
+                        "2050": 26969000
+                    },
+                    "fertility": {
+                        "rate": 2,
+                        "contraception": 65
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 16,
+                    "health": {
+                        "female": 74,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "Korea, South",
+                    "population": {
+                        "2015": 50713867,
+                        "2050": 48121000
+                    },
+                    "fertility": {
+                        "rate": 1.2,
+                        "contraception": 70
+                    },
+                    "education": {
+                        "female": 98,
+                        "male": 100
+                    },
+                    "employment": 43,
+                    "government": 16,
+                    "health": {
+                        "female": 85,
+                        "male": 79
+                    }
+                },
+                {
+                    "name": "Kuwait",
+                    "population": {
+                        "2015": 3837700,
+                        "2050": 6116012
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 39
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 2,
+                    "health": {
+                        "female": 76,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Kyrgyzstan",
+                    "population": {
+                        "2015": 5951000,
+                        "2050": 11597850
+                    },
+                    "fertility": {
+                        "rate": 4,
+                        "contraception": 40
+                    },
+                    "education": {
+                        "female": 88,
+                        "male": 88
+                    },
+                    "employment": 42,
+                    "government": 23,
+                    "health": {
+                        "female": 74,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "Laos",
+                    "population": {
+                        "2015": 6903049,
+                        "2050": 10579000
+                    },
+                    "fertility": {
+                        "rate": 3.1,
+                        "contraception": 42
+                    },
+                    "education": {
+                        "female": 48,
+                        "male": 53
+                    },
+                    "employment": 35,
+                    "government": 25,
+                    "health": {
+                        "female": 70,
+                        "male": 67
+                    }
+                },
+                {
+                    "name": "Lebanon",
+                    "population": {
+                        "2015": 6185000,
+                        "2050": 5621000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 34
+                    },
+                    "education": {
+                        "female": 75,
+                        "male": 75
+                    },
+                    "employment": null,
+                    "government": 3,
+                    "health": {
+                        "female": 79,
+                        "male": 76
+                    }
+                },
+                {
+                    "name": "Malaysia",
+                    "population": {
+                        "2015": 30788840,
+                        "2050": 42301935
+                    },
+                    "fertility": {
+                        "rate": 2,
+                        "contraception": 32
+                    },
+                    "education": {
+                        "female": 69,
+                        "male": 73
+                    },
+                    "employment": 39,
+                    "government": 14,
+                    "health": {
+                        "female": 77,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Maldives",
+                    "population": {
+                        "2015": 346946,
+                        "2050": 553000
+                    },
+                    "fertility": {
+                        "rate": 2.2,
+                        "contraception": 27
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 41,
+                    "government": 6,
+                    "health": {
+                        "female": 75,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Mongolia",
+                    "population": {
+                        "2015": 3029335,
+                        "2050": 4442000
+                    },
+                    "fertility": {
+                        "rate": 3.1,
+                        "contraception": 50
+                    },
+                    "education": {
+                        "female": 95,
+                        "male": 88
+                    },
+                    "employment": 50,
+                    "government": 15,
+                    "health": {
+                        "female": 75,
+                        "male": 65
+                    }
+                },
+                {
+                    "name": "Myanmar",
+                    "population": {
+                        "2015": 52147000,
+                        "2050": 56461000
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 46
+                    },
+                    "education": {
+                        "female": 51,
+                        "male": 49
+                    },
+                    "employment": null,
+                    "government": 5,
+                    "health": {
+                        "female": 67,
+                        "male": 63
+                    }
+                },
+                {
+                    "name": "Nepal",
+                    "population": {
+                        "2015": 28039000,
+                        "2050": 35964000
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 47
+                    },
+                    "education": {
+                        "female": 69,
+                        "male": 65
+                    },
+                    "employment": null,
+                    "government": 30,
+                    "health": {
+                        "female": 69,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "Oman",
+                    "population": {
+                        "2015": 4201000,
+                        "2050": 5684000
+                    },
+                    "fertility": {
+                        "rate": 2.9,
+                        "contraception": 15
+                    },
+                    "education": {
+                        "female": 99,
+                        "male": 85
+                    },
+                    "employment": null,
+                    "government": 10,
+                    "health": {
+                        "female": 79,
+                        "male": 75
+                    }
+                },
+                {
+                    "name": "Pakistan",
+                    "population": {
+                        "2015": 199047300,
+                        "2050": 343964300
+                    },
+                    "fertility": {
+                        "rate": 3.8,
+                        "contraception": 26
+                    },
+                    "education": {
+                        "female": 32,
+                        "male": 44
+                    },
+                    "employment": 13,
+                    "government": 20,
+                    "health": {
+                        "female": 67,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "Palestinian Territory",
+                    "population": {
+                        "2015": 4481195,
+                        "2050": 9165000
+                    },
+                    "fertility": {
+                        "rate": 4.1,
+                        "contraception": 44
+                    },
+                    "education": {
+                        "female": 86,
+                        "male": 79
+                    },
+                    "employment": 16,
+                    "government": null,
+                    "health": {
+                        "female": 75,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Philippines",
+                    "population": {
+                        "2015": 102965300,
+                        "2050": 157118000
+                    },
+                    "fertility": {
+                        "rate": 2.9,
+                        "contraception": 38
+                    },
+                    "education": {
+                        "female": 88,
+                        "male": 83
+                    },
+                    "employment": 42,
+                    "government": 27,
+                    "health": {
+                        "female": 72,
+                        "male": 65
+                    }
+                },
+                {
+                    "name": "Qatar",
+                    "population": {
+                        "2015": 2394524,
+                        "2050": 2985000
+                    },
+                    "fertility": {
+                        "rate": 2,
+                        "contraception": 34
+                    },
+                    "education": {
+                        "female": 117,
+                        "male": 107
+                    },
+                    "employment": 13,
+                    "government": 0,
+                    "health": {
+                        "female": 79,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "Saudi Arabia",
+                    "population": {
+                        "2015": 31565109,
+                        "2050": 47061000
+                    },
+                    "fertility": {
+                        "rate": 2.9,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 120,
+                        "male": 127
+                    },
+                    "employment": 14,
+                    "government": 20,
+                    "health": {
+                        "female": 75,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Singapore",
+                    "population": {
+                        "2015": 5541121,
+                        "2050": 6967000
+                    },
+                    "fertility": {
+                        "rate": 1.3,
+                        "contraception": 55
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 47,
+                    "government": 25,
+                    "health": {
+                        "female": 85,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Sri Lanka",
+                    "population": {
+                        "2015": 20868800,
+                        "2050": 23014000
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 53
+                    },
+                    "education": {
+                        "female": 102,
+                        "male": 96
+                    },
+                    "employment": 32,
+                    "government": 6,
+                    "health": {
+                        "female": 77,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Syria",
+                    "population": {
+                        "2015": 17065000,
+                        "2050": 31226000
+                    },
+                    "fertility": {
+                        "rate": 2.8,
+                        "contraception": 38
+                    },
+                    "education": {
+                        "female": 48,
+                        "male": 48
+                    },
+                    "employment": 16,
+                    "government": 12,
+                    "health": {
+                        "female": 76,
+                        "male": 64
+                    }
+                },
+                {
+                    "name": "Taiwan",
+                    "population": {
+                        "2015": 23468000,
+                        "2050": 20414000
+                    },
+                    "fertility": {
+                        "rate": 1.2,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 83,
+                        "male": 77
+                    }
+                },
+                {
+                    "name": "Tajikistan",
+                    "population": {
+                        "2015": 8452153,
+                        "2050": 14815000
+                    },
+                    "fertility": {
+                        "rate": 3.8,
+                        "contraception": 26
+                    },
+                    "education": {
+                        "female": 82,
+                        "male": 92
+                    },
+                    "employment": 29,
+                    "government": 15,
+                    "health": {
+                        "female": 71,
+                        "male": 64
+                    }
+                },
+                {
+                    "name": "Thailand",
+                    "population": {
+                        "2015": 65121250,
+                        "2050": 66064000
+                    },
+                    "fertility": {
+                        "rate": 1.6,
+                        "contraception": 77
+                    },
+                    "education": {
+                        "female": 89,
+                        "male": 83
+                    },
+                    "employment": 45,
+                    "government": 6,
+                    "health": {
+                        "female": 78,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Timor-leste",
+                    "population": {
+                        "2015": 1244759,
+                        "2050": 2820300
+                    },
+                    "fertility": {
+                        "rate": 5.7,
+                        "contraception": 21
+                    },
+                    "education": {
+                        "female": 57,
+                        "male": 56
+                    },
+                    "employment": 23,
+                    "government": 38,
+                    "health": {
+                        "female": 69,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "Turkey",
+                    "population": {
+                        "2015": 78215000,
+                        "2050": 93476000
+                    },
+                    "fertility": {
+                        "rate": 2.2,
+                        "contraception": 47
+                    },
+                    "education": {
+                        "female": 101,
+                        "male": 104
+                    },
+                    "employment": 26,
+                    "government": 14,
+                    "health": {
+                        "female": 79,
+                        "male": 75
+                    }
+                },
+                {
+                    "name": "Turkmenistan",
+                    "population": {
+                        "2015": 5373000,
+                        "2050": 6570000
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 46
+                    },
+                    "education": {
+                        "female": 84,
+                        "male": 87
+                    },
+                    "employment": null,
+                    "government": 26,
+                    "health": {
+                        "female": 70,
+                        "male": 61
+                    }
+                },
+                {
+                    "name": "United Arab Emirates",
+                    "population": {
+                        "2015": 9577000,
+                        "2050": 15479000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": 24
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 20,
+                    "government": 18,
+                    "health": {
+                        "female": 78,
+                        "male": 76
+                    }
+                },
+                {
+                    "name": "Uzbekistan",
+                    "population": {
+                        "2015": 31290791,
+                        "2050": 38263000
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 59
+                    },
+                    "education": {
+                        "female": 104,
+                        "male": 106
+                    },
+                    "employment": null,
+                    "government": 16,
+                    "health": {
+                        "female": 72,
+                        "male": 65
+                    }
+                },
+                {
+                    "name": "Viet Nam",
+                    "population": {
+                        "2015": 91714080,
+                        "2050": 108223000
+                    },
+                    "fertility": {
+                        "rate": 2.4,
+                        "contraception": 57
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 41,
+                    "government": 24,
+                    "health": {
+                        "female": 76,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Yemen",
+                    "population": {
+                        "2015": 26737000,
+                        "2050": 46081000
+                    },
+                    "fertility": {
+                        "rate": 4.4,
+                        "contraception": 29
+                    },
+                    "education": {
+                        "female": 40,
+                        "male": 58
+                    },
+                    "employment": 12,
+                    "government": 0,
+                    "health": {
+                        "female": 67,
+                        "male": 62
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Europe",
+            "population": {
+                "2015": 741649883,
+                "2050": 728000000
+            },
+            "fertility": {
+                "rate": 1.6,
+                "contraception": 61
+            },
+            "education": {
+                "female": 108,
+                "male": 109
+            },
+            "employment": 48,
+            "government": 25,
+            "health": {
+                "female": 81,
+                "male": 74
+            },
+            "children": [
+                {
+                    "name": "Albania",
+                    "population": {
+                        "2015": 2892000,
+                        "2050": 2799000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": 10
+                    },
+                    "education": {
+                        "female": 80,
+                        "male": 84
+                    },
+                    "employment": 41,
+                    "government": 21,
+                    "health": {
+                        "female": 80,
+                        "male": 76
+                    }
+                },
+                {
+                    "name": "Andorra",
+                    "population": {
+                        "2015": 78000,
+                        "2050": 68020
+                    },
+                    "fertility": {
+                        "rate": 1.3,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 47,
+                    "government": 39,
+                    "health": {
+                        "female": null,
+                        "male": null
+                    }
+                },
+                {
+                    "name": "Austria",
+                    "population": {
+                        "2015": 8615955,
+                        "2050": 9533000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 68
+                    },
+                    "education": {
+                        "female": 97,
+                        "male": 101
+                    },
+                    "employment": 48,
+                    "government": 30,
+                    "health": {
+                        "female": 84,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "Belarus",
+                    "population": {
+                        "2015": 9524247,
+                        "2050": 8705543
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 51
+                    },
+                    "education": {
+                        "female": 104,
+                        "male": 106
+                    },
+                    "employment": 51,
+                    "government": 29,
+                    "health": {
+                        "female": 78,
+                        "male": 67
+                    }
+                },
+                {
+                    "name": "Belgium",
+                    "population": {
+                        "2015": 11211064,
+                        "2050": 13097000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": 69
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 48,
+                    "government": 42,
+                    "health": {
+                        "female": 83,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "Bosnia-herzegovina",
+                    "population": {
+                        "2015": 3650114,
+                        "2050": 3184000
+                    },
+                    "fertility": {
+                        "rate": 1.2,
+                        "contraception": 12
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 38,
+                    "government": 19,
+                    "health": {
+                        "female": 78,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Bulgaria",
+                    "population": {
+                        "2015": 7181000,
+                        "2050": 5814000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 40
+                    },
+                    "education": {
+                        "female": 96,
+                        "male": 101
+                    },
+                    "employment": 50,
+                    "government": 20,
+                    "health": {
+                        "female": 78,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Channel Islands",
+                    "population": {
+                        "2015": 164000,
+                        "2050": 187877
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 85,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Croatia",
+                    "population": {
+                        "2015": 4215000,
+                        "2050": 3571000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 100,
+                        "male": 97
+                    },
+                    "employment": 48,
+                    "government": 26,
+                    "health": {
+                        "female": 81,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "Czech Republic",
+                    "population": {
+                        "2015": 10551227,
+                        "2050": 11073000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 78
+                    },
+                    "education": {
+                        "female": 104,
+                        "male": 103
+                    },
+                    "employment": 46,
+                    "government": 20,
+                    "health": {
+                        "female": 82,
+                        "male": 76
+                    }
+                },
+                {
+                    "name": "Denmark",
+                    "population": {
+                        "2015": 5676025,
+                        "2050": 6271000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 133,
+                        "male": 130
+                    },
+                    "employment": 50,
+                    "government": 38,
+                    "health": {
+                        "female": 83,
+                        "male": 79
+                    }
+                },
+                {
+                    "name": "Estonia",
+                    "population": {
+                        "2015": 1310504,
+                        "2050": 1238000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 58
+                    },
+                    "education": {
+                        "female": 104,
+                        "male": 105
+                    },
+                    "employment": 52,
+                    "government": 24,
+                    "health": {
+                        "female": 81,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Finland",
+                    "population": {
+                        "2015": 5476031,
+                        "2050": 6095000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 75
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 52,
+                    "government": 42,
+                    "health": {
+                        "female": 84,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "France",
+                    "population": {
+                        "2015": 64346720,
+                        "2050": 72275000
+                    },
+                    "fertility": {
+                        "rate": 2,
+                        "contraception": 74
+                    },
+                    "education": {
+                        "female": 110,
+                        "male": 108
+                    },
+                    "employment": 50,
+                    "government": 26,
+                    "health": {
+                        "female": 85,
+                        "male": 79
+                    }
+                },
+                {
+                    "name": "Germany",
+                    "population": {
+                        "2015": 81132000,
+                        "2050": 76421000
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": 62
+                    },
+                    "education": {
+                        "female": 98,
+                        "male": 104
+                    },
+                    "employment": 48,
+                    "government": 37,
+                    "health": {
+                        "female": 83,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "Greece",
+                    "population": {
+                        "2015": 11520785,
+                        "2050": 9737000
+                    },
+                    "fertility": {
+                        "rate": 1.3,
+                        "contraception": 46
+                    },
+                    "education": {
+                        "female": 107,
+                        "male": 110
+                    },
+                    "employment": 43,
+                    "government": 23,
+                    "health": {
+                        "female": 83,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "Hungary",
+                    "population": {
+                        "2015": 9835030,
+                        "2050": 9350112
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": 71
+                    },
+                    "education": {
+                        "female": 108,
+                        "male": 108
+                    },
+                    "employment": 48,
+                    "government": 10,
+                    "health": {
+                        "female": 79,
+                        "male": 72
+                    }
+                },
+                {
+                    "name": "Iceland",
+                    "population": {
+                        "2015": 330828,
+                        "2050": 425000
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 111,
+                        "male": 113
+                    },
+                    "employment": 51,
+                    "government": 41,
+                    "health": {
+                        "female": 84,
+                        "male": 81
+                    }
+                },
+                {
+                    "name": "Ireland",
+                    "population": {
+                        "2015": 4630308,
+                        "2050": 5753000
+                    },
+                    "fertility": {
+                        "rate": 2,
+                        "contraception": 61
+                    },
+                    "education": {
+                        "female": 120,
+                        "male": 118
+                    },
+                    "employment": 52,
+                    "government": 20,
+                    "health": {
+                        "female": 83,
+                        "male": 79
+                    }
+                },
+                {
+                    "name": "Italy",
+                    "population": {
+                        "2015": 62466780,
+                        "2050": 63546000
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": 41
+                    },
+                    "education": {
+                        "female": 98,
+                        "male": 100
+                    },
+                    "employment": 46,
+                    "government": 30,
+                    "health": {
+                        "female": 85,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Kosovo",
+                    "population": {
+                        "2015": 1802000,
+                        "2050": 1859000
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": 14
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 79,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "Latvia",
+                    "population": {
+                        "2015": 1978454,
+                        "2050": 1447900
+                    },
+                    "fertility": {
+                        "rate": 1.6,
+                        "contraception": 56
+                    },
+                    "education": {
+                        "female": 105,
+                        "male": 109
+                    },
+                    "employment": 53,
+                    "government": 18,
+                    "health": {
+                        "female": 79,
+                        "male": 70
+                    }
+                },
+                {
+                    "name": "Liechtenstein",
+                    "population": {
+                        "2015": 37570,
+                        "2050": 45000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 101,
+                        "male": 119
+                    },
+                    "employment": 44,
+                    "government": 20,
+                    "health": {
+                        "female": 84,
+                        "male": 81
+                    }
+                },
+                {
+                    "name": "Lithuania",
+                    "population": {
+                        "2015": 2911203,
+                        "2050": 2399000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 50
+                    },
+                    "education": {
+                        "female": 105,
+                        "male": 111
+                    },
+                    "employment": 53,
+                    "government": 23,
+                    "health": {
+                        "female": 79,
+                        "male": 69
+                    }
+                },
+                {
+                    "name": "Luxembourg",
+                    "population": {
+                        "2015": 569202,
+                        "2050": 739887
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 102,
+                        "male": 98
+                    },
+                    "employment": 45,
+                    "government": 28,
+                    "health": {
+                        "female": 84,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Macedonia",
+                    "population": {
+                        "2015": 2070100,
+                        "2050": 1846000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 27
+                    },
+                    "education": {
+                        "female": 82,
+                        "male": 83
+                    },
+                    "employment": 42,
+                    "government": 33,
+                    "health": {
+                        "female": 77,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Malta",
+                    "population": {
+                        "2015": 431486,
+                        "2050": 416000
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": 46
+                    },
+                    "education": {
+                        "female": 88,
+                        "male": 85
+                    },
+                    "employment": 41,
+                    "government": 13,
+                    "health": {
+                        "female": 84,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Moldova",
+                    "population": {
+                        "2015": 4109000,
+                        "2050": 2900000
+                    },
+                    "fertility": {
+                        "rate": 1.3,
+                        "contraception": 42
+                    },
+                    "education": {
+                        "female": 89,
+                        "male": 88
+                    },
+                    "employment": 55,
+                    "government": 22,
+                    "health": {
+                        "female": 76,
+                        "male": 68
+                    }
+                },
+                {
+                    "name": "Monaco",
+                    "population": {
+                        "2015": 38088,
+                        "2050": 52320
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 21,
+                    "health": {
+                        "female": null,
+                        "male": null
+                    }
+                },
+                {
+                    "name": "Montenegro",
+                    "population": {
+                        "2015": 622421,
+                        "2050": 783000
+                    },
+                    "fertility": {
+                        "rate": 1.6,
+                        "contraception": 15
+                    },
+                    "education": {
+                        "female": 91,
+                        "male": 91
+                    },
+                    "employment": 47,
+                    "government": 17,
+                    "health": {
+                        "female": 79,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "Netherlands",
+                    "population": {
+                        "2015": 16942373,
+                        "2050": 17853000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 67
+                    },
+                    "education": {
+                        "female": 130,
+                        "male": 131
+                    },
+                    "employment": 49,
+                    "government": 37,
+                    "health": {
+                        "female": 83,
+                        "male": 79
+                    }
+                },
+                {
+                    "name": "Norway",
+                    "population": {
+                        "2015": 5194411,
+                        "2050": 6658000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": 82
+                    },
+                    "education": {
+                        "female": 111,
+                        "male": 115
+                    },
+                    "employment": 49,
+                    "government": 40,
+                    "health": {
+                        "female": 84,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Poland",
+                    "population": {
+                        "2015": 38478001,
+                        "2050": 33950600
+                    },
+                    "fertility": {
+                        "rate": 1.3,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 107,
+                        "male": 111
+                    },
+                    "employment": 47,
+                    "government": 22,
+                    "health": {
+                        "female": 82,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "Portugal",
+                    "population": {
+                        "2015": 10349000,
+                        "2050": 9108000
+                    },
+                    "fertility": {
+                        "rate": 1.2,
+                        "contraception": 83
+                    },
+                    "education": {
+                        "female": 123,
+                        "male": 123
+                    },
+                    "employment": 50,
+                    "government": 31,
+                    "health": {
+                        "female": 83,
+                        "male": 77
+                    }
+                },
+                {
+                    "name": "Romania",
+                    "population": {
+                        "2015": 19838662,
+                        "2050": 16373000
+                    },
+                    "fertility": {
+                        "rate": 1.3,
+                        "contraception": 51
+                    },
+                    "education": {
+                        "female": 94,
+                        "male": 96
+                    },
+                    "employment": 46,
+                    "government": 12,
+                    "health": {
+                        "female": 78,
+                        "male": 71
+                    }
+                },
+                {
+                    "name": "Russia",
+                    "population": {
+                        "2015": 144302000,
+                        "2050": 134235000
+                    },
+                    "fertility": {
+                        "rate": 1.8,
+                        "contraception": 55
+                    },
+                    "education": {
+                        "female": 96,
+                        "male": 98
+                    },
+                    "employment": 50,
+                    "government": 15,
+                    "health": {
+                        "female": 76,
+                        "male": 65
+                    }
+                },
+                {
+                    "name": "San Marino",
+                    "population": {
+                        "2015": 33000,
+                        "2050": 34000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 96,
+                        "male": 93
+                    },
+                    "employment": 43,
+                    "government": 17,
+                    "health": {
+                        "female": 89,
+                        "male": 84
+                    }
+                },
+                {
+                    "name": "Serbia",
+                    "population": {
+                        "2015": 7094955,
+                        "2050": 6121000
+                    },
+                    "fertility": {
+                        "rate": 1.6,
+                        "contraception": 18
+                    },
+                    "education": {
+                        "female": 96,
+                        "male": 93
+                    },
+                    "employment": 45,
+                    "government": 34,
+                    "health": {
+                        "female": 78,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Slovakia",
+                    "population": {
+                        "2015": 5424051,
+                        "2050": 4959000
+                    },
+                    "fertility": {
+                        "rate": 1.4,
+                        "contraception": 66
+                    },
+                    "education": {
+                        "female": 93,
+                        "male": 92
+                    },
+                    "employment": 48,
+                    "government": 19,
+                    "health": {
+                        "female": 80,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Slovenia",
+                    "population": {
+                        "2015": 2064000,
+                        "2050": 2008000
+                    },
+                    "fertility": {
+                        "rate": 1.6,
+                        "contraception": 63
+                    },
+                    "education": {
+                        "female": 110,
+                        "male": 110
+                    },
+                    "employment": 47,
+                    "government": 28,
+                    "health": {
+                        "female": 84,
+                        "male": 78
+                    }
+                },
+                {
+                    "name": "Spain",
+                    "population": {
+                        "2015": 46368000,
+                        "2050": 43732000
+                    },
+                    "fertility": {
+                        "rate": 1.3,
+                        "contraception": 62
+                    },
+                    "education": {
+                        "female": 131,
+                        "male": 130
+                    },
+                    "employment": 47,
+                    "government": 38,
+                    "health": {
+                        "female": 86,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Sweden",
+                    "population": {
+                        "2015": 9804792,
+                        "2050": 12429000
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": 65
+                    },
+                    "education": {
+                        "female": 137,
+                        "male": 121
+                    },
+                    "employment": 50,
+                    "government": 44,
+                    "health": {
+                        "female": 84,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Switzerland",
+                    "population": {
+                        "2015": 8292851,
+                        "2050": 8979000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 78
+                    },
+                    "education": {
+                        "female": 95,
+                        "male": 98
+                    },
+                    "employment": 48,
+                    "government": 28,
+                    "health": {
+                        "female": 85,
+                        "male": 81
+                    }
+                },
+                {
+                    "name": "Ukraine",
+                    "population": {
+                        "2015": 42828300,
+                        "2050": 32287000
+                    },
+                    "fertility": {
+                        "rate": 1.5,
+                        "contraception": 61
+                    },
+                    "education": {
+                        "female": 97,
+                        "male": 100
+                    },
+                    "employment": 49,
+                    "government": 12,
+                    "health": {
+                        "female": 76,
+                        "male": 66
+                    }
+                },
+                {
+                    "name": "United Kingdom",
+                    "population": {
+                        "2015": 65092000,
+                        "2050": 76961000
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": 84
+                    },
+                    "education": {
+                        "female": 132,
+                        "male": 126
+                    },
+                    "employment": 49,
+                    "government": 24,
+                    "health": {
+                        "female": 83,
+                        "male": 79
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Oceania",
+            "population": {
+                "2015": 39506070,
+                "2050": 58633014
+            },
+            "fertility": {
+                "rate": 2.5,
+                "contraception": 58
+            },
+            "education": {
+                "female": 98,
+                "male": 106
+            },
+            "employment": 47,
+            "government": 25,
+            "health": {
+                "female": 80,
+                "male": 75
+            },
+            "children": [
+                {
+                    "name": "Australia",
+                    "population": {
+                        "2015": 23888000,
+                        "2050": 33959000
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": 68
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 47,
+                    "government": 31,
+                    "health": {
+                        "female": 84,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Federated States Of Micronesia",
+                    "population": {
+                        "2015": 103000,
+                        "2050": 112000
+                    },
+                    "fertility": {
+                        "rate": 3.5,
+                        "contraception": 70
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": 0,
+                    "health": {
+                        "female": 72,
+                        "male": 69
+                    }
+                },
+                {
+                    "name": "Fiji",
+                    "population": {
+                        "2015": 867000,
+                        "2050": 1027000
+                    },
+                    "fertility": {
+                        "rate": 3.1,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": 93,
+                        "male": 84
+                    },
+                    "employment": null,
+                    "government": 14,
+                    "health": {
+                        "female": 73,
+                        "male": 67
+                    }
+                },
+                {
+                    "name": "French Polynesia",
+                    "population": {
+                        "2015": 263000,
+                        "2050": 317000
+                    },
+                    "fertility": {
+                        "rate": 2,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 45,
+                    "government": null,
+                    "health": {
+                        "female": 79,
+                        "male": 75
+                    }
+                },
+                {
+                    "name": "Guam",
+                    "population": {
+                        "2015": 184200,
+                        "2050": 234000
+                    },
+                    "fertility": {
+                        "rate": 2.9,
+                        "contraception": 58
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": 44,
+                    "government": null,
+                    "health": {
+                        "female": 82,
+                        "male": 76
+                    }
+                },
+                {
+                    "name": "Kiribati",
+                    "population": {
+                        "2015": 113400,
+                        "2050": 208000
+                    },
+                    "fertility": {
+                        "rate": 3.8,
+                        "contraception": 18
+                    },
+                    "education": {
+                        "female": 91,
+                        "male": 82
+                    },
+                    "employment": 44,
+                    "government": 9,
+                    "health": {
+                        "female": 68,
+                        "male": 63
+                    }
+                },
+                {
+                    "name": "Marshall Islands",
+                    "population": {
+                        "2015": 55000,
+                        "2050": 71000
+                    },
+                    "fertility": {
+                        "rate": 4.1,
+                        "contraception": 42
+                    },
+                    "education": {
+                        "female": 104,
+                        "male": 101
+                    },
+                    "employment": null,
+                    "government": 3,
+                    "health": {
+                        "female": 75,
+                        "male": 70
+                    }
+                },
+                {
+                    "name": "Nauru",
+                    "population": {
+                        "2015": 10860,
+                        "2050": 17000
+                    },
+                    "fertility": {
+                        "rate": 3.9,
+                        "contraception": 23
+                    },
+                    "education": {
+                        "female": 77,
+                        "male": 81
+                    },
+                    "employment": null,
+                    "government": 5,
+                    "health": {
+                        "female": 70,
+                        "male": 62
+                    }
+                },
+                {
+                    "name": "New Caledonia",
+                    "population": {
+                        "2015": 271974,
+                        "2050": 343000
+                    },
+                    "fertility": {
+                        "rate": 2.3,
+                        "contraception": null
+                    },
+                    "education": {
+                        "female": null,
+                        "male": null
+                    },
+                    "employment": null,
+                    "government": null,
+                    "health": {
+                        "female": 81,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "New Zealand",
+                    "population": {
+                        "2015": 4598066,
+                        "2050": 5744000
+                    },
+                    "fertility": {
+                        "rate": 1.9,
+                        "contraception": 72
+                    },
+                    "education": {
+                        "female": 122,
+                        "male": 116
+                    },
+                    "employment": 47,
+                    "government": 31,
+                    "health": {
+                        "female": 83,
+                        "male": 80
+                    }
+                },
+                {
+                    "name": "Palau",
+                    "population": {
+                        "2015": 18000,
+                        "2050": 18000
+                    },
+                    "fertility": {
+                        "rate": 1.7,
+                        "contraception": 30
+                    },
+                    "education": {
+                        "female": 117,
+                        "male": 111
+                    },
+                    "employment": null,
+                    "government": 10,
+                    "health": {
+                        "female": 76,
+                        "male": 69
+                    }
+                },
+                {
+                    "name": "Papua New Guinea",
+                    "population": {
+                        "2015": 7744600,
+                        "2050": 14212000
+                    },
+                    "fertility": {
+                        "rate": 4.3,
+                        "contraception": 24
+                    },
+                    "education": {
+                        "female": 34,
+                        "male": 46
+                    },
+                    "employment": null,
+                    "government": 3,
+                    "health": {
+                        "female": 65,
+                        "male": 60
+                    }
+                },
+                {
+                    "name": "Samoa",
+                    "population": {
+                        "2015": 194210,
+                        "2050": 201300
+                    },
+                    "fertility": {
+                        "rate": 4.7,
+                        "contraception": 27
+                    },
+                    "education": {
+                        "female": 90,
+                        "male": 81
+                    },
+                    "employment": 37,
+                    "government": 6,
+                    "health": {
+                        "female": 76,
+                        "male": 73
+                    }
+                },
+                {
+                    "name": "Solomon Islands",
+                    "population": {
+                        "2015": 641900,
+                        "2050": 1354000
+                    },
+                    "fertility": {
+                        "rate": 4.1,
+                        "contraception": 27
+                    },
+                    "education": {
+                        "female": 47,
+                        "male": 50
+                    },
+                    "employment": null,
+                    "government": 2,
+                    "health": {
+                        "female": 74,
+                        "male": 67
+                    }
+                },
+                {
+                    "name": "Tonga",
+                    "population": {
+                        "2015": 103300,
+                        "2050": 127000
+                    },
+                    "fertility": {
+                        "rate": 3.9,
+                        "contraception": 28
+                    },
+                    "education": {
+                        "female": 104,
+                        "male": 100
+                    },
+                    "employment": null,
+                    "government": 0,
+                    "health": {
+                        "female": 77,
+                        "male": 74
+                    }
+                },
+                {
+                    "name": "Tuvalu",
+                    "population": {
+                        "2015": 11800,
+                        "2050": 20000
+                    },
+                    "fertility": {
+                        "rate": 3.2,
+                        "contraception": 22
+                    },
+                    "education": {
+                        "female": 106,
+                        "male": 85
+                    },
+                    "employment": null,
+                    "government": 7,
+                    "health": {
+                        "female": 72,
+                        "male": 67
+                    }
+                },
+                {
+                    "name": "Vanuatu",
+                    "population": {
+                        "2015": 277500,
+                        "2050": 483000
+                    },
+                    "fertility": {
+                        "rate": 4.2,
+                        "contraception": 36
+                    },
+                    "education": {
+                        "female": 59,
+                        "male": 60
+                    },
+                    "employment": 37,
+                    "government": 0,
+                    "health": {
+                        "female": 73,
+                        "male": 70
+                    }
+                }
+            ]
+        }
+    ]
+}

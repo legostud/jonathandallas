@@ -1,0 +1,36 @@
+@import "bourbon";
+@import "neat";
+
+// partial files (mixins and variables)
+@import "./partials/breakpoints";
+@import "./partials/colors";
+@import "./partials/fonts";
+@import "./modules/_general.scss";
+
+// main page components
+@import "./modules/data-gallery";
+@import "./modules/footer";
+@import "./modules/header";
+@import "./modules/home";
+@import "./modules/insights";
+@import "./modules/insight-content";
+@import "./modules/insight-data";
+@import "./modules/insights-sub";
+@import "./modules/portfolio";
+@import "./modules/social-media";
+@import "./modules/sources";
+@import "./modules/toggle-content";
+@import "./modules/video";
+
+// data Viz
+@import "./modules/dashboard/_dashboard.scss";
+@import "./modules/dashboard/_viz.scss";
+@import "./modules/dashboard/_region-selector.scss";
+@import "./modules/dashboard/_area-selector.scss";
+@import "./modules/dashboard/_year-selector.scss";
+@import "./modules/dashboard/_year-population.scss";
+@import "./modules/dashboard/_gender-focus.scss";
+@import "./modules/dashboard/_info-overlay.scss";
+@import "./modules/dashboard/_select2.scss";
+@import "./modules/dashboard/_select2-overrides.scss";
+@import "./modules/dashboard/_mini-panel.scss";

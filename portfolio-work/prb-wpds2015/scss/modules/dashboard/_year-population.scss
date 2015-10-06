@@ -1,0 +1,91 @@
+.year-population {
+    min-width: 140px; 
+    padding: 6px;
+
+    text-align: center;
+    cursor: pointer;
+
+    border-color: $gray13;
+    border-style: solid;
+    border-width: 2px;
+
+    transition: border 250ms;
+
+    &:not(.year-population--selected):hover {
+        opacity: 0.8;
+    }
+}
+
+.year-population--selected { 
+    border-color: $green-lighter;
+
+    .year-population__year { color: $green-light; }
+    .year-population__h1 { background: $green-light; }
+    .year-population__h2 { background: $green-lighter; }
+    .year-population__value { background: $green-lightest; }
+
+}
+
+
+.year-population__year {
+    padding: 4px; 
+
+    font-family: $tungsten;
+    font-size: 36px;
+    font-weight: 500;
+    color: $gray8;
+
+    transition: color 250ms;
+}   
+
+.year-population__h1 {
+    width: 100%;
+
+    font-family: $proxima;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    background: $gray13;
+
+    transition: background 250ms;
+}
+
+.year-population__h1 + .year-population__value {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+
+.year-population__h2 {
+    width: 100%;
+
+    font-family: $proxima;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    background: $gray15;
+    
+    transition: background 250ms;
+}
+
+.year-population__value + .year-population__h2 {
+    margin-top: 1em;
+}
+
+.year-population__value {
+    display: inline-block;
+    width: 100%;
+
+    font-family: $tungsten;
+    font-size: 28px;
+    line-height: 48px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    background: $gray16;
+
+    transition: background 250ms;
+}
+

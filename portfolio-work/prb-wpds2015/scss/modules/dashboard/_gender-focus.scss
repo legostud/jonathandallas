@@ -1,0 +1,313 @@
+.gender-focus {
+    position: relative;
+    max-width: $dashboard-width;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.gender-focus__title {
+    padding: 0 8px;
+    font-family: $proxima;
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gender-focus-panels {
+    box-sizing: content-box;
+    transition: all 500ms;
+    padding: 6px;
+}
+
+.gender-focus-panel {
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.gender-focus-panel__title {
+    font-family: $proxima;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: $green-lighter;
+}
+
+.gender-focus-panel__sub-title {
+    min-height: 3.5em;
+    padding: 0.25em 0.5em;
+    font-family: $proxima;
+    font-size: 11px;
+    line-height: 1em;
+    text-align: center;
+    background: $gray13;
+
+    .gender-focus-panel--double & {
+        padding: 0.25em;
+    }
+}
+
+.gender-focus-panel__sub-panels {
+    transition: opacity 500ms;
+}
+
+.gender-focus-panel__sub-panel {
+    box-sizing: border-box;
+
+    &:first-child {
+        border-right: 1px dashed #000;
+    }
+}
+
+.gender-focus-panel__content {
+    position: relative;
+}
+
+.gender-focus__info-toggle {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    box-sizing: content-box;
+}
+
+.gender-focus-panel__chart {
+    position: relative;
+}
+
+.gender-focus-panel__chart--no-data {
+    .gender-focus-panel__no-data {
+        opacity: 1;
+        visibility: visible;
+    }
+    .thermometer-chart {
+        opacity: 0;
+    }
+}
+
+.gender-focus-panel__no-data { 
+
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    
+    font-family: $tungsten;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 100%;
+    color: $gray13;
+
+    text-shadow: 1px 1px 0 #fff,
+                -1px 1px 0 #fff,
+                 1px -1px 0 #fff,
+                -1px -1px 0 #fff;
+    
+    background: repeating-linear-gradient(
+      45deg,
+      $gray15,
+      $gray15 3px,
+      $gray16 3px,
+      $gray16 8px
+    ); 
+    
+    
+    opacity: 0;
+    visibility: hidden;
+
+    transition: opacity    500ms, 
+                visibility 500ms;
+
+    span {
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        transform: translateY(-50%) rotate(-90deg);
+    }
+}
+
+.gender-focus__info {
+    position: absolute;
+    right: 0;
+    left: 0;
+    
+    .gender-focus__info-content {
+        background-color: $green-lightest;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 500ms;
+    }
+}
+
+.gender-focus--show-info {
+    .gender-focus__info-content {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .gender-focus-panels,
+    .legend {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.male-female-charts {
+    .thermometer-chart__svg {
+        padding: 0 5px; // room for labels
+    }
+}
+
+.flexbox {
+    .gender-focus-panels {
+        display: flex;
+    }
+
+    .gender-focus-panel {
+        display: flex;
+        max-width: 20%;
+
+        flex-direction: column;
+        justify-content: stretch;
+
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 20%;
+    }
+
+    .gender-focus-panel__sub-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender-focus-panel__sub-panels {
+        display: flex;
+    }
+
+    .gender-focus-panel__sub-panel {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 50%;
+    }
+
+    .male-female-charts {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.no-flexbox {
+    .gender-focus-panels {
+        @include clearfix;
+    }
+
+    .gender-focus-panel {
+        float: left;
+        width: calc(100% / 5);
+    }
+
+    .gender-focus-panel__sub-title,
+    .gender-focus-panel__sub-panels {
+        @include row;
+    }
+    
+    .gender-focus-panel__sub-panel {
+        @include span-columns(10 of 20);
+    }
+
+    .male-female-charts {
+        @include row;
+
+        .thermometer-chart {
+            @include span-columns(10 of 20);
+        }
+    }
+
+}
+
+
+
+/* legend */
+.legend {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+.legend__item {
+    margin: 0 1rem;
+    font-family: $proxima;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.legend__item--disabled {
+    opacity: 0.5;
+}
+
+.legend__icon {
+    margin-right: 0.5em;    
+    vertical-align: middle;
+}
+
+.flexbox {
+    .legend {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.no-flexbox {
+    .legend {
+        text-align: center;
+    }
+
+    .legend__item {
+        display: inline-block;
+    }
+
+}
+
+/* thermometer-chart */
+.thermometer-chart {
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.thermometer-svg {
+    overflow: visible;
+}
+
+.thermometer-chart__svg {
+    text-align: center;
+
+    text {
+        font-family: $tungsten;
+        font-size: 20px;
+    }
+
+    .axis text {
+        font-family: $tungsten;
+        font-size: 16px;        
+    }
+}
+
+.thermometer-chart__title {
+    height: 16px; 
+    padding-top: 5px;
+    font-size: 11px;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+

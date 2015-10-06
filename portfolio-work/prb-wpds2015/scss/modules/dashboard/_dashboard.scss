@@ -1,0 +1,114 @@
+$dashboard-width: 960px;
+.dashboard {
+    padding-top:40px;
+}
+
+.dashboard--full {
+
+    .dashboard-header__instructions {
+        text-align: left;
+        line-height: 1.25em;
+    }
+
+    .dashboard-header {   
+        position: relative; 
+        max-width: $dashboard-width;
+        padding: 1rem 0.5rem 0.5rem;
+        margin: auto;
+    }
+
+    .dashboard-header__title {
+
+        &.styled-title {
+            font-size: 70px;
+            text-align: left; 
+        }
+    }
+}
+
+
+.dashboard-header__title {
+
+    span {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 10px; // space for $green-light line
+
+        // $green-light line
+        &::after {
+            position: absolute;
+            right: 0;
+            bottom: -3px;
+            left: 0;
+            border-bottom: 3px solid $green-light;
+            content: "";
+        }
+    }
+}
+
+
+/* mini dashboard */
+.dashboard--mini {
+
+    max-width: 500px;
+    padding: 0 30px;
+    margin: auto;
+
+    .dashboard-header {
+        padding-bottom: 0;
+    }
+
+    .dashboard-header__title {
+        margin-bottom: 10px;
+        font-size: 55px;
+        font-weight: 500;
+    }
+
+    .dashboard-header__instructions {
+        font-family: $proxima;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;   
+        text-transform: uppercase;
+    }
+}
+
+
+.flexbox {
+
+    .dashboard--full .dashboard-header {  
+        display: flex;
+
+        .dashboard-header__content {
+            flex: 1 1 auto;
+        }
+
+        .dashboard-header__area-selector {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            
+            flex: 0 0 auto;
+        }
+    }
+}
+
+
+.no-flexbox {
+
+    .dashboard--full .dashboard-header {   
+        
+        @include clearfix;
+
+        .dashboard-header__content {
+            float: left;
+            width: calc(100% - 300px);
+        }
+
+        .dashboard-header__area-selector {
+            max-width: 300px;
+            float: right;
+            padding-top: 70px; // same as h1.styled-title MUCH HACK
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.insights-sub {
+	margin-bottom: 20px;
+
+	&__title-area {
+		background-color:#fff;
+		padding-top:60px;
+		position:relative;
+		text-align: center;
+		z-index:2;
+
+		h2 {
+			background-color:$color-background-button;
+			border:10px solid #fff;
+			color:$color-text-base;
+			display:inline-block;
+			font-size:30px;
+			font-weight:600;
+			line-height:60px;
+			margin-bottom:-40px;
+			text-align:center;
+			text-transform: uppercase;
+			vertical-align: top;
+			width:500px;
+		}	
+	}
+	&__background {
+		background: transparent url(../img/2015/education-large.png) center center no-repeat;
+		padding-top:60px;
+		position:relative;
+		
+		@include media($x-large){
+			padding-left:40px;
+			padding-right:40px;
+		}
+		@include media($large){
+			padding-left:20px;
+			padding-right:20px;
+		}
+
+	}
+	&--education &__background {
+		background-image: url(../img/2015/education-large.png);
+		background-size:cover;
+
+		@include media($xx-large){
+			background-image: url(../img/2015/education-medium.png);
+		}
+	}
+	&--employment &__background {
+		background-image: url(../img/2015/employment-large.png);
+		background-size:cover;
+
+		@include media($xx-large){
+			background-image: url(../img/2015/employment-medium.png);
+		}
+
+		&:after {
+			background-image: linear-gradient(180deg, rgba(#000, .7), rgba(#000,0));
+			content:"";
+			height:50%;
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			z-index: 0;
+		}
+	}
+	&--government &__background {
+		background-image: url(../img/2015/government-large.png);
+		background-size:cover;
+
+		@include media($xx-large){
+			background-image: url(../img/2015/government-medium.png);
+		}
+
+		&:after {
+			background-image: linear-gradient(180deg, rgba(#000, .7), rgba(#000,0));
+			content:"";
+			height:50%;
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			z-index: 0;
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.area-selector {
+    position: relative;
+    padding-top: 1rem;
+
+    text-align: center;
+
+    .chosen-container {
+        border-right: 5px solid white;
+        border-left: 5px solid white;
+    }
+}
+
+.area-selector--raw {
+    select {
+        max-width: 100%;
+        padding: 10px 35px 10px 20px;
+        font-family: $tungsten;
+        font-size: 28px;
+        line-height: 1em;
+        text-overflow: ellipsis;
+        background-color: $green-lighter;
+        background-image: url("chosen/down-arrow.png");
+        background-position: center right 20px;
+        background-repeat: no-repeat;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        appearance: none;
+    }
+}
+
+.dashboard--mini {
+    .area-selector {
+        margin-bottom: 16px;
+    }
+}

@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>2015 World Population Data Sheet – PRB.org</title>
+	<meta name="description" content="">
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	 
+	<!-- facebook open graph -->
+	<meta property="og:image"       content="http://www.prb.org/wpds/2015/img/FacebookShare.jpg" />
+	<meta property="og:title"       content="2015 World Population Data Sheet – PRB.org" />
+	<meta property="og:url"         content="http://www.prb.org/wpds/2015/" />
+	<meta property="og:type"        content="article" />
+	<meta property="og:description" content="What does world population have to do with women’s empowerment? Share the knowledge with PRB’s latest #worldpopdata" />
+	 
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	
+	<!-- CSS FILES -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vesa.responsive.css">
+	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7638692/713684/css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="./css/chosen/chosen.css">
+	<link rel="stylesheet" type="text/css" href="css/flipper.css">
+	<link rel="stylesheet" type="text/css" href="css/selectBoxIt.custom.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+	<!-- fonts.com proxima nova -->
+	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/e921815d-4ae2-4561-99c5-adb6e78b6a0c.css"/>
+
+	<!-- Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Velir 2015 -->
+	<link rel="stylesheet" type="text/css" href="css/index-generated.css">
+	<!-- /Velir 2015 -->
+	<script>
+		// switch to desktop view
+		function getUrlParameter(sParam)
+		{
+			var sPageURL = window.location.search.substring(1);
+			var sURLVariables = sPageURL.split('&');
+			for (var i = 0; i < sURLVariables.length; i++) 
+			{
+				var sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] == sParam) 
+				{
+					return sParameterName[1];
+				}
+			}
+			return "";
+		}
+
+		if(getUrlParameter('desktop') === "true") {
+			try {
+				var viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute('content', 'width=1024, initial-scale=1.0, maximum-scale=1.0');
+				document.write('<style>html,body,.menu-container{min-width:1024px;} </style>');
+			} catch(err) { }
+		}
+	</script>
+	
+</head>
+<body>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=prb" async="async"></script>
+	<script type="text/javascript">
+		var addthis_share = {
+			url: "http://www.prb.org/wpds/2015",
+			title: "Check out World Population Data 2015 @prbdata #worldpopdata"
+		};
+	</script>
+	<script src="js/wpdsAnalytics.js"></script>
+	<div id="wrapper">
+		<!-- NAVIGATION -->
+		<div class="nav-top menu-container">
+			<div class="clearfix">
+				<div class="responsive-menu">
+					<div id="responsive-menu-button" class="responsive-menu__button js-mobile-menu"></div>
+
+					<div class="responsive-menu__panel js-mobile-panel">
+						<h3 class="responsive-menu__title">Population Reference Bureau</h3>
+						<ul class="responsive-menu__items">
+							<li class="responsive-menu__item"><a href="#home" class="smooth">Home</a></li>
+							<li class="responsive-menu__item"><a href="#video" class="js-vs-play">Video</a></li>
+							<li class="responsive-menu__item"><a href="#dashboard" class="smooth">Dashboard</a></li>
+							<li class="responsive-menu__item hide-mobile"><a href="#insights" class="smooth">Insights</a></li>
+							<li class="responsive-menu__item hide-mobile"><a href="#gallery" class="smooth">Gallery</a></li>
+							<li class="responsive-menu__item"><a href="https://twitter.com/hashtag/WORLDPOPDATA" target="_blank">Share <span class="responsive-menu__hash-tag">#WORLDPOPDATA</span></a></li>
+						</ul>
+						<div class="responsive-menu__footer">
+							<a class="responsive-menu__quick-link" target="_blank" href="http://www.prb.org/Publications/Datasheets/2015/2015-world-population-data-sheet.aspx">world population data sheet PDF</a>
+							<a class="responsive-menu__quick-link" target="_blank" href="http://www.prb.org/Publications/Datasheets/2015/2015-world-population-data-sheet/world-map.aspx">interactive world map</a>
+							<p class="responsive-menu__copyright">©2015 POPULATION<br />REFERENCE BUREAU.<br />ALL RIGHTS RESERVED.</p>
+							<a class="responsive-menu__logo" href="http://www.prb.org" target="_blank"><img alt="Population Reference Bureau" src="img/prb_logo.png"></a>
+						</div>
+					</div>
+				</div>
+				<div class="social-container">
+					<a class="social-container__hash-tag" href="https://twitter.com/hashtag/WORLDPOPDATA" target="_blank">#WORLDPOPDATA</a>
+					<div class="social_media">
+						<ul>
+							<li>
+								<a class="addthis_button_twitter"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a class="addthis_button_facebook"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+							    <a class="addthis_button_pinterest_share" target="_blank"><i class="fa fa-pinterest"></i></a>
+							</li>
+						</ul>
+					</div>  
+				</div>
+				<div id="navigation" class="menu">
+					<nav id="menu">
+						<ul id="nav" class="clearfix">
+							<li class="current"><a class="smooth" href="#home">Home</a></li>
+							<li><a class="smooth" href="#video">Video</a></li>
+							<li><a class="smooth" href="#dashboard">Dashboard</a></li>
+							<li><a class="smooth" href="#insights">Insights</a></li>
+							<li><a class="smooth" href="#gallery">Gallery</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<a class="home-logo" href="http://www.prb.org" target="_blank"><img alt="Population Reference Bureau" src="img/prb_logo.png"></a>
+		</div>
+		<div class="home__background">
+			<!-- HOME -->
+			<section id="home" class="home">
+				<div class="home__buttons">
+					<div class="home__button"><a href="http://www.prb.org/Publications/Datasheets/2015/2015-world-population-data-sheet.aspx" target="_blank">world population data sheet PDF</a></div>
+					<div class="home__button"><a href="http://www.prb.org/Publications/Datasheets/2015/2015-world-population-data-sheet/world-map.aspx" target="_blank">interactive world map</a></div>
+				</div>
+				<div class="home__box pos-center">
+					<div class="home__text js-home-box">
+						<h1>World Population <span style="display: inline-block;">data 2015</span></h1>
+						<h2>Focus on Women's Empowerment</h2>
+					</div>
+					<div class="home__content content-box">
+						<p>Every year, <strong>Population Reference Bureau (PRB)</strong> provides the latest demographic data for the world, global regions, and more than 200 countries. This year’s data include indicators on the status of women in key areas such as education, employment, and government. Looking at the numbers across the world, we can get a picture of women’s progress towards equality.</p>
+						<a href="#video" class="home__learn-more smooth"><span></span></a>
+					</div>
+					<div class="home__content home__content--mobile content-box">
+						<p>View the latest world population data from the Population Reference Bureau (PRB)</p>
+						<hr class="title-border" />
+						<a href="#video" class="home__mobile-link js-vs-play">video: measuring up</a>
+						<a href="#dashboard" class="home__mobile-link smooth">dashboard</a>
+						<hr class="title-border" />
+						<h5>
+							VISIT OUR <a href="./?desktop=true" class="highlight">DESKTOP VERSION</a> TO ACCESS OUR FULL DASHBOARD, INSIGHTS ON INDICATORS, AND MORE!
+						</h5>
+						<a class="home__logo" href="http://www.prb.org" target="_blank"><img alt="Population Reference Bureau" src="img/prb_logo.png"></a>
+					</div>
+				</div>
+			</section>
+			
+			<!-- VIDEO -->
+			<div class="video-section__player">
+				<iframe id="player" src="//player.vimeo.com/video/132829763?api=1&player_id=player&color=b2c50d" width="" height="" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div class="video-section__close-button js-vs-pause">close</div>
+			</div>
+			<section id="video" class="video-section">
+				<div class="video-section__box pos-center">
+					<div class="video-section__content content-box content-box--top">
+						<h2 class="styled-title">measuring up</h2>
+						<hr class="title-border" />
+						<p><strong>WATCH</strong> our video on global demographic data and where women stand in 2015</p>
+					</div>
+				</div>
+				<a href="#video" class="video-section__play-button js-vs-play">
+					<!-- /img/2015/play-button.svg -->
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 168.9 168.9" style="enable-background:new 0 0 168.9 168.9;" xml:space="preserve">
+					<g id="XMLID_639_">
+						<circle id="XMLID_640_" class="st0" cx="84.5" cy="84.5" r="82"/>
+						<path id="XMLID_642_" class="st1" d="M84.5,15.6c-38,0-68.9,30.8-68.9,68.9c0,38,30.8,68.9,68.9,68.9s68.9-30.8,68.9-68.9
+							C153.3,46.4,122.5,15.6,84.5,15.6z M58.5,122.8V46.1l66.4,38.3L58.5,122.8z"/>
+					</g>
+					</svg>
+				</a>
+				<div class="video-section__tab-links pos-center">
+					<div class="video-section__tab-link">
+						<h2 class="styled-title"><a href="#dashboard" class="smooth">dashboard</a></h2>
+						<hr class="title-border" />
+						<p>
+							<strong>FIND</strong> population projections and women's empowerment indicators by world, region, and country
+						</p>
+					</div>
+					<div class="video-section__tab-link">
+						<h2 class="styled-title"><a href="#insights" class="smooth">insights</a></h2>
+						<hr class="title-border" />
+						<p>
+							<strong>LEARN</strong> how women are faring in education, employment, and government 
+						</p>
+					</div>
+					<div class="video-section__tab-link">
+						<h2 class="styled-title"><a href="#gallery" class="smooth">data gallery</a></h2>
+						<hr class="title-border" />
+						<p>
+							<strong>EXPLORE</strong> more graphics on household decisionmaking, domestic violence, and other women’s empowerment topics 
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- DASHBOARD -->
+		<div id="dashboard" class="dashboard"></div>
+
+		<!-- INSIGHTS -->
+		<div id="insights">
+			<section class="insights-section">
+				<div class="insights-section__inner">
+					<div class="insights-section__box pos-center animated-area">
+						<div class="insights-section__content content-box content-box--top">
+							<div class="animated" data-animation="fadeInRight">
+								<h1 class="styled-title">insights</h1>
+								<hr class="title-border title-border--h1" />
+							</div>
+							<p>Women’s empowerment and gender equality are priorities on the global development agenda. They featured prominently in the Millennium Development Goals (MDGs), the blueprint adopted by United Nations member countries in 2000 to reduce extreme poverty worldwide. The MDGs recognized the central role of women in improving quality of life for everyone.</p>
+							<p>With the expiration of the MDGs in 2015, and a new set of Sustainable Development Goals poised to guide countries through 2030, we look at women’s empowerment data and other sources to assess women’s progress in the key areas of <strong>education</strong>, <strong>employment</strong>, and <strong>government</strong>.
+</p>
+							<h3>How close is the world to achieving gender equality?</h3>
+						</div>
+					</div>
+					<div class="insights-section__navigation">
+						<a href="#education" class="smooth insights-section__link">Education</a>
+						<a href="#employment" class="smooth insights-section__link">Employment</a>
+						<a href="#government" class="smooth insights-section__link">Government</a>
+					</div>
+				</div>
+			</section>
+			<!-- EDUCATION -->
+			<section id="education" class="insights-sub insights-sub--education">
+				<div class="insights-sub__title-area">
+					<h2>Education</h2>
+				</div>
+				<div class="insights-sub__background">
+					<div class="insights-sub__data-box insight-data">
+						<p class="insight-data__title"><strong>2015 update:</strong> % Enrolled in Secondary School*</p>
+						<p class="insight-data__type insight-data__type--top">female</p>
+						<div class="insight-data__wrapper">
+							<div class="insight-data__chart insight-data__chart--double">
+								<div class="insight-data__value">
+									49%
+								</div>
+								<div class="insight-data__label">
+									Africa
+								</div>
+								<div class="insight-data__value">
+									54%
+								</div>
+							</div>
+							<div class="insight-data__chart is-world">
+								<div class="insight-data__value">
+									<strong>76%</strong>
+								</div>
+								<div class="insight-data__label">
+									<strong>World</strong>
+								</div>
+								<div class="insight-data__value">
+									<strong>78%</strong>
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__value">
+									77%
+								</div>
+								<div class="insight-data__label">
+									Asia
+								</div>
+								<div class="insight-data__value">
+									78%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__value">
+									92%
+								</div>
+								<div class="insight-data__label">
+									LAC
+								</div>
+								<div class="insight-data__value">
+									87%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__value">
+									95%
+								</div>
+								<div class="insight-data__label">
+									North America
+								</div>
+								<div class="insight-data__value">
+									96%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__value">
+									98%
+								</div>
+								<div class="insight-data__label">
+									Oceania
+								</div>
+								<div class="insight-data__value">
+									106%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__value">
+									108%
+								</div>
+								<div class="insight-data__label">
+									Europe
+								</div>
+								<div class="insight-data__value">
+									109%
+								</div>
+							</div>
+						</div>
+						<p class="insight-data__type insight-data__type--bottom">male</p>
+					</div>
+					<div class="insights-sub__content insight-content">
+						<div class="insight-content__main-content">
+							<p>
+								<strong>Education is a critical pathway out of poverty—for girls and women, its benefits are substantial.</strong> Many studies show that when girls stay in school, it can help delay early marriage and childbearing, reduce child and maternal deaths, improve child health, and boost women’s earning power. On a larger scale, educating women increases a country’s competitiveness. 
+							</p>
+							<p>
+								Progress has been made on achieving gender parity at both the primary and secondary school levels. Viewed globally, and in most world regions, secondary school enrollment rates are close to parity already. Africa is an exception: female enrollment rates are lower than male rates in 32 of 43 countries and territories tracked by PRB where data are available. Another challenge is keeping girls in school once they are enrolled, particularly at higher levels, where girls may struggle with cultural norms that keep them at home, violence in transit to school, or lack of money to pay for school.
+							</p>
+							<small>*The figures show the gross enrollment ratio, which can exceed 100 percent when the number of students currently enrolled exceeds the population of the relevant age group. This can occur, for example, if there are students from other age groups enrolled in secondary school.</small></div>
+						<aside class="insight-content__sidebar">
+							<h3>country spotlight</h3>
+							<hr />
+							<h2>turkey</h2>
+							<p>
+								Turkey has made notable progress in girls’ education. The country passed legislative reforms and built new schools to expand participation, created incentives for girls from poor households to attend school, and conducted national awareness campaigns to increase girls’ enrollment.</p>
+							<div class="insight-content__graphic"></div>
+						</aside>
+					</div>
+				</div>
+			</section>
+			<!-- EMPLOYMENT -->
+			<section id="employment" class="insights-sub insights-sub--employment">
+				<div class="insights-sub__title-area">
+					<h2>Employment</h2>
+				</div>
+				<div class="insights-sub__background">
+					<div class="insights-sub__data-box insight-data">
+						<p class="insight-data__title"><strong>2015 update:</strong> % NONAGRICULTURAL WAGE EARNERS WHO ARE WOMEN</p>
+						<div class="insight-data__wrapper">
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									Asia
+								</div>
+								<div class="insight-data__value">
+									25%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									Africa
+								</div>
+								<div class="insight-data__value">
+									30%
+								</div>
+							</div>
+							<div class="insight-data__chart is-world">
+								<div class="insight-data__label">
+									<strong>World</strong>
+								</div>
+								<div class="insight-data__value">
+									<strong>34%</strong>
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									LAC
+								</div>
+								<div class="insight-data__value">
+									44%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									Oceania
+								</div>
+								<div class="insight-data__value">
+									47%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									Europe
+								</div>
+								<div class="insight-data__value">
+									48%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									North America
+								</div>
+								<div class="insight-data__value">
+									48%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="insights-sub__content insight-content">
+						<div class="insight-content__main-content">
+							<p>
+								<strong>Women’s share of nonagricultural wage employment is a widely used gauge of their access to paid work and, by extension, their ability to participate in the formal economy. Nonagricultural jobs are often higher status, more secure, and better paid than farm jobs. </strong>
+							</p>
+							<p>
+								Gender gaps in employment persist in many countries around the world. Of 143 countries and territories where data are available, women's share of nonagricultural employment is below parity with men in all but 26. Even in many of the most developed countries, women’s share still lags somewhat behind. For example, women account for 43 percent of nonagricultural wage employment in both Japan and South Korea, and 46 percent in Italy. 
+							</p>
+							<div class="insight-content__toggle-content toggle-content js-toggle-content">
+								<div class="toggle-content__buttons">
+									<span class="toggle-content__button js-toggle-button">Highest rates</span>
+									<span class="toggle-content__button js-toggle-button">Lowest rates</span>
+								</div>
+								<h5>% Nonagricultural Wage Earners Who Are Women</h5>
+								<div class="toggle-content__panels">
+									<div class="toggle-content__panel js-toggle-panel">
+										<table>
+											<thead>
+												<tr>
+													<th>country</th>
+													<th>%</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>MOLDOVA</td>
+													<td>55</td>
+												</tr>
+												<tr>
+													<td>GUADELOUPE</td>
+													<td>54</td>
+												</tr>
+												<tr>
+													<td>Latvia</td>
+													<td>53</td>
+												</tr>
+												<tr>
+													<td>Lithuania</td>
+													<td>53</td>
+												</tr>
+												<tr>
+													<td>SEYCHELLES</td>
+													<td>53</td>
+												</tr>
+												<tr>
+													<td>BAHAMAS</td>
+													<td>52</td>
+												</tr>
+												<tr>
+													<td>BARBADOS</td>
+													<td>52</td>
+												</tr>
+												<tr>
+													<td>CYPRUS</td>
+													<td>52</td>
+												</tr>
+												<tr>
+													<td>ESTONIA</td>
+													<td>52</td>
+												</tr>
+												<tr>
+													<td>FINLAND</td>
+													<td>52</td>
+												</tr>
+												<tr>
+													<td>IRELAND</td>
+													<td>52</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="toggle-content__panel js-toggle-panel">
+										<table>
+											<thead>
+												<tr>
+													<th>country</th>
+													<th>%</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>IRAQ</td>
+													<td>12</td>
+												</tr>
+												<tr>
+													<td>YEMEN</td>
+													<td>12</td>
+												</tr>
+												<tr>
+													<td>PAKISTAN</td>
+													<td>13</td>
+												</tr>
+												<tr>
+													<td>QATAR</td>
+													<td>13</td>
+												</tr>
+												<tr>
+													<td>SAUDI ARABIA</td>
+													<td>14</td>
+												</tr>
+												<tr>
+													<td>IRAN</td>
+													<td>15</td>
+												</tr>
+												<tr>
+													<td>JORDAN</td>
+													<td>16</td>
+												</tr>
+												<tr>
+													<td>PALESTINIAN TERRITORY</td>
+													<td>16</td>
+												</tr>
+												<tr>
+													<td>SYRIA</td>
+													<td>16</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>								
+						</div>
+						<aside class="insight-content__sidebar">
+							<h3>country spotlight</h3>
+							<hr />
+							<h2>mozambique</h2>
+							<p>
+								Another relevant indicator of employment trends is labor force participation rates. Mozambique is one of just a few countries where this rate for women surpasses that of men. This may reflect, in part, the legacy of the country's long civil war that absented many men from the workforce and compelled more women to work, as well as government policies to promote female employment. Even so, women's labor remains highly skewed toward unskilled agricultural and informal-sector work paying meager wages, if any.  
+							</p>
+							<div class="insight-content__graphic"></div>
+						</aside>
+					</div>
+				</div>
+			</section>
+			<!-- GOVERNMENT -->
+			<section id="government" class="insights-sub insights-sub--government">
+				<div class="insights-sub__title-area">
+					<h2>Government</h2>
+				</div>
+				<div class="insights-sub__background">
+					<div class="insights-sub__data-box insight-data">
+						<p class="insight-data__title"><strong>2015 update:</strong> % Parliamentarians who are women</p>
+						<div class="insight-data__wrapper">
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									Asia
+								</div>
+								<div class="insight-data__value">
+									18%
+								</div>
+							</div>
+							<div class="insight-data__chart is-world">
+								<div class="insight-data__label">
+									<strong>World</strong>
+								</div>
+								<div class="insight-data__value">
+									<strong>20%</strong>
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									Africa
+								</div>
+								<div class="insight-data__value">
+									21%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									North America
+								</div>
+								<div class="insight-data__value">
+									21%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									LAC
+								</div>
+								<div class="insight-data__value">
+									23%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									Europe
+								</div>
+								<div class="insight-data__value">
+									25%
+								</div>
+							</div>
+							<div class="insight-data__chart">
+								<div class="insight-data__label">
+									Oceania
+								</div>
+								<div class="insight-data__value">
+									25%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="insights-sub__content insight-content">
+						<div class="insight-content__main-content">
+							<p>
+								<strong>Women’s participation in government gives them a direct say in the policies, laws, and regulations that affect their lives.</strong> The total number of women in national parliaments (or equivalent legislative bodies) has almost doubled in the last 20 years, according to UN Women. Still, women’s share of seats remains relatively low.
+							</p>
+							<p>
+								Experts cite 30 percent as a minimum threshold for women having a meaningful share of national legislative seats. Even many developed countries, including the United States, Singapore, and France, have not reached this level. Meanwhile, quota systems have bolstered women’s leadership in many countries.
+							</p>
+							<div class="insight-content__toggle-content toggle-content js-toggle-content">
+								<div class="toggle-content__buttons">
+									<span class="toggle-content__button js-toggle-button">Highest rates</span>
+									<span class="toggle-content__button js-toggle-button">Lowest rates</span>
+								</div>
+								<h5>% Parliamentarians Who Are Women</h5>
+								<div class="toggle-content__panels">
+									<div class="toggle-content__panel js-toggle-panel">
+										<table>
+											<thead>
+												<tr>
+													<th>country</th>
+													<th>%</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>RWANDA</td>
+													<td>58</td>
+												</tr>
+												<tr>
+													<td>BOLIVIA</td>
+													<td>52</td>
+												</tr>
+												<tr>
+													<td>CUBA</td>
+													<td>49</td>
+												</tr>
+												<tr>
+													<td>SEYCHELLES</td>
+													<td>44</td>
+												</tr>
+												<tr>
+													<td>SWEDEN</td>
+													<td>44</td>
+												</tr>
+												<tr>
+													<td>SENEGAL</td>
+													<td>43</td>
+												</tr>
+												<tr>
+													<td>BELGIUM</td>
+													<td>42</td>
+												</tr>
+												<tr>
+													<td>ECUADOR</td>
+													<td>42</td>
+												</tr>
+												<tr>
+													<td>FINLAND</td>
+													<td>42</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="toggle-content__panel js-toggle-panel">
+										<table>
+											<thead>
+												<tr>
+													<th>country</th>
+													<th>%</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>FEDERATED STATES OF MICRONESIA</td>
+													<td>0</td>
+												</tr>
+												<tr>
+													<td>QATAR</td>
+													<td>0</td>
+												</tr>
+												<tr>
+													<td>TONGA</td>
+													<td>0</td>
+												</tr>
+												<tr>
+													<td>VANUATU</td>
+													<td>0</td>
+												</tr>
+												<tr>
+													<td>YEMEN</td>
+													<td>0</td>
+												</tr>
+												<tr>
+													<td>KUWAIT</td>
+													<td>2</td>
+												</tr>
+												<tr>
+													<td>SOLOMON ISLANDS</td>
+													<td>2</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>								
+						</div>
+						<aside class="insight-content__sidebar">
+							<h3>country spotlight</h3>
+							<hr />
+							<h2>rwanda</h2>
+							<p>
+								Rwanda holds the top spot in women’s share of national parliamentary seats. After Rwanda’s 1994 genocide, which especially decimated the male population, women received many key government appointments. In 2003, a new constitution was passed that created a minimum quota for women in all government offices. Presence in government has coincided with increased rights for women such as owning and inheriting property, and national mandates to reduce violence against women. (Below: Rwandan Minister of Foreign Affairs and Cooperation Louise Mushikiwabo) 
+							</p>
+							<div class="insight-content__graphic"></div>
+						</aside>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- DATA GALLERY -->
+		<div id="gallery" class="data-gallery">
+			<div class="clearfix animated-area">
+				<div class="data-gallery__title animated" data-animation="fadeInRight">
+					<h1 class="styled-title">Data Gallery</h1>
+					<hr class="title-border title-border--h1" />
+					<p>Additional perspectives on women’s empowerment through data analysis and graphics</p>
+				</div>
+				<div class="portfolio-top"></div>
+				<div class="portfolio-background">
+					<div class="container portfolio-wrapper">
+						<div class="row">
+							<div id="portfolio-content">
+								<div id="portfolio-details-box"></div>
+							</div>
+							<div class="portfolio-navigation">
+								<a id="portfolio-prev" href="#"></a>
+								<a id="portfolio-close" href="#"><img src="img/close.png" alt="" /></a>
+								<a id="portfolio-next" href="#"></a>
+							</div>
+						</div>
+						<div class="portfolio-loading"></div>
+					</div>
+				</div>
+				<div class="portfolio-list">
+					<ul class="portfolio-box">
+						<li class="view item graphs">
+							<a class="portfolio-details" href="gallery-early-marriage.html">
+								<div class="portfolio-image-container">
+									<img alt="2015 World Population Data Sheet - Early Marriage Trends" class="img-responsive" src="img/gallery/thumb-early-marriage.jpg">
+									<div class="portfolio-intro-details">
+										<div class="prftl-det">
+											<p>Early Marriage Trends</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="view item graphs">
+							<a class="portfolio-details" href="gallery-family-planning.html">
+								<div class="portfolio-image-container">
+									<img alt="2015 World Population Data Sheet - Use of modern contraceptives" class="img-responsive" src="img/gallery/thumb-family-planning.jpg">
+									<div class="portfolio-intro-details">
+										<div class="prftl-det">
+											<p>Use of modern contraceptives</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="view item graphs">
+							<a class="portfolio-details" href="gallery-wife-beating.html">
+								<div class="portfolio-image-container">
+									<img alt="2015 World Population Data Sheet - Violence against wives" class="img-responsive" src="img/gallery/thumb-wife-beating.jpg">
+									<div class="portfolio-intro-details">
+										<div class="prftl-det">
+											<p>Violence against wives</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="view item graphs">
+							<a class="portfolio-details" href="gallery-financial-inclusion.html">
+								<div class="portfolio-image-container">
+									<img alt="2015 World Population Data Sheet - Women's financial inclusion" class="img-responsive" src="img/gallery/thumb-financial-inclusion.jpg">
+									<div class="portfolio-intro-details">
+										<div class="prftl-det">
+											<p>Women's financial inclusion</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="view item graphs">
+							<a class="portfolio-details" href="gallery-decisionmaking.html">
+								<div class="portfolio-image-container">
+									<img alt="2015 World Population Data Sheet - Household decisionmaking" class="img-responsive" src="img/gallery/thumb-decisionmaking.jpg">
+									<div class="portfolio-intro-details">
+										<div class="prftl-det">
+											<p>Household decisionmaking</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="view item graphs">
+							<a class="portfolio-details" href="gallery-gender-gap.html">
+								<div class="portfolio-image-container">
+									<img alt="2015 World Population Data Sheet - The U.S. earnings gap" class="img-responsive" src="img/gallery/thumb-gender-gap.jpg">
+									<div class="portfolio-intro-details">
+										<div class="prftl-det">
+											<p>The U.S. earnings gap</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- FINAL NOTE AND CREDITS -->
+		<section id="sources" class="sources">
+			<div class="sources__inner">
+				<div class="sources__box">
+					<div class="sources__content content-box content-box--top">
+						<div class="animated" data-animation="fadeInRight">
+							<h1 class="styled-title">sources</h1>
+							<hr class="title-border title-border--h1" />
+						</div>
+						<h4>Dashboard</h4>
+						<h5>PRB 2015 World Population Data Sheet</h5>
+						<p>
+							<em>Estimates of mid-2015 global, regional, and national populations are based on a recent census, official national data, or PRB, UN, and U.S. Census Bureau projections. The effects of refugee movements, large numbers of foreign workers, and population shifts due to contemporary political events are taken into account to the extent possible.</em>
+						</p>
+						<p>
+							<em>Projected global, regional, and national populations are based on reasonable assumptions on the future course of fertility, mortality, and migration. Projections are based on official country projections, series issued by the UN or the U.S. Census Bureau, or PRB projections.</em>
+						</p>
+						<p>
+							<em>Data for women’s empowerment indicators are from the latest survey year available: use of modern contraception (national-level surveys and the UN Population Division), enrollment in secondary school (UNESCO), nonagricultural wage employment (UN), and parliament members who are women (The Inter-Parliamentary Union). Data availability varies by country.</em>
+						</p>
+						<h4>Insights</h4>
+						<h5>Institute for Inclusive Security, <a href="http://www.inclusivesecurity.org/how-women-rebuilt-rwanda/" target="_blank">How Women Rebuilt Rwanda</a> (April 2014).</h5>
+						<p>
+							International Labour Organization (ILO), <a href="http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm" target="_blank">ILO Country Statistics on Labor Force Participation Rates</a> (2012).
+						</p> 
+						<p>
+							Maarten van Klaveren et al., “<a href="http://www.uva-aias.net/uploaded_files/publications/WP77-Klaveren,Tijdens,Hughie-Williams,Ramos-Mozambique.pdf" target="_blank">An Overview of Women’s Work and Employment in Mozambique,</a>” <em>Amsterdam Institute for Advanced Labour Studies</em>, Working Paper 09-77 (December 2009).
+						</p>
+						<p>
+							PRB, “<a href="http://www.prb.org/Publications/Media-Guides/2011/girls-education-fact-sheet.aspx" target="_blank">The Effect of Girls' Education on Health Outcomes: Fact Sheet</a>” (August 2011).
+						</p>
+						<p>
+							UNESCO, <a href="http://en.unesco.org/gem-report/report/2015/education-all-2000-2015-achievements-and-challenges#sthash.HeGAFNto.oOyWZ83m.dpbs" target="_blank">Education for All 2015 Global Monitoring Report</a> (April 2015).
+						</p>
+						<p>
+							United Nations Development Programme (UNDP), <a href="http://www.un.org/millenniumgoals/2015_MDG_Report/pdf/MDG%202015%20rev%20(July%201).pdf" target="_blank"><em>The Millennium Development Goals Report 2015</em></a> (July 2015).
+						</p>
+						<p>
+							UN Women, “<a href="http://www.unwomen.org/en/what-we-do/leadership-and-political-participation/facts-and-figures" target="_blank">Facts and Figures: Leadership and Political Participation</a>” (February 2015).
+						</p>
+						<p>
+							World Economic Forum, <a href="http://www3.weforum.org/docs/GGGR14/GGGR_CompleteReport_2014.pdf" target="_blank"><em>The Global Gender Gap Report 2014</em></a> (October 2014).
+						</p>
+						<h4>Photographs</h4>
+						<ul>
+							<li>© Anadolu Agency/Getty Images</li>
+							<li>© Michele Burgess/Alamy</li>
+							<li>© Cavan Images/Offset.com</li>
+							<li>© Patricia Hofmeester</li>
+							<li>© Design Pics Inc/Alamy</li>
+							<li>© Tony Karumba/Getty Images</li>
+							<li>© Gary S. Chapman/Offset.com</li>
+							<li>© xPACIFICA/Alamy</li>
+							<li>© Jörg Dickmann/goZOOMA</li>
+						</ul>
+						<h4>Research and Content Development</h4>
+						<p>
+							Kristin Bietsch, Research Associate, PRB<br />
+							Tyjen Conley, Web Communications Manager, PRB<br />
+							Peter Goldstein, Vice President of Communications, PRB<br />
+							Linda A. Jacobsen, Vice President, U.S. Programs, PRB<br />
+							Toshiko Kaneda, Senior Research Associate, PRB<br />
+							Barbara Seligman, Vice President, International Programs, PRB<br />
+							Heidi Worley, Senior Writer, PRB<br />
+						</p>
+						<h4>Design and Production</h4>
+						<p>
+							Tessa Tripodi, Multimedia Designer, PRB<br />
+							Melina Kolb, Multimedia Producer, PRB<br />
+							<a href="http://www.velir.com/">Velir Studios</a>, Developers
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer__desktop">
+				<div class="footer__contact">
+					<h3>Population Reference Bureau</h3>
+					<p>
+						1875 CONNECTICUT AVE., NW, SUITE 520<br/>
+						WASHINGTON, D.C. 20009 U.S.A.<br />
+						<strong>PHONE</strong> 202.483.1100 <strong>E-MAIL</strong> POPREF@PRB.ORG
+					</p>
+				</div>
+				<a class="footer__logo" href="http://www.prb.org" target="_blank"><img alt="Population Reference Bureau" src="img/prb_logo.png"></a>
+
+				<div class="footer__copyright">
+					<h2><a href="http://www.prb.org" target="_blank">PRB.ORG</a></h2>
+					<p>
+						©2015 POPULATION REFERENCE BUREAU.<br />
+						ALL RIGHTS RESERVED.
+					</p>
+				</div>
+			</div>
+			<div class="footer__mobile">
+				<div class="footer__inner">
+					<p class="footer__data">&mdash; = No Data</p>
+					<p class="footer__source">Source: PRB 2015 World Population Data Sheet</p>				
+					<p class="footer__copyright">
+						©2015 POPULATION REFERENCE BUREAU.<br />
+						ALL RIGHTS RESERVED.
+					</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+
+	<!-- Velir 2015 -->
+	<script src="./js/vendor-generated.js"></script>
+	<script src="./js/index-generated.js"></script>
+	<!-- /Velir 2015 -->
+
+	<!-- JS FILES -->
+	<script src="js/vendor/jquery-1.10.1.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/jquery.flexslider.min.js"></script>
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<script src="js/animateNumbers.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.infinitescroll.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/retina-1.1.0.min.js"></script>
+	<script src="./js/vendor/jquery-ui.min.js"></script>
+	<script src="./js/vendor/jquery.selectBoxIt.min.js"></script>
+	<script src="./js/vendor/innersvg.js"></script>
+	<script src="./js/vendor/froogaloop2.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+.year-selector {
+    padding: 5px 10px;
+    font-family: $tungsten;
+    font-size: 18px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.year-selector__label {
+    font-family: $proxima;
+    padding-bottom: 3px;
+    font-size: 20px;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.year-selector__tab {
+    @extend %region-selector__tab;
+
+    padding: 5px 1em;
+    margin: 0 4px;
+    font-size: 28px;
+    text-align: center;
+    background: $gray13;
+
+    
+    &:hover {
+        background: #eee;
+    }
+
+    &.year-selector__tab--selected {
+        font-weight: 500;
+        background: $green-lighter;
+    }
+}
+
+.flexbox {
+    .year-selector__tabs {
+        display: flex;
+    }
+}
+
+.no-flexbox {
+    .year-selector__tabs {
+        @include clearfix;
+    }
+
+    .year-selector__tab {
+        float: left;
+    }
+}

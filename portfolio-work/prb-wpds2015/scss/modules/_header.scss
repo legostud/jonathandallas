@@ -1,0 +1,287 @@
+/*** Header ***/
+.social-container{
+	padding-left: 35px;
+	position:absolute;
+		left:0;
+		top:0;
+	text-transform: uppercase;
+	z-index:2;
+
+	> a {
+		line-height:40px;
+		margin-right:10px;
+	
+		@include media($large) {
+			line-height:40px;
+		}
+		@include media($medium) {
+			font-size:24px;
+			line-height:40px;
+		}
+
+	}
+
+	@include media($x-large) {
+		display:inline-block;
+		padding-left: 20px;
+		position: relative;
+	}
+
+	&__hash-tag {
+		float:left;
+	}
+
+}
+
+.menu{
+	height:40px;
+	position: relative;
+	text-align:center;
+
+	@include media($xx-large){
+		text-align: left;
+	}
+	@include media($x-large){
+		display:inline-block;
+		vertical-align: top;
+	}
+}
+
+.menu-container {
+	background: #fff;
+	box-shadow: 0px 0px 5px rgba($gray4, .5);
+	height: 40px;
+	position: fixed;
+		top: 0;
+		left:0;
+	transition:left .5s;
+	width: 100%;
+	z-index: 9999;
+	text-align: center;
+
+	
+	@include media($large) {
+		height: 40px;
+	}
+
+	.open-mobile-menu & {
+		left:200px;
+	}
+
+	a.home-logo {
+		background-color:#fff;
+		color:transparent;
+		display:block;
+		font-size:0;
+		height:40px;
+		position:absolute;
+			top:0;
+			right:-34px;
+		width:83px;
+
+		@include media($medium) {
+			display:none;
+		}
+
+	}
+
+}
+
+.menu-container-top{
+	background: #FFF !important;
+	border-bottom: solid 1px #f5f5f5;
+	display: none;
+	height: 70px;
+	width: 100%;
+	padding-top: 22px;
+
+}
+
+.banner--clone{
+	display: block !important;
+}
+
+.fixedMenu {
+	position: fixed;
+	top: 0px;
+	z-index: 9999999999;
+}
+
+.nav-toggle {
+	display: none;
+}
+#menu {
+	display:inline-block;
+	position:relative;
+}
+#menu ul {
+	margin-left: 60px;
+
+	@include media($xx-large) {
+		margin-left: 245px;
+	}
+	@include media($x-large) {
+		margin-left: 0;
+	}
+	@include media($large){
+		display:none;
+	}
+}
+
+#menu ul li {
+	float: left;
+	letter-spacing: 1px;
+	text-align:center;
+	width:auto;
+}
+
+#menu ul li a {
+	color: #46494C;
+	display:block;
+	font-size: 13px;
+	line-height:40px;
+	padding:0 20px;
+	text-transform: uppercase;
+	
+	@include media($x-large){
+		padding:0 10px;
+	}
+}
+
+#menu ul li.current a, 
+#menu ul li a:hover {
+	font-weight:bold;
+}
+
+.menu-underline{
+	border-top:4px solid $color-border-nav;
+	color:#fff;
+	position: absolute;
+		left:0;
+		top: 0;
+}
+
+
+#menu ul li a img {
+	position:relative;
+	top:-12px;
+	right:0;
+}
+
+
+#mobile-header {
+	display: inline-block;
+	vertical-align:top;
+
+	@include media($large-min) {
+		display: none;
+	}
+}
+
+.responsive-menu {
+	display:inline-block;
+	vertical-align:top;
+
+	@include media($large-min) {
+		display:none;
+	}
+
+
+	&__button {
+		cursor:pointer;
+		display:block;
+		height:40px;
+		padding-left:10px;
+		padding-top:10px;
+		position:absolute;
+		left: 0;
+		width:40px;
+
+		&:before{
+			background:#333; 
+			border-radius:4px;
+			box-shadow:0 8px #333, 0 16px #333;
+			content:''; 
+			display:block; 
+			height:4px; 
+			width:30px; 
+		}
+	}
+
+	&__panel {
+		background-color:#fff;
+		height:100vh;
+		overflow-y: auto;
+		padding:20px 20px 40px;
+		position:fixed;
+			left:-200px;
+			top:0;
+		transition:left .5s;
+		width:200px;
+		text-align: left;
+		box-shadow: 0px 0px 5px rgba($gray4, .5);
+
+		.open-mobile-menu & {
+			left:0;
+		}
+
+
+	}
+	&__footer {
+
+	}
+	&__items {
+		margin-bottom:40px;
+	}
+
+	&__title,
+	&__item a {
+		border-top:5px solid $gray4;
+		display:block;
+		font-size:20px;
+		padding:1.25em 0;
+		text-transform: uppercase;
+		transition: border .3s ease;
+	}
+	&__title {
+		font-weight:bold;
+		padding-top:.5em;
+	}
+	&__item {
+		&:hover { 
+			a {
+				border-top:5px solid $color-border-nav;
+			}
+			& + li a {
+				border-top:5px solid $color-border-nav;
+			}
+		}
+		&:last-child a {
+			border-bottom:5px solid $gray4;
+			
+			&:hover {
+				border-bottom:5px solid $color-border-nav;
+			}
+		}
+		&.hide-mobile {
+			@include media($medium){
+				display:none;
+			}
+		}	
+	}
+	&__hash-tag {
+		display:block;
+		font-size:14px;
+	}
+	&__quick-link {
+		display:block;
+		font-size:12px;
+		font-weight: 600;
+		line-height:1.25em;
+		margin-bottom:40px;
+		text-transform: uppercase;
+	}
+	&__copyright {
+		font-size:9px;
+	}
+}

@@ -1,0 +1,89 @@
+.nav-top .social_media {
+	float:left;
+	margin-bottom: 0;
+
+
+	@include media($medium) {
+		display:none;
+	}
+}
+
+.nav-top .social_media ul li {
+	width: 25px;
+	//margin-left: 10px;
+}
+
+.nav-top .social_media ul li a,
+.nav-top .social_media ul li a.first,
+.nav-top .social_media ul li a.sec {
+	padding: 0;
+}
+
+.nav-top .social_media ul li a.first i {
+	color: #fff;
+}
+
+.social_media {
+	text-align: center;
+	margin-bottom: 5px;
+
+	a { 
+		color: $color-icon-social;
+		line-height:40px;
+		   
+		span {
+			color: #fff;
+		}
+	}
+}
+
+.social_media ul {
+	display: inline-block;
+}
+
+.social_media ul li{
+	float: left;
+	width: 40px;
+	height: 32px;
+	position: relative;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+.social_media ul li a i {
+	color:#323234;
+	transition: color 100ms;
+}
+
+.social_media ul li a:hover i {
+	color: $green-light;
+}
+
+
+/*** Twitter ***/
+
+.twitter{
+	text-align: center;
+}
+
+.twitter .twitter-icon{
+	display: inline-block;
+	padding-top: 100px;
+}
+
+.twitter span{
+	font-size: 18px;
+	font-weight: 300;
+	color: #FFF;
+	line-height: 26px;
+}
+
+.twitter a{
+	color: #00acee;
+}
+
+.twitter i{
+	font-size: 35px;
+	color: #00acee;
+	display: inline-block;
+}

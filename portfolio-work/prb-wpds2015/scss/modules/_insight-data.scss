@@ -1,0 +1,81 @@
+.insight-data {
+	margin:0 auto;
+	position:relative;
+	width:665px;
+	z-index:2;
+	
+	&__title{
+		color:#fff;
+		font-size:16px;
+		margin-bottom:10px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	&__wrapper {
+		@include clearfix;
+
+		&:last-child {
+			margin-bottom:40px;
+		}
+	}
+	&__chart {
+		box-shadow: 0px 0px 5px rgba($gray4, .5);
+		float:left;
+		margin:8px 15px 8px 0;
+		text-align: center;
+		width: 80px;
+
+		&:last-child {
+			margin-right:0;
+		}
+		&.is-world {
+			margin-top:0;
+			margin-bottom:0;
+		}
+
+	}
+	&__type {
+		color:#fff;
+		display:block;
+		font-size:12px;
+		font-weight:500;
+		line-height:1.5em;
+		text-transform: uppercase;
+
+		&--top {
+			margin:0;
+		}
+	}
+	&__label {
+		background-color:$gray13;
+		font-family: $tungsten;
+		font-size:15px;
+		text-transform: uppercase;
+	
+		.is-world & {
+			background-color:$color-background-button;
+		}
+	}
+	&__value {
+		background-color:rgba($gray13,.3);
+		color:#fff;
+		font-family: $tungsten;
+		font-size:34px;
+		line-height:1.5em;
+
+		&:first-child {
+
+			.is-world & {
+				border-top:4px solid $color-border-divider;
+				padding-top:4px;
+			}
+		}
+		&:last-child {
+
+			.is-world & {
+				border-bottom:4px solid $color-border-divider;
+				padding-bottom:4px;
+			}
+		}
+	}
+}

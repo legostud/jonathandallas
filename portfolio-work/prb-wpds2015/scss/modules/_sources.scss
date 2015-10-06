@@ -1,0 +1,56 @@
+.sources {
+	background: transparent url(../img/2015/sources-large.png) center center no-repeat;
+	background-size:cover;
+	padding-bottom:60px;
+
+	@include media($xx-large){
+		background: transparent url(../img/2015/sources-medium.png) center center no-repeat;
+		background-size:cover;
+	}
+
+	@include media($medium) {
+		display:none;
+	}
+
+	&__content {
+		padding:20px 70px 30px;
+		width:500px;
+
+		@include media($large-plus) {
+			max-width:585px;
+			width:100%;
+		}
+
+
+		h4,
+		h5,
+		li,
+		ul,
+		p {
+			font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+			font-size:11px;
+			letter-spacing: 0;
+			line-height:1.25em;
+			margin-bottom:1em;
+		}
+		h4 {
+			font-weight:600;
+			margin-bottom:0;
+			padding-top:.75em;
+			text-transform:uppercase;
+		}
+		ul {
+			@include clearfix;
+		}
+		li {
+			display:inline-block;
+			float:left;
+			margin-bottom:0;
+			width:50%;
+
+			&:nth-child(odd){
+				clear:left;
+			}
+		}
+	}
+}

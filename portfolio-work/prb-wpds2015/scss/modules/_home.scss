@@ -1,0 +1,197 @@
+.home {
+	background-color: rgba(#2E86AB,.5);
+	background-image: linear-gradient(180deg, rgba(#28536B, 1), rgba(#000,0));
+	padding-top: 40px;
+	position:relative;
+	min-height:650px;
+	height:calc(100vh - 40px);
+
+	@include media($large){
+		height:calc(100vh - 40px);
+	}
+	@include media($medium){
+		height:auto;
+		min-height:1px;
+	}
+
+
+	// background is actually outside of the parent home so it can wrap two sections
+	&__background {
+		background: transparent url(../img/2015/home-large.png) center center no-repeat;
+		background-size:cover;
+		margin-bottom: 30px;
+
+		@include media($xx-large){
+			background-image: url(../img/2015/home-medium.png);
+		}
+		@include media($xx-large){
+			background-image: url(../img/2015/home-small.png);
+		}
+
+	}
+	&__buttons {
+		@include clearfix;
+		position: relative;
+		margin:0 auto;
+		max-width:920px;
+		text-align: center;
+
+		@include media($medium) {
+			display:none;
+		}
+	}
+	&__button {
+		float:left;
+		font-size:0;
+		width:50%;
+
+		a {
+			background-color:transparent;
+			border:5px solid $color-button;
+			color:$color-button;
+			display:block;
+			font-size:18px;
+			font-weight:700;
+			line-height:1.5em;
+			margin:45px auto 10px;
+			padding:10px 0;
+			text-align:center;
+			text-transform: uppercase;
+			width:390px;
+
+			&:hover {
+				background-color:rgba(#fff, .1);
+				color:$color-button;
+			}
+
+			@include media($x-large) {
+				font-size:15px;
+				width:90%;
+			}
+		}
+
+	}
+	&__box {
+		@include media($medium-min){
+			position:absolute;
+				bottom:0;
+			width:100%;	
+		}
+	}
+	&__content {
+
+		p {
+			font-size: 16px;
+		}
+		
+		&--mobile {
+			display:none;
+
+			a.highlight {
+				color: $color-text-link-hover;
+			}
+
+			h5 {
+				font-weight:600;
+				letter-spacing: .08em;
+				line-height: 1.75em;
+			}
+			.home__logo {
+				display:block;
+				margin-top:25px;
+			}
+		}
+
+		@include media($medium) {
+			display:none;
+			
+			&--mobile {
+				display:block;
+			}
+		}
+	}
+	&__text {
+		text-align:center;
+		clear: both;
+
+		@include media($medium){
+			padding:20px;
+		}
+		@media (min-height: 800px) {
+			height:calc((100vh - 360px)/2);  // substracting the height of the content box and buttons plus half its height
+			min-height:160px;
+		}
+		h1{
+			font-size: 125px;
+			color: #ffffff;
+			font-family: $tungsten-narrow;
+			font-weight: 300; 
+			font-style: normal;
+			text-transform:lowercase;
+			line-height: 1.2em;
+			
+			@include media($x-large) {
+				font-size:80px;
+				line-height: .9em;
+			}
+		}
+		h2 {
+			font-size:36px;
+		    color: #ffffff;
+		    font-weight: 700; 
+		    text-transform:uppercase;
+		    letter-spacing:.08em;
+		    margin-bottom: 35px;
+		
+			@include media($x-large) {
+				font-size:24px;
+			}
+			@include media($medium) {
+				margin-bottom: 15px;
+			}
+		}
+		h3{
+		    font-size: 17px;
+		    color: #ffffff;
+		    font-style: italic;
+		    font-weight: 400;
+		    letter-spacing: 1px;
+		}
+	}
+	&__learn-more {
+		display:block;
+		position: relative;
+		height: 31px;
+
+		&:hover span {
+			transform: translateY(4px);
+		}
+
+		span {
+
+			display: inline-block;
+
+			border-top: 31px solid $color-button;
+			border-left:transparent solid 23px;
+			border-right:transparent solid 23px;
+			font-size:0;
+			height:0;
+			width:0;
+			transform: translateY(0px);
+			transition: all 250ms;
+
+			
+		}
+	}
+	&__mobile-link {
+		display:block;
+		font-family: $tungsten;
+		font-size: 26px;
+		margin:.75em 0;
+
+		& ~ .title-border {
+			margin-bottom:20px;
+		}
+	}
+}
+

@@ -1,0 +1,66 @@
+#insights {
+	padding-top:40px;
+
+	@include media($medium) {
+		display:none;
+	}
+}
+
+.insights-section {
+	background: transparent url(../img/2015/insights-large.png) center center no-repeat;
+	background-size:cover;
+
+
+	&__inner {
+		background-color:rgba(#000,.3);
+		min-height:720px;
+		position:relative;	
+	}
+
+	&__content {
+		padding-top:20px;
+		
+		@include media($large-plus) {
+			max-width:585px;
+			width:100%;
+		}
+	}
+
+	&__navigation {
+		background-color:#fff;
+		position:absolute;
+			bottom:0;
+		text-align:center;
+		margin-top:80px;
+		padding-bottom:10px;
+		width:100%;
+	}
+	&__link {
+		background-color:$color-background-button;
+		border:10px solid #fff;
+		color:$color-text-base;
+		display:inline-block;
+		font-size:24px;
+		font-weight:600;
+		line-height:60px;
+		margin-right:35px;
+		margin-top:-40px;
+		text-align:center;
+		text-transform: uppercase;
+		transition:margin .7s;
+		vertical-align: top;
+		width:230px;
+
+		@include media($x-large) {
+			font-size:21px;
+			width:195px;
+		}
+		&:last-child{
+			margin-right:0;
+		}
+		&:hover {
+			color: $color-text-base;
+			margin-top:-45px;
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "wpds-2015",
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "react": "global:React",
+    "d3": "global:d3"
+  }
+}

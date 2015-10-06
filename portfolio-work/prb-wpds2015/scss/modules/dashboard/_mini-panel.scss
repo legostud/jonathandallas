@@ -1,0 +1,69 @@
+.mini-panel {
+    padding: 10px;
+    margin: 30px 0;
+    text-align: center;
+    border: 1px solid $gray13;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.mini-panel__title {
+    margin-bottom: 0.5em;
+    font-family: $proxima;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.mini-panel__label {
+    padding: 6px 20px;
+    font-family: $proxima;
+    font-size: 20px;
+    line-height: 1em;
+    text-transform: uppercase;
+    background-color: $green-lighter;
+}
+
+.mini-panel__year {
+    font-family: $tungsten;
+    font-size: 30px;
+    line-height: 1.4em;
+    background-color: $green-lighter;
+}
+
+.mini-panel__value {
+    padding: 0.15em 0;
+    font-family: $tungsten;
+    font-size: 68px;
+    line-height: 1em;
+}
+
+.mini-panel__magnitude,
+.mini-panel__gender {
+    display: block;
+    font-family: $proxima;
+    font-size: 20px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.mini-panel__double-panel-item {
+    & + & {
+        margin-top: 16px;
+    }
+}
+
+.mini-panel__two {
+    @include clearfix;
+
+    .mini-panel__two-item {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}

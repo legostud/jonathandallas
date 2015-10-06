@@ -1,0 +1,91 @@
+$padding: 5px;
+
+// select element
+.select2 {
+
+    width: 300px;
+    max-width: 100%;
+
+    .select2-selection {
+        height: auto;
+        padding: $padding 0 $padding 15px;
+        font-family: $tungsten;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 1em;
+        text-align: left;
+        background-color: $green-lighter;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+
+        .dashboard--mini & {
+            text-align: center;
+        }
+
+        .select2-selection__arrow {
+            top: $padding;
+            right: $padding;
+        }
+    }
+}
+
+// magnifying glass
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    width: 13px;
+    height: 11px;
+    margin-top: -4px;
+    margin-left: -8px; 
+    background-image: url("../img/search-icon.png");
+    border: 0;
+
+}
+
+// select dropdown
+.select2-container {
+
+    .select2-search--dropdown {
+
+        padding: 0;
+        margin: 0 0.25rem 0.5rem;
+
+        input.select2-search__field {
+            padding: 0.5em 1em;
+            margin: 0;
+            font-family: $proxima;
+            font-size: 16px;
+            line-height: 16px;
+            border: 0;
+            border-bottom: 1px solid $gray13;
+        }
+    }
+
+    .select2-results__option--highlighted[aria-selected] {
+        color: $color-text-base;
+        background: $green-lighterer;
+    }
+
+    .select2-results__option {
+
+        padding: 6px 16px;
+        font-family: $proxima;
+        font-size: 16px;
+        line-height: 20px;
+
+        .world,
+        .region {
+            font-weight: bold;
+        }
+
+        .country {
+            padding-left: 16px;
+        }
+
+        .highlight {
+            text-decoration: underline;
+        }
+
+    }
+
+
+}

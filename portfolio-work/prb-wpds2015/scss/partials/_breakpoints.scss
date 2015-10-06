@@ -1,0 +1,55 @@
+// Define your breakpoints
+// desktop first
+$break-xxl:1024px;
+$break-xl:880px;
+$break-lp:770px;
+$break-l:767px;
+$break-m:690px;
+$break-s:550px;
+$break-xs:480px;
+
+$xx-large: new-breakpoint(max-width $break-xxl);
+$x-large: new-breakpoint(max-width $break-xl);
+$large-plus: new-breakpoint(max-width $break-lp);
+$large: new-breakpoint(max-width $break-l);
+$medium: new-breakpoint(max-width $break-m);
+$small: new-breakpoint(max-width $break-s);
+$x-small: new-breakpoint(max-width $break-xs);
+
+//mobile first
+$xx-large-min: new-breakpoint(min-width ($break-xxl + 1));
+$x-large-min: new-breakpoint(min-width ($break-xl + 1));
+$large-min: new-breakpoint(min-width ($break-l + 1));
+$medium-min: new-breakpoint(min-width ($break-m + 1));
+$small-min: new-breakpoint(min-width ($break-s + 1));
+$x-small-min: new-breakpoint(min-width ($break-xs + 1));
+
+// min to max
+$small-to-medium: new-breakpoint(min-width ($break-s + 1) max-width $break-m);
+$small-to-large: new-breakpoint(min-width ($break-s + 1) max-width $break-l);
+$medium-to-large: new-breakpoint(min-width ($break-m + 1) max-width $break-l);
+$medium-to-x-large: new-breakpoint(min-width ($break-m + 1) max-width $break-xl);
+$large-to-x-large: new-breakpoint(min-width ($break-l + 1) max-width $break-xl);
+
+// Adding these so JavaScript can use the same breakpoint values.
+div[class^="breakpoint-"], 
+div[class*="breakpoint-"] {
+	position:fixed;
+	bottom:-2em;
+}
+
+.breakpoint-xl-min {
+	width:$break-xl + 1;
+}
+.breakpoint-l-min {
+	width:$break-l + 1;
+}
+.breakpoint-m-min {
+	width:$break-m + 1;
+}
+.breakpoint-s-min {
+	width:$break-s + 1;
+}
+.breakpoint-xs-min {
+	width:$break-xs +1;
+}

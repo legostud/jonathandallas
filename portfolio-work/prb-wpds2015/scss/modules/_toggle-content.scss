@@ -1,0 +1,78 @@
+.toggle-content {
+	overflow:hidden;
+
+	h5 {
+		font-size:12px;
+		font-weight:600;
+		letter-spacing: 0;
+		margin-bottom:1em;
+	}
+
+	&__buttons {
+		@include clearfix;
+		margin-bottom:15px;
+	}
+	&__button {
+		@include span-columns(6);
+		background-color:$color-background-button-inactive;
+		cursor:pointer;
+		display:block;
+		font-family: $tungsten;
+		font-size:24px;
+		padding: 10px 0;
+		text-align:center;
+		text-transform: uppercase;
+
+		&:hover {
+			background: $gray15;
+		}
+
+		&.is-active {
+			background-color:$color-background-button;
+		}
+
+	}
+	&__panels {
+		@include clearfix;
+		width:200%;
+	}
+	&__panel {
+		float:right;
+		opacity: 0;
+		text-transform: uppercase;
+		transition:opacity 1s;
+		width:50%;
+
+		&.is-active {
+			display:block;
+			float:left;
+			opacity: 1;
+			overflow:visible;
+		}
+
+		table {
+			line-height: 1.5em;
+			width:100%;
+		}
+		th {
+			font-size:12px;
+			font-weight: normal;
+			width:55%;
+
+			&:last-child {
+				width:45%;
+			}
+		}
+		td {
+			font-weight: 600;
+			line-height: 1.1em;
+			padding: 0.25em 0;
+
+			&:last-child {
+				font-family: $tungsten;
+				font-size:20px;
+				font-weight: 400;
+			}
+		}
+	}
+}
