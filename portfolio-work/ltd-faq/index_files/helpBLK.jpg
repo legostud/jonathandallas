@@ -1,0 +1,615 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en">
+
+  
+    
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <!-- Internet Explorer fix, forces IE8 into newest possible rendering
+         engine even if it's on an intranet. This has to be defined before any
+         script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+      <base href="http://www.everestpoker.com/live-the-dream/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <link rel="kss-base-url" href="http://www.everestpoker.com/live-the-dream" />
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/live-the-dream/portal_javascripts/LTD%20Theme/jquery-cachekey2217.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/live-the-dream/portal_javascripts/LTD%20Theme/resourcebase2-dom-fp-cachekey6889.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/live-the-dream/portal_javascripts/LTD%20Theme/resourcecidc.themes.ltd.javascriptcommon-cachekey3360.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/live-the-dream/portal_javascripts/LTD%20Theme/resourcecidc.themes.ltd.javascriptprofile-browser-cachekey8092.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/live-the-dream/portal_javascripts/LTD%20Theme/resourcecidc.themes.ltd.javascriptep_site-cachekey9146.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/live-the-dream/portal_javascripts/LTD%20Theme/resourcecidc.themes.ltd.javascriptuGallery-cachekey7420.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.everestpoker.com/live-the-dream/portal_css/LTD%20Theme/base-cachekey0625.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css" media="screen">@import url(http://www.everestpoker.com/live-the-dream/portal_css/LTD%20Theme/resourceplone.contentratings.stylesheetsmain-cachekey0364.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css" media="all">@import url(http://www.everestpoker.com/live-the-dream/portal_css/LTD%20Theme/ploneCustom-cachekey7716.css);</style>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.everestpoker.com/live-the-dream/portal_kss/LTD%20Theme/at-cachekey2188.kss" />
+
+
+<title>Live The Dream &mdash; Live The Dream</title>
+
+    <!-- IE6 workaround CSS/JS  -->
+    <!--[if lte IE 7]>
+        <style type="text/css" media="all">@import url(http://www.everestpoker.com/live-the-dream/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://www.everestpoker.com/live-the-dream/iefixes.js">
+        </script>
+    <![endif]-->
+
+    <meta content="Welcome to the EverestPoker Live The Dream website!"
+          name="description" />
+    <meta content="Global" name="distribution" />
+    <meta content="ALL" name="robots" />
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.everestpoker.com/live-the-dream/favicon.ico" />
+
+
+
+    <link rel="home"
+          href="http://www.everestpoker.com/live-the-dream/en"
+          title="Front page" />
+
+    <link rel="contents"
+          href="http://www.everestpoker.com/live-the-dream/en/sitemap"
+          title="Site Map" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://www.everestpoker.com/live-the-dream/en/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class=" template-default_error_message" dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://www.everestpoker.com/live-the-dream/portal_css/LTD%20Theme/++resource++cidc.themes.ltd.images/helpBLK.jpg#documentContent">Skip to content.</a> |
+
+  <a accesskey="6"
+     href="http://www.everestpoker.com/live-the-dream/portal_css/LTD%20Theme/++resource++cidc.themes.ltd.images/helpBLK.jpg#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<a id="portal-logo" accesskey="1"
+   href="http://www.everestpoker.com/live-the-dream/en">
+    <img src="http://www.everestpoker.com/live-the-dream/logo.jpg" alt="" title="" height="88" width="256" /></a>
+
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+	var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+<!-- login and site setup links -->
+
+<!-- navigation links -->
+<div id="LTD-siteactions-wrapper">
+	<ul id="LTD-siteactions">
+		<li id="LTDsiteaction-contact">
+			<a rel="nofollow"
+      href="http://www.everestpoker.com/live-the-dream/en/contact"
+      accesskey="9" title="Contact Us">Contact Us</a>
+		</li>
+		<li id="LTDsiteaction-help">
+			<a href="http://www.everestpoker.com/live-the-dream/en/help"
+      rel="nofollow" accesskey="" class="help-link"
+      title="Help">Help</a>
+		</li>
+	</ul>
+</div>
+
+<div id="LTD-loggedlinks">
+
+				
+				
+	
+<span>
+	<a href="http://www.everestpoker.com/live-the-dream/en/login">Login</a> or
+	<a href="http://www.everestpoker.com/live-the-dream/en/registration">Join</a> 
+</span>
+
+
+   <ul id="portal-languageselector">
+
+
+        
+
+    </ul>
+
+
+</div>
+
+
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="">
+
+                  
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"></div>
+
+                    
+                    <div id="content">
+                      
+                      <div id="content">
+
+        <div>
+
+            
+                
+                
+                    
+                <h1 class="documentFirstHeading">
+                    We&#8217;re sorry, but that page doesn&#8217;t exist&hellip;
+                </h1>
+				
+                <p>
+                Please double check the web address or use the search function on this page to find what you are looking for.
+                </p>
+
+                <p>
+                If you are certain you have the correct web address but are encountering an error, please
+                contact the <span> <a href="/live-the-dream/en/contact">site administration</a></span>.
+                </p>
+
+                <p>
+                Thank you.
+                </p>
+                
+                <!-- Offer search results for suggestions -->
+                
+                    
+                    <h3>You might have been looking for&hellip;</h3>
+                    
+                    <dl>
+                    
+                    
+                        
+                    
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/sv/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/es/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/pt/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/pl/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/no/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/ja/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/it/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/hu/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/el/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                    
+                        
+                            <dt
+    class="contenttype-supportform">
+                              <img width="16" height="16" src="http://www.everestpoker.com/live-the-dream/document_icon.gif" alt="SupportForm" />
+                               <a
+    href="http://www.everestpoker.com/live-the-dream/de/supportform/"
+    class="state-published">LTD Support Form</a>
+                               
+                                
+
+                            </dt>
+            
+                            <dd></dd>
+
+                        
+                    
+                        
+                    </dl>
+                    
+                
+
+            
+
+        </div>
+
+        
+        
+
+</div>
+                    </div>
+                    
+
+                    
+                    
+                      
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <div id="livethedream-footer">
+	<div class="footer-links">
+		<a href="http://www.everestpoker.com/live-the-dream/en/overview">Overview</a> | 
+		<a href="http://www.everestpoker.com/live-the-dream/en/the-players">Meet the Winners</a> | 
+		<a href="http://www.everestpoker.com/live-the-dream/en/the-casting">The Casting</a>
+	</div>
+	<div class="footer-copyright">Copyright <acronym title="Copyright">&copy;</acronym> 2008-2010 Everest Poker. All rights reserved.</div>
+	<div class="footer-graphics">
+		<a href="/en" target="_blank" title="Everest Poker">
+		<img alt="Everest Poker"
+       src="http://www.everestpoker.com/live-the-dream/++resource++cidc.themes.ltd.images/evp_logo.jpg" />
+		</a>
+		
+	</div>
+	<span style="display:none;" class="language_code_hack">en</span>
+</div>
+
+<div style="display:none;">
+<!-- Start Google Analytics Code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E\%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-169168-1");
+</script>
+
+<script type="text/javascript" src="/PromoImages/global/ga.js"></script>
+<!-- End Google Analytics Code -->
+
+<!-- ClickTale Bottom part -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script src="++resource++cidc.themes.ltd.javascript/WRb.js" type="text/javascript"></script>
+<script type="text/javascript">
+var ClickTaleSSL=1;
+if(typeof ClickTale=='function') ClickTale(6279,0.3,"www02");
+</script>
+<!-- ClickTale end of Bottom part -->
+
+</div>
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://www.everestpoker.com/live-the-dream/spinner.gif" /></div>
+</body>
+</html>

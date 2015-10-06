@@ -1,0 +1,753 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en">
+
+  
+    
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    
+      <base href="http://www.everestpoker.com/en/index" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <link rel="kss-base-url" href="http://www.everestpoker.com/en/index" />
+
+  
+  
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/portal_javascripts/EVP%20Plone%20Theme/jquery-cachekey1126.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/portal_javascripts/EVP%20Plone%20Theme/resourcebase2-dom-fp-cachekey9383.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="http://www.everestpoker.com/portal_javascripts/EVP%20Plone%20Theme/ep_site-cachekey3036.js">
+      </script>
+    
+    
+  
+
+  
+  
+    
+    
+      <style type="text/css"><!-- @import url(http://www.everestpoker.com/portal_css/EVP%20Plone%20Theme/base-cachekey3282.css); --></style>
+    
+    
+  
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.everestpoker.com/portal_kss/EVP%20Plone%20Theme/at-cachekey4226.kss" />
+
+
+<title>Poker - Online Poker at Everest Poker - Play Texas Holdem</title>
+
+    <meta content="Discover online poker with us! With our easy to use poker software that suits all players, Everest Poker is the poker room of choice all over the world."
+          name="description" />
+    <meta content="Global" name="distribution" />
+    <meta content="ZETqS1CyB+b3G9juUWmT0yFgs47VTcPQRhRg5z/impY="
+          name="verify-v1" />
+    <meta content="ALL" name="robots" />
+
+    <!-- Internet Explorer CSS Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://www.everestpoker.com/IEFixes.css);</style>
+    <![endif]-->
+
+    
+    <link rel="author"
+          href="http://www.everestpoker.com/author/admin"
+          title="Author information" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.everestpoker.com/favicon.ico" />
+
+
+
+    <link rel="home" href="http://www.everestpoker.com"
+          title="Front page" />
+
+    <link rel="contents"
+          href="http://www.everestpoker.com/sitemap"
+          title="Site Map" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://www.everestpoker.com/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+          <style type="text/css" media="all">@import url(http://www.everestpoker.com/frontpage.css);</style> 
+      
+
+    
+    
+
+    
+    
+        
+		<!--[if lte IE 6]>
+			<script type="text/javascript" src="/supersleight-min.js"></script>
+		<![endif]-->
+    
+	
+
+
+  </head>
+
+  <body class="section-en template-" dir="ltr">
+						<a name="ep_pageTop"></a>
+
+	
+	
+	
+
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<div id="global-navigation">
+    <!-- This wraps the tabbed navigation at the top -->
+
+        
+
+        <ul>
+            <li id="global-poker">Poker</li>
+            <li id="global-casino">
+            <a href="http://www.everestcasino.com/en"
+               target="_blank" id="global_casino_link"
+               title="Casino">Casino</a>
+            </li>
+            <!-- Sports bets has been terminated
+			<li id="global-sports" >
+                <a href="http://www.everestbets.com" target="_blank"
+                i18n:attributes="title globaltabs_sports" i18n:translate="globaltabs_sports">
+                   Sports
+                </a>
+            </li>
+			-->
+        </ul>
+        <script src="http://images.domain-hoster.com/store/initial.js" language="javascript"></script>
+        <script type="text/javascript" language="javascript">
+			//Get the Stored IT EP Domain
+			//***italydomain*** is set in an external js file
+			//Get the stored IT EC Domain
+			//***italyec*** is set in an external js file
+			//Get the current EC link
+			//jq('#global_casino_link').attr('href');
+
+			//Get the current Domain
+			var currenturl=document.domain;
+            // Add the 'http://' to the current domain
+            currenturl = 'http://' + currenturl;
+
+			//Access the ep cookies - located in an external JS file
+			var cookies = EP.read_cookies();
+			
+			//Compare Current Domain to store IT Domain
+            if(currenturl == italydomain) {
+				//if it matches, set the link equal to "the stored IT EC Domain"
+				jq('#global_casino_link').attr('href',italyec);
+				//Get the Language code cookie
+				var lang = cookies.I18N_LANGUAGE ? cookies.I18N_LANGUAGE : '';
+				//Append the Language code
+				var href = jq('#global_casino_link').attr('href') + '/' + lang + '/';
+				jq('#global_casino_link').attr('href',href);
+			}
+
+			//Get the cookied PID cookie or default V101
+            var a = cookies.a ? cookies.a : 'V101';
+			//Get the cookied MID cookie or default ' '
+            var m = cookies.m ? cookies.m : '';
+			//Append PID and MID data
+			var href = jq('#global_casino_link').attr('href') + '?adv=' + a + '&mid=' + m;
+			jq('#global_casino_link').attr('href',href);
+        </script>
+</div>
+
+  
+<div id="site-header">  
+    
+    <ul id="portal-languageselector">
+
+
+        <li>
+            <select style="font-size: 94%;" onchange="window.location=this.options[selectedIndex].value">
+                
+                <option value="http://www.everestpoker.com/da">Dansk</option>
+                
+                <option value="http://www.everestpoker.com/de">Deutsch</option>
+                
+                <option selected="selected"
+                        value="http://www.everestpoker.com/en">English</option>
+                
+                <option value="http://www.everestpoker.com/es">Español</option>
+                
+                <option value="http://www.everestpoker.com/fr">Français</option>
+                
+                <option value="http://www.everestpoker.com/el">Ελληνικά</option>
+                
+                <option value="http://www.everestpoker.com/it">Italiano</option>
+                
+                <option value="http://www.everestpoker.com/ja">日本語</option>
+                
+                <option value="http://www.everestpoker.com/hu">Magyar</option>
+                
+                <option value="http://www.everestpoker.com/nl">Nederlands</option>
+                
+                <option value="http://www.everestpoker.com/no">Norsk</option>
+                
+                <option value="http://www.everestpoker.com/pl">Polski</option>
+                
+                <option value="http://www.everestpoker.com/pt">Português</option>
+                
+                <option value="http://www.everestpoker.com/fi">Suomi</option>
+                
+                <option value="http://www.everestpoker.com/sv">Svenska</option>
+            </select>
+        </li>
+
+    </ul>
+
+
+
+		   
+		   <ul id="portal-siteactions" class="dr50"><li id="siteaction-contact"><a
+    rel="nofollow"
+    href="http://www.everestpoker.com/en/contact"
+    accesskey="9" title="Contact Us">Contact Us</a></li><li id="siteaction-about"><a
+    href="http://www.everestpoker.com/en/about"
+    rel="nofollow" accesskey="" title="About Us">About Us</a></li><li id="siteaction-help"><a
+    href="http://www.everestpoker.com/en/help"
+    rel="nofollow" accesskey="" class="help-link"
+    title="Help">Help</a></li></ul>
+
+
+<a id="portal-logo" accesskey="1"
+   href="http://www.everestpoker.com/en">
+    <img src="http://www.everestpoker.com/logo.jpg" alt="" title="" height="117" width="229" /></a>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+	<div class="globalnav_wrapper">
+	<table class="globalnav_table" cellpadding="0" cellspacing="0">
+		<tr>
+			<td class="globalnav_leftside"><!-- --></td>
+			
+				<td>
+					<a href="http://www.everestpoker.com/en/poker-download"
+        title="Download"><span>Download</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.com/en/poker"
+        title="How To Play"><span>How To Play</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.com/en/promotions"
+        title="Promotions"><span>Promotions</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.com/en/tournaments"
+        title="Tournaments"><span>Tournaments</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.com/en/vip"
+        title="VIP"><span>VIP</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://store.everestpoker.com/?local=EN"
+        title="Store"><span>Store</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.com/en/community"
+        title="Community"><span>Community</span></a>
+				</td>
+				
+			
+
+			<td class="globalnav_rightside"><!-- --></td>
+		</tr>
+	</table>
+	</div>
+
+</div>
+<div class="visualClear"><!-- --></div>
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+
+</div>
+
+<div id="frontpage-promotions">  
+    <div id="frontpage-promo-image"><img src="http://www.everestpoker.com/en/index/promoimage" alt="Are you in?" title="Are you in?" height="342" width="874" /></div>
+    <div id="promo-blocks" class="dl45">
+        <h2 id="frontpage-title">
+            
+        <span class="" id="parent-fieldname-title">
+            Are you in?
+        </span>
+    
+        </h2>
+        <div id="frontpage-promo1">
+          
+        <div class="" id="parent-fieldname-promoarea1">
+            
+<h1>Join the world's favorite online poker community</h1>
+<table style="width: 465px;" class="cssClearTable">
+<tbody>
+<tr>
+<td><img src="images/bullet_heart.gif/image_preview" alt="Homepage - heart bullet" height="8" width="7" /></td>
+<td>Get to know other players in our fun, friendly poker room</td>
+</tr>
+<tr>
+<td><img src="images/bullet_club.gif/image_preview" alt="Homepage - club bullet" height="8" width="8" /></td>
+<td>Play and chat with others in 15 different languages</td>
+</tr>
+<tr>
+<td><img src="images/bullet_diamond.gif/image_preview" alt="Homepage - diamond bullet" height="7" width="7" /></td>
+<td>Take advantage of exclusive tournaments and promotions</td>
+</tr>
+<tr>
+<td><img src="images/bullet_spade.gif/image_preview" alt="Homepage - Spade bullet" height="8" width="7" /></td>
+<td>Earn player rewards when you join our VIP Summit Club</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+            
+        </div>
+    
+        </div>
+        <div id="frontpage-promo2">
+          
+        <div class="" id="parent-fieldname-promoarea2">
+            <a title="Download" class="internal-link" href="poker-download"><img src="images/download_en.gif" alt="Everest Poker Download" height="59" width="215" /></a>&nbsp;<a title="Welcome Bonus" class="internal-link" href="/en/promotions/new/welcome-bonus"><img src="/en/images/signupbonus_en.png/" alt="Frontpage - sign up bonus" height="62" width="116" /></a>
+            
+        </div>
+    
+        </div>
+    </div>
+    
+    <div id="frontpage-promo3">
+          <a href="poker-download" class="promoarea-download"><img
+    src="http://www.everestpoker.com/homepage-transparency.gif"
+    width="342" height="342" border="0"></a>
+    </div>
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <div id="portal-columns">          
+            <div id="columns-wrapper">
+                
+            
+            <div id="portal-column-content">
+				<div id="content-column-wrapper"
+         class="dl75 mr1-5 ml1-5">
+              
+                <div class="">
+            
+                  <div id="portal-breadcrumbs">
+
+    <a href="http://www.everestpoker.com/en">Home</a>
+    
+
+</div>
+
+
+
+            
+                  <div id="region-content"
+                       class="documentContent">
+            
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+            
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"></div>
+            
+                    
+                    
+                    <div id="content">
+                      
+                      <div id="evp-frontpage">
+      
+      
+      <div id="frontpage-portlets">      
+          <div class="portletWrapper" id="portletFlash-wrapper">
+              <dl class="portlet portletFlash">
+                  <dd class="portletItem" align="top">
+                      <embed width="353" height="236"
+                             flashvars="langvar=en"
+                             src="http://www.everestpoker.com/++resource++evp_slideshow.swf?langvar=en"
+                             pluginspage="http://www.macromedia.com/go/getflashplayer"
+                             wmode="transparent"
+                             type="application/x-shockwave-flash" />
+
+                  </dd>
+              </dl>          
+          </div>          
+          
+<div id="portletwrapper-66726f6e74706167652e706f72746c6574730a636f6e746578740a2f65702f656e2f696e6465780a636f6e74656e742d706f72746c6574"
+     class="portletWrapper kssattr-portlethash-66726f6e74706167652e706f72746c6574730a636f6e746578740a2f65702f656e2f696e6465780a636f6e74656e742d706f72746c6574">
+<h2><a title="How To Play" class="internal-link" href="/en/poker">New Players</a></h2>
+<a title="How To Play" class="internal-link" href="/en/poker">
+<p>How to Play Poker</p>
+<p class="discreet">Start with the poker basics</p>
+</a><a title="Poker Tutorial" class="internal-link" href="/en/poker/playing-at-everest-poker/poker-tutorial">
+<p>Everest Poker Tutorial</p>
+<p class="discreet">How to use our poker software</p>
+</a><a title="New Depositors Freeroll" class="internal-link" href="/en/promotions/new/new-depositors-freeroll">
+<p>$1000 New Depositors Freeroll</p>
+<p class="discreet">Bi-weekly free tournament</p>
+</a></div>
+
+<div id="portletwrapper-66726f6e74706167652e706f72746c6574730a636f6e746578740a2f65702f656e2f696e6465780a636f6e74656e742d706f72746c65742d31"
+     class="portletWrapper kssattr-portlethash-66726f6e74706167652e706f72746c6574730a636f6e746578740a2f65702f656e2f696e6465780a636f6e74656e742d706f72746c65742d31">
+<h2><a title="Community" class="internal-link" href="/en/community">Everest Experience</a></h2>
+<p>We're much more than an online poker room. At Everest Poker, it's our players who make the game.</p>
+<p><a title="Team Everest" class="internal-link" href="/en/community/team-everest">Meet Team Everest</a></p>
+<p><a title="Live Poker Events" class="internal-link" href="/en/promotions/live">Live Events</a></p>
+<p><a title="Community Updates" class="internal-link" href="/en/community/community-updates">What's New at Everest Poker</a></p>
+</div>
+
+
+
+
+          <div class="visualClear"><!-- --></div>          
+      </div>
+      
+      <div id="seo_content_bottom" class="container-seo">
+      	<h2 class="seo-paragraph-title">
+      	    
+        <span class="" id="parent-fieldname-belowfoldtitle">
+            Poker at EverestPoker.com:
+        </span>
+    
+      	</h2>
+      	<div class="container-seobox">
+      		<div class="container-seobox-top"><!-- spacer --></div>
+      		<div class="container-seobox-content">
+      			
+        <div class="" id="parent-fieldname-belowfoldtext">
+            
+<p><img class="image-left" src="images/footersideimage.jpg" alt="Everest Poker Table" height="132" width="210" align="right" /></p>
+<p>Welcome to Everest Poker, one of the world’s leading <a title="About Online Poker" class="internal-link" href="/en/poker/basics/about-online-poker">online poker</a> rooms.&nbsp;At Everest Poker, we know poker is about more than just the game, it’s about having fun. Download our poker software and <a title="How to Play Poker" class="internal-link" href="/en/poker/how-to-play-poker">play poker</a>. It’s that simple.</p>
+<p>Beginning poker players can <a title="Learn Poker" class="internal-link" href="/en/poker/playing-at-everest-poker/learn-poker">learn poker</a> quickly in our Everest Poker Training Room, and by reading our extensive online poker tutorial. These tools make learning <a title="Texas Hold'em" class="internal-link" href="/en/poker/basics/texas-holdem">Texas Holdem</a> and Omaha Poker easy. Play free poker, build your bankroll at our Shasta tables and in weekly new player freerolls, and explore our online poker promotions. Daily poker satellites and Sit &amp; Go tournaments ensure plenty of opportunities to win big cash and qualify for live poker events at the world’s most popular destinations. We even offer ring game promotions for our cash game players. Download our <a title="Free Poker" class="internal-link" href="/en/poker/basics/free-poker">free poker</a> software today and discover why Everest Poker is the online poker site for players who love the <a title="Poker Games" class="internal-link" href="/en/poker/basics/poker-games">game of poker</a> as much as they love having fun. Everest Poker: Passionate about your game. Passionate about you.</p>
+
+            
+        </div>
+    
+      		</div>
+      		<div class="container-seobox-bottom"><!-- spacer --></div>
+      	</div>
+      </div>
+      	<!-- <script language="javascript">
+			// Move the SEO content from where it is written (for SEO) to where it should appear on the page
+			// document.getElementById('seo_content_bottom').innerHTML = document.getElementById('seo_content_top').innerHTML;
+			// Clear the top seo box from the code
+			// document.getElementById('seo_content_top').innerHTML = "";
+		</script>	 -->
+      <div class="visualClear"><!-- --></div>
+    </div>
+                    </div>
+                    
+            
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+            
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+            
+                  </div>
+            
+                </div>
+            
+              
+              </div>
+            </div>
+            
+          
+            
+            
+            
+
+            <!-- <tal:comment replace="nothing"> Start of right column </tal:comment>
+            <div id="portal-column-two"
+                metal:define-slot="column_two_slot"
+                tal:condition="sr">
+              <div class="visualPadding">
+                <metal:portlets define-slot="portlets_two_slot">
+                  <tal:block replace="structure provider:plone.rightcolumn" />
+                </metal:portlets>
+                &nbsp;
+              </div>
+            </div>
+            <tal:comment replace="nothing"> End of the right column </tal:comment> -->
+            
+            <div class="visualClear" id="clear-space-after-content"><!-- --></div>
+            </div>            
+      </div>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <div id="portal-footer-wrapper">
+    
+
+		  
+
+
+    <ul id="footer-nav">
+		<li id="footertab-games" class="firstTab"><a
+    href="http://www.everestpoker.com/en/poker/basics/poker-games"
+    title="Poker Games"><span>Poker Games</span></a></li><li id="footertab-games" class=""><a
+    href="http://www.everestpoker.com/en/poker/basics/poker-strategy"
+    title="Poker Strategy"><span>Poker Strategy</span></a></li><li id="footertab-games" class=""><a
+    href="http://www.everestpoker.com/en/poker/basics/poker-rules"
+    title="Poker Rules"><span>Poker Rules</span></a></li><li id="footertab-games" class=""><a
+    href="http://www.everestpoker.com/en/poker/basics/poker-hand-ranks"
+    title="Poker Hands"><span>Poker Hands</span></a></li><li id="footertab-games" class="lastTab"><a
+    href="http://www.everestpoker.com/en/poker/basics/poker-odds"
+    title="Poker Odds"><span>Poker Odds</span></a></li>
+	</ul>
+
+
+    <ul id="footer-languageselector"><li><a
+    href="http://www.everestpoker.com/de" title="Deutsch">Deutsch</a></li><li><a
+    href="http://www.everestpoker.com/da" title="Dansk">Dansk</a></li><li><a
+    href="http://www.everestpoker.com/el" title="Ελληνικά">Ελληνικά</a></li><li><a
+    href="http://www.everestpoker.com/en" title="English">English</a></li><li><a
+    href="http://www.everestpoker.com/es" title="Español">Español</a></li><li><a
+    href="http://www.everestpoker.com/ja" title="日本語">日本語</a></li><li><a
+    href="http://www.everestpoker.com/pt" title="Português">Português</a></li><li><a
+    href="http://www.everestpoker.com/pl" title="Polski">Polski</a></li><li><a
+    href="http://www.everestpoker.com/hu" title="Magyar">Magyar</a></li><li><a
+    href="http://www.everestpoker.com/it" title="Italiano">Italiano</a></li><li><a
+    href="http://www.everestpoker.com/nl" title="Nederlands">Nederlands</a></li><li><a
+    href="http://www.everestpoker.com/no" title="Norsk">Norsk</a></li><li><a
+    href="http://www.everestpoker.com/fr" title="Français">Français</a></li><li><a
+    href="http://www.everestpoker.com/fi" title="Suomi">Suomi</a></li><li
+    class="lastItem"><a href="http://www.everestpoker.com/sv"
+                        title="Svenska">Svenska</a></li></ul>
+
+
+
+		   
+<ul id="portal-footeractions"><li id="footeraction-terms"><a
+    rel="nofollow"
+    href="http://www.everestpoker.com/en/about/policies/terms"
+    title="Terms and Conditions">Terms and Conditions</a></li><li id="footeraction-security"><a
+    rel="nofollow"
+    href="http://www.everestpoker.com/en/about/policies/security"
+    title="Security">Security</a></li><li id="footeraction-privacy"><a
+    rel="nofollow"
+    href="http://www.everestpoker.com/en/about/policies/privacy"
+    title="Privacy Policy">Privacy Policy</a></li><li id="footeraction-affiliates"><a
+    href="http://www.everestpoker.com/en/about/affiliates"
+    title="Affiliates">Affiliates</a></li><li id="footerlink-sitemap"><a
+    href="http://www.everestpoker.com/en/site-map"
+    title="Sitemap">Sitemap</a></li><li id="footeraction-about"><a
+    rel="nofollow"
+    href="http://www.everestpoker.com/en/about"
+    title="About Us">About Us</a></li><li id="footeraction-contact"><a
+    rel="nofollow"
+    href="http://www.everestpoker.com/en/contact"
+    title="Contact Us">Contact Us</a></li><li id="footeraction-help" class="lastItem"><a
+    rel="nofollow"
+    href="http://www.everestpoker.com/en/help" title="Help">Help</a></li></ul>
+
+
+
+<ul id="portal-affiliates">
+    <li id="affiliate-evgaming">
+        <a href="http://www.everestgaming.com" title="Everest Gaming">
+            <img src="http://www.everestpoker.com/evgaming.png"
+                 alt="Everest Gaming"></a>
+    </li>
+    <li id="affiliate-neteller">
+            <img src="http://www.everestpoker.com/payment_anim.gif">
+    </li>
+    <li id="affiliate-agelimit">
+            <img src="http://www.everestpoker.com/agelimit.png"
+                 alt="18+ age limit">
+    </li>
+	
+</ul>
+
+<div id="portal-footer">
+
+<p>Copyright <acronym title="Copyright">&copy;</acronym> 2008-2010 Everest Poker. All rights reserved. You must be 18 years or older to enter.  Void in the U.S. and where prohibited by law.</p><p>Provisionally Licenced in Malta - licence : LGA/CL1/411/2007LGA/CL3/411/2007</p>               
+
+<script type="text/javascript" language="JavaScript">
+	// This detects for the Safari or Chome browsers
+	if ((document.childNodes) && (!document.all) && (!navigator.taintEnabled) && (!navigator.accentColorName)) {
+		// Set a timeout so the page can finish loading what it needs
+		setTimeout ("addVerticalSpacing()", "500");
+	} else {
+		addVerticalSpacing()
+	}
+</script>
+
+</div>
+  
+</div>
+
+<!-- Start Google Analytics Code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E\%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-169168-1");
+</script>
+
+<script type="text/javascript" src="/PromoImages/global/ga.js"></script>
+
+<script type="text/javascript">
+var plstart = new Date();
+window.onload=function() {
+var plend = new Date();
+var plload = plend.getTime() - plstart.getTime();
+
+// determine the thresholds
+
+if(plload<2000)
+lc = "Very Fast";
+else if (plload<5000)
+lc = "Fast";
+else if (plload<10000)
+lc = "Medium";
+else if (plload<30000)
+lc = "Sluggish";
+else if (plload<45000)
+lc = "Slow";
+else
+lc="Very Slow";
+var fn = document.location.pathname;
+if( document.location.search)
+fn += document.location.search;
+
+try
+{
+pageTracker._trackEvent("Page Load",lc +
+" Loading Pages", fn, Math.round(plload/1000));
+}
+catch(err)
+{
+
+}
+}
+</script>
+
+<!-- End Google Analytics Code -->
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+    <div id="site-bottom"><!-- --></div>
+<div id="kss-spinner"><img alt=""
+                           src="http://www.everestpoker.com/spinner.gif" /></div>
+
+
+
+
+
+</body>
+</html>
+
