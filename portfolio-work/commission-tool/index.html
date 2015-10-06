@@ -1,0 +1,140 @@
+<!docType html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="New England LEGO users group for adults">
+    <meta name="viewport" content="width=device-width">
+	<title>Mobile Consultant Minimum Expectation and Commission Tool</title>
+
+<style>
+  body { font-family: Arial,sans-serif; margin:0; overflow:hidden; padding:0; }
+    .clear { clear:both; }
+    #visual-wrapper { height:100%; left:-80%; position:absolute; top:0; width:200%;  }
+      #column1 { height:100%; left:40%; position:absolute; top:0; width:50%; }
+        header { font-weight:bold; overflow:auto; padding:.5em 1em 1em; }
+          header img { float:left; }
+        #content {  }
+          p { margin:0 0 1em; }
+          form { }
+            label { display:inline-block; font-size:.8em; line-height:22px; margin-left:5%; width:35%; }
+            input { display:inline-block; height:22px; width:55%; }
+            .submit-button, 
+            .reset-button { border:none; color:#FFFFFF; font-size:1em; font-weight:bold; height:35px; line-height:35px; margin-left:40%; text-align:center; width:55%; }
+            .submit-button:hover, 
+            .reset-button:hover { opacity:0.6; }
+            .submit-button { background-color: #990000; }
+            .reset-button { background-color: #999999;  }
+            .results { font-size:.8em; text-align:right; width:95%; }
+            .information-link { border: 1px #999999 solid; display:block; height:24px; margin-left:5%; position:absolute; text-decoration:none; width:24px; }
+              .circle { background-color: #999999; border-radius: 10px; color:#DDDDDD; display:block; font-size:.8em; font-weight:bold; height:18px; margin:2px auto; padding-top:2px; text-align:center; width:20px; }
+      #column2 { border-right:solid #999999 1px; height:100%; left:0; padding:0.5em 1%; position:absolute; top:0; width:37%;}
+
+</style>
+<script>
+
+function calculate(){
+  var storeNumber = document.getElementById('store-number').value,
+      hireDate = new Date(document.getElementById('date-hire').value),
+      weekEndDate = new Date(document.getElementById('week-end').value),
+      hoursWorked = document.getElementById('hours-worked').value,
+      elapsedDays = ((weekEndDate / 86400) - (hireDate / 86400))/1000,
+      sales = document.getElementsByClassName('number-units')[0],
+      commission = document.getElementsByClassName('commission-dollars')[0];
+  
+  sales.innerHTML = elapsedDays;
+  
+  commission.innerHTML = (elapsedDays * hoursWorked / storeNumber).toFixed(2);
+  
+  //prevent reload;
+  return false;
+}
+
+var showInfo = false;
+function showInformation() {
+  if(showInfo){
+    showInfo = false;
+    document.getElementById('visual-wrapper').style.left = "-80%";
+  } else {
+    showInfo = true;
+    document.getElementById('visual-wrapper').style.left = "0%";
+  }
+}
+</script>
+
+</head>
+<body>
+  <div id="visual-wrapper">
+    <div id="column1">
+      <header>
+      <img src="http://www.staples.com/sbd/img/ico/logo1.png" />Mobile Consultant Minimum Expectation &amp; Commission Tool
+      </header>
+      <div id="content">
+        <form action="#" autocomplete="on" onsubmit="calculate(); return false;" >
+          <p>
+            <label for="store-number">Store Number</label>
+            <input list="store-number-list" id="store-number" required="" />
+            <datalist id="store-number-list">
+              <option value="1" />
+              <option value="12" />
+              <option value="13" />
+              <option value="14" />
+              <option value="143" />
+              <option value="15" />
+              <option value="158" />
+            </datalist>
+          </p>
+          <p>
+            <label for="date-hire">Date of Hire</label>
+            <input type="date" id="date-hire" required="" />
+          </p>
+          <p>
+            <label for="week-end">Week Ending Date</label>
+            <input type="date" id="week-end" required="" />
+          </p>
+          <p>
+            <label for="hours-worked">Hours Worked</label>
+            <input type="number" id="hours-worked" required="" />
+          </p>
+          <p>
+            <input type="submit" value="Calculate" class="submit-button" />
+          </p>
+          <div class="results">
+            <p>Sales = <span class="number-units">000</span> units</p>
+            <p>Commission = $<span class="commission-dollars">000.00</span></p>
+          </div>
+          <p>
+            <a href="#" onclick="showInformation(); return false;" class="information-link">
+              <span class="circle">i</span>
+            </a>
+            <input type="reset" value="Clear All" class="reset-button" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div id="column2">
+      <strong>Information</strong>
+      <p>For Internal Use Only.</p>
+      <p>Proprietary and Confidential of Staples Inc.</p>
+      <p>&copy; Staples Inc.<br />
+      All rights reserved.</p>
+      <p>Version 1.0</p>
+    </div>
+  </div>
+  <script>
+  (function buildDataList() {
+    var option,
+        datalist = document.getElementById('store-number-list');
+    
+    datalist.innerHTML = '';
+
+    for(var i=1; i<50; i++){
+      option = document.createElement('option');
+      option.value = i;
+      datalist.appendChild(option);
+    }
+  })();  
+  </script>
+
+</body>
+</html>
