@@ -1,0 +1,898 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es"
+      lang="es"><!-- Source is http://www.everestpoker.es/promociones/en-linea/laronda/calendario -->
+
+  
+    
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+  
+    
+      <!--<base href="http://www.everestpoker.es/promociones/en-linea/laronda/calendario" />--><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <link rel="kss-base-url" href="http://www.everestpoker.es/promociones/en-linea/laronda/calendario" />
+
+  
+  
+    
+      <script type="text/javascript"
+              src="calendario_files/jquery-cachekey9900.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="calendario_files/resourcebase2-dom-fp-cachekey8899.js">
+      </script>
+    
+    
+  
+
+  
+    
+      <script type="text/javascript"
+              src="calendario_files/ep_site-cachekey5745.js">
+      </script>
+    
+    
+  
+
+  
+  
+    
+    
+      <style type="text/css"><!-- @import url(calendario_files/base-cachekey5426.css); --></style>
+    
+    
+  
+
+  
+    
+    
+      <style type="text/css" media="screen"><!-- @import url(calendario_files/evp_site_portlets-cachekey7697.css); --></style>
+    
+    
+  
+
+  
+    
+    
+      <style type="text/css"><!-- @import url(calendario_files/grid-cachekey9387.css); --></style>
+    
+    
+  
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.everestpoker.es/portal_kss/EVP%20Plone%20Theme/at-cachekey4226.kss" />
+
+
+<title>calendario &mdash; Everest Poker</title>
+
+    <meta content="Global" name="distribution" />
+    <meta content="ALL" name="robots" />
+
+    <!-- Internet Explorer CSS Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://www.everestpoker.es/IEFixes.css);</style>
+    <![endif]-->
+
+    
+    <link rel="author"
+          href="http://www.everestpoker.es/author/jdallas"
+          title="Información sobre el autor" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.everestpoker.es/favicon.ico" />
+
+
+
+    <link rel="home" href="http://www.everestpoker.es"
+          title="Página de portada" />
+
+    <link rel="contents"
+          href="http://www.everestpoker.es/sitemap"
+          title="Mapa del Sitio" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://www.everestpoker.es/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+	
+
+
+  </head>
+
+  <body class="section-es template-" dir="ltr">
+						<a name="ep_pageTop"></a>
+
+	
+	
+	
+
+	<!-- ClickTale Top part -->
+	<script type="text/javascript">
+		var WRInitTime=(new Date()).getTime();
+	</script>
+	<!-- ClickTale end of Top part --> 
+
+	<div id="first-link"><a class="bkglink first"
+                         href="http://www.everestpoker.es/es/"></a></div>
+	<div id="second-link"><a class="bkglink second"
+                          href="http://www.everestpoker.es/es/"></a></div>
+
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        
+
+
+
+<div id="portal-header">
+<div id="global-navigation">
+    <!-- This wraps the tabbed navigation at the top -->
+
+        
+
+        <ul>
+            <li id="global-poker">Poker</li>
+            <li id="global-casino">
+            <a href="http://www.everestcasino.com/es"
+               target="_blank" id="global_casino_link"
+               title="Casino">Casino</a>
+            </li>
+            <!-- Sports bets has been terminated
+			<li id="global-sports" >
+                <a href="http://www.everestbets.com" target="_blank"
+                i18n:attributes="title globaltabs_sports" i18n:translate="globaltabs_sports">
+                   Sports
+                </a>
+            </li>
+			-->
+        </ul>
+        <script src="calendario_files/initial.js" language="javascript"></script>
+        <script type="text/javascript" language="javascript">
+			//Get the Stored IT EP Domain
+			//***italydomain*** is set in an external js file
+			//Get the stored IT EC Domain
+			//***italyec*** is set in an external js file
+			//Get the current EC link
+			//jq('#global_casino_link').attr('href');
+
+			//Get the current Domain
+			var currenturl=document.domain;
+            // Add the 'http://' to the current domain
+            currenturl = 'http://' + currenturl;
+
+			//Access the ep cookies - located in an external JS file
+			var cookies = EP.read_cookies();
+			
+			//Compare Current Domain to store IT Domain
+            if(currenturl == italydomain) {
+				//if it matches, set the link equal to "the stored IT EC Domain"
+				jq('#global_casino_link').attr('href',italyec);
+				//Get the Language code cookie
+				var lang = cookies.I18N_LANGUAGE ? cookies.I18N_LANGUAGE : '';
+				//Append the Language code
+				var href = jq('#global_casino_link').attr('href') + '/' + lang + '/';
+				jq('#global_casino_link').attr('href',href);
+			}
+
+			//Get the cookied PID cookie or default V101
+            var a = cookies.a ? cookies.a : 'V101';
+			//Get the cookied MID cookie or default ' '
+            var m = cookies.m ? cookies.m : '';
+			//Append PID and MID data
+			var href = jq('#global_casino_link').attr('href') + '?adv=' + a + '&mid=' + m;
+			jq('#global_casino_link').attr('href',href);
+        </script>
+</div>
+  
+<div id="site-header">  
+    
+    <ul id="portal-languageselector">
+        <li>
+            <div class="current-language">Español</div>
+			
+        </li>
+    </ul>
+    <script>
+		jq("#portal-languageselector .fr").parent().after(jq(".er1"));
+    </script>
+
+
+
+		   
+	    <ul id="portal-siteactions" class="dr50">
+		
+		    <li id="siteaction-contact">
+			<a rel="nofollow"
+      href="http://www.everestpoker.es/contactanos"
+      accesskey="9" title="Contáctanos">Contáctanos</a></li><li id="siteaction-about">
+			<a rel="nofollow"
+      href="http://www.everestpoker.es/acerca-de"
+      accesskey="" title="Acerca de nosotros">Acerca de nosotros</a></li><li id="siteaction-help">
+			<a rel="nofollow" href="http://www.everestpoker.es/ayuda"
+      accesskey="" class="help-link" title="Ayuda">Ayuda</a></li>
+		
+		
+	    </ul>
+
+<a id="portal-logo" accesskey="1"
+   href="http://www.everestpoker.es">
+    <img src="calendario_files/logo.jpg" alt="" title="" height="117" width="229" /></a>
+
+
+    <h5 class="hiddenStructure">Secciones</h5>
+	<div class="globalnav_wrapper">
+	<table class="globalnav_table" cellpadding="0" cellspacing="0">
+		<tr>
+			<td class="globalnav_leftside"><!-- --></td>
+			
+				<td>
+					<a href="http://www.everestpoker.es/poker-descargar"
+        title="Descarga"><span>Descarga</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.es/poker"
+        title="Cómo jugar"><span>Cómo jugar</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.es/promociones"
+        title="Promociones"><span>Promociones</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.es/torneos"
+        title="Torneos"><span>Torneos</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.es/vip" title="VIP"><span>VIP</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://store.everestpoker.com/?local=ES"
+        title="Tienda"><span>Tienda</span></a>
+				</td>
+				<td class="globalnav_divider"><!-- --></td>
+			
+			
+				<td>
+					<a href="http://www.everestpoker.es/comunidad"
+        title="Comunidad"><span>Comunidad</span></a>
+				</td>
+				
+			
+
+			<td class="globalnav_rightside"><!-- --></td>
+		</tr>
+	</table>
+	</div>
+
+</div>
+<div class="visualClear"><!-- --></div>
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Herramientas Personales</h5>
+
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <div id="portal-columns">          
+            <div id="columns-wrapper">
+                
+            
+            <div id="portal-column-content">
+				<div id="content-column-wrapper"
+         class="dl75 mr1-5 ml1-5">
+              
+                <div class="">
+            
+                  <div id="portal-breadcrumbs">
+
+    <a href="http://www.everestpoker.es">Inicio</a>
+    <span class="breadcrumbSeparator">
+        &gt;
+        
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://www.everestpoker.es/promociones">Promociones</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://www.everestpoker.es/promociones/en-linea">Promociones online</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://www.everestpoker.es/promociones/en-linea/laronda">laronda</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>calendario</span>
+         
+    </span>
+
+</div>
+
+
+
+            
+                  <div id="region-content"
+                       class="documentContent">
+            
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+            
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"></div>
+            
+                    
+                    
+                    <div id="content">
+                      
+                      
+    
+
+        
+
+        <h1 class="documentFirstHeading"> 
+            
+        <span class="" id="parent-fieldname-title">
+            calendario
+        </span>
+    
+        </h1>
+
+        
+
+
+
+
+
+        
+        <div class="" id="parent-fieldname-text1">
+            
+<div id="laronda-content">
+<a id="logo-link" title="index" class="internal-link" href="/promociones/en-linea/laronda/index">&nbsp;</a>
+<div id="links">
+<ul>
+<li>
+<a title="index" class="internal-link" href="/promociones/en-linea/laronda/index">INICIO</a>
+</li>
+<li>
+<a title="calendario" class="internal-link" href="/promociones/en-linea/laronda/calendario">CALENDARIO</a>
+</li>
+
+<li>
+<a title="bases" class="internal-link" href="/promociones/en-linea/laronda/bases">BASES</a>
+</li></ul>
+</div>
+<h1>CALENDARIO</h1>
+<img id="divider" class="image-inline" src="calendario_files/dividerinterior.png" alt=" " />
+<p>
+<span class="green_text">15/05 – Primera Jornada Culé (Freeroll con Rebuys de 1$)<br />
+15/05 – Primera Jornada Merengue (Freeroll con Rebuys de 1$)
+</span></p>
+<p>
+19/05 – Freeroll Culé para clasificarse para la Segunda Jornada (se clasifican los 10 primeros)<br />
+19/05 – Freeroll Merengue para clasificarse para la Segunda Jornada (se clasifican los 10 primeros)</p>
+<p><span class="green_text">
+22/05 – Segunda Jornada Culé (Buy-in 1$)<br />
+22/05 – Segunda Jornada Merengue (Buy-in 1$)</span></p>
+<p>
+26/05 – Freeroll Culé para clasificarse para la Tercera Jornada (se clasifican los 10 primeros)<br />
+26/05 – Freeroll Merengue para clasificarse para la Tercera Jornada (se clasifican los 10 primeros)</p>
+<p><span class="green_text">
+29/05 – Tercera Jornada Culé (Buy-in 1$)<br />
+29/05 – Tercera Jornada Merengue (Buy-in 1$)</span></p>
+<p>
+02/06 – Freeroll Culé para clasificarse para la Cuarta Jornada (se clasifican los 10 primeros)<br />
+02/06 – Freeroll Merengue para clasificarse para la Cuarta Jornada (se clasifican los 10 primeros)</p>
+<p><span class="green_text">
+05/06 – Cuarta Jornada Culé (Buy-in 1$)<br />
+05/06 – Cuarta Jornada Merengue (Buy-in 1$)</span></p>
+<p>
+09/06 – Freeroll Culé para clasificarse para la Final (se clasifican los 10 primeros)<br />
+09/06 – Freeroll Merengue para clasificarse para la Final (se clasifican los 10 primeros)</p>
+<p><span class="green_text">
+12/06 – Final Culé (Buy-in 2$ con un Rebuy)<br />
+12/06 – Final Merengue (Buy-in 2$ con un Rebuy)</span></p>
+<p>
+Los Freerolls con rebuy son torneos gratuitos en los que, tras ser eliminado, pueden recuperarse los puntos iniciales por 1$. Además de la Primera Jornada, cada jueves habrá un satélite freeroll en el que los 10 ganadores se clasificarán para la siguiente jornada.</p>
+</div>
+
+            
+        </div>
+    
+
+        <style type="text/css">
+/* generic overriding elements */
+#portal-breadcrumbs,
+.documentFirstHeading { display:none; }
+#columns-wrapper { background: none; }
+portal-column-content { float:left; width:auto; }
+#content-column-wrapper { margin-left:0; margin-right:0; width:auto; }
+#clear-space-after-content { background: none; }
+.globalnav_wrapper { height:28px; overflow:hidden; }
+#content { width:862px; }
+
+/* new styling */
+#portal-columns { background: #000000 url('calendario_files/41b62098a8fe91ebfddf0a0e25873f53') center top no-repeat; }
+#content { color:#ffffff; }
+#laronda-content { padding: 0 100px 0 125px; font-size:12px; }
+#laronda-content #logo-link, 
+#laronda-content #logo-link:hover { display:block; height:180px; text-decoration:none; }
+#laronda-content h1,
+#laronda-content h2 { color:#616161; background:none; border:none; font-size: 24px; font-weight:bold; margin:0; padding:0; }
+#laronda-content #divider { margin-left:-50px; }
+
+#links { clear:both; padding-bottom:15px; overflow:auto; text-align:center; }
+#links ul { margin:0 auto; padding:0; width:470px; }
+#links ul li { list-style:none; display:inline; margin:0; padding:0; }
+#links ul li a { color:#999999; background-color:#262626; display:block; float:left; font-size:12px; font-weight:bold; height:26px; line-height:26px; margin:0 5px; text-decoration:none; width:140px; }
+#links ul li a:hover { background-color: #555555; }
+</style>
+        
+        
+        <div class="" id="parent-fieldname-text2">
+            
+            
+        </div>
+    
+
+        <div class="relatedItems">
+    
+        
+            
+        
+    
+</div>
+    
+        <div id="belowcontent-portlets" class="contentPortlets">
+    
+
+
+
+
+    <span class="visualClear"><!-- --></span>
+
+</div>
+
+<div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    
+
+</div>
+
+<div class="reviewHistory" id="review-history">
+    
+</div>
+
+
+    
+
+                    </div>
+                    
+            
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+            
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+            
+                  </div>
+            
+                </div>
+            
+              
+              </div>
+            </div>
+            
+          
+            
+            
+            
+
+            <!-- <tal:comment replace="nothing"> Start of right column </tal:comment>
+            <div id="portal-column-two"
+                metal:define-slot="column_two_slot"
+                tal:condition="sr">
+              <div class="visualPadding">
+                <metal:portlets define-slot="portlets_two_slot">
+                  <tal:block replace="structure provider:plone.rightcolumn" />
+                </metal:portlets>
+                &nbsp;
+              </div>
+            </div>
+            <tal:comment replace="nothing"> End of the right column </tal:comment> -->
+            
+            <div class="visualClear" id="clear-space-after-content"><!-- --></div>
+            </div>            
+      </div>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <div id="portal-footer-wrapper">
+    
+
+		  
+
+
+<ul id="footer-nav">
+  	  
+		    <li id="footertab-games" class="firstTab">
+			      <a href="http://www.everestpoker.es/poker/basicos/poker-juegos"
+            title="Juegos de poker"><span>Juegos de poker</span></a></li><li id="footertab-games" class=""><a
+    href="http://www.everestpoker.es/poker/basicos/poker-estrategia"
+    title="Estrategia del poker"><span>Estrategia del poker</span></a></li><li id="footertab-games" class=""><a
+    href="http://www.everestpoker.es/poker/basicos/poker-reglas"
+    title="Reglas del poker"><span>Reglas del poker</span></a></li><li id="footertab-games" class=""><a
+    href="http://www.everestpoker.es/poker/basicos/poker-ranking-manos"
+    title="Manos de poker"><span>Manos de poker</span></a></li><li id="footertab-games" class="lastTab"><a
+    href="http://www.everestpoker.es/poker/basicos/poker-probabilidades"
+    title="La probabilidad en el poker"><span>La probabilidad en el poker</span></a></li>
+	  
+  	  
+	</ul>
+
+
+    <ul id="footer-languageselector">
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/de" class="de"
+       title="Deutsch">
+					Deutsch</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/da" class="da"
+       title="Dansk">
+					Dansk</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/el" class="el"
+       title="Ελληνικά">
+					Ελληνικά</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/en" class="en"
+       title="English">
+					English</a>
+			
+        </li>
+		<li>
+			
+				<a href="http://www.everestpoker.es" class="es"
+       title="Español">
+					Español</a>
+				
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/ja" class="ja"
+       title="日本語">
+					日本語</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/pt" class="pt"
+       title="Português">
+					Português</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/pl" class="pl"
+       title="Polski">
+					Polski</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/hu" class="hu"
+       title="Magyar">
+					Magyar</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/it" class="it"
+       title="Italiano">
+					Italiano</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/nl" class="nl"
+       title="Nederlands">
+					Nederlands</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/no" class="no"
+       title="Norsk">
+					Norsk</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/fr" class="fr"
+       title="Français">
+					Français</a>
+			
+        </li>
+		<li>
+			
+				
+				<a href="http://www.everestpoker.com/fi" class="fi"
+       title="Suomi">
+					Suomi</a>
+			
+        </li>
+		<li class="lastItem">
+			
+				
+				<a href="http://www.everestpoker.com/sv" class="sv"
+       title="Svenska">
+					Svenska</a>
+			
+        </li>
+        <!-- Zope does not allow JavaScript to add html code to this page, but existing code can be moved -->
+        <li class="er"><a href="http://www.everestpoker.fr" target="_blank">Fran&ccedil;ais FR</a></li>
+    </ul>
+    <script>
+		//change the Spanish link to point to everestpoker.es
+	    //jq("#footer-languageselector .es").attr("href","http://www.everestpoker.es");
+        //move a list item link to the ep.fr site after the French language list item link and show it
+		jq("#footer-languageselector .fr").parent().after(jq(".er"));
+    </script>
+
+
+
+		   
+<ul id="portal-footeractions">
+    
+	<li id="footeraction-terms">
+		<a rel="nofollow"
+     href="http://www.everestpoker.es/acerca-de/politicas/terminos"
+     title="Términos y Condiciones">Términos y Condiciones</a>
+	</li>
+	<li id="footeraction-security">
+		<a rel="nofollow"
+     href="http://www.everestpoker.es/acerca-de/politicas/seguridad"
+     title="Seguridad">Seguridad</a>
+	</li>
+	<li id="footeraction-privacy">
+		<a rel="nofollow"
+     href="http://www.everestpoker.es/acerca-de/politicas/privacidad"
+     title="Privacy Policy">Privacy Policy</a>
+	</li>
+	<li id="footeraction-affiliates">
+		<a href="http://www.everestpoker.es/afiliados"
+     title="Socios">Socios</a>
+	</li>
+	<li id="footerlink-sitemap">
+		<a href="http://www.everestpoker.es/site-map"
+     title="Mapa del sitio">Mapa del sitio</a>
+		
+	</li>
+	<li id="footeraction-about">
+		<a rel="nofollow"
+     href="http://www.everestpoker.es/acerca-de"
+     title="Acerca de nosotros">Acerca de nosotros</a>
+	</li>
+	<li id="footeraction-careers">
+		<a href="https://hostedjobs.openhire.com/epostings/submit.cfm?version=3&amp;company_id=15946"
+     target="_blank">Empleos</a>
+	</li>
+	<li id="footeraction-contact">
+		<a rel="nofollow"
+     href="http://www.everestpoker.es/contactanos"
+     title="Contáctanos">Contáctanos</a>
+	</li>
+	<li id="footeraction-help" class="lastItem">
+		<a rel="nofollow" href="http://www.everestpoker.es/ayuda"
+     title="Ayuda">Ayuda</a>
+	</li>
+    
+    
+</ul>
+
+
+
+<ul id="portal-affiliates">
+    <li id="affiliate-evgaming">
+        <a href="http://www.everestgaming.com" title="Everest Gaming">
+            <img src="calendario_files/evgaming.png"
+                 alt="Everest Gaming"></a>
+    </li>
+    <li id="affiliate-neteller">
+            <img src="calendario_files/payment_anim.gif">
+    </li>
+    <li id="affiliate-agelimit">
+            <img src="calendario_files/agelimit.png"
+                 alt="18+ age limit">
+    </li>
+	
+</ul>
+
+<div id="portal-footer">
+
+<p>Copyright <acronym title="Copyright">&copy;</acronym> 2008-2011 Everest Poker. Todos los derechos reservados. Deberás ser mayor de 18 años o mayor para poder ingresar. Prohibido en los EE.UU. y donde esté prohibido por la ley.</p>
+<p>Everest Gaming opera bajo licencia en Malta. Licencia - LGA/CL3/411/2007</p>             
+
+<script type="text/javascript" language="JavaScript">
+	// This detects for the Safari or Chome browsers
+	if ((document.childNodes) && (!document.all) && (!navigator.taintEnabled) && (!navigator.accentColorName)) {
+		// Set a timeout so the page can finish loading what it needs
+		setTimeout ("addVerticalSpacing()", "500");
+	} else {
+		addVerticalSpacing();
+	}
+</script>
+
+</div>
+  
+</div>
+
+<!-- Google Analytics: UA-169168-1 -->
+
+<script type="text/javascript" src="calendario_files/GA-UA-169168-1-3.js"></script>
+
+<!-- End Google Analytics -->
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+    <div id="site-bottom"><!-- --></div>
+<div id="kss-spinner"><img alt=""
+                           src="calendario_files/spinner.gif" /></div>
+
+	<!-- ClickTale Bottom part -->
+	<div id="ClickTaleDiv" style="display: none;"></div>
+	<script type="text/javascript">
+		document.write(unescape("%3Cscript%20src='" + (document.location.protocol=='https:'?'https://clicktale.pantherssl.com/':'http://s.clicktale.net/') + "WRb6.js'%20type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var ClickTaleSSL=1; 
+		if(typeof ClickTale=='function') ClickTale(8839,0.1,"www02");
+	</script>
+	<!-- ClickTale end of Bottom part --> 
+
+
+
+
+
+</body>
+</html>
+
+
