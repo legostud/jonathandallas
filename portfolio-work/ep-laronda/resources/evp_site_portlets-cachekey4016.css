@@ -1,0 +1,1022 @@
+
+/* - evp_site_portlets.css - */
+@media screen {
+/* http://www.everestpoker.com/portal_css/evp_site_portlets.css?original=1 */
+.evp-portlet-item {
+overflow: auto;
+float: left;
+}
+.evp-portlet-oneleft .evp-portlet-item {
+width: 100%;
+}
+.evp-portlet-twoleft .evp-portlet-item {
+width: 50%;
+}
+.evp-portlet-twotop .evp-portlet-item {
+width: 50%;
+}
+.evp-portlet-three .evp-portlet-item {
+width: 31%;
+}
+.evp-portlet-itemtitle {
+font-weight: bold;
+}
+a.evp-portlet-itemtitle {
+text-decoration: underline;
+}
+.evp-portlet-none {
+display:none;
+}
+.evp-portlet-oneleft img,
+.evp-portlet-twoleft img {
+float: left;
+}
+.evp-portlet-morelink {
+text-transform: uppercase;
+font-weight: bold;
+}
+/* */
+/* */
+
+}
+
+
+/* - ++resource++cidc.viewlets.subnav.css/subnav.css - */
+@media screen {
+/* http://www.everestpoker.com/portal_css/++resource++cidc.viewlets.subnav.css/subnav.css?original=1 */
+.promo-wrapper .promo-mini-nav-container { background-color:#F5F5F5; border:dotted 1px #666; border-width:1px 0; margin:0; padding:10px 0 8px 0; text-align: center; width:100%; }
+.promo-wrapper .promo-mini-nav li { border-left:solid 1px #093; display: inline; list-style:none; padding:0 10px;  }
+.promo-wrapper .promo-mini-nav ul li.first-item { border-width:0; padding:0 10px 0 0; }
+.promo-wrapper .promo-mini-nav ul { margin-left: 10px; }
+.promo-wrapper .promo-mini-nav li a { color:#093; font-size: 130%; text-decoration:none; }
+.promo-wrapper .promo-mini-nav .current a { font-weight:bold; }
+
+}
+
+
+/* - main.css - */
+@media screen {
+/* http://www.everestpoker.com/portal_css/main.css?original=1 */
+body {
+text-align: center;
+background-color:#FFFFFF;
+}
+body#content {
+text-align: left;
+font-size: 1em;
+}
+pre {
+background: #ccc;
+}
+h1, h2, h3 {
+font-size: 1em;
+border-top: 1px dotted #666666;
+border-bottom: 1px dotted #666666;
+background-color:#F5F5F5;
+font-weight: bold;
+padding: 0.5em;
+}
+h1 {
+font-size: 110%;
+}
+#visual-portal-wrapper {
+background: #EFEFEF url('http://www.everestpoker.com/main-background.jpg') center top repeat-x;
+margin: 0;
+position:relative;
+text-align: left;
+width:100%;
+}
+#portal-columns {
+padding-top: 0;
+padding-bottom: 14px;
+margin: 0px auto;
+width:876px !important;
+}
+#portal-footer,
+#portal-colophon {
+color: #666;
+margin:0 auto;
+width:876px;
+}
+#portal-footer acronym {
+color:#666;
+border-bottom:none;
+}
+#site-header {
+height: 119px;
+margin: 0px auto;
+clear: left;
+width:876px;
+}
+#header {
+background: #006519 url('http://www.everestpoker.com/header-background.jpg') top left repeat;
+border: 1px solid #a8a8a8;
+clear: left;
+color: #fff;
+text-align: center;
+height: auto;
+}
+legend {
+background: #fff;
+font-weight: bold;
+}
+.context,
+.formControls .actionButtons .button,
+.documentEditable * .context,
+.standalone,
+.documentEditable * .standalone {
+background-repeat: repeat-x;
+background-position: 0px 50% !important;
+text-transform: uppercase;
+font-weight: bold;
+padding-left: 0.5em;
+padding-right: 0.5em;
+padding-top: 0;
+padding-bottom: 0;
+border-color: #eee !important;
+border-style: solid;
+height: 21px;
+min-width: 50px;
+margin-bottom: 0;
+}
+.standalone,
+.documentEditable * .standalone {
+color: #fff;
+}
+#portal-column-one .field {
+clear: none;
+}
+input.searchButton {
+background-color: #fff;
+}
+.contentActions {
+border-bottom: 1px solid #999;
+}
+.documentEditable .documentContent {
+border:none;
+}
+.documentContent.dr56 {
+width: 609px !important;
+}
+dl.expandedInlineCollapsible dt.collapsibleHeader,
+dl.expandedBlockCollapsible dt.collapsibleHeader {
+background-color: #fff;
+}
+ul.formTabs {
+border: none;
+margin-bottom:-2.5em;
+}
+ul.formTabs li a {
+background: #fff url('http://www.everestpoker.com/front_global-navigation-background.gif') 0px 50% repeat-x;
+text-transform: uppercase;
+padding-top:0.7em;
+padding-bottom:0.7em;
+}
+li.formTab a:hover,
+li.formTab a.selected {
+background: #fff url('http://www.everestpoker.com/footer-navigation-background.gif') top left repeat-x;
+color: #fff;
+}
+#portal-column-content {
+float: right;
+padding: 0;
+margin: 0;
+}
+#portal-column-one {
+}
+#portal-column-one .visualPadding {
+margin-left: 14px; /* */
+padding: 30px 20px 1em;
+background: transparent url('http://www.everestpoker.com/side-nav-background.jpg') top left no-repeat;
+min-height:393px;
+}
+#global-navigation {
+height: 18px;
+position:absolute;
+top:-18px;
+}
+#global-navigation ul {
+margin: 0px;
+padding: 0px 0px 0px 5px;
+list-style: none;
+list-style-image: none;
+}
+#global-navigation ul li {
+width: 81px;
+margin: 0 2px;
+float: left;
+text-align: center;
+background: #626262 url('http://www.everestpoker.com/tab-grey.jpg') 50% 0% no-repeat;
+text-transform: uppercase;
+}
+#global-navigation ul li#global-poker {
+background: #060 url('http://www.everestpoker.com/tab-green.jpg') 50% 0% no-repeat;
+color: #fff;
+}
+#global-navigation ul li a {
+padding: 3px 0px 2px 0px;
+font: normal 10px Verdana;
+color: #fff;
+text-decoration: none;
+display: block;
+text-transform: uppercase;
+}
+#global-navigation ul li a:hover {
+color: #fffe00;
+text-decoration: none;
+}
+#global-navigation ul li#global-poker a:hover {
+background: #060 url('http://www.everestpoker.com/tab-green.jpg') 50% 0% no-repeat;
+}
+#global-navigation ul li#global-casino a:hover {
+background: #652c1f url('http://www.everestpoker.com/tab-red.jpg') 50% 0% no-repeat;
+}
+#global-navigation ul li#global-sports a:hover {
+background: #324251 url('http://www.everestpoker.com/tab-blue.jpg') 50% 0% no-repeat;
+}
+#columns-wrapper {
+background: #fff url("http://www.everestpoker.com/content-topcurves.png") 50% -20px no-repeat;
+margin:0 auto;
+padding-top:25px;
+width:862px;
+}
+#clear-space-after-content {
+background-color:#ffffff;
+height:10px;
+margin:0 auto;
+width:862px;
+}
+#site-bottom {
+}
+#portal-footer-wrapper {
+margin: 0px;
+padding:14px 0 0;
+text-align: center;
+padding-bottom: 3em;
+width:100%;
+}
+/* */
+#portal-footer-wrapper {
+background: #999999; /* */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#FFFFFF'); /* */
+background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#FFFFFF)); /* */
+background: -moz-linear-gradient(top,  #999999,  #FFFFFF); /* */
+background: linear-gradient(top, #999999, #FFFFFF);
+}
+#portal-colophon {
+display: none;
+}
+#footer-nav {
+background-color: transparent;
+white-space: nowrap;
+list-style: none;
+height: auto;
+line-height: 27px;
+display: block;
+margin: 0 0 27px;
+padding: 0;
+list-style-type: none;
+text-align: center;
+font-size: 0.9em;
+}
+#footer-nav li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+#footer-nav li a {
+/* */
+display: -moz-inline-box;
+display: inline-block;
+}
+#footer-nav li a {
+/* */
+color: #fff;
+line-height: 27px;
+padding: 0;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+margin: 0;
+background: transparent url('http://www.everestpoker.com/footer-navigation-background.gif') top left repeat-x;
+}
+#footer-nav li a:hover {
+text-decoration: underline;
+}
+#footer-nav li.firstTab a {
+border-radius: 15px 0 0 15px;
+}
+#footer-nav li.lastTab a {
+border-radius: 0 15px 15px 0;
+}
+#footer-nav li a span {
+padding: 0em 1.25em;
+line-height: 28px;
+display: block;
+background: transparent url('http://www.everestpoker.com/footer-navigation-center.gif') top right no-repeat;
+}
+#footer-nav li.lastTab a span {
+background:none;
+}
+#footer-languageselector,
+#portal-footeractions {
+list-style: none;
+list-style-image: none;
+margin: 0 0 1em;
+padding: 0;
+font-size: 85%;
+}
+#footer-languageselector li,
+#portal-footeractions li {
+display: inline;
+}
+#footer-languageselector li a,
+#portal-footeractions li a {
+color: #444;
+border-right: 1px solid #444;
+padding: 0 0.5em;
+}
+#footer-languageselector li a:hover,
+#portal-footeractions li a:hover {
+color: #090;
+}
+.lastItem,
+.lastItem a {
+border: none !important;
+}
+#portal-affiliates {
+list-style: none;
+list-style-image: none;
+margin:22px 0;
+padding: 0;
+}
+#portal-affiliates li {
+display: inline;
+list-style: none;
+padding: 0;
+margin: 0 4px;
+}
+.portletNavigationTree {
+margin: 0;
+}
+.portletNavigationTree .portletHeader {
+background: transparent;
+border: none;
+padding-left: 0;
+padding-right: 0;
+}
+.navTreeCurrentItem {
+background-color:transparent;
+border: none !important;
+color: #333 !important;
+font-weight: bold;
+line-height: 20px;
+}
+.navTreeItem a, dd.portletItem .navTreeItem a {
+color: #333 !important;
+}
+.navTreeItem a:hover, dd.portletItem .navTreeItem a:hover {
+background: transparent;
+text-decoration: underline;
+border: none;
+}
+.portletNavigationTree .portletItem {
+padding: 0;
+margin: 0;
+background: transparent;
+}
+.navTreeItem, dd.portletItem .navTreeItem {
+padding: 0.5em;
+background: transparent url('http://www.everestpoker.com/bullet-light-bar.gif') top left repeat-x;
+}
+.navTree {
+margin-top: 0;
+}
+.navTree li {
+margin-bottom: 0;
+}
+.navTreeLevel1 .navTreeItem,
+dd.portletItem .navTreeLevel1 .navTreeItem {
+background-image: none;
+padding-bottom: 0;
+padding-left: 0;
+padding-right: 0;
+}
+.navTreeLevel1 .navTreeItem a,
+dd.portletItem .navTreeLevel1 .navTreeItem a {
+background: transparent url('http://www.everestpoker.com/bullet-navtree.gif') 0px .5em no-repeat;
+padding-left: 11px;
+padding-top: 0;
+padding-bottom: 0;
+}
+.kupu-dialog-button {
+background-repeat: repeat;
+background-position: left top;
+border-style:none solid;
+font-weight:bold;
+height:21px;
+min-width:50px;
+padding-left:0.5em;
+padding-right:0.5em;
+padding-top:0;
+text-transform:uppercase;
+}
+.featureBlock,
+dl.portletListingPortlet dd.portletItem {
+/* */
+background: transparent url('http://www.everestpoker.com/feature_bg.jpg') 50% 0% no-repeat;
+padding: 13px;
+margin: 0 auto 1em;
+}
+dl.portletListingPortlet.noneHeader dd.portletItem {
+background:transparent;
+padding: 0;
+}
+.evp-portlet-onetop,
+.evp-portlet-twotop,
+.evp-portlet-twoleft,
+.evp-portlet-three {
+width: 583px;
+min-height: 175px;
+}
+.evp-portlet-one {
+min-height: 100px;
+}
+.evp-portlet-oneleft {
+min-height: 100px;
+}
+.dualPortletWrapper {
+width: 584px;
+margin: 0 auto;
+}
+.portletDualListingPortlet {
+width: 50%;
+float: left;
+}
+.portletDualListingPortlet.leftColumn {
+}
+.portletDualListingPortlet.rightColumn {
+margin-right: 19px;
+}
+.portletDualListingPortlet dd.portletItem {
+padding: 0;
+margin: 0 auto;
+min-height: 175px;
+width: 293px;
+}
+.evp-portlet-item {
+margin-left: 13px;
+}
+.firstListingItem {
+margin-left: 0 !important;
+}
+.evp-portlet-twotop .evp-portlet-item {
+width: 271px;
+}
+.evp-portlet-twoleft .evp-portlet-item {
+width: 271px;
+}
+.smallFeatureBlock,
+.portletDualListingPortlet dd.portletItem div.evp-portlet-item,
+dl.portletListingPortlet.noneHeader dd.portletItem div.evp-portlet-item {
+/* */
+background: transparent url('http://www.everestpoker.com/feature_small_bg.jpg') 50% 0% no-repeat;
+width: 261px;
+padding: 13px;
+margin: 0 3px;
+}
+.portletDualListingPortlet div.evp-portlet-item {
+margin-left: 3px !important;
+}
+.portletListingPortlet dt.portletHeader.evp-portlet-green,
+.portletDualListingPortlet dt.portletHeader.evp-portlet-green,
+h2.specialHeader,
+table.smallFeatures th {
+/* */
+line-height: 29px;
+padding: 0 19px;
+position:relative;
+margin: 0 auto;
+width: 545px;
+}
+.portletDualListingPortlet dt.portletHeader {
+width: 255px !important;
+}
+h2.specialHeader,
+.portletDualListingPortlet dt.portletHeader {
+width: auto;
+}
+.portletListingPortlet dt.portletHeader.evp-portlet-grey,
+.portletDualListingPortlet dt.portletHeader.evp-portlet-grey {
+line-height: 26px;
+margin-bottom: 3px;
+/* */
+}
+.portletListingPortlet dt.evp-portlet-green,
+.portletDualListingPortlet dt.evp-portlet-green,
+h2.specialHeader {
+border:none;
+background: #090 url('http://www.everestpoker.com/header_green_bg.gif') 0px 50% repeat-x;
+color: #fff;
+}
+.portletListingPortlet dt.evp-portlet-green a
+.portletDualListingPortlet dt.evp-portlet-green a,
+h2.specialHeader a,
+table.smallFeatures th a {
+color: #fff !important;
+text-decoration: none;
+line-height: 29px;
+}
+table.smallFeatures th span.leftCorner,
+table.smallFeatures th span.rightCorner,
+.portletListingPortlet dt.portletHeader span.portletTopLeft,
+.portletListingPortlet dt.portletHeader span.portletTopRight,
+.portletDualListingPortlet dt.portletHeader span.portletTopLeft,
+.portletDualListingPortlet dt.portletHeader span.portletTopRight,
+h2.specialHeader span.leftCorner,
+h2.specialHeader span.rightCorner {
+background-color: transparent;
+background-position: 0px 50%;
+background-repeat: no-repeat;
+width: 11px;
+height: 29px;
+display: block;
+position: absolute;
+}
+table.smallFeatures th span.leftCorner,
+h2.specialHeader span.leftCorner,
+.portletListingPortlet dt.portletHeader span.portletTopLeft,
+.portletDualListingPortlet dt.portletHeader span.portletTopLeft {
+left: 0;
+top: 0;
+background-image: url('http://www.everestpoker.com/header_green_left.gif');
+}
+table.smallFeatures th span.rightCorner,
+h2.specialHeader span.rightCorner,
+.portletListingPortlet dt.portletHeader span.portletTopRight,
+.portletDualListingPortlet dt.portletHeader span.portletTopRight {
+right: 0;
+top: 0;
+background-image: url('http://www.everestpoker.com/header_green_right.gif');
+}
+.portletListingPortlet dt.evp-portlet-frontpage span.portletTopRight,
+.portletDualListingPortlet dt.evp-portlet-frontpage span.portletTopRight,
+.portletListingPortlet dt.evp-portlet-frontpage span.portletTopLeft,
+.portletDualListingPortlet dt.evp-portlet-frontpage span.portletTopLeft {
+display: none;
+}
+.portletListingPortlet dt.evp-portlet-grey span.portletTopRight,
+.portletDualListingPortlet dt.evp-portlet-grey span.portletTopRight,
+.portletListingPortlet dt.evp-portlet-grey span.portletTopLeft,
+.portletDualListingPortlet dt.evp-portlet-grey span.portletTopLeft {
+display: none;
+}
+table.smallFeatures {
+border-spacing: 0;
+border-collapse: collapse;
+width: 577px;
+margin: 0 auto;
+}
+table.smallFeatures th {
+width: auto;
+}
+table.smallFeatures td {
+vertical-align: top;
+width: 50%;
+}
+h2.shortHeader {
+width: 50%;
+}
+.listingPortletPicture {
+text-align: center;
+margin-bottom: 13px;
+position:relative;
+overflow: hidden !important;
+border: none;
+width: 100%;
+}
+.listingPortletPicture.image-left,
+.evp-portlet-onetop .listingPortletPicture {
+width: auto !important;
+}
+.listingPortletPicture img {
+margin: 0 auto;
+}
+div.listingMoreLink {
+margin-top: 13px;
+}
+a.evp-portlet-morelink {
+background: transparent url('http://www.everestpoker.com/bullet.gif') 0% 50% no-repeat;
+padding-left: 20px;
+}
+#portal-header {
+background: transparent url('http://www.everestpoker.com/evp_green_header.png') top left repeat-x;
+position:relative;
+z-index: 99;
+}
+#download-content {
+min-height:460px;
+clear:both;
+}
+#download-top {
+height:270px;
+padding:20px 20px 0;
+clear:both;
+overflow:auto;
+}
+#download-text {
+float:left;
+clear:both;
+line-height:1.5em;
+margin-bottom:1em;
+}
+#download-text h2 {
+background:transparent;
+border:none;
+font-size: 180%;
+font-weight:normal;
+margin:0;
+padding:0;
+padding-bottom:10px;
+}
+#download-button {
+float:left;
+clear:both;
+cursor:pointer;
+margin-top:5px;
+margin-left:5px;
+}
+#download-bottom {
+margin-left:35px;
+height:100px;
+clear:both;
+}
+#download-column-first {
+float:left;
+clear:left;
+width:200px;
+}
+#download-column-middle {
+float:left;
+width:245px;
+padding:0px 20px;
+}
+#download-column-last {
+float:left;
+clear:right;
+width:240px;
+padding-left:20px;
+}
+#download-bottom ul {
+line-height:1em;
+list-style-image:none;
+list-style-type:none;
+margin-left:0;
+}
+#download-bottom p {
+line-height:1.5em;
+}
+/* */
+#content.hasRightColumn {
+padding-right:218px;
+}
+#content.hasRightColumn h1.documentFirstHeading,
+#content.hasRightColumn #plone-document-byline,
+#content.hasRightColumn .documentDescription,
+#content.hasRightColumn #portal-column-two {
+margin-right: -218px;
+}
+#portal-column-two {
+width: 212px;
+margin-left: 6px;
+float: right;
+background: transparent url('http://www.everestpoker.com/vertical_border.png') 0 0 repeat-y;
+}
+#content.hasRightColumn #abovecontent-portlets {
+float:left;
+width:100%;
+}
+dd.listingPortletDesc {
+padding: 0.5em 13px !important;
+margin-left: 0;
+background-image: none !important;
+}
+div.bannerViewlet {
+background:transparent url(http://www.everestpoker.com/feature_bg.jpg) 50% 0 no-repeat;
+padding: 10px;
+text-align: center;
+width: 573px;
+margin: 6px;
+}
+/* */
+/* */
+
+}
+
+
+/* - customization.css - */
+@media screen {
+/* http://www.everestpoker.com/portal_css/customization.css?original=1 */
+/* */
+h2.cssVIPHeading {
+font-size: 1.4em;
+font-weight: bold;
+color: #ACAC89;
+background: transparent;
+border: none;
+padding: 0px;
+}
+.cssVIPBorderWrap {
+border-top: 1px dotted #A8A8A8;
+border-bottom: 1px dotted #A8A8A8;
+padding: 0px 10px 0px 10px;
+overflow: hidden;
+}
+.cssVIPColumnLeft {
+vertical-align: top;
+padding-right: 20px;
+}
+.cssVIPColumnRight {
+vertical-align: top;
+}
+/* */
+/* */
+table.cssLiveChatTable {
+background: #ffffff url('http://www.everestpoker.com/livechattable-top.gif') no-repeat top;
+width: 591px;
+border: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+border-collapse: collapse;
+}
+table.cssLiveChatTable tr td {
+background: #ffffff url('http://www.everestpoker.com/livechattable-bottom.gif') no-repeat bottom left;
+width: 591px;
+padding: 5px 0px 5px 0px;
+margin: 0px;
+}
+table.cssLiveChatTable tr td p {
+padding-left: 20px;
+padding-right: 20px;
+}
+table.cssSilverTableNarrow {
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #E8E8E8;
+border-collapse: collapse;
+}
+table.cssSilverTableNarrow th {
+font-weight: bold;
+text-align: center;
+border-bottom: 1px solid #E8E8E8;
+padding: 4px;
+text-align: center;
+}
+table.cssSilverTableNarrow td {
+padding: 3px;
+text-align: center;
+}
+table.cssSilverTableNarrow td.even {
+background-color: #f3f3f3;
+}
+table.cssSilverTableNarrow td.odd {
+background-color: transparent;
+}
+table.cssSilverTableNarrow p {
+padding: 0px;
+margin: 0px;
+}
+table.cssClearTable {
+border: 0px;
+margin-left: auto;
+margin-right: auto;
+}
+table.cssClearTable p {
+padding: 0px;
+margin: 0px;
+}
+.kupu table.cssClearTable td {
+border:1px red dashed;
+}
+table.cssFadedTable {
+background: #ffffff url('http://www.everestpoker.com/howtoplay_main_background.jpg') no-repeat top;
+width: 577px;
+border: 0px;
+margin-left: auto;
+margin-right: auto;
+}
+table.cssFadedTable td {
+padding: 13px 4px 0px 4px;
+text-align: left;
+vertical-align: top;
+}
+table.cssGreenHeadedTable {
+background: #ffffff url('http://www.everestpoker.com/table-background-greenheader.jpg') no-repeat top;
+width: 577px;
+border: 0px;
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+}
+table.cssGreenHeadedTable td {
+padding: 15px 12px 0px 12px;
+text-align: left;
+vertical-align: top;
+}
+table.cssGreenHeadedTable tr.greenHeader {
+height: 28px;
+line-height: 26px;
+color: #ffffff;
+font-weight: bold;
+}
+table.cssGreenHeadedTable tr th {
+padding: 0px 0px 0px 20px;
+border: 0px;
+margin: 0px;
+}
+/* */
+/* */
+#player-stats {
+line-height:16px;
+padding-bottom:15px;
+margin-bottom:15px;
+background: transparent url('http://www.everestpoker.com/bullet-light-bar.gif') bottom left repeat-x;
+}
+#player-banner {
+padding:10px 0px;
+}
+/* */
+/* */
+.cssBodyBold{
+font-weight:bold;
+}
+/* */
+/* */
+.TermsAgreement ol {
+list-style-type: none;
+margin-left: 0px;
+padding-left: 0px;
+}
+.TermsAgreement ul {
+margin-left: 3.5em;
+}
+.TermsAgreement li {
+padding-bottom: 5px;
+padding-top: 5px;
+margin-bottom:0px;
+}
+/* */
+.TermsAgreement dl  {
+margin-top: 15px;
+}
+.TermsAgreement dt {
+margin-left: 20px;
+float: left;
+clear: left;
+font-weight:normal;
+}
+.TermsAgreement dd  {
+margin-left: 60px;
+}
+/* */
+.TermsAgreement dt.level3 {
+margin-left: 50px;
+float: left;
+clear: left;
+}
+.TermsAgreement dd.level3 {
+margin-left: 100px;
+}
+/* */
+.TermsAgreement dt.level4 {
+margin-left: 95px;
+float: left;
+clear: left;
+}
+.TermsAgreement dd.level4 {
+margin-left: 150px;
+}
+.TermsAgreement ul.disc {
+list-style-type: disc
+}
+.TermsAgreement ul.square {
+list-style-type: square
+}
+.TermsAgreement ul.none {
+list-style-type: none
+}
+/* */
+/* */
+dl.evp-portlet-onetop div.doublecolumlisting {
+overflow: hidden;
+}
+dl.evp-portlet-onetop div.doublecolumlisting dd.portletItem {
+background:transparent url(http://www.everestpoker.com/feature_bg.jpg) 50% 0 no-repeat;
+width: 100%;
+}
+dl.evp-portlet-onetop div.doublecolumlisting dd.portletItem div.evp-portlet-item {
+background: none;
+width: 100%;
+overflow: hidden;
+}
+dl.evp-portlet-twotop div.doublecolumlisting dd.portletItem div.evp-portlet-item {
+overflow: hidden;
+}
+/* */
+/* */
+div.doublecolumlisting {
+clear: both;
+overflow: auto;
+}
+div.doublecolumlisting dd.portletItem {
+background: none;
+width: 50%;
+float: left;
+padding: 0px;
+margin: 0px;
+}
+div.doublecolumlisting dd.portletItem div.evp-portlet-item {
+background:transparent url(http://www.everestpoker.com/feature_small_bg.jpg) 50% 0 no-repeat;
+margin:0 3px;
+padding:13px;
+width:261px;
+float:left;
+overflow:auto;
+}
+div.doublecolumlisting dd.portletItem div.evp-portlet-item div.listingPortletPicture {
+overflow: visible;
+}
+div.doublecolumlisting dd.portletItem div.evp-portlet-item div.listingPortletPicture {
+float: left;
+}
+div.doublecolumlisting dd.portletItem div.evp-portlet-item div.listingPortletPicture img {
+margin-right: 10px;
+}
+dl.portletDualListingPortlet div.doublecolumlisting dd.portletItem div.evp-portlet-item div.listingPortletPicture img {
+margin-right: 0px;
+}
+/* */
+hr {
+background-color:#FFFFFF;
+border-color:#FFFFFF #FFFFFF #BABABA;
+border-style:none none dotted;
+border-width:1px;
+color:#FFFFFF;
+height:1px;
+}
+a:hover {
+color: #006600;
+}
+p.greenBarHeading {
+color: #ffffff;
+background: transparent url(http://www.everestpoker.com/green_heading_bar.jpg) no-repeat center;
+width: 611px;
+height: 29px;
+font-weight: bold;
+line-height: 29px;
+text-indent: 20px;
+margin: 0px;
+padding: 0px;
+}
+/* */
+input {
+background: #ffffff;
+}
+textarea {
+background: #ffffff;
+}
+input.grey_button {
+border-color: #FCFCFB #717171 #717171 #FCFCFB;
+background: #D4D0C7;
+border-width: 2px;
+}
+/* */
+table tr td img.small-flag {
+border: 1px solid #000000;
+}
+div.dual-listing-footer {
+padding: 0px 15px 0px 15px;
+}
+div.dual-listing-footer hr {
+margin: 5px 0px;
+}
+* html div.dual-listing-footer hr {
+margin: -7px 0px;
+}
+div.dual-listing-footer a {
+font-weight: bold;
+}
+table.cssSilverTableNarrow tr td input.button {
+background: white url(http://www.everestpoker.com/green-button-120x29.gif) no-repeat top;
+width: 120px;
+height: 29px;
+color:white;
+text-transform: uppercase;
+font-weight: bold;
+border: 0px;
+}
+/* */
+/* */
+}
+

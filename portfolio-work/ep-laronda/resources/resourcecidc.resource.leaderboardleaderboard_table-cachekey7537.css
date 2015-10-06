@@ -1,0 +1,123 @@
+
+/* - ++resource++cidc.resource.leaderboard/leaderboard_table.css - */
+@media screen {
+/* http://www.everestpoker.com/portal_css/++resource++cidc.resource.leaderboard/leaderboard_table.css?original=1 */
+div.paging_full_numbers {
+line-height: 22px;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+span.paging_full_numbers .first, .previous, .next, .last {
+font-weight: bold;
+}
+span.paginate_button, span.paginate_active{
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid rgba(170,170,170,0);
+cursor: pointer;
+margin-bottom: 0;
+margin-left: 3px;
+margin-right: 3px;
+margin-top: 0;
+padding-bottom: 2px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 2px;
+}
+span.paginate_active {
+background-color: white;
+color: black;
+font-weight: bold;
+}
+span.paginate_button:hover {
+border-color: #AAA;
+background-color: white;
+}
+span.paginate_button_disabled {
+color: #ddd;
+}
+span.paginate_button_disabled:hover {
+border: 1px solid rgba(170,170,170,0);
+color: #eee;
+}
+table.leaderboard th {
+padding-left: 1.5em;
+padding-right: 1.5em;
+}
+.sorting_asc {
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: url("sort_asc.png");
+background-origin: padding-box;
+background-position: right center;
+background-repeat: no-repeat;
+background-size: auto auto;
+}
+.sorting_desc {
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: url("sort_desc.png");
+background-origin: padding-box;
+background-position: right center;
+background-repeat: no-repeat;
+background-size: auto auto;
+}
+.sorting {
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: url("sort_both.png");
+background-origin: padding-box;
+background-position: right center;
+background-repeat: no-repeat;
+background-size: auto auto;
+}
+.sorting_asc_disabled {
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: url("sort_asc_disabled.png");
+background-origin: padding-box;
+background-position: right center;
+background-repeat: no-repeat;
+background-size: auto auto;
+}
+.sorting_desc_disabled {
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: url("sort_desc_disabled.png");
+background-origin: padding-box;
+background-position: right center;
+background-repeat: no-repeat;
+background-size: auto auto;
+}
+table.leaderboard tr.even {
+background-color: #F3F3F3;
+}
+div.arrow {
+width: 60px;
+}
+div.previous {
+float: left;
+text-align: left;
+}
+div.next {
+float: right;
+text-align: right;
+}
+div.history {
+margin: auto;
+text-align: center;
+}
+select.historyList,
+select.historyList option {
+min-width: 12em;
+}
+
+}
+
