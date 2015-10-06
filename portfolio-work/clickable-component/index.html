@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clickable Component</title>
+	<style>
+		.clickable {
+			border:1px solid #666666;
+			max-width:500px;
+			margin:0 auto;
+		}
+		.clickable:hover {
+			cursor:pointer;
+		}
+		.clickable img:hover{
+			opacity:.5;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+	<div class="js-linked-component clickable">
+		<h1>Clickable Component</h1>
+		<img src="http://placekitten.com/500/230" />
+		<p>This text is clickable and goes to the default location.  Some of the text however contains a <a href="http://www.google.com/">link</a> which goes somewhere else.  The component can also be configured to open a new window.</p>
+		<a class="js-linked-component-link" href="http://www.bing.com" target="_blank">View More</a>
+	</div>
+	<script>
+		$('.js-linked-component').each(function(){
+			// find the first component link and get it's attributes
+			var $link_obj = $(this).find('.js-linked-component-link').first(),
+				target = $link_obj.attr('target'),
+				link = $link_obj.attr("href");
+			// if link opens in new window
+			if(target && target == '_blank'){
+				target = true;
+			}
+			$(this).click(function(event){
+				if(event.target.tagName === 'A' && !$(event.target).hasClass('.js-linked-component-link') ) {
+					return;
+				}
+				event.preventDefault();
+				target ? window.open(link) : window.location = link;
+			});
+		});
+	</script>
+</body>
+</html>
