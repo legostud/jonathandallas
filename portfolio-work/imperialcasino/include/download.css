@@ -1,0 +1,63 @@
+#page_content.dload {
+	border-left: none;
+	width:860px;
+}
+/* hide the global banner */
+#banner_graphic_generic {
+	display:none;
+}
+#banner_graphic_dload {
+	height:276px;
+	margin-top:5px;
+	background:url(../images/header_download.jpg) no-repeat top center;
+}
+#banner_button_wrapper {
+	padding-top:100px;
+	padding-left:100px;
+}
+
+/* download offer */
+#download_offer {
+	float:right;
+	clear:right;
+	width:316px;
+}
+#download_offer_top {
+	background:url(../images/gift_top.gif) no-repeat top center;
+	padding:20px 50px 5px 20px;
+}
+#download_offer_top h2 {
+	font-size:13px;
+	text-decoration:underline;
+	margin:0px;
+}
+#download_offer_bottom {
+	background:url(../images/gift_bottom.gif) no-repeat bottom center;
+	font-style:italic;
+	padding:0px 20px 20px 20px;
+}
+/* end offer */
+
+/* instructions */
+#download_instructions {
+	width:538px;
+	float:left;
+	clear:left;	
+}
+#download_instructions h2 {
+	font-size:18px;
+	margin-top:0px;
+
+}
+/** there are two sets of instructions, JS file unhides Netscape **/
+#ffInstructions {
+	display:none;
+}
+/* end instructions */
+
+/* download message */
+#download_message {
+	width:538px;
+	float:left;
+	clear:left;	
+}

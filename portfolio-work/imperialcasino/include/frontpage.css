@@ -1,0 +1,165 @@
+/* Home Page Top Navigation */
+#top_nav_place_holder {
+	height:49px;
+}
+#top_navigation {
+	position:absolute;
+	top:80px;
+	margin-left:-2px;
+}
+/* end top nav */
+
+/* Home page Banner Graphic */
+#banner_graphic_place_holder {
+	height:280px;
+}
+#banner_graphic_home {
+	position:absolute;
+	top:130px;
+	height:276px;
+	width:920px;
+	margin-top:5px;
+	background:url(../images/header_homepage.jpg) no-repeat top center;
+}
+#banner_graphic_bonus {
+	width:670px;
+	text-align:center;
+	padding-top:50px;
+}
+#banner_button_wrapper {
+	padding-top:10px;
+	padding-left:170px;
+}
+#banner_graphic_home #banner_button_middle a {
+	font-size:35px;
+	font-weight:bold;
+}
+/* end banner */
+#document_content {
+
+}
+#document_content_interior_middle {
+	background:none;
+	padding-top:5px;
+	margin-bottom:8px;
+	min-height:200px;
+	width:902px;
+}	
+/* Page Content */
+/***** Column orders are from right to left - SEO source ordering ****/
+#page_content.home {
+	width:902px;
+	padding:0px;
+	margin:0px;
+	color:#FFFFFF;
+	font-size:13px;
+	border-left:none;
+}
+.pc_column_one {
+	width:190px;
+	float:right;
+	padding-left:10px;
+	padding-right:10px;
+}
+.pc_column_two {
+	width:190px;
+	float:right;
+	padding-left:10px;
+	padding-right:28px;
+}
+.pc_column_three {
+	width:190px;
+	float:right;
+	padding-right:28px;
+}
+.pc_column_four {
+	width:190px;
+	float:left;
+	padding-left:15px;
+}
+#pc_row_one {
+	clear:both;
+	overflow:hidden;
+	height:132px;
+	background: url(../images/home_page_content_top.jpg) no-repeat top left;
+}
+#pc_row_two {
+	clear:both;
+	overflow:hidden;
+	background: url(../images/home_middle_chat.gif) no-repeat top left;
+	padding-bottom:5px;
+	height:100%;
+}
+#pc_row_three {
+	clear:both;
+	overflow:hidden;
+	height:30px;
+	padding-top:5px;
+	background: url(../images/home_page_content_footer.gif) no-repeat bottom left;
+}
+
+#pc_row_one a {
+	height:130px;
+	text-decoration:none;
+	display:block;
+}
+#pc_row_two h2 {
+	font-size:21px;
+	font-weight:normal;
+	margin-top:3px;
+	margin-bottom:0px;
+}
+#pc_row_two a {
+	color:#FFFFFF;
+	text-decoration:none;	
+}
+#pc_row_two a:hover {
+	text-decoration:underline;	
+}
+#pc_row_two p {
+	margin-top:5px;
+}
+#pc_row_three a {
+	color:#ddcc88;
+	text-decoration:none;
+}
+#pc_row_three span {
+	padding-left:5px;
+	font-size:8px;
+	vertical-align:middle;
+}
+/* Jackpot total */
+#pc_row_one .pc_column_four {
+	font-size:16px;
+	color:#ffffff;
+	height:112px;
+	text-align:center;
+	padding-left:5px;
+	width:215px;
+}
+#pc_row_one .pc_column_four a {
+	padding-top:30px;
+	display:block;
+	color:#ffffff;
+	height:70px;
+}
+#div_total{
+	font-size:20px;
+	font-weight: bold;
+}
+/* end jackpot */
+#pc_row_one .pc_column_four div {
+	width:200px;
+}
+#pc_row_two .pc_column_four {
+	padding-top:20px;
+}
+#pc_row_three .pc_column_one, #pc_row_three .pc_column_two, #pc_row_three .pc_column_three {
+	text-align:right;
+}
+#pc_row_three .pc_column_four {
+	text-align:right;
+}
+
+
+
