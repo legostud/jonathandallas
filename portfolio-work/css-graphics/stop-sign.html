@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		.wrapper {
+			height:300px;
+			margin:auto;
+			overflow:hidden;
+			width:300px;
+		}
+		.sign {
+			background-color:#F00;
+			color:rgb(255,0,0);
+			height:300px;
+			width:300px;
+			-webkit-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+		.wrapper::after {
+			content:"STOP";
+			color:#ffffff;
+			font-family:Arial;
+			font-size:100px;
+			position:absolute;
+			text-align:center;
+			top:100px;
+			width:300px;
+			z-index:1;
+		}
+	</style>
+	<div class="wrapper">
+		<div class="sign">Draw Me</div>
+	</div>
+</body>
+</html>

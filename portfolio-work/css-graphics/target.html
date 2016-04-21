@@ -1,0 +1,41 @@
+<html>
+<body>
+	<style>
+		.element {
+		    background-color: #f00;
+			border-radius: 50%;
+			border: 6px solid rgb(255,0,0);
+			box-shadow: inset 0 0 0 6px #fff;
+			display: inline-block;
+			height: 38px;
+			position: relative;
+			width: 38px;
+		}
+		.element::before {
+			background: #fff;
+			border-left: 4px solid #f00;
+			border-right: 4px solid #f00;
+			content:"";
+			height:4px;
+			position:absolute;
+			left: -10px;
+			top: 50%;
+			transform: translate3d(0, -50%, 0);
+			width:50px;
+		}
+		.element::after {
+			background: #fff;
+			border-top: 4px solid #f00;
+			border-bottom: 4px solid #f00;
+			content:"";
+			height:50px;
+			position:absolute;
+			left: 50%;
+			top: -10px;
+			transform: translate3d(-50%, 0, 0);
+			width:4px;
+		}
+	</style>
+	<span class="element"></span>
+</body>
+</html>

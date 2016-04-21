@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Beer Glass</title>
+	<style>
+		style {
+			background-color:#333;
+			color: #ccc;
+			display:block;
+		}
+		
+	</style>
+</head>
+<body>
+	<pre>
+		<style>
+			.beer-mug {
+				background-image: linear-gradient(0deg, #FFA800 0%, #FFA800 70%, #FFF 71%, #FFF 80%, rgba(200,200,200,.5) 85%, rgba(200,200,200,.5) 100%);
+				border: 8px solid rgba(220,220,220,.7);
+				border-bottom-left-radius: 15px;
+				border-bottom-right-radius: 15px;
+				border-top:none;
+				height: 200px;
+				position:relative;
+				width: 125px;
+			}
+			.beer-mug:after {
+				border: 12px solid rgba(220,220,220,.5);
+				border-top-right-radius: 8px;
+				border-bottom-right-radius: 8px;
+				border-left: none;
+				content: "";
+				height:45%;
+				position: absolute;
+					top:20%;
+					left: calc(100% + 8px);
+				width: 25%;
+			}
+		</style>
+	</pre>	
+	<div class="beer-mug">
+		<span class="foam"></span>
+	</div>
+</body>
+</html>
