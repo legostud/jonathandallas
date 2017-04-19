@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix Rain</title>
+</head>
+<body>
+  <style>
+  @keyframes rain {
+    0% { bottom: 100%; opacity: 0;}
+    15% { opacity: 1; }
+    35% { opacity: 1; }
+    100% { bottom: -100%; opacity: 0; }
+  }
+
+  body {
+    background-color: #000;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+  }
+  pre {
+      animation: rain 12s linear;
+      background-image: linear-gradient(0deg, #0F0, rgba(0,255,0,.4));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color:transparent;
+      font-family: monospace;
+      font-size: 18px;
+      font-weight: bold;
+      position: absolute;
+        bottom: -100%;
+  }
+  .near {
+    animation: rain 8s linear;
+    font-size: 22px;
+  }
+  .far {
+    animation: rain 20s linear;
+    font-size: 12px;
+  }
+  </style>
+  
+  <script>
+    (function(w,d) {
+      let classTypes = ['normal','near','far'];
+
+      function msg() {
+        // randomly pick a text length
+        let msg = Array.apply(null, Array(Math.floor((Math.random() * 20) + 20)));
+        msg = msg.map(() => String.fromCharCode(Math.floor((Math.random() * 75) + 48)));
+        return msg.join('\n');
+      }
+      function rain() {
+        // create the html element
+        let drop = d.createElement('pre');
+        // add a random left position to the element
+        drop.style.left = Math.floor((Math.random() * 100) + 0) + "%";
+        // generate a random string of 10-20 characters
+        drop.appendChild(document.createTextNode(msg()));
+        // randomly adding style types
+        drop.classList.add(classTypes[Math.floor(Math.random() * 3)]);
+        // add the element to the page
+        d.body.appendChild(drop); 
+
+        setTimeout(rain,Math.floor((Math.random() * 500) + 50))
+      }
+
+      rain();
+      setTimeout(rain,5);
+      setTimeout(rain,10);
+      setTimeout(rain,15);
+
+    })(window,document);
+  </script>
+</body>
+</html>
+
