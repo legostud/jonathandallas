@@ -1,0 +1,69 @@
+<style>
+  .show-css-code {
+    background-color: black;
+    color: #eee;
+    display: block;
+  }
+
+  .shape,
+  img { display: inline-block; vertical-align: middle; }
+
+</style>
+
+<div>
+  <button onclick="showCode()">Toggle CSS Code</button>
+</div>
+
+<div class="shape"></div>
+
+<img src="./spinner-cropped.gif" />
+
+<pre>
+  <style class="js-css-code">
+    /* red circle -> green square -> blue triangle */
+    @keyframes spinner {
+      0%, 10% {
+        border-color: #BA6957;
+        border-radius: 50%; 
+        transform: rotate(0deg); 
+      }
+
+      33%, 43% { 
+        border-radius: 0; 
+        border-color: #1EB287; 
+        transform: rotate(45deg) scale(.9); 
+      }
+    
+      66%, 76% {
+        border-radius: 0; 
+        border-color: transparent; 
+        border-top-color: #1793B9;
+        transform: rotate(90deg) scaleY(.9); 
+      }
+
+      100% { 
+        border-color: #BA6957;
+        border-radius: 50%; 
+        transform: rotate(135deg); 
+      }
+    }
+
+    .shape {
+      animation: spinner 1.2s infinite linear;
+      border-right: 20px solid #BA6957;
+      border-top: 40px solid #BA6957; 
+      border-left: 20px solid #BA6957;
+      transform: scale(.9);
+      height: 0;
+      width: 0;    
+    }
+
+  </style>
+</pre>
+
+<script>
+  function showCode() {
+    document.querySelector('.js-css-code').classList.toggle('show-css-code');
+  }
+</script>
+
