@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Zoom test</title>
+
+<style>
+body { margin:30px; }
+  .product { border: solid 1px #aaaaaa; float:left; padding: 10px; }
+    .image-wrapper { position:relative; }
+	.zoom { background: url('img/paper-large.jpg') top left no-repeat; display:none; height:271px; left:0; overflow:hidden; position:absolute; top:0; width:400px; }
+</style>
+<script src="js/jquery-1.8.1.min.js"></script>
+<script>
+	//Wait for Dom ready
+	$(function(){
+		//hovering the product image shows the zoomed image
+		$('.product').hover(
+			function() { $(this).find('.zoom').show() },
+			function() { $(this).find('.zoom').hide() }
+		);
+		//hovering the zooming image moves the background position
+		$('.zoom').bind('mousemove',function(e){ 
+			var height = $(this).css('height').replace(/[^-\d\.]/g, ''),
+				width = $(this).css('width').replace(/[^-\d\.]/g, ''),
+				offset = $(this).offset();
+				percentX = (e.pageX - offset.left) / width * 100,
+				percentY = (e.pageY - offset.top) / height * 100,
+				position = percentX + "% " + percentY +"%";
+
+			$(this).css("background-position",position);
+		}); 
+	
+	
+	});
+</script>
+</head>
+<body>
+	<h2>Mouse over the image to activate the zoom feature</h2>
+<div class="product">
+	<div class="image-wrapper">
+		<img src="img/paper.jpg" alt="paper" height="271" width="400" />
+		<div class="zoom"></div>
+	</div>
+</div>
+
+</body>
+</html>
