@@ -1,0 +1,12 @@
+{
+  "name": "Flat Designs",
+  "author": "Jonathan Dallas",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {}
+}

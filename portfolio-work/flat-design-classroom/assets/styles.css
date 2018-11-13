@@ -1,0 +1,11 @@
+:root {
+  --bg-blue: #01b0cf;  
+}
+
+body {
+  background-image: linear-gradient(180deg, #01b0cf 750px, #008ca5 750px);
+}
+
+.classroom {
+  height: 840px;
+}
