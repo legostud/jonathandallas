@@ -1,0 +1,186 @@
+.reports-table {
+  color: $blue-dark;
+  font-family: $font-primary;
+  width: 100%;
+
+  tbody {
+    display: none;
+
+    &.current {
+      display: table-row-group;
+    }
+  }
+
+  tr {
+    &.show {
+      .expandable-toggle {
+        .icon {
+          @include sprite($icon-circle-minus);
+        }
+      }
+
+      + .expandable-content {
+        display: table-row;
+      }
+    }
+  }
+
+  th,
+  td {
+    background-color: #F6F5F2;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    padding: 15px;
+  }
+
+  th {
+    @include font-size(18);
+    text-align: left;
+  }
+
+  .col-xsmall {
+    width: 100px;
+  }
+
+  .col-small {
+    width: 135px;
+  }
+
+  .expandable-toggle {
+    color: $color-primary;
+    cursor: pointer;
+    line-height: 1.3;
+    padding-left: 35px;
+    font-family: $font-stack;
+    position: relative;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      @include sprite($icon-circle-plus);
+      display: block;
+      margin-right: 10px;
+      left: 0;
+      position: absolute;
+      vertical-align: middle;
+    }
+  }
+
+  .expandable-content {
+    @include font-size(14);
+    color: $gray-dark;
+    display: none;
+    font-family: $font-stack;
+
+    td {
+      padding-left: 50px;
+    }
+
+    a {
+      @include font-size(16);
+      color: $color-secondary;
+      font-weight: bold;
+    }
+  }
+
+  .reports-content-label {
+    display: none;
+  }
+
+  tfoot {
+    font-family: $font-stack;
+
+    td {
+      background-color: transparent;
+      padding: 10px 0 0;
+      text-align: right;
+
+      a {
+        color: $color-secondary;
+      }
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    display: block;
+    color: $gray-dark;
+    font-family: $font-stack;
+
+    thead {
+      display: none;
+    }
+
+    tr, th, td {
+      display: block;
+      float: left;
+      width: 100%;
+    }
+
+    tr {
+      border-top: 3px solid #fff;
+    }
+
+    th, td {
+      @include box-sizing(border-box);
+      border-left: 0;
+      border-top: 0;
+      padding: 5px;
+    }
+
+    .col-xsmall,
+    .col-small {
+      width: 100%;
+    }
+
+    .expandable-toggle {
+      padding-left: 0;
+
+      .icon {
+        display: none;
+      }
+    }
+
+    .expandable-content {
+      border-top: 0;
+      display: block;
+
+      td {
+        padding-bottom: 10px;
+        padding-left: 5px;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      a {
+        @include font-size(14);
+      }
+    }
+
+    .reports-view-col {
+      display: none;
+    }
+
+    .reports-content-label {
+      display: inline;
+    }
+
+    tfoot {
+      @include font-size(13);
+
+      td {
+        background-color: #F6F5F2;
+        color: $color-tertiary;
+        padding: 5px;
+        text-align: left;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

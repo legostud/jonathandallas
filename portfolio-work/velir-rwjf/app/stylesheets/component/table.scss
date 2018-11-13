@@ -1,0 +1,36 @@
+.table-sortable {
+  th {
+    &.header {
+      cursor: pointer;
+    }
+    &.headerSortDown span {
+      display: block;
+      padding-right: 25px;
+      position: relative;
+
+      &:after {
+        @include sprite($icon-arrow-down);
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 2px;
+      }
+    }
+
+    &.headerSortUp span {
+      display: block;
+      padding-right: 25px;
+      position: relative;
+
+      &:after {
+        @include sprite($icon-arrow-up);
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 2px;
+      }
+    }
+  }
+}

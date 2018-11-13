@@ -1,0 +1,24 @@
+.primary {
+    &.transparent {
+        background: transparent !important;
+        background: rgba(255, 255, 255, 0) !important;
+        box-shadow: none !important;
+    }
+}
+
+.columns-33_33_33 {
+    > .column {
+        @include media(max-width 690px) {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.module-header {
+    font-weight: 300;
+    padding: 0 0 $page-v-rhythm;
+}
+
+.fixed {
+    position: fixed;
+}

@@ -1,0 +1,24 @@
+.list-inline {
+  > li {
+    @include inline-block;
+    margin-bottom: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &.divided {
+    > li {
+      border-left: 1px dotted #DFDFDF;
+      padding-left: 14px;
+
+      &:first-child {
+        border-left-width: 0;
+        padding-left: 0;
+      }
+    }
+  }
+}

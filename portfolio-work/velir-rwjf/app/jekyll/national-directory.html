@@ -1,0 +1,265 @@
+---
+layout: default
+controller: NationalDirectory
+---
+
+<div class="primary">
+    <div class="page-header">
+        <h3>Comparing Health Care Quality: A National Directory</h3>
+
+        <time datetime="2011-02-03">February 3, 2011</time>
+
+        <div class="page-header-details">
+            <div class="row">
+                <div class="span9">
+                    [Share this component]
+                </div>
+
+                <div class="span3">
+                    <ul class="list-inline divided">
+                        <li><a href="#" class="print-button">Print</a></li>
+                        <li><a href="#" class="email-button">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /.page-header -->
+
+    <p>Measuring and publicly reporting on the care doctors and hospitals provide are crucial to improving quality and lowering the cost of health care nationwide.</p>
+
+    <p>This interactive directory of 207 state and local public reports is intended to help patients find reliable information on the care in their communities. Enter your state to find public resources to help you choose a provider.</p>
+
+    <section class="region-selector" id="region-selector">
+        <div class="selector-container">
+            <label class="label">Enter or select a region:</label>
+            <input type="hidden" class="input" data-default="National" value="National">
+        </div>
+        <div class="region-image" id="region-image">
+            <ul>
+                <!-- DEV: Create blank img tags here for each region -->
+                <li><div><img src="images/regions/usa.png" alt="National"></div></li>
+                <li><div><img src="" alt="New York"></div></li>
+            </ul>
+        </div>
+        <div class="region-details show" id="region-details">
+            <h4 class="title">Public Health Care Quality Reports</h4>
+            <strong class="total-value">258 Total</strong>
+            <strong class="region-value"><span>21</span> in the US</strong>
+        </div>
+    </section> <!-- /.region-selector -->
+
+    <table class="reports-table table-sortable" id="reports-table">
+        <thead>
+            <tr>
+                <th><span>Report Title</span></th>
+                <th class="col-small"><span>Measures
+                    <div class="tooltip">
+                        <div class="tooltip-icon">?</div>
+                        <div class="window">
+                            <div class="container">
+                                <p><strong>Primary care physicians, practices, medical groups and clinics:</strong> Includes ratings for individual primary care physics, primary care practices, independent medical groups and clinics.</p>
+                                <p><strong>Hospitals and health systems:</strong> Includes ratings for hospitals and health systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </span></th>
+                <th class="col-xsmall"><span>State</span></th>
+                <th class="col-small"><span>Link</span></th>
+            </tr>
+        </thead>
+
+        <!-- DEV: Contains copy of default reports -->
+        <tbody class="current">
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>American Heart Association - Recognized Hospitals for Stroke Care</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Hospitals</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>National</td>
+                <td class="col-small reports-view-col"><a href="http://www.heart.org/HEARTORG/HealthcareResearch/GetWithTheGuidelinesHFStroke/GetWithTheGuidelinesStrokeHomePage/Recognition-from-Get-With-The-Guidelines-Stroke_UCM_308034_Article.jsp">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (American Heart Association - Recognized Hospitals for Stroke Care) No description available.</p>
+
+                    <a href="http://www.heart.org/HEARTORG/HealthcareResearch/GetWithTheGuidelinesHFStroke/GetWithTheGuidelinesStrokeHomePage/Recognition-from-Get-With-The-Guidelines-Stroke_UCM_308034_Article.jsp">View Report</a>
+                </td>
+            </tr>
+
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>Centers for Medicare and Medicaid Services</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Hospitals</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>National</td>
+                <td class="col-small reports-view-col"><a href="http://www.medicare.gov/hospitalcompare/search.html">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (Centers for Medicare and Medicaid Services) No description available.</p>
+
+                    <a href="http://www.medicare.gov/hospitalcompare/search.html">View Report</a>
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- DEV: Create one tbody group for each region -->
+        <tbody data-region="national">
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>American Heart Association - Recognized Hospitals for Stroke Care</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Hospitals</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>National</td>
+                <td class="col-small reports-view-col"><a href="http://www.heart.org/HEARTORG/HealthcareResearch/GetWithTheGuidelinesHFStroke/GetWithTheGuidelinesStrokeHomePage/Recognition-from-Get-With-The-Guidelines-Stroke_UCM_308034_Article.jsp">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (American Heart Association - Recognized Hospitals for Stroke Care) No description available.</p>
+
+                    <a href="http://www.heart.org/HEARTORG/HealthcareResearch/GetWithTheGuidelinesHFStroke/GetWithTheGuidelinesStrokeHomePage/Recognition-from-Get-With-The-Guidelines-Stroke_UCM_308034_Article.jsp">View Report</a>
+                </td>
+            </tr>
+
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>Centers for Medicare and Medicaid Services</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Hospitals</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>National</td>
+                <td class="col-small reports-view-col"><a href="http://www.medicare.gov/hospitalcompare/search.html">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (Centers for Medicare and Medicaid Services) No description available.</p>
+
+                    <a href="http://www.medicare.gov/hospitalcompare/search.html">View Report</a>
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- DEV: Create one tbody group for each region -->
+        <tbody data-region="new-york">
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>MVP Physician Quality Report</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Physicians</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>NY</td>
+                <td class="col-small reports-view-col"><a href="http://www.mvphealthcare.com/provider/provider-metrics-2010.html">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (MVP Physician Quality Report) Use this site to find information about hospitals in New York State, and the quality of care they provide. Please be mindful that while we believe these quality measures are among the most reliable, measuring quality is difficult because of the variation among hospitals in the complexity of patients that they treat.</p>
+                    <a href="http://www.mvphealthcare.com/provider/provider-metrics-2010.html">View Report</a>
+                </td>
+            </tr>
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>New Jersey Health Care Quality Insurance</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Hospitals</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>NY</td>
+                <td class="col-small reports-view-col"><a href="http://web.doh.state.nj.us/apps2/hpr/reports.shtml">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (New Jersey Health Care Quality Insurance) Use this site to find information about hospitals in New York State, and the quality of care they provide. Please be mindful that while we believe these quality measures are among the most reliable, measuring quality is difficult because of the variation among hospitals in the complexity of patients that they treat.</p>
+                    <a href="http://web.doh.state.nj.us/apps2/hpr/reports.shtml">View Report</a>
+                </td>
+            </tr>
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>New York City Health and Hospitals Corporation</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Hospitals</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>NY</td>
+                <td class="col-small reports-view-col"><a href="http://www.nyc.gov/html/hhc/infocus/html/home/performance_landing.shtml">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (New York City Health and Hospitals Corporation) Use this site to find information about hospitals in New York State, and the quality of care they provide. Please be mindful that while we believe these quality measures are among the most reliable, measuring quality is difficult because of the variation among hospitals in the complexity of patients that they treat.</p>
+                    <a href="http://www.nyc.gov/html/hhc/infocus/html/home/performance_landing.shtml">View Report</a>
+                </td>
+            </tr>
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>New York State Department of Health - Cardiovascular Disease Data and Statistics</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Hospitals</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>NY</td>
+                <td class="col-small reports-view-col"><a href="http://www.health.state.ny.us/statistics/diseases/cardiovascular/">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (New York State Department of Health - Cardiovascular Disease Data and Statistics) Use this site to find information about hospitals in New York State, and the quality of care they provide. Please be mindful that while we believe these quality measures are among the most reliable, measuring quality is difficult because of the variation among hospitals in the complexity of patients that they treat.</p>
+                    <a href="http://www.health.state.ny.us/statistics/diseases/cardiovascular/">View Report</a>
+                </td>
+            </tr>
+            <!-- Report -->
+            <tr>
+                <td>
+                    <div class="expandable-toggle">
+                        <span class="icon"></span>
+                        <strong>New York State Department of Health - New York State Hospital Profile</strong>
+                    </div>
+                </td>
+                <td class="col-small"><strong class="reports-content-label">Type: </strong>Hospitals</td>
+                <td class="col-xsmall"><strong class="reports-content-label">State: </strong>NY</td>
+                <td class="col-small reports-view-col"><a href="http://hospitals.nyhealth.gov/">View Report</a></td>
+            </tr>
+            <tr class="expandable-content">
+                <td colspan="4">
+                    <p><strong>Description:</strong> (New York State Department of Health - New York State Hospital Profile) Use this site to find information about hospitals in New York State, and the quality of care they provide. Please be mindful that while we believe these quality measures are among the most reliable, measuring quality is difficult because of the variation among hospitals in the complexity of patients that they treat.</p>
+                    <a href="http://hospitals.nyhealth.gov/">View Report</a>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <p>Do you have a report to submit? <a href="#">Let us know!</a></p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <footer class="disclaimer">
+        <a href="#" class="disclaimer-toggle">Disclaimer</a>
+        <p>Disclaimer: Reports included in this directory meet the following criteria: use performance measurement data based on nationally recognized measurement sets for quality of care in inpatient or outpatient settings; include measures for process of care, outcome of care, cost, efficiency, patient safety, utilization or patient experience; make reports publicly available without fee or subscription; and include comparative information for facilities or providers in a defined location, with the exception of the national resources. Please note that in some cases reports cover multiple states. For example, a report from a New York-based organization may be applicable to the state of New Hampshire.</p>
+        <p>RWJF compiled this online repository but makes no claims about the accuracy or usability of the information. RWJF recognizes that not all reports included in the directory are consumer friendly, as certain reports are targeted to industry professionals. Questions about any information in any specific report should be directed to the organizations that developed the report, listed on each report website.</p>
+    </footer>
+</div> <!-- /.primary -->

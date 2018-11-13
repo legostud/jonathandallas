@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<entry>
+		<organization>Alabama Department of Public Health </organization>
+		<state>Alabama</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://adph.org/hai/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Alabama.</description>
+	</entry>
+	<entry>
+		<organization>Albuquerque Coalition for Healthcare Quality</organization>
+		<state>New Mexico</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.abqhealthcarequality.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the Albuquerque region.</description>
+	</entry>
+	<entry>
+		<organization>Aligning Forces for Quality South Central Pennsylvania</organization>
+		<state>Pennsylvania</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.aligning4healthpa.org/community-checkup.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in South Central Pennsylvania.</description>
+	</entry>
+	<entry>
+		<organization>Aligning Forces Humboldt</organization>
+		<state>California</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.aligningforceshumboldt.org/find_quality_care.php</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Humboldt County.</description>
+	</entry>
+	<entry>
+		<organization>Anthem Blue Cross Blue Shield</organization>
+		<state>Virginia</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.anthem.com/wps/portal/ahpmember?content_path=shared/va/f1/s0/t0/pw_ad087638.htm&amp;state=va&amp;rootLevel=0&amp;label=Performance%20report%20catalog</outboundURL>
+		<description>This report was prepared by a for-profit group  to compare the quality of care in the state of Virginia.</description>
+	</entry>
+	<entry>
+		<organization>Arizona Department of Health Services - Arizona Hospital Compare</organization>
+		<state>Arizona</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://pub.azdhs.gov/hospital-discharge-stats/2011/index.html</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Arizona.</description>
+	</entry>
+	<entry>
+		<organization>Arizona Department of Health Services - Cost Comparison</organization>
+		<state>Arizona</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.azdhs.gov/plan/crr/cr/hospitals.htm#CostComparison</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Arizona.</description>
+	</entry>
+	<entry>
+		<organization>Arkansas Hospital Association</organization>
+		<state>Arkansas</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.hospitalconsumerassist.com/search.htm</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Arkansas.</description>
+	</entry>
+	<entry>
+		<organization>Better Health Greater Cleveland</organization>
+		<state>Ohio</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.betterhealthcleveland.org/Community-Health-Checkup.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Northeast Ohio.</description>
+	</entry>
+	<entry>
+		<organization>Blue Cross &amp; Blue Shield of Rhode Island </organization>
+		<state>Rhode Island</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://www.bcbsri.com/about-us/improving-healthcare-delivery/hospital-quality-program</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of Rhode Island.</description>
+	</entry>
+	<entry>
+		<organization>Blue Cross and Blue Shield of Alabama</organization>
+		<state>Alabama</state>
+		<reportType>Hospital; Physician</reportType>
+		<outboundURL>https://www.bcbsal.org/index.cfm</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of Alabama.</description>
+	</entry>
+	<entry>
+		<organization>Blue Cross Blue Shield of Massachusetts Foundation - Find a Doctor</organization>
+		<state>Massachusetts</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>https://findadoctor.bluecrossma.com/</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of Massachusetts.</description>
+	</entry>
+	<entry>
+		<organization>BlueCross BlueShield of Tennessee</organization>
+		<state>Tennessee</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.bcbst.com/tools/hospital-quality/service.do</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of Tennessee.</description>
+	</entry>
+	<entry>
+		<organization>BlueShield of California</organization>
+		<state>California</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>https://www.blueshieldca.com/fap/app/search.html</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>California Department of Public Health</organization>
+		<state>California</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.cdph.ca.gov/programs/hai/Pages/HealthcareAssociatedInfections.aspx</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>California HealthCare Foundation</organization>
+		<state>California</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.calhospitalcompare.org/?v=2</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>California Office of Statewide Health Planning and Development - California Healthcare Atlas</organization>
+		<state>California</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://gis.oshpd.ca.gov/atlas/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>California Office of Statewide Health Planning and Development - Coronary Artery Bypass Graft (CABG) Surgery in California</organization>
+		<state>California</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.oshpd.ca.gov/HID/Products/Clinical_Data/CABG/10Breakdown.html</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>California Office of Statewide Health Planning and Development - Hospital Chargemasters</organization>
+		<state>California</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.oshpd.ca.gov/Chargemaster/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>California Office of Statewide Health Planning and Development - Hospital Quality</organization>
+		<state>California</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.oshpd.ca.gov/HID/DataFlow/HospQuality.html</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>California Office of the Patient Advocate</organization>
+		<state>California</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://reportcard.opa.ca.gov/rc2013/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>Center for Health Information Analysis at the University of Nevada, Las Vegas</organization>
+		<state>Nevada</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.chiaunlv.com/Reports/HealthChoices.php</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Nevada.</description>
+	</entry>
+	<entry>
+		<organization>Central Indiana Alliance for Health</organization>
+		<state>Indiana</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.centralindianaallianceforhealth.org/reports/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the Central Indiana region.</description>
+	</entry>
+	<entry>
+		<organization>CIMRO of Nebraska</organization>
+		<state>Nebraska</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.cimronebraska.org/Home/datamaps/nedata.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Nebraska.</description>
+	</entry>
+	<entry>
+		<organization>Colorado Business Group on Health - Quality Report: Hospitals</organization>
+		<state>Colorado</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.coloradohealthonline.org/cbgh/?LinkServID=6AEFBCC8-9D88-398C-72AE3FB8ECF47B50&amp;showMeta=0</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Colorado.</description>
+	</entry>
+	<entry>
+		<organization>Colorado Business Group on Health - Quality Report: Physicians </organization>
+		<state>Colorado</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.cbghealth.org/cbgh/?LinkServID=E1A62B2B-C267-A10F-ABAECC91AD53EA8A&amp;showMeta=0</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Colorado.</description>
+	</entry>
+	<entry>
+		<organization>Colorado Department of Public Health and Environment</organization>
+		<state>Colorado</state>
+		<reportType>Hospital </reportType>
+		<outboundURL>http://www.chd.dphe.state.co.us/topics.aspx?q=Health_Facility_Acquired_Infections</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Colorado.</description>
+	</entry>
+	<entry>
+		<organization>Colorado Hospital Association - Colorado Hospital Price Report</organization>
+		<state>Colorado</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.cohospitalprices.org/hprices/index.php</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Colorado.</description>
+	</entry>
+	<entry>
+		<organization>Colorado Hospital Association - Colorado Hospital Report Card</organization>
+		<state>Colorado</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.cohospitalquality.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Colorado.</description>
+	</entry>
+	<entry>
+		<organization>Colorado Hospital Association - Hospital Charges and Average Length of Stay</organization>
+		<state>Colorado</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.cha.com/pdfs/Discharge_Data/2010ChgRptnop.pdf</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Colorado.</description>
+	</entry>
+	<entry>
+		<organization>Connecticut Department of Public Health</organization>
+		<state>Connecticut</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.ct.gov/dph/cwp/view.asp?a=3132&amp;q=388090</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Connecticut.</description>
+	</entry>
+	<entry>
+		<organization>Connecticut Hospital Association</organization>
+		<state>Connecticut</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.cthosp.org/advocacy/quality-and-patient-safety/hospital-quality-reporting-website/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Connecticut.</description>
+	</entry>
+	<entry>
+		<organization>Consumers' CHECKBOOK</organization>
+		<state>Colorado</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.checkbook.org/patientcentral/?cb=cbgh</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the Denver-Boulder areas.</description>
+	</entry>
+	<entry>
+		<organization>Consumers' CHECKBOOK</organization>
+		<state>Kansas</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.checkbook.org/patientcentral/?cb=kcqic&amp;ref=xxx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the Kansas City area.</description>
+	</entry>
+	<entry>
+		<organization>Consumers' CHECKBOOK</organization>
+		<state>Missouri</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.checkbook.org/patientcentral/?cb=kcqic&amp;ref=xxx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the greater Kansas City area.</description>
+	</entry>
+	<entry>
+		<organization>Consumers' CHECKBOOK</organization>
+		<state>New York</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.checkbook.org/patientcentral/default.cfm</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in New York County (Manhattan).</description>
+	</entry>
+	<entry>
+		<organization>Consumers' CHECKBOOK</organization>
+		<state>Tennessee</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.checkbook.org/patientcentral/?cb=hmct&amp;ref=</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the greater Memphis area.</description>
+	</entry>
+	<entry>
+		<organization>Delaware Health and Social Services</organization>
+		<state>Delaware</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://dhss.delaware.gov/dhss/dph/epi/dehospinfrpts.html</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Delaware.</description>
+	</entry>
+	<entry>
+		<organization>Employers Health</organization>
+		<state>Ohio</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.ehpco.com/consumer_guide.html</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Ohio.</description>
+	</entry>
+	<entry>
+		<organization>Florida Agency for Health Care Administration</organization>
+		<state>Florida</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.floridahealthfinder.gov/CompareCare/SelectChoice.aspx</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Florida.</description>
+	</entry>
+	<entry>
+		<organization>Foundation for Health Care Quality </organization>
+		<state>Washington</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.coap.org/for-the-public</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Washington.</description>
+	</entry>
+	<entry>
+		<organization>Foundation for Healthy Communities / Northeast Health Care Quality Foundation</organization>
+		<state>New Hampshire</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.nhqualitycare.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the states of New Hampshire, Maine and Vermont.</description>
+	</entry>
+	<entry>
+		<organization>Greater Detroit Area Health Council</organization>
+		<state>Michigan</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.mycarecompare.org/ </outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Southeast Michigan.</description>
+	</entry>
+	<entry>
+		<organization>Harvard Pilgrim Health Care - Find a Doctor</organization>
+		<state>Maine </state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>https://www.providerlookuponline.com/harvardpilgrim/po7/Search.aspx</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of Maine.</description>
+	</entry>
+	<entry>
+		<organization>Harvard Pilgrim Health Care - Find a Doctor</organization>
+		<state>Massachusetts</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>https://www.providerlookuponline.com/harvardpilgrim/po7/Search.aspx</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of Massachusetts.</description>
+	</entry>
+	<entry>
+		<organization>Harvard Pilgrim Health Care - Find a Doctor</organization>
+		<state>New Hampshire</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>https://www.providerlookuponline.com/harvardpilgrim/po7/Search.aspx</outboundURL>
+		<description>This report was prepared by a for-profit group  to compare the quality of care in the states of New Hampshire, Maine and Vermont.</description>
+	</entry>
+	<entry>
+		<organization>Harvard Pilgrim Health Care - Find a Doctor</organization>
+		<state>Rhode Island</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>https://www.providerlookuponline.com/harvardpilgrim/po7/Search.aspx</outboundURL>
+		<description>This report was prepared by a for-profit group  to compare the quality of care in Rhode Island, Massachusetts, New Hampshire and Maine.</description>
+	</entry>
+	<entry>
+		<organization>Harvard Pilgrim Health Care - Hospital Quality Report</organization>
+		<state>Maine </state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://www.harvardpilgrim.org/portal/page?_pageid=213,233601&amp;_dad=portal&amp;_schema=PORTAL</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of Maine.</description>
+	</entry>
+	<entry>
+		<organization>Harvard Pilgrim Health Care - Hospital Quality Report</organization>
+		<state>Massachusetts</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://www.harvardpilgrim.org/portal/page?_pageid=213,233601&amp;_dad=portal&amp;_schema=PORTAL</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of Massachusetts.</description>
+	</entry>
+	<entry>
+		<organization>Harvard Pilgrim Health Care - Hospital Quality Report</organization>
+		<state>New Hampshire</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://www.harvardpilgrim.org/portal/page?_pageid=213,233601&amp;_dad=portal&amp;_schema=PORTAL</outboundURL>
+		<description>This report was prepared by a for-profit group  to compare the quality of care in the states of New Hampshire, Maine and Vermont.</description>
+	</entry>
+	<entry>
+		<organization>Harvard Pilgrim Health Care - Hospital Quality Report</organization>
+		<state>Rhode Island</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://www.harvardpilgrim.org/portal/page?_pageid=213,233601&amp;_dad=portal&amp;_schema=PORTAL</outboundURL>
+		<description>This report was prepared by a for-profit group  to compare the quality of care in Rhode Island, Massachusetts, New Hampshire and Maine.</description>
+	</entry>
+	<entry>
+		<organization>Hawaii Health Information Corporation</organization>
+		<state>Hawaii</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.hhicpublicreports.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Hawaii.</description>
+	</entry>
+	<entry>
+		<organization>Health Improvement Collaborative of Greater Cincinnati - Your Health Matters</organization>
+		<state>Ohio</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://yourhealthmatters.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the greater Cincinnati region.</description>
+	</entry>
+	<entry>
+		<organization>Health Net</organization>
+		<state>California</state>
+		<reportType>Physician</reportType>
+		<outboundURL>https://www.healthnet.com/portal/member/prvfinder/searchMedicalGroupsForm.do?category=DoctorSearch&amp;topic=CompareMedicalGroups&amp;region=CA</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>HealthInsight</organization>
+		<state>Utah</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://utahhealthscape.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Utah.</description>
+	</entry>
+	<entry>
+		<organization>HealthPartners</organization>
+		<state>Minnesota</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.healthpartners.com/portal/145.html</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>HealthPartners</organization>
+		<state>Wisconsin</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.healthpartners.com/portal/145.html</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Western Wisconsin, Minnesota, South Dakota and North Dakota.</description>
+	</entry>
+	<entry>
+		<organization>Healthy Memphis Common Table</organization>
+		<state>Tennessee</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://healthcarequalitymatters.org/?p=fqc</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Western Tennessee.</description>
+	</entry>
+	<entry>
+		<organization>Illinois Department of Public Health</organization>
+		<state>Illinois</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.healthcarereportcard.illinois.gov/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Illinois.</description>
+	</entry>
+	<entry>
+		<organization>Indiana Health Information Exchange</organization>
+		<state>Indiana</state>
+		<reportType>Physician </reportType>
+		<outboundURL>http://www.ihie.org/public-reporting</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Indiana.</description>
+	</entry>
+	<entry>
+		<organization>Indiana State Department of Health</organization>
+		<state>Indiana</state>
+		<reportType>Hospital </reportType>
+		<outboundURL>http://www.in.gov/isdh/23433.htm</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Indiana.</description>
+	</entry>
+	<entry>
+		<organization>Integrated Healthcare Association</organization>
+		<state>California</state>
+		<reportType>Physician </reportType>
+		<outboundURL>http://iha.ncqa.org/reportcard/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>Iowa Healthcare Collaborative</organization>
+		<state>Iowa</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.ihconline.org/aspx/publicreporting/iowareport.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Iowa.</description>
+	</entry>
+	<entry>
+		<organization>Iowa Hospital Association</organization>
+		<state>Iowa</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.iowahospitalcharges.com/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Iowa.</description>
+	</entry>
+	<entry>
+		<organization>Kansas City Quality Improvement Consortium</organization>
+		<state>Kansas</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.qualityhealthtogether.org/find_quality_care.php </outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the Kansas City area.</description>
+	</entry>
+	<entry>
+		<organization>Kansas City Quality Improvement Consortium</organization>
+		<state>Missouri</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.qualityhealthtogether.org/find_quality_care.php </outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the greater Kansas City area.</description>
+	</entry>
+	<entry>
+		<organization>Kentucky Cabinet for Health and Family Services</organization>
+		<state>Kentucky</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://prd.chfs.ky.gov/MONAHRQ/2011/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Kentucky.</description>
+	</entry>
+	<entry>
+		<organization>Kentucky Hospital Association - Charge Information</organization>
+		<state>Kentucky</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://info.kyha.com/Pricing/MSDRG/main.htm</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Kentucky.</description>
+	</entry>
+	<entry>
+		<organization>Kentucky Hospital Association - Quality Data</organization>
+		<state>Kentucky</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://info.kyha.com/QualityData/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Kentucky.</description>
+	</entry>
+	<entry>
+		<organization>Louisiana Hospital Association</organization>
+		<state>Louisiana</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.lahealthinform.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Louisiana.</description>
+	</entry>
+	<entry>
+		<organization>Maine Center for Disease Control &amp; Prevention</organization>
+		<state>Maine </state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.maine.gov/dhhs/mecdc/infectious-disease/hai/reports.shtml</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Maine.</description>
+	</entry>
+	<entry>
+		<organization>Maine Health Management Coalition - Get Better Maine</organization>
+		<state>Maine </state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.getbettermaine.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Maine.</description>
+	</entry>
+	<entry>
+		<organization>Maine Health Management Coalition - Report on Maine Hospital Payment Variation</organization>
+		<state>Maine </state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.mehmc.org/member-resources/publications/advanced-primary-care/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Maine.</description>
+	</entry>
+	<entry>
+		<organization>Maine HealthCost</organization>
+		<state>Maine </state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://gateway.maine.gov/MHDO/healthcost/procedure_pricing.aspx</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Maine.</description>
+	</entry>
+	<entry>
+		<organization>Maine Quality Forum</organization>
+		<state>Maine </state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.mqf-online.com/summary/map.aspx</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Maine.</description>
+	</entry>
+	<entry>
+		<organization>Maryland Health Care Commission - Hospital Comparison Reports</organization>
+		<state>Maryland</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://mhcc.maryland.gov/consumerinfo/hospitalguide/hospital_guide/reports/facility_comparison/index.asp?currentStatus=H</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Maryland.</description>
+	</entry>
+	<entry>
+		<organization>Maryland Health Care Commission - Pricing Guide</organization>
+		<state>Maryland</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://mhcc.maryland.gov/consumerinfo/hospitalguide/hospital_guide/cost_report.html</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Maryland.</description>
+	</entry>
+	<entry>
+		<organization>Maryland Health Care Commission - Reports on Preventing Healthcare-Associated Infections</organization>
+		<state>Maryland</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://mhcc.maryland.gov/consumerinfo/hospitalguide/hospital_guide/reports/healthcare_associated_infections/index.asp?currentStatus=H</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Maryland.</description>
+	</entry>
+	<entry>
+		<organization>Maryland Hospital Association</organization>
+		<state>Maryland</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.mhaonline.org/quality/quality-performance-measures/quality-performance-measures</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Maryland.</description>
+	</entry>
+	<entry>
+		<organization>Massachusetts Executive Office of Health and Human Services</organization>
+		<state>Massachusetts</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.mass.gov/eohhs/gov/departments/dph/programs/hcq/healthcare-quality/health-care-facilities/hospitals/healthcare-assoc-infections/healthcare-associated-infections-reports.html</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Massachusetts.</description>
+	</entry>
+	<entry>
+		<organization>Massachusetts Health Care Quality and Cost Council</organization>
+		<state>Massachusetts</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://hcqcc.hcf.state.ma.us/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Massachusetts.</description>
+	</entry>
+	<entry>
+		<organization>Massachusetts Health Quality Partners</organization>
+		<state>Massachusetts</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.mhqp.org/quality/whatisquality.asp?nav=030000 </outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Massachusetts.</description>
+	</entry>
+	<entry>
+		<organization>Massachusetts Health Quality Partners &amp; Consumer Reports</organization>
+		<state>Massachusetts</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://c354183.r83.cf1.rackcdn.com/MHQP%20Consumer%20Reports%20Insert%202012.pdf</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Massachusetts.</description>
+	</entry>
+	<entry>
+		<organization>Massachusetts Hospital Association</organization>
+		<state>Massachusetts</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.patientcarelink.org/hospital-data/performance-measures.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Massachusetts.</description>
+	</entry>
+	<entry>
+		<organization>Medica - Clinic Quality Results</organization>
+		<state>Minnesota</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://member.medica.com/C6/QualityResults/default.aspx#quality</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Medica - Clinic Quality Results</organization>
+		<state>Wisconsin</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://member.medica.com/C6/QualityResults/default.aspx#quality</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Select counties in Wisconsin, North Dakota, South Dakota and Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Medica - Clinic Quality Results</organization>
+		<state>North Dakota</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://member.medica.com/C6/QualityResults/default.aspx#quality</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of North Dakota.</description>
+	</entry>
+	<entry>
+		<organization>Medica - Hospital Guide and Facility Pricing Catalog</organization>
+		<state>Minnesota</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.patientchoicehealthcare.com/ins/PCInsights_HospGde_2011.pdf</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Medica - Hospital Guide and Facility Pricing Catalog</organization>
+		<state>Wisconsin</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.patientchoicehealthcare.com/ins/PCInsights_HospGde_2011.pdf</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Select counties in Wisconsin, North Dakota, South Dakota and Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Medica - Hospital Guide and Facility Pricing Catalog</organization>
+		<state>North Dakota</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.patientchoicehealthcare.com/ins/PCInsights_HospGde_2011.pdf</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of North Dakota.</description>
+	</entry>
+	<entry>
+		<organization>Michigan Health &amp; Hospital Association</organization>
+		<state>Michigan</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.mhakeystonecenter.org/compare.htm</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Michigan.</description>
+	</entry>
+	<entry>
+		<organization>Minnesota Community Measurement - Health Care Quality Report</organization>
+		<state>Minnesota</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://mncm.org/reports-and-websites/reports-and-data/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Minnesota Community Measurement - Minnesota HealthScores</organization>
+		<state>Minnesota</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.mnhealthscores.org/ </outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Minnesota Department of Health - Adverse Health Events Reporting</organization>
+		<state>Minnesota</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.health.state.mn.us/patientsafety/adverseselect.cfm</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Minnesota Department of Health - Quality Report</organization>
+		<state>Minnesota</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.health.state.mn.us/healthreform/measurement/report/index.html#one</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Minnesota Hospital Association - Price Check</organization>
+		<state>Minnesota</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.mnhospitalpricecheck.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Minnesota Hospital Association - Quality Report</organization>
+		<state>Minnesota</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.mnhospitalquality.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Minnesota.</description>
+	</entry>
+	<entry>
+		<organization>Missouri Department of Health and Senior Services </organization>
+		<state>Missouri</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://health.mo.gov/data/hai/drive_noso.php</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Missouri.</description>
+	</entry>
+	<entry>
+		<organization>Missouri Hospital Association</organization>
+		<state>Illinois</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.missourihealthmatters.com/hospital-quality/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the bi-state metropolitan areas of Kansas City and St. Louis.</description>
+	</entry>
+	<entry>
+		<organization>Missouri Hospital Association</organization>
+		<state>Kansas</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.missourihealthmatters.com/hospital-quality/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the bi-state metropolitan areas of Kansas City and St. Louis.</description>
+	</entry>
+	<entry>
+		<organization>Missouri Hospital Association</organization>
+		<state>Missouri</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.missourihealthmatters.com/hospital-quality/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Missouri.</description>
+	</entry>
+	<entry>
+		<organization>Montana Hospital Association</organization>
+		<state>Montana</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.montanapricepoint.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Montana.</description>
+	</entry>
+	<entry>
+		<organization>MVP Physician Quality Report </organization>
+		<state>New York</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.mvphealthcare.com/provider/provider-metrics-2010.html</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the regions of Central, East, Mid-Hudson, and West New York and Vermont.</description>
+	</entry>
+	<entry>
+		<organization>MVP Physician Quality Report </organization>
+		<state>Vermont</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.mvphealthcare.com/provider/provider-metrics-2010.html</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Vermont and Central, East, Mid-Hudson and West New York.</description>
+	</entry>
+	<entry>
+		<organization>Nebraska Hospital Association</organization>
+		<state>Nebraska</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.nhacarecompare.com/Basic_INP.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Nebraska.</description>
+	</entry>
+	<entry>
+		<organization>Nevada Division of Health Care Financing and Policy</organization>
+		<state>Nevada</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://nevadacomparecare.net/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Nevada.</description>
+	</entry>
+	<entry>
+		<organization>Nevada Hospital Association - Nevada Hospital Quality Data Page</organization>
+		<state>Nevada</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.nvhospitalquality.net/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Nevada.</description>
+	</entry>
+	<entry>
+		<organization>Nevada Hospital Association - Nevada PricePoint</organization>
+		<state>Nevada</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://nvpricepoint.net/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Nevada.</description>
+	</entry>
+	<entry>
+		<organization>New Hampshire Department of Health and Human Services</organization>
+		<state>New Hampshire</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.dhhs.nh.gov/dphs/cdcs/hai/documents/hai2011.pdf </outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New Hampshire.</description>
+	</entry>
+	<entry>
+		<organization>New Hampshire Health Information Center</organization>
+		<state>New Hampshire</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.nhhealthcost.org/costByProcedure.aspx</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New Hampshire.</description>
+	</entry>
+	<entry>
+		<organization>New Hampshire Purchasers Group on Health</organization>
+		<state>New Hampshire</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.nhpghscorecard.org/hospitalratings.cfm</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New Hampshire.</description>
+	</entry>
+	<entry>
+		<organization>New Jersey Department of Health - Hospital Quality Reports</organization>
+		<state>New Jersey</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://web.doh.state.nj.us/apps2/hpr/reports.shtml</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New Jersey.</description>
+	</entry>
+	<entry>
+		<organization>New Jersey Department of Health - Reports from the Office of Health Care Quality Assessment</organization>
+		<state>New Jersey</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.state.nj.us/health/healthcarequality/</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New Jersey.</description>
+	</entry>
+	<entry>
+		<organization>New Jersey Department of Health and Senior Services - Find and Compare Quality Care in NJ Hospitals</organization>
+		<state>New Jersey</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://web.doh.state.nj.us/apps2/hpr/</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New Jersey.</description>
+	</entry>
+	<entry>
+		<organization>New Mexico Department of Health</organization>
+		<state>New Mexico</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://nmhealth.org/HAI/plans_reports.shtml</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New Mexico.</description>
+	</entry>
+	<entry>
+		<organization>New York City Health and Hospitals Corporation</organization>
+		<state>New York</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.nyc.gov/html/hhc/infocus/html/home/performance_landing.shtml</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in New York City.</description>
+	</entry>
+	<entry>
+		<organization>New York State Department of Health - Cardiovascular Disease Data and Statistics</organization>
+		<state>New York</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.health.state.ny.us/statistics/diseases/cardiovascular/ </outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New York.</description>
+	</entry>
+	<entry>
+		<organization>New York State Department of Health - Hospital-Acquired Infections</organization>
+		<state>New York</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.health.ny.gov/statistics/facilities/hospital/hospital_acquired_infections/</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New York.</description>
+	</entry>
+	<entry>
+		<organization>New York State Department of Health - New York State Hospital Profile</organization>
+		<state>New York</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://hospitals.nyhealth.gov/</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of New York.</description>
+	</entry>
+	<entry>
+		<organization>New York State Health Accountability Foundation</organization>
+		<state>Vermont</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://ahq.ipro.org/</outboundURL>
+		<description>This report was prepared by a for-profit group  to compare the quality of care in Vermont, New York, New Jersey, New Hampshire and Rhode Island.</description>
+	</entry>
+	<entry>
+		<organization>Niagara Health Quality Coalition</organization>
+		<state>New York</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.myhealthfinder.com/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of New York.</description>
+	</entry>
+	<entry>
+		<organization>North Carolina Center for Hospital Quality and Patient Safety</organization>
+		<state>North Carolina</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.nchospitalquality.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of North Carolina.</description>
+	</entry>
+	<entry>
+		<organization>North Carolina Department of Health and Human Services</organization>
+		<state>North Carolina</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://epi.publichealth.nc.gov/cd/hai/figures.html</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of North Carolina.</description>
+	</entry>
+	<entry>
+		<organization>North Carolina Hospital Association</organization>
+		<state>North Carolina</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://www.ncha.org/issues/finance/top-35-drgs</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of North Carolina.</description>
+	</entry>
+	<entry>
+		<organization>Office for Oregon Health Policy and Research - Compare Hospital Costs 2009-2011 Report</organization>
+		<state>Oregon</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.oregon.gov/oha/OHPR/RSCH/docs/Hospital_Report/Hospital_Report_2011.pdf</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Oregon.</description>
+	</entry>
+	<entry>
+		<organization>Office for Oregon Health Policy and Research - Healthcare Acquired Infections</organization>
+		<state>Oregon</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.oregon.gov/OHA/OHPR/docs/HCAIAC/Reports/Dec2010_Report/Final_Report.pdf?ga=t</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Oregon.</description>
+	</entry>
+	<entry>
+		<organization>Ohio Department of Health</organization>
+		<state>Ohio</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://ohiohospitalcompare.ohio.gov/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Ohio.</description>
+	</entry>
+	<entry>
+		<organization>Oklahoma State Department of Health - Hospital Annual Reports</organization>
+		<state>Oklahoma</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.ok.gov/health/Protective_Health/Medical_Facilities_Service/Facility_Services_Division/Hospital_Annual_Report/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Oklahoma.</description>
+	</entry>
+	<entry>
+		<organization>Oklahoma State Department of Health - OK2SHARE</organization>
+		<state>Oklahoma</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.health.state.ok.us/stats/index.shtml</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Oklahoma.</description>
+	</entry>
+	<entry>
+		<organization>Oregon Association of Hospitals and Health Systems - Oregon PricePoint</organization>
+		<state>Oregon</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.orpricepoint.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Oregon.</description>
+	</entry>
+	<entry>
+		<organization>Oregon Association of Hospitals and Health Systems - Quality Indicators</organization>
+		<state>Oregon</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.orhospitalquality.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Oregon.</description>
+	</entry>
+	<entry>
+		<organization>Oregon Health Authority</organization>
+		<state>Oregon</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://public.health.oregon.gov/DiseasesConditions/CommunicableDisease/HAI/Pages/index.aspx</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Oregon.</description>
+	</entry>
+	<entry>
+		<organization>Oregon Health Care Quality Corporation</organization>
+		<state>Oregon</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.partnerforqualitycare.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Oregon.</description>
+	</entry>
+	<entry>
+		<organization>Oregon Patient Safety Commission</organization>
+		<state>Oregon</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://oregonpatientsafety.org/reporting-programs/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Oregon.</description>
+	</entry>
+	<entry>
+		<organization>PacifiCare</organization>
+		<state>California</state>
+		<reportType>Physician</reportType>
+		<outboundURL>https://www.uhcwest.com/vgn/images/portal/cit_60701/600762581_PCA080402_009.pdf</outboundURL>
+		<description>This report was prepared by a for-profit group to compare the quality of care in the state of California.</description>
+	</entry>
+	<entry>
+		<organization>Pennsylvania Department of Health</organization>
+		<state>Pennsylvania</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.portal.state.pa.us/portal/server.pt/community/healthcare_associated_infections/14234/hai_annual_reports/1403644</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Pennsylvania.</description>
+	</entry>
+	<entry>
+		<organization>Pennsylvania Health Care Cost Containment Council - Hospital Performance Report</organization>
+		<state>Pennsylvania</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.phc4.org/hpr/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Pennsylvania.</description>
+	</entry>
+	<entry>
+		<organization>Pennsylvania Health Care Cost Containment Council - Medicare Payments for Common Outpatient Procedures</organization>
+		<state>Pennsylvania</state>
+		<reportType>Hospital; </reportType>
+		<outboundURL>http://www.phc4.org/medicarepayments/Search.aspx</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Pennsylvania.</description>
+	</entry>
+	<entry>
+		<organization>Pennsylvania Health Care Quality Alliance</organization>
+		<state>Pennsylvania</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.phcqa.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Pennsylvania.</description>
+	</entry>
+	<entry>
+		<organization>Puget Sound Health Alliance</organization>
+		<state>Washington</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.wacommunitycheckup.org/?p=viewreports&amp;orgname=all&amp;county=All+Counties</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the region of Puget Sound.</description>
+	</entry>
+	<entry>
+		<organization>Quality Quest for Health</organization>
+		<state>Illinois</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.missourihealthmatters.com/hospital-quality/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Illinois.</description>
+	</entry>
+	<entry>
+		<organization>Rhode Island Department of Health - Hospital Care Outcomes</organization>
+		<state>Rhode Island</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.health.ri.gov/data/hospitalcareoutcomes/index.php</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Rhode Island.</description>
+	</entry>
+	<entry>
+		<organization>Rhode Island Department of Health - Rhode Island Healthcare Quality Reporting Program</organization>
+		<state>Rhode Island</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.health.ri.gov/publications/generalassemblyreports/2011HealthCareQualityPerformanceProgramAnnualReport.pdf</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Rhode Island.</description>
+	</entry>
+	<entry>
+		<organization>South Carolina Business Coalition on Health</organization>
+		<state>South Carolina</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.scbch.org/hospital-quality-guide/</outboundURL>
+		<description>This report was prepared by a for-profit group  to compare the quality of care in the state of South Carolina.</description>
+	</entry>
+	<entry>
+		<organization>South Carolina Department of Health and Environmental Control</organization>
+		<state>South Carolina</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.scdhec.gov/health/disease/hai/individual_041612.htm</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of South Carolina.</description>
+	</entry>
+	<entry>
+		<organization>South Carolina Hospital Association</organization>
+		<state>South Carolina</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.myschospital.org/reports_step1.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of South Carolina.</description>
+	</entry>
+	<entry>
+		<organization>South Dakota Association of Healthcare Organizations - PricePoint</organization>
+		<state>South Dakota</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.sdpricepoint.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of South Dakota.</description>
+	</entry>
+	<entry>
+		<organization>South Dakota Association of Healthcare Organizations - Quality Data  </organization>
+		<state>South Dakota</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.sdhospitalquality.org/search.php</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of South Dakota.</description>
+	</entry>
+	<entry>
+		<organization>St. Louis Area Business Health Coalition </organization>
+		<state>Illinois</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.stlbhc.org/healthcare.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the St. Louis area.</description>
+	</entry>
+	<entry>
+		<organization>St. Louis Area Business Health Coalition </organization>
+		<state>Missouri</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.stlbhc.org/healthcare.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the St. Louis area.</description>
+	</entry>
+	<entry>
+		<organization>Tennessee Department of Health</organization>
+		<state>Tennessee </state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://health.state.tn.us/Ceds/HAI/index.htm</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Tennessee.</description>
+	</entry>
+	<entry>
+		<organization>Tennessee Hospital Association</organization>
+		<state>Tennessee </state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.tnhospitalsinform.com/reporting.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Tennessee.</description>
+	</entry>
+	<entry>
+		<organization>Texas Department of State Health Services</organization>
+		<state>Texas</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.dshs.state.tx.us/thcic/</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Texas.</description>
+	</entry>
+	<entry>
+		<organization>Texas Hospital Association</organization>
+		<state>Texas</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.txpricepoint.org/consumer.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Texas.</description>
+	</entry>
+	<entry>
+		<organization>The P² Collaborative of Western New York</organization>
+		<state>New York</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.rx4excellence.org/diabetesPhysicians/index.php</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in Western New York.</description>
+	</entry>
+	<entry>
+		<organization>Utah Bureau of Epidemiology</organization>
+		<state>Utah</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.health.utah.gov/epi/HAI/CLABSIdata.html</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Utah.</description>
+	</entry>
+	<entry>
+		<organization>Utah Department of Health - Hospital Comparison Reports</organization>
+		<state>Utah</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://health.utah.gov/myhealthcare/hospital.htm</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Utah.</description>
+	</entry>
+	<entry>
+		<organization>Utah Department of Health - Hospital Consumer Satisfaction Report</organization>
+		<state>Utah</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>https://health.utah.gov/myhealthcare/reports/hcahps/index.php?doc=2&amp;mytabsmenu=3</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Utah.</description>
+	</entry>
+	<entry>
+		<organization>Utah Health Data Committee</organization>
+		<state>Utah</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://health.utah.gov/hda/report/inpatient.php</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Utah.</description>
+	</entry>
+	<entry>
+		<organization>Utah Hospitals &amp; Health Systems Association</organization>
+		<state>Utah</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://utpricepoint.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Utah.</description>
+	</entry>
+	<entry>
+		<organization>Utah Hospitals &amp; Health Systems Association / HealthInsight</organization>
+		<state>Utah</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.utcheckpoint.org/reports_step1.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Utah.</description>
+	</entry>
+	<entry>
+		<organization>Vermont Department of Financial Regulation - 2012 Pricing &amp; Financial Reports</organization>
+		<state>Vermont</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.dfr.vermont.gov/insurance/insurance-consumer/2012-pricing-financial-reports</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Vermont.</description>
+	</entry>
+	<entry>
+		<organization>Vermont Department of Financial Regulation - Hospital Report Cards</organization>
+		<state>Vermont</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.dfr.vermont.gov/health-care/hospitals-health-care-practitioners/hospital-report-cards</outboundURL>
+		<description>This report was prepared by the government to compare the quality of care in the state of Vermont.</description>
+	</entry>
+	<entry>
+		<organization>Virginia Business Coalition on Health</organization>
+		<state>Virginia</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://myvbch.org/about-vbch/services/report-cards/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Virginia.</description>
+	</entry>
+	<entry>
+		<organization>Virginia Health Information - Outpatient Test or Surgery Information</organization>
+		<state>Virginia</state>
+		<reportType>Hospital</reportType>
+		<outboundURL> http://www.vhi.org/outpatient_compare.asp</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Virginia.</description>
+	</entry>
+	<entry>
+		<organization>Virginia Health Information - Physician Information</organization>
+		<state>Virginia</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.vhi.org/physicians.asp</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Virginia.</description>
+	</entry>
+	<entry>
+		<organization>Virginia Health Information - Virginia Health Care Report</organization>
+		<state>Virginia</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.vhi.org/healthcare.asp</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Virginia.</description>
+	</entry>
+	<entry>
+		<organization>Virginia Health Information - Virginia Hospital Information</organization>
+		<state>Virginia</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.vhi.org/hospitals.asp</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of Virginia.</description>
+	</entry>
+	<entry>
+		<organization>Virginia Hospital &amp; Healthcare Association - Hospital Performance Measures</organization>
+		<state>Virginia</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.vhha.com/qualityscorecard.html</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Virginia.</description>
+	</entry>
+	<entry>
+		<organization>Virginia Hospital &amp; Healthcare Association - Virginia PricePoint</organization>
+		<state>Virginia</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.vapricepoint.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Virginia.</description>
+	</entry>
+	<entry>
+		<organization>Washington State Hospital Association - Hospital Pricing</organization>
+		<state>Washington</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.wahospitalpricing.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Washington.</description>
+	</entry>
+	<entry>
+		<organization>Washington State Hospital Association - Quality Indicators</organization>
+		<state>Washington</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.wahospitalquality.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Washington.</description>
+	</entry>
+	<entry>
+		<organization>West Virginia Health Care Authority - CompareCareWV</organization>
+		<state>West Virginia</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.comparecarewv.gov/index.aspx</outboundURL>
+		<description>This report was prepared by the government  to compare the quality of care in the state of West Virginia.</description>
+	</entry>
+	<entry>
+		<organization>WHA Information Center - Health Care Data Report 2010</organization>
+		<state>Wisconsin</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.whainfocenter.com/data_resources/2010_hcdr.htm</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Wisconsin.</description>
+	</entry>
+	<entry>
+		<organization>WHA Information Center - Wisconsin Inpatient Hospital Quality Indicators Report</organization>
+		<state>Wisconsin</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.whainfocenter.com/data_resources/2011WIInpatientQIRelease.pdf</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Wisconsin.</description>
+	</entry>
+	<entry>
+		<organization>Wichita Business Coalition on Health Care </organization>
+		<state>Kansas</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.wbchc.com/resources/resources.htm</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the Wichita region.</description>
+	</entry>
+	<entry>
+		<organization>Wisconsin Collaborative for Healthcare Quality - Performance &amp; Progress Report</organization>
+		<state>Wisconsin</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.wchq.org/reporting/ </outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Wisconsin.</description>
+	</entry>
+	<entry>
+		<organization>Wisconsin Collaborative for Healthcare Quality - Wisconsin Health Reports</organization>
+		<state>Wisconsin</state>
+		<reportType>Physician; Hospital</reportType>
+		<outboundURL>http://www.wisconsinhealthreports.org/data</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Wisconsin.</description>
+	</entry>
+	<entry>
+		<organization>Wisconsin Hospital Association - CheckPoint</organization>
+		<state>Wisconsin</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.wicheckpoint.org/reports_step1.aspx</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Wisconsin.</description>
+	</entry>
+	<entry>
+		<organization>Wisconsin Hospital Association - PricePoint</organization>
+		<state>Wisconsin</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.wipricepoint.org/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Wisconsin.</description>
+	</entry>
+	<entry>
+		<organization>Wyoming Hospital Association</organization>
+		<state>Wyoming</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://wyopricepoint.com/</outboundURL>
+		<description>This report was prepared by a non-profit group to compare the quality of care in the state of Wyoming.</description>
+	</entry>
+	<entry>
+		<organization>American Heart Association - Recognized Hospitals for Stroke Care</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.heart.org/HEARTORG/HealthcareResearch/GetWithTheGuidelinesHFStroke/GetWithTheGuidelinesStrokeHomePage/Recognition-from-Get-With-The-Guidelines-Stroke_UCM_308034_Article.jsp</outboundURL>
+	</entry>
+	<entry>
+		<organization>American Heart Association - Recognized Hospitals for Heart Failure Care</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.heart.org/HEARTORG/HealthcareResearch/GetWithTheGuidelinesHFStroke/GetWithTheGuidelinesHeartFailureHomePage/Recognition-from-Get-With-The-Guidelines-Heart-Failure_UCM_307818_Article.jsp</outboundURL>
+	</entry>
+	<entry>
+		<organization>American Hospital Directory</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.ahd.com/freesearch.php</outboundURL>
+	</entry>
+	<entry>
+		<organization>Blue Cross and Blue Shield Association</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://provider.bcbs.com/#tab-1-content</outboundURL>
+	</entry>
+	<entry>
+		<organization>Bridges To Excellence</organization>
+		<state>National</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.hci3.org/physician_search/</outboundURL>
+	</entry>
+	<entry>
+		<organization>Centers for Medicare and Medicaid Services</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.medicare.gov/hospitalcompare/search.html</outboundURL>
+	</entry>
+	<entry>
+		<organization>Cigna Health</organization>
+		<state>National</state>
+		<reportType>Hospital; Physician</reportType>
+		<outboundURL>http://www.cigna.com/web/public/hcpdirectory/</outboundURL>
+	</entry>
+	<entry>
+		<organization>Dartmouth Atlas of Health Care </organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.dartmouthatlas.org/data/hospital/ </outboundURL>
+	</entry>
+	<entry>
+		<organization>HealthGrades</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.healthgrades.com/</outboundURL>
+	</entry>
+	<entry>
+		<organization>HealthInsight</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://healthinsight.org/rankings/hospitals</outboundURL>
+	</entry>
+	<entry>
+		<organization>Hospital Safety Score</organization>
+		<state>National</state>
+		<reportType>Hospital </reportType>
+		<outboundURL>http://www.hospitalsafetyscore.org/licensure-and-permissions</outboundURL>
+	</entry>
+	<entry>
+		<organization>IPRO</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.abouthealthsatisfaction.org/</outboundURL>
+	</entry>
+	<entry>
+		<organization>Kaiser Health News</organization>
+		<state>National</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://www.kaiserhealthnews.org/Stories/2012/April/18/community-health-center-chart.aspx</outboundURL>
+	</entry>
+	<entry>
+		<organization>National Committee for Quality Assurance - Recognition Directory</organization>
+		<state>National</state>
+		<reportType>Physician</reportType>
+		<outboundURL>http://recognition.ncqa.org/ </outboundURL>
+	</entry>
+	<entry>
+		<organization>The Commonwealth Fund</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://whynotthebest.org/</outboundURL>
+	</entry>
+	<entry>
+		<organization>The Delta Group</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.carechex.com/Default.aspx</outboundURL>
+	</entry>
+	<entry>
+		<organization>The Joint Commission</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.qualitycheck.org </outboundURL>
+	</entry>
+	<entry>
+		<organization>The Leapfrog Group</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.leapfroggroup.org/for_consumers </outboundURL>
+	</entry>
+	<entry>
+		<organization>The Society of Thoracic Surgeons</organization>
+		<state>National</state>
+		<reportType>Hospital; Physician</reportType>
+		<outboundURL>http://www.sts.org/quality-research-patient-safety/sts-public-reporting-online</outboundURL>
+	</entry>
+	<entry>
+		<organization>U.S. Department of Veterans Affairs - Comparison of Veteran Affairs Hospital Outcome Measures </organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.hospitalcompare.va.gov/apps/Compare/index.asp</outboundURL>
+	</entry>
+	<entry>
+		<organization>U.S. Department of Veterans Affairs - VHA Facility Quality and Safety Report</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.va.gov/HEALTH/docs/2012_VHA_Facility_Quality_and_Safety_Report_FINAL508.pdf</outboundURL>
+	</entry>
+	<entry>
+		<organization>U Compare Health Care</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.ucomparehealthcare.com/</outboundURL>
+	</entry>
+	<entry>
+		<organization>UnitedHealthcare - Find a Physician</organization>
+		<state>National</state>
+		<reportType>Hospital; Physician</reportType>
+		<outboundURL>http://www.uhc.com/find_a_physician.htm </outboundURL>
+	</entry>
+	<entry>
+		<organization>UnitedHealthcare - Provider Lookup Online</organization>
+		<state>National</state>
+		<reportType>Hospital; Physician</reportType>
+		<outboundURL>https://www.geoaccess.com/uhc/po/Default.asp</outboundURL>
+	</entry>
+	<entry>
+		<organization>Vimo</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.vimo.com/hospital/browseprocedures.php</outboundURL>
+	</entry>
+	<entry>
+		<organization>WhereToFindCare.com</organization>
+		<state>National</state>
+		<reportType>Hospital</reportType>
+		<outboundURL>http://www.wheretofindcare.com/default.aspx</outboundURL>
+	</entry>
+</schema>
