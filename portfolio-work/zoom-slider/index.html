@@ -1,0 +1,136 @@
+<!doctype html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>Velir</title>
+	<style>
+		*, *:before, *:after {
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		img {
+			display: inline-block;
+			vertical-align: middle;
+			max-width: 100%;
+			height: auto;
+		}
+		.zoom-slider{
+			width:100%;
+
+		}
+		.zoom-slider ul{
+			display:block;
+			height:260px;
+			left: -450%;		
+			list-style: none;
+			margin:0;
+			overflow: hidden;
+			padding:0;
+			position: relative;
+			text-align: center;
+			width:1000%; /* ridiculous size to make sure all images are on one line */
+		}
+		.zoom-slider ul.even{
+			padding-right:200px;
+		}
+		.zoom-slider ul li {
+			display:inline-block;
+			height:260px;
+			position:relative;
+			/* width is required for transition affect */
+			width:260px;
+			margin: 0;
+			padding: 0;
+			direction: ltr;
+		}
+		.zoom-slider ul li.in-active {
+			padding-top:60px;
+			width:200px;
+		}
+		.zoom-slider img{
+			float:left; /* keeps images aligned bottom */
+		}
+		.zoom-slider .controls {
+			margin:0 auto;
+			text-align: center;
+			width:360px;
+		}
+		.zoom-slider .controls .left,
+		.zoom-slider .controls .right {
+			display:inline-block;
+			float:left;
+			font-size:20px;
+			line-height: 50px;
+			width:48px;
+		}
+		.zoom-slider .controls .right {
+			float:right;
+		}
+		.zoom-slider .controls .text {
+			display:inline-block;
+			width:260px;
+		}
+	</style>
+
+</head>
+<body>
+
+<div class="zoom-slider">
+	<ul>
+		<li>
+			<img src="./img/azrael-smurfs.jpg"
+				data-title="Smurf catcher" data-name="Azrael" />
+		</li>
+		<li>
+			<img src="./img/bill-the-cat.jpg"
+				data-title="Manager of Parties" data-name="Bill the Cat" />
+		</li>
+		<li>
+			<img src="./img/bucky.jpg"
+				data-title="Security Officer" data-name="Bucky" />
+		</li>
+		<li>
+			<img src="./img/cat-hat.jpg"
+				data-title="Copy Editor" data-name="Cat in the Hat" />
+		</li>
+		<li>
+			<img src="./img/garfield.jpg"
+				data-title="Food taster" data-name="Garfield" />
+		</li>
+		<li>
+			<img src="./img/tigger.jpg" alt="Kittens!"
+				data-title="Exercise Teacher" data-name="Tigger" />
+		</li>
+		<li>
+			<img src="./img/arlene.jpg"
+				data-title="Administrator" data-name="Arlene" />
+		</li> 
+	</ul>
+	<div class="controls">
+		<div class="left">&lt;</div>
+		<div class="text"><h3 class="name">Puss in boots</h3><p class="title">CEO of Hairballs</p></div>
+		<div class="right">&gt;</div>
+	</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./js/zoom-slider.js"></script>
+
+<script>
+
+	$(function(){
+		var slider = new zoomSlider();
+		slider.init();
+	});
+
+
+</script>
+</body>
+</html>	
