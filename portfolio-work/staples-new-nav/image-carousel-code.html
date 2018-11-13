@@ -1,0 +1,1434 @@
+
+<!-- Start new Header -->
+<style>
+/* overrides */
+#logoContainer { display:none; }
+#socialmedia { top:180px; z-index:999; }
+
+/* Hide the left navigation and pull down */
+#showallprods { display:none; }
+
+/* Hide the ink and toner header */
+#headerExt { display:none; }
+
+/* Hide the toolbars */
+#toolbar,
+.toolbar-new { display:none; }
+
+.boxshadow #wrapall {
+	border-color:transparent;
+	-moz-box-shadow: 0 0 5px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+}
+
+/* */
+header { height:213px; }
+header .quickOrderWrapper{ display:none; }
+header > .navList { display:none; } 
+header #bmsging {display:none; }
+header > #hsearch { display:none; }
+
+/* Image Carousel CSS */
+	.nav-carousel .clear { clear:both; }
+	
+	.nav-carousel { 
+		background: -moz-linear-gradient(top, #363636 0%, #cccccc 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#363636), color-stop(100%,#cccccc));
+		background: -webkit-linear-gradient(top, #363636 0%,#cccccc 100%);
+		background: -o-linear-gradient(top, #363636 0%,#cccccc 100%);
+		background: -ms-linear-gradient(top, #363636 0%,#cccccc 100%);
+		background: linear-gradient(to bottom, #363636 0%,#cccccc 100%);
+		color:#4d4d4d;
+		display:none;
+		float:none; 
+		overflow:hidden; 
+		margin:0 auto; 
+		position:relative; 
+		width:980px;
+	}
+	/* Need a fixed height for gradients to apply correctly */
+	.nav-carousel.expanded { 
+		height:235px;
+	}
+	.no-cssgradients .nav-carousel {
+		background: #666666;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363636', endColorstr='#cccccc',GradientType=0 );	
+	}
+	
+	.nav-carousel ul { display:inline; list-style:none; margin:0; padding:0; }
+	.nav-carousel li { padding:0; line-height:17px; }
+	
+	.nav-carousel .carousel-navigation { 
+		clear:both; 
+		float:none; 
+		font-family:arial; 
+	}
+		.nav-carousel .navigation-link { 
+			background: #f7f7f7;
+			border-left:1px solid #ccc; 
+			border-bottom:1px solid #ccc; 
+			cursor:pointer; 
+			float:left; 
+			font-size:13px;
+			font-weight:bold;
+			height:52px; 
+			padding:5px 15px; 
+			position:relative;
+			width:214px; 
+		}
+		.nav-carousel .navigation-link:first-child { 
+			border-left:none; 
+			width:215px; 
+		}
+		.nav-carousel .navigation-link:hover { 
+			color: #0092db;
+		}
+		.nav-carousel .navigation-link.selected { 
+			background:none;
+			border-left:1px solid transparent;
+			border-bottom:1px solid transparent;
+			color:#EEEEEE;
+		}
+		.nav-carousel .navigation-link.selected:first-child { 
+			border-left:none;
+		}
+		.nav-carousel .navigation-link.selected:nth-child(4) { 
+			border-right:none;
+		}
+			.nav-carousel .navigation-link .arrow { 
+				border-left:8px solid transparent; 
+				border-right:8px solid transparent;
+				border-top:8px solid #4D4D4D; 
+				display:block; 
+				height:0; 
+				position:absolute; 
+				right:20px; 
+				top:10px; 
+				width:0; 
+			}
+			.nav-carousel .navigation-link.selected .arrow { 
+				border-top:none; 
+				border-bottom:8px solid #FFFFFF; 
+			}
+		
+		.nav-carousel .filler { 
+			float:left; 
+			height:63px; 
+		}
+	  
+	.nav-carousel .carousel-slider { 
+		display:none;
+		float:none; 
+		height:170px;
+		margin:0 auto;
+		overflow:hidden;
+		position:relative;
+		width:924px; 
+	}
+
+		.nav-carousel .carousel-slider .carousel-items {
+			clear:both;
+			display:none;
+			float:left;
+			padding:10px 0;
+			position:absolute;
+			left:0;
+		}
+			.nav-carousel .carousel-slider a:visited,
+			.nav-carousel .carousel-slider a:link, 
+			.nav-carousel .carousel-slider a:active { 
+				border:1px solid #CCCCCC; 
+				border-radius:1px; 
+				color:#4d4d4d; 
+				display:block; 
+				float:left; 
+				height:150px; 
+				margin:0 5px; 
+				position:relative; 
+			}
+			.nav-carousel .carousel-slider a:hover { 
+				border-color:#0092DB; 
+				box-shadow:0 0 0 5px #0092DB; 
+			}
+				.nav-carousel .carousel-slider a img { 
+					background-color:#ffffff;
+					height:150px; 
+					position:relative; 
+					width:120px; 
+				}
+				.nav-carousel .carousel-slider a span { 
+					display:block;
+					font-size:12px;
+					left:5px; 
+					line-height:1.3em;
+					padding:5px; 
+					position:absolute; 
+					top:0px; 
+				}
+
+			
+	.nav-carousel .left-control,
+	.nav-carousel .right-control { 
+		background-color:#4D4D4D; 
+		display:none;
+		height:152px; 
+		position:absolute; 
+		margin:10px 0;
+		top:63px; 
+		width:18px; 
+		z-index:20; 
+	}
+	
+	.nav-carousel .left-control { 
+		background: -moz-linear-gradient(left,  #8d0000 0%, #bc0000 100%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8d0000), color-stop(100%,#bc0000));
+		background: -webkit-linear-gradient(left,  #8d0000 0%,#bc0000 100%);
+		background: -o-linear-gradient(left,  #8d0000 0%,#bc0000 100%);
+		background: -ms-linear-gradient(left,  #8d0000 0%,#bc0000 100%);
+		background: linear-gradient(to right,  #8d0000 0%,#bc0000 100%);
+		left:0; 
+	}
+	.no-cssgradients .nav-carousel .left-control {
+		background: #bc0000;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d0000', endColorstr='#bc0000',GradientType=1 );
+	}
+	
+	.nav-carousel .right-control { 
+		background: -moz-linear-gradient(left,  #bc0000 0%, #8d0000 100%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#bc0000), color-stop(100%,#8d0000)); 
+		background: -webkit-linear-gradient(left,  #bc0000 0%,#8d0000 100%);
+		background: -o-linear-gradient(left,  #bc0000 0%,#8d0000 100%);
+		background: -ms-linear-gradient(left,  #bc0000 0%,#8d0000 100%);
+		background: linear-gradient(to right,  #bc0000 0%,#8d0000 100%);
+		right:0; 
+	}
+	.no-cssgradients .nav-carousel .right-control {
+		background: #bc0000;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0000', endColorstr='#8d0000',GradientType=1 );
+	}
+	.nav-carousel .left-control:hover {
+		background: -moz-linear-gradient(left,  #252525 0%, #434343 100%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#252525), color-stop(100%,#434343));
+		background: -webkit-linear-gradient(left,  #252525 0%,#434343 100%);
+		background: -o-linear-gradient(left,  #252525 0%,#434343 100%);
+		background: -ms-linear-gradient(left,  #252525 0%,#434343 100%);
+		background: linear-gradient(to right,  #252525 0%,#434343 100%);
+		cursor:pointer; 
+	}
+	.no-cssgradients .nav-carousel .left-control:hover {
+		background: #434343;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#434343',GradientType=1 );
+	}	
+	.nav-carousel .right-control:hover { 
+		background: -moz-linear-gradient(left,  #434343 0%, #252525 100%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#434343), color-stop(100%,#252525));
+		background: -webkit-linear-gradient(left,  #434343 0%,#252525 100%);
+		background: -o-linear-gradient(left,  #434343 0%,#252525 100%);
+		background: -ms-linear-gradient(left,  #434343 0%,#252525 100%);
+		background: linear-gradient(to right,  #434343 0%,#252525 100%);
+		cursor:pointer; 
+	}
+	.no-cssgradients .nav-carousel .right-control:hover {
+		background: #434343;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#252525',GradientType=1 );
+	}
+	
+		.nav-carousel .left-control .arrow,
+		.nav-carousel .right-control .arrow { 
+			border-top:8px solid transparent; 
+			border-bottom:8px solid transparent; 
+			display:block; 
+			height:0; 
+			width:0; 
+			margin:0 auto; 
+			margin-top:65px; 
+		}
+		.nav-carousel .left-control .arrow { 
+			border-right:8px solid #FFFFFF;  
+		}
+		.nav-carousel .right-control .arrow { 
+			border-left:8px solid #FFFFFF;  
+		}
+/* new toolbar */
+#toolbar { 
+	margin:0 auto;
+	padding:10px 0 0;
+}
+	
+	#toolbar .wrapper {
+		float:right;
+	}
+	
+	#toolbar a {
+		color:#4d4d4d
+		font-size:11px;
+	}
+	
+	#toolbar .downplay,
+	#toolbar .downplay a {
+		color: #999999;
+	}
+	
+	#toolbar .fed_customers a,
+	#toolbar .feedback a {
+		line-height:26px;
+		margin-right:18px;
+		text-decoration:none;
+	}
+	
+	#toolbar .tab {
+		background-color: #4d4d4d;
+		-webkit-border-top-left-radius: 3px;
+		-webkit-border-top-right-radius: 3px;
+		-moz-border-radius-topleft: 3px;
+		-moz-border-radius-topright: 3px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;	
+		-moz-box-shadow: -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		-webkit-box-shadow: -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		box-shadow: -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		height:19px;
+		margin:0 1px;
+		padding:7px 5px 0;
+	}
+	#toolbar .tab.active {
+		background-color:#ffffff;
+		-moz-box-shadow: 0 1px #fff, -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		-webkit-box-shadow: 0 1px #fff, -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		box-shadow: 0 1px #fff, -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+	}
+	#toolbar .tab.staples {
+		padding:3px 5px 4px;
+	}
+	#toolbar .tab a{
+		display:block;
+	}
+		
+/* new header CSS */
+.new-header { 
+	color:#000000;
+	display:none;
+	font-size:11px;
+}
+	.new-header .sprite a{
+		background-image:url(images/header-sprite.png);
+		background-repeat:no-repeat;
+		padding-left:30px;
+	}
+	.new-header a:link, 
+	.new-header a:visited, 
+	.new-header a:hover, 
+	.new-header a:active {
+		color:#000000;
+		text-decoration:none;
+	}
+
+	.new-header .logo {
+		clear:left;
+		float:left;
+		height:63px;
+		padding:8px;
+		width:123px;
+	}
+		.new-header .logo a {
+			line-height:80px;
+		}
+
+	.new-header .message-links-wrapper {
+	    clear:right;
+		float:left;
+		width:820px;
+	}
+	.new-header .message { 
+		clear:left;
+		float:right;
+		height:33px;
+		padding:5px 0 10px;
+	}
+		.new-header .offer{
+			padding-right:17px;
+		}
+			.new-header .offer a{
+				color:#c00;
+				font-weight:bold;
+			}
+
+		.new-header .chat a {
+			border-left:1px solid #aaa;
+			display:block;
+			margin-left: 15px;
+			padding-left:35px;
+			background-position:10px -176px;
+		}
+		.new-header .chat a:hover {
+			background-position:10px -194px;
+		}
+	
+	.new-header .links {
+		clear:left;
+		float:right;
+	}
+		.new-header .links div a {
+			border-right:1px solid #aaa;
+			display:block;
+			margin-top:10px;
+			padding:0 15px 0 30px;
+		}
+		.new-header .links .ink_toner a:hover {
+			background-position: 0 -18px;
+		}
+		.new-header .links .order_item a{
+			background-position:13px -35px;
+			padding-left:35px;
+		}
+		.new-header .links .order_item a:hover {
+			background-position:13px -53px;
+		}
+		.new-header .links .gift_cards a{
+			background-position:15px -70px;
+		}
+		.new-header .links .gift_cards a:hover {
+			background-position:15px -88px;
+		}
+		.new-header .links .online_deals a{
+			background-position:12px -106px;
+		}
+		.new-header .links .online_deals a:hover{
+			background-position:12px -124px;
+		}
+		.new-header .links .online_deals .arrow{
+			border-bottom:none;
+			border-left:5px solid transparent;
+			border-right:5px solid transparent;
+			border-top:5px solid #333;
+			display:inline-block;
+			height:0;
+			margin-bottom:2px;
+			margin-left:5px;
+			width:0;
+		}
+		.new-header .links .online_deals a:hover .arrow{
+			border-bottom:5px solid #0092db;
+			border-top:none;
+		}
+		.new-header .links .store_locator a{
+			background-position:15px -142px;
+		}
+		.new-header .links .store_locator a:hover {
+			background-position:15px -160px;
+		}
+		.new-header .links .weekly_flyer a{
+			background-position:10px -216px;
+			border:none;
+			margin-top:0;
+			padding:10px 0 5px 75px;
+		}
+		
+	
+/* Sticky Header */
+.sticky-header {
+	display:none;
+	float:none;
+	left:0;
+	min-width:960px;
+	position:absolute;
+	text-align:left;
+	width:100%;
+	z-index:99;
+}
+	.sticky-header.stuck {
+		position:fixed;
+		top:0 !important;
+	}
+	.sticky-header .header-nav{
+		background-color:#ccc;
+		background: -moz-linear-gradient(top,  #eee 0%, #bbb 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(100%,#bbb));
+		background: -webkit-linear-gradient(top,  #eee 0%,#bbb 100%);
+		background: -o-linear-gradient(top,  #eee 0%,#bbb 100%);
+		background: -ms-linear-gradient(top,  #eee 0%,#bbb 100%);
+		background: linear-gradient(to bottom,  #eee 0%,#bbb 100%);
+		border-bottom:1px solid #bbb;
+		border-top:1px solid #eee;
+		float:none;
+		font-size:14px;
+		height:44px;
+		margin:0 auto;
+		padding:0;
+		position:relative;
+		text-align:center;
+		width:980px;
+	}
+	.sticky-header.stuck .header-nav {
+		border-top:4px solid #590000;
+	}
+	.sticky-header .header-nav small{
+		font-size:11px;
+	}
+	.sticky-header .header-nav .secondary_color{
+		color:#0092db;
+	}
+	.sticky-header .header-nav .ribbon{
+		border:5px solid #878787;
+		border-bottom:5px solid transparent;
+		bottom:-73px;
+		display:none;
+		height:0;
+		position:absolute;
+		width:0;
+		z-index:-1;
+	}
+	.sticky-header .header-nav .ribbon.first{
+		border-left:5px solid transparent;
+		left:0;
+	}
+	.sticky-header .header-nav .ribbon.second{
+		border-right:5px solid transparent;
+		right:0;
+	}
+	
+	.sticky-header .header-nav .highlight{
+		font-weight:normal;
+	}
+	.sticky-header .header-nav .wrapper{
+		display:inline-block;
+		float:none;
+		line-height:14px;
+		text-align:left;
+		padding-top:5px;
+	}
+	
+	.sticky-header .shop_category.closed,
+	.sticky-header .search_div, 
+	.sticky-header .reorder_div,
+	.sticky-header .my_account_login,
+	.sticky-header .cart_div { 
+		background-color:#ececec;
+		background: -moz-linear-gradient(top,  #fff 0%, #dfdfdf 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#dfdfdf));
+		background: -webkit-linear-gradient(top,  #fff 0%,#dfdfdf 100%);
+		background: -o-linear-gradient(top,  #fff 0%,#dfdfdf 100%);
+		background: -ms-linear-gradient(top,  #fff 0%,#dfdfdf 100%);
+		background: linear-gradient(to bottom,  #fff 0%,#dfdfdf 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=0 );
+		height:44px;
+		text-shadow:1px 1px 1px #fff;
+
+	}
+	.sticky-header .shop_category{
+		background: -moz-linear-gradient(top,  #dfdfdf 0%, #fff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfdf), color-stop(100%,#fff));
+		background: -webkit-linear-gradient(top,  #dfdfdf 0%,#fff 100%);
+		background: -o-linear-gradient(top,  #dfdfdf 0%,#fff 100%);
+		background: -ms-linear-gradient(top,  #dfdfdf 0%,#fff 100%);
+		background: linear-gradient(to bottom,  #dfdfdf 0%,#fff 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#ffffff',GradientType=0 );
+		cursor:pointer;
+		line-height:44px;
+		width:159px;
+	}
+		.sticky-header .shop_category:hover {
+			color:#0092db;
+		}
+		.sticky-header .shop_category .arrow {
+			border-bottom:5px solid #333;
+			border-left:5px solid transparent;
+			border-right:5px solid transparent;
+			border-top:none;
+			display:inline-block;
+			height:0;
+			margin-bottom:2px;
+			width:0;
+		}
+		.sticky-header .shop_category.closed .arrow {
+			border-bottom:none;
+			border-top:5px solid #333;
+		}
+
+	.sticky-header .search_div { 
+		margin:0 1px;
+		padding:0 2px;
+	}
+	
+		.sticky-header .search_div #hsearch {
+			background-color:white;
+			margin:2px;
+		}
+		.sticky-header .search_div .searchForm input[type='text'] {
+			width:302px;
+		}
+		.sticky-header .search_div .searchForm input[type='submit']{
+			border-top: 1px solid #a87777;
+			border-right: 1px solid #590000;		
+			border-bottom: 1px solid #590000;
+			border-left: 1px solid #a87777;
+			background: #c00;
+			color: white;
+			font-size:13px;
+			height: 28px;
+			margin: 0;
+			margin-right:3px;
+			text-indent:0;
+			text-shadow: 1px 1px 1px #590000;
+			width: 60px;
+		}
+
+	.sticky-header .my_account_login {
+		position:relative;
+		width:130px;
+		z-index:10;
+	}
+		.sticky-header .my_account_login small b {
+			font-weight:normal;
+			color:#4d4d4d;
+		}
+		.sticky-header .my_account_login small #wmsg,
+		.sticky-header .my_account_login small #lginwmsg {
+			border-right:none;
+			font-size:11px;
+			padding:0;
+		}
+		.sticky-header .my_account_login a {
+			text-decoration:none;
+		}
+
+		.sticky-header .my_account_login:hover {
+			background:#fff;
+		}
+			.sticky-header .my_account_login .my_account .navSelect {
+				background:none;
+			}
+			.sticky-header .my_account_login:hover .my_account .navSelect {
+				color:#0092db;
+			}
+				.sticky-header .my_account_login .my_account .navSelect .arrow {
+					border-bottom:none;
+					border-left:5px solid transparent;
+					border-right:5px solid transparent;
+					border-top:5px solid #333;
+					display:inline-block;
+					height:0;
+					margin-bottom:2px;
+					margin-left:5px;
+					width:0;
+				}
+				.sticky-header .my_account_login:hover .my_account .navSelect .arrow {
+					border-bottom:5px solid #0092db;
+					border-top:none;
+				}
+			.sticky-header .my_account_login:hover .my_account ul {
+				display:block;
+				left:0;
+				padding-top:0;
+				top:45px;
+				z-index:10;
+			}
+			.sticky-header .my_account_login .my_account li.login_link b {
+				font-weight:normal;
+			}
+
+	.sticky-header .reorder_div {
+		margin:0 1px;
+		width:160px;
+	}
+		.sticky-header .reorder_div a {
+			color:inherit;
+			text-decoration:none;
+		}
+	
+	
+	.sticky-header #cartNav { 
+		float:left;
+		margin:0;
+		padding:0 10px;
+		text-align:left;
+		width:114px;		
+	} 
+		.sticky-header #cartNav .wrapper { 
+		}
+		.sticky-header #cartNav a{ 
+			background-image:url(images/header-sprite.png);
+			background-position:0 -382px;
+			color:inherit;
+			display:block;
+			font-size:inherit;
+			padding:0 0 0 40px;
+		}
+			.sticky-header #cartNav a small{ 
+				font-size:11px;	
+				font-weight:normal;
+			}
+
+	.boxshadow .sticky-header .drop-shadow {
+		box-shadow: 0 3px 5px #DDD;
+		float:none;
+		height:5px;
+		margin:-5px auto 0;
+		width:982px;
+		
+	}	
+			
+	/* ******* Full width **************** */
+	@media screen and (min-width:1002px){
+		.sticky-header .header-nav{
+			width:1002px;
+		}
+		.sticky-header .header-nav .ribbon{
+			display:block;
+		}
+		.sticky-header .shop_category {
+			width:170px;
+		}
+		.sticky-header #cartNav {
+			width:125px;
+		}
+		.nav-carousel {
+			width:1002px;
+		}
+		.nav-carousel .navigation-link {
+			width:219px;
+		}
+		.nav-carousel .navigation-link:first-child {
+			width:222px;
+		}
+
+	}
+
+
+</style>
+
+<script>
+$(function(){
+	// Navigation links
+	// On clicking Nav link
+	$(".nav-carousel .navigation-link").click(function(){
+		// if the user clicks a link that is already selected
+		if( $(this).hasClass('selected') ){
+			// hide the carousel 
+			$(".nav-carousel .carousel-slider").slideUp();
+			// hide the items in the carousel
+			$(".nav-carousel .carousel-items.selected").removeClass("selected").hide();
+			// mark the navigation link as unselected
+			$(this).removeClass("selected");
+			$(".nav-carousel").removeClass('expanded');
+			// skip the rest
+			return false;
+		}
+
+		// load the correct carousel
+		// figure out which navigation link was clicked (first, second, third, etc...)
+		var index = $(this).index();
+		// hide the currently selected carousel
+		$(".nav-carousel .carousel-items.selected").removeClass("selected").hide();
+		// show the corresponding carousel
+		var $carousel_to_show = $(".nav-carousel .carousel-items").eq(index);
+		$carousel_to_show.addClass("selected").show();
+
+		
+		// Switch selected state to this link
+		// unmark the currently selected navigation link
+		$(".nav-carousel .navigation-link.selected").removeClass("selected");
+		// store the currently click link
+		$navigation_link = $(this);
+		// expand the height of the carousel slider
+		$(".nav-carousel .carousel-slider").slideDown("fast",function(){
+			// mark this navigation link as selected
+			$navigation_link.addClass("selected");
+		});
+		
+		// reset the carousel to show the first page
+		$carousel_to_show.data('current_page',1).css("left",0);
+
+		// Show/hide the carousel controls
+		// hide the left control
+		$('.nav-carousel .left-control').hide();
+		$carousel_to_show.data('control_l',false);
+
+		// if there is more than one page
+		if( $carousel_to_show.data('number_of_pages') > 1 ){
+			// show the right control
+			$('.nav-carousel .right-control').show();
+			$carousel_to_show.data('control_r',true);
+		} else {
+			//Otherwise hide the right control
+			$('.nav-carousel .right-control').hide();
+			$carousel_to_show.data('control_r',false);
+		}
+		$(".nav-carousel").addClass('expanded');
+	});
+	
+	//Slider
+	// set the max number of products per page
+	var products_per_page = 7;
+
+	// For each Carousel
+	$(".nav-carousel .carousel-items").each(function(){
+		// set the width to match the number of products rounding up to full widths
+		var num_products = $(this).find('.carousel-item').length;
+		var num_pages = Math.ceil(num_products/products_per_page);
+		var width = num_pages * 100;
+		$(this).css('width',width + '%');
+		
+		// record the number of items
+		$(this).data('number_of_products',num_products);
+
+		// record the number of pages
+		$(this).data('number_of_pages',num_pages);
+
+		// record which page is being shown
+		$(this).data('current_page',1);
+		
+		// if there are multiple pages
+		if ( num_pages > 1 ){
+			// enable the right control
+			$(this).data('control_r',true);
+		} else {
+			//otherwise disable the right control
+			$(this).data('control_r',false);
+		}
+		// disable the left control
+		$(this).data('control_l',false);
+	});
+	
+	// When user hovers over the navigation
+	$(".nav-carousel .navigation-link").hover(function(){
+		// Lazy load images in the corresponding carousels
+		// find the postion of the hovered link
+		var index = $(this).index();
+		// find the corresponding carousel
+		var $carousel = $(".nav-carousel .carousel-items").eq(index);
+		// For each carousel item
+		$carousel.find('img').each(function(){
+			// update the image tag with the correct image
+			$(this).attr("src",$(this).attr("data-src"));
+		});
+	});
+	
+	// Click left control
+	$('.nav-carousel .left-control').click(function(){
+		// determine the current carousel
+		var $current_carousel = $(".nav-carousel .carousel-items.selected");
+
+		// record the new current page
+		var current_page = $current_carousel.data('current_page') - 1;
+		$current_carousel.data('current_page',current_page);
+		
+		// move the selected carousel one page to the right
+		var left_position = (current_page - 1) * 100;
+		$current_carousel.css('left','-' + (left_position) + '%');
+		
+		// if the sliders is all the way to the left 
+		if ( current_page <= 1 ){
+			// hide/disable the left controller
+			if($('html').hasClass('cssgradients') ){
+				$('.nav-carousel .left-control').fadeOut();
+			} else {
+				$('.nav-carousel .left-control').hide();
+			}
+			$current_carousel.data('control_l',false);
+		}
+		// show/enable the right controller
+		if($('html').hasClass('cssgradients') ){
+			$('.nav-carousel .right-control').fadeIn();
+		} else{
+			$('.nav-carousel .right-control').show();
+		}
+		$current_carousel.data('control_r',true);
+
+	});
+	
+	// Click right control
+	$('.nav-carousel .right-control').click(function(){
+		// determine the current carousel
+		var $current_carousel = $(".nav-carousel .carousel-items.selected");
+
+		// record the new current page
+		var current_page = $current_carousel.data('current_page') + 1;
+		$current_carousel.data('current_page',current_page);
+		
+		// move the selected carousel one page to the right
+		var left_position = (current_page - 1) * 100;
+		$current_carousel.css('left','-' + (left_position) + '%');
+		
+		// if the slider is all the way to the right
+		if ( current_page == $current_carousel.data('number_of_pages') ){
+			// hide/disable the right controller
+			if($('html').hasClass('cssgradients') ){
+				$('.nav-carousel .right-control').fadeOut();
+			} else {
+				$('.nav-carousel .right-control').hide();
+			}
+			$current_carousel.data('control_r',false);
+		}
+		// show/enable the left controller
+		if($('html').hasClass('cssgradients') ){
+			$('.nav-carousel .left-control').fadeIn();
+		} else {
+			$('.nav-carousel .left-control').show();
+		}
+		$current_carousel.data('control_l',true);
+	});
+	
+
+// Start Frankenstiening the header from existing parts
+	// Site Feedback
+	$('.toolbar-new .feedback').html('<div class="toolsFeedbackDiv">' + $('#toolbar .toolsFeedback').html() + '</div>');
+
+	// Logo
+	$('.new-header .logo a').attr('href',$('#logoContainer a').attr('href') );
+	// Free shipping message
+	$('.new-header .message .offer').html( $('#bmsging li:nth-child(2) a') );
+
+	// Weekly Ad
+	$('.new-header .links .weekly_flyer a').attr('href', $('#weeklyAdZone a').attr('href') );
+	
+	// Chat icon
+	$('.new-header .message .chat').html($('#toolbar .toolsChat').html());
+
+	// Sticky header
+	// Search form
+	$('.sticky-header .search_div').html( $('#hsearch') );
+	$('#hsearch #searchkey').attr('placeholder','Search 1 million products on Staples');
+
+	//Welcome message
+	var welcome_message = $('#liwmsg').html();
+	welcome_message = welcome_message.replace(',','');
+	welcome_message = welcome_message.replace('Welcome','Hello,');
+	welcome_message = welcome_message.replace(' please.','');
+	$('.sticky-header .my_account_login small').html( welcome_message );
+	
+	// My Account
+	$('.sticky-header .my_account_login .my_account').html( $('#myAccountNavButton').html() );
+	// Add Login logout to dropdown menu
+	$('.sticky-header .my_account .nav_dropdown').prepend('<li class="login_link">' + $('#hlogout').html() + '</li>');
+	// Add arrow to My Account link
+	$('.sticky-header .my_account a.navSelect').append('<span class="arrow"></span>');
+	
+	// Reorder
+	$('.sticky-header .reorder_div a').attr('href', $('.toolsMyOrders a').attr('href') );
+
+	// Shopping Cart
+	$('.sticky-header .cart_div .wrapper').html( $('header #cartNav').html() )
+		.find('a').prepend('<small>Cart</small><br />');
+	var cart_string = $('.sticky-header .cart_div a').html();
+	cart_string = cart_string.replace('(','');
+	cart_string = cart_string.replace(')','');
+	$('.sticky-header .cart_div a').html(cart_string);
+
+// END Frankenstein
+
+// Display new header and Toolbar	
+	//put the header in the correct place on the page.
+	$('header').html( $('.new-header').slideDown() );
+	// show the navigation
+	$('.nav-carousel').slideDown();
+
+	// update the Toolbar
+	$('#toolbar').html('<div class="wrapper">'+ $('.toolbar-new').html() + '</div>').show();
+
+	
+// Make sticky header sticky
+	// determine the current top offset
+	var sticky_top_offset = $('.sticky-placeholder').offset().top;
+	// properly position the sticky header
+	// show the sticky header
+	$('.sticky-header').css('top',sticky_top_offset + 'px').slideDown();
+	
+	var sticky_fixed = false;
+	// Decides weather the navigation bar should have "fixed" css position or not.
+	function sticky_navigation(){
+		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+		
+		// if we've scrolled more than the navigation 
+		if (scroll_top > sticky_top_offset && !sticky_fixed) { 
+			//change its position to fixed to stick to top
+			$('.sticky-header').addClass('stuck');
+			if( $('.sticky-header .shop_category').hasClass('closed') != true ){
+				$('.sticky-header .shop_category').click();
+			}
+			// record state of sticky header 
+			sticky_fixed = true;
+		}
+		if(scroll_top < sticky_top_offset && sticky_fixed){
+			//otherwise change it back to absolute
+			$('.sticky-header').removeClass('stuck');
+			//show the LOB menu
+			$('.sticky-header .shop_category.closed').click();
+			// record state of sticky header 
+			sticky_fixed = false;
+		}   
+	};
+	
+	// run our function on load
+	sticky_navigation();
+	
+	// and run it again every time you scroll
+	$(window).scroll(function() {
+		 sticky_navigation();
+	});
+
+	//show hide the navigation
+	// record the current height of the header
+	var header_height = parseInt($('header').css('height').replace("px", ""));
+	// record the location of the ribbon arrows
+	var ribbon_bottom = parseInt($('.header-nav .ribbon.first').css('bottom').replace("px", ""));
+	$('.sticky-header .shop_category').click(function(){
+		if($(this).hasClass('closed') ){
+			$(this).removeClass('closed');
+			$('.sticky-header .nav-carousel').stop(true, true).slideDown();
+			// increase the height the header to make room for the navigation
+			$('header').stop(true, true).animate({height:header_height + 'px'});
+			// move the ribbon arrows to appear under the LOB links
+			$('.header-nav .ribbon').stop(true, true).animate({bottom:ribbon_bottom + 'px'});
+		} else {
+			$(this).addClass('closed');
+			$(".nav-carousel .navigation-link.selected").click();
+			$('.sticky-header .nav-carousel').stop(true, true).slideUp();
+			// decrease the height the header to make room for the navigation
+			$('header').stop(true, true).animate({height:(header_height - 63) + 'px'});
+			// move the ribbon arrows to appear under the sticky header
+			$('.header-nav .ribbon').stop(true, true).animate({bottom:(ribbon_bottom + 63) + 'px'});
+		}
+	});
+	
+});
+
+</script>
+<div class="toolbar-new">
+	<div class="downplay fed_customers">
+		<a href="http://www.staples4government.com">Federal Government Customers</a>
+	</div>
+	<div class="feedback">
+		<a class="gsa" id="siteFeedbackUrl" href="#">Site Feedback</a>
+	</div>
+	<div class="tab app"><a href="http://www.staples.com/sbd/cre/marketing/technology-research-centers/business-apps/index.html"><img src="images/tab-appcenter.png" /></a></div>
+	<div class="tab copy"><a href="http://www.staples.com/sbd/content/copyandprint/index.html"><img src="images/tab-copyprint.png" /></a></div>
+	<div class="tab rewards"><a href="http://www.staplesrewardscenter.com/"><img src="images/tab-rewards.png" /></a></div>
+	<div class="tab staples active"><img src="images/tab-staples.png" /></div>
+</div>
+<div class="new-header">
+	<div class="logo"><a href="/"><img src="images/logo-staples-new.png" alt="staples" /></a></div>
+	<div class="message-links-wrapper">
+		<div class="message">
+			<div class="offer"></div>
+			<div class="help"><a href="/sbd/cre/programs/customerservice/index.html">Help Center <strong>1-800-333-3330</strong></a></div>
+			<div class="chat sprite">Chat</div>
+		</div>
+		<div class="links">
+			<div class="ink_toner sprite">
+				<a href="/Ink-Toner-Finder/cat_SC43">Ink & Toner Finder</a>
+			</div>
+			<div class="order_item sprite">
+				<a href="/office/supplies/qobin?first=true&catalogId=10051&langId=-1&storeId=10001">Order by Item #</a>
+			</div>
+			<div class="gift_cards sprite">
+				<a href="/Gifts-Gift-Cards/cat_CG1225_1">Gift Cards</a>
+			</div>
+			<div class="online_deals sprite">
+				<a href="/Hot-Deals-Center/cat_HC2_HC2">Deals<span class="arrow"></span></a>
+			</div>
+			<div class="store_locator sprite">
+				<a href="http://storelocator.staples.com/">Store Locator</a>
+			</div>
+			<div class="weekly_flyer sprite">
+				<a href="#">Weekly Ad</a>
+			</div>
+		</div>
+	</div>
+	<div class="sticky-placeholder clear"></div>
+</div>
+<div class="sticky-header">
+	<div class="header-nav">
+		<div class="shop_category">
+			<div class="wrapper">
+				Shop By Category
+				<span class="arrow"></span>
+			</div>
+		</div>
+		<div class="search_div"></div>
+		<div class="my_account_login">
+			<div class="wrapper">
+				<small>Hello, <a href="#" class="login primary_color">Sign In</a></small><br />
+				<div class="my_account">
+				
+				</div>
+			</div>
+		</div>
+		<div class="reorder_div">
+			<div class="wrapper">
+				<small><span class="secondary_color">Reorder Today!</span></small><br />
+				<a href="#">Favorites &amp; Reorder</a>
+			</div>
+		</div>
+		<div id="cartNav" class="cart_div sprite">
+			<div class="wrapper">
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="ribbon first"></div>
+		<div class="ribbon second"></div>
+	</div>
+	<div class="nav-carousel">
+		<div class="carousel-navigation">
+			<div class="navigation-link">
+				<ul>
+					<li>Paper &amp; Ink</li>
+					<li>Office Supplies</li>
+					<li>Furniture</li>
+				</ul>
+				<span class="arrow"></span>
+			</div>
+			<div class="navigation-link">
+				<ul>
+					<li>Computers &amp; Printers</li>
+					<li>Electronics</li>
+					<li>Software</li>
+				</ul>
+				<span class="arrow"></span>
+			</div>
+			<div class="navigation-link">
+				<ul>
+					<li>Cleaning</li>
+					<li>Breakroom</li>
+					<li>Safety Supplies</li>
+				</ul>
+				<span class="arrow"></span>
+			</div>
+			<div class="navigation-link">
+				<ul>
+					<li>Copies &amp; Documents</li>
+					<li>Custom Printing</li>
+					<li>Promotional Products</li>
+				</ul>
+				<span class="arrow"></span>
+			</div>
+			<div class="filler"></div>
+			<div class="clear"></div>
+		</div>
+		<div class="carousel-slider">
+			<div class="carousel-items">
+				<a class="carousel-item" href="http://www.staples.com/Ink-Toner-Finder/cat_SC43">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_inktoner.jpg" />
+					<span class="image-text">
+						Ink & Toner</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Paper-Notebooks-Post-it/cat_SC1676">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_paper.jpg" />
+					<span class="image-text">
+						Paper<br />
+						Notebooks<br />
+						Post-it&reg;</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Filing-Binders-Organizers/cat_SC1677">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_filing.jpg" />
+					<span class="image-text">
+						Filing<br />
+						Binders<br />
+						Organizers</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Pens-Tape-Desk-Supplies/cat_SC1678">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_pens.jpg" />
+					<span class="image-text">
+						Pens<br />
+						Tape<br />
+						Desk Supplies</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Envelopes-Labels-Mailing/cat_SC1679">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_envelopes.jpg" />
+					<span class="image-text">
+						Envelopes<br />
+						Labels<br />
+						Mailing</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Furniture-Chairs-Cabinets/cat_SC2">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_furniture.jpg" />
+					<span class="image-text">
+						Furniture<br />
+						Chairs<br />
+						Cabinets</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Boards-Easels-Dry-Erase/cat_CG101">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_boards.jpg" />
+					<span class="image-text">
+						Boards<br />
+						Easels<br />
+						Dry-Erase</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Teaching-Drafting-Art/cat_SC1686">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_teaching.jpg" />
+					<span class="image-text">
+						Teaching<br />
+						Drafting<br />
+						Art</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Calendars-Planners/cat_CG12">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_calendar.jpg" />
+					<span class="image-text">
+						Calendars<br />
+						Planners</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Accounting-Forms-Security/cat_SC1688">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_accounting.jpg" />
+					<span class="image-text">
+						Accounting<br />
+						Forms<br />
+						Security</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/cre/marketing/easy-on-the-planet/shop-green-products.html ">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_eco.jpg" />
+					<span class="image-text">
+						Eco-conscious<br />
+						Products</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Featured-Brands/cat_DP5043">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_brands.jpg" />
+					<span class="image-text">
+						Featured<br />
+						Brands</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Gifts-Gift-Cards/cat_SC1699">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_gifts.jpg" />
+					<span class="image-text">
+						Gifts<br />
+						Gift Cards</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/cre/tech-services/index.html">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/op_center.jpg" />
+					<span class="image-text">
+						Solution<br />
+						Center</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Office-Supplies/cat_SC1">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://www.staples.com/sbdpas/img/ico/blank.gif" />
+					<span class="image-text">
+						Office<br />
+						Supplies</span>
+				</a>
+			</div>
+			<div class="carousel-items">
+				<a class="carousel-item" href="http://www.staples.com/Apple/cat_SC1949">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_apple.jpg" />
+					<span class="image-text">
+						Apple</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/PCs-Drives-Accessories/cat_SC3">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_pc.jpg" />
+					<span class="image-text">
+						PCs<br />
+						Drives<br />
+						Accessories</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/All-Laptop-Computers/cat_CL167289">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_laptops.jpg" />
+					<span class="image-text">
+						Laptop<br />
+						Computers</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Tablets/cat_CL204449">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_tablets.jpg" />
+					<span class="image-text">
+						Tablets</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Software-Online-Apps-Tech-Support/cat_SC1941">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_software.jpg" />
+					<span class="image-text">
+						Software<br />
+						Online Apps<br />
+						Tech Support</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Printers-Shredders-Machines/cat_SC1681">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_printers.jpg" />
+					<span class="image-text">
+						Printers<br />
+						Shredders<br />
+						Machines</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/TV-Home-Entertainment/cat_SC1786">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_tv.jpg" />
+					<span class="image-text">
+						TV | Home<br />
+						Entertainment</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Phones-Cameras-Electronics/cat_SC1682">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_phones.jpg" />
+					<span class="image-text">
+						Phones<br />
+						Cameras<br />
+						Electronics</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Mobile-Phones-Accessories/cat_SC5308">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_mobile.jpg" />
+					<span class="image-text">
+						Mobile Phones<br />
+						&amp; Accessories</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Batteries-Power/cat_CG75">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_batteries.jpg" />
+					<span class="image-text">
+						Batteries &amp; Power</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/cre/marketing/easy-on-the-planet/shop-green-products.html#technology">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_eco.jpg" />
+					<span class="image-text">
+						Eco-conscious<br />
+						Products</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/cre/tech-services/technology.html">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/tech_solutions.jpg" />
+					<span class="image-text">
+						Tech Solutions<br />
+						Center</span>
+				</a>
+			</div>
+			<div class="carousel-items">
+				<a class="carousel-item" href="http://www.staples.com/Paper-Towels-Tissues-Napkins/cat_DP1865">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_paper.jpg" />
+					<span class="image-text">
+						Paper Towels<br />
+						Tissues<br />
+						Napkins</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Cleaners-Chemicals-Soaps-Wipes/cat_CG1238">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_chemicals.jpg" />
+					<span class="image-text">
+						Chemicals<br />
+						Soaps<br />
+						Wipes</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Equipment-Trash-Brooms-Carts/cat_CG1239">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_trash.jpg" />
+					<span class="image-text">
+						Trash<br />
+						Brooms<br />
+						Carts</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Coffee-Water-Snacks/cat_SC1684">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_coffee.jpg" />
+					<span class="image-text">
+						Coffee<br />
+						Water<br />
+						Snacks</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Kitchen-Appliances/cat_DP800 ">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_appliances.jpg" />
+					<span class="image-text">
+						Kitchen<br />
+						Appliances</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Safety-Supplies/cat_SC1718">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_safety.jpg " />
+					<span class="image-text">
+						Safety Supplies</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Tools-Flashlights-Cords/cat_CG1244">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_tools.jpg" />
+					<span class="image-text">
+						Tools<br />
+						Flashlights<br />
+						Cords</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Heating-Cooling-Air-Quality/cat_DP4952">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_heating.jpg" />
+					<span class="image-text">
+						Heating<br />
+						Cooling<br />
+						Air Quality</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Batteries-Power/cat_CG75">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_batteries.jpg" />
+					<span class="image-text">
+						Batteries &amp; Power</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Candles/cat_CL166251">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_candles.jpg" />
+					<span class="image-text">
+						Candles</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Light-Bulbs/cat_DP1476">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_lightbulbs.jpg" />
+					<span class="image-text">
+						Light Bulbs</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Paint-Paint-Supplies/cat_CG1374">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_paint.jpg" />
+					<span class="image-text">
+						Paint<br />
+						Paint Supplies</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Personal-Care/cat_DP4977">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_personalcare.jpg" />
+					<span class="image-text">
+						Personal Care</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/Power-Strips-Cords-Plugs/cat_CG1375">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_power.jpg" />
+					<span class="image-text">
+						Power Strips<br />
+						Cords<br />
+						Plugs</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/First-Aid-Medical-Supplies/cat_SC1929">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_firstaid.jpg" />
+					<span class="image-text">
+						First Aid<br />
+						Medical Supplies</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/cre/marketing/easy-on-the-planet/shop-green-products.html#cleaning-breakroom">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/facilties_eco.jpg" />
+					<span class="image-text">
+						Eco-conscious<br />
+						Products</span>
+				</a>
+			</div>
+			<div class="carousel-items">
+				<a class="carousel-item" href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_custom_documents_presentations_flyers_postcards">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/copyprint_documents.jpg" />
+					<span class="image-text">
+						Copies<br />
+						Presentations<br />
+						Flyers<br />
+						Postcards</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_business_cards_letterhead_stamps_labels">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/copyprint_business.jpg" />
+					<span class="image-text">
+						Business Cards<br />
+						Letterhead<br />
+						Stamps<br />
+						Labels</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_banners_signs_engineering_prints_oversized_prints">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/copyprint_banners.jpg" />
+					<span class="image-text">
+						Banners &amp; Signs<br />
+						Engineering Prints<br />
+						Oversized Prints</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_cards_invitations_calendars_photo_gifts">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/copyprint_cards.jpg" />
+					<span class="image-text">
+						Cards &amp; Invitations<br />
+						Calendars<br />
+						Photo Gifts</span>
+				</a>
+				<a class="carousel-item" href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_apparel_giveaways_promotional_items">
+					<img src="http://www.staples.com/sbdpas/img/ico/blank.gif" data-src="http://interactive/projects/retail_sbd_brand/sites/sbd/2011/10470_ab/04_development/sliced_images/jpeg/copyprint_apparel.jpg" />
+					<span class="image-text">
+						Apparel<br />
+						Giveaways<br />
+						Promotional Items</span>
+				</a>
+			</div>
+		</div>
+		<div class="left-control">
+			<span class="arrow"></span>
+		</div>
+		<div class="right-control">
+			<span class="arrow"></span>
+		</div>
+	</div>
+	<div class="drop-shadow"></div>
+</div>
+
+<!-- End new Header -->

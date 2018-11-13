@@ -1,0 +1,1331 @@
+<!-- Start new Header -->
+<style>
+/* overrides */
+#logoContainer { display:none; }
+#socialmedia { top:180px; z-index:999; }
+
+/* Hide the left navigation and pull down */
+#showallprods { display:none; }
+
+/* Hide the ink and toner header */
+#headerExt { display:none; }
+
+/* Hide the toolbars */
+#toolbar,
+.toolbar-new { display:none; }
+
+.boxshadow #wrapall {
+	border-color:transparent;
+	-moz-box-shadow: 0 0 5px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+}
+
+/* */
+header { height:213px; }
+header .quickOrderWrapper{ display:none; }
+header > .navList { display:none; } 
+header #bmsging {display:none; }
+header > #hsearch { display:none; }
+
+/* Text Navigation CSS */
+	.main-navigation .clear { clear:both; }
+	
+	.main-navigation { 
+		background-color: #fff;
+		color:#4d4d4d;
+		float:none; 
+		overflow:hidden; 
+		margin:0 auto; 
+		position:relative; 
+		width:980px;
+	}
+	.main-navigation.expanded { 
+	}
+	
+	.main-navigation .navigation-link-wrapper { 
+		clear:both; 
+		font-family:arial; 
+	}
+
+		.main-navigation .navigation-link { 
+			background: #f7f7f7;
+			border-right:1px solid #ccc; 
+			border-bottom:1px solid #ccc; 
+			cursor:pointer; 
+			float:left; 
+			font-size:13px;
+			font-weight:bold;
+			height:52px; 
+			padding:5px 15px; 
+			position:relative;
+			width:214px; 
+		}
+		.main-navigation .navigation-link:first-child { 
+			border-left:1px solid #ccc; 
+			width:213px; 
+		}
+		.main-navigation .navigation-link:hover { 
+			color: #0092db;
+		}
+		.main-navigation .navigation-link.selected { 
+			background:none;
+			border-bottom:none;
+			color:#0092db;
+			height:53px; 
+
+		}
+			.main-navigation .navigation-link .arrow { 
+				background:url(images/header-sprite.png) 0 -250px no-repeat;
+				display:block; 
+				height:16px; 
+				position:absolute; 
+				right:20px; 
+				top:10px; 
+				width:16px; 
+			}
+			.main-navigation .navigation-link.selected .arrow { 
+				background-position:0 -268px;
+			}
+
+		.main-navigation .navigation-link ul { 
+			display:inline; 
+			list-style:none; 
+			margin:0; 
+			padding:0; 
+		}
+		.main-navigation .navigation-link li { 
+			line-height:17px; 
+			padding:0; 
+		}
+	
+	  
+	.main-navigation .navigation-content { 
+		border-left:1px solid #ccc; 
+		border-right:1px solid #ccc; 
+		border-bottom:1px solid #ccc; 
+		clear:both;
+		display:none;
+		width:978px;
+
+	}
+
+		.main-navigation .navigation-content .navigation-items {
+			background-color:#e7e7e7;
+			clear:both;
+			display:none;
+			width:100%;
+		}
+		.main-navigation .navigation-content .background-grouping {
+			background-color:#fff;
+			min-height:277px;
+			padding:20px;
+		}
+			.main-navigation .navigation-content ul {
+				list-style-type:none;
+				margin:0;
+			}
+				.main-navigation .navigation-content ul li {
+					line-height:1.3em;
+					padding:0 0 16px;
+				}
+					.main-navigation .navigation-content ul li a{
+						color:#4d4d4d;
+						font-size:14px;
+						text-decoration:none;
+						
+					}
+			.main-navigation .navigation-content h2 {
+				font-size:14px;
+				font-weight:bold;
+				margin-bottom: .3em;
+			}
+			
+			.main-navigation .navigation-content .navigation-categories {
+				font-weight:bold;
+				padding-right:20px;
+				width:287px;
+			}
+			.main-navigation .navigation-content .divider {
+				background:url(./images/text-divider.png) left center transparent no-repeat;
+				height:277px;
+				width:1px;
+			}
+			
+			.main-navigation .navigation-content .quick-links {
+				padding-left:20px;
+				width:300px;
+			}
+				.main-navigation .navigation-content .quick-links li {
+					padding:0 0 8px;
+				}
+					.main-navigation .navigation-content .quick-links a {
+						background: url(http://www.staples.com/sbdpas/img/bg/headerfooter_sprite.png) no-repeat 0 4px transparent;
+						padding-left: 10px;
+					}
+
+			
+			.main-navigation .navigation-content .featured-items {
+				background: -moz-linear-gradient(top,  #fff 0%, #e7e7e7 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#e7e7e7));
+				background: -webkit-linear-gradient(top,  #fff 0%,#e7e7e7 100%);
+				background: -o-linear-gradient(top,  #fff 0%,#e7e7e7 100%);
+				background: -ms-linear-gradient(top,  #fff 0%,#e7e7e7 100%);
+				background: linear-gradient(to bottom,  #fff 0%,#e7e7e7 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7e7e7',GradientType=0 );
+				width:310px;
+			}
+				.main-navigation .navigation-content .featured-items .wrapper{
+					padding:20px;
+				}
+				.main-navigation .navigation-content .featured-items li {
+					padding:0 0 8px;
+				}
+				.main-navigation .navigation-content .featured-items td {
+					padding:0 10px 8px 0;
+					width:50%;
+				}
+
+			
+	
+/* new toolbar */
+#toolbar { 
+	margin:0 auto;
+	padding:10px 0 0;
+}
+	
+	#toolbar .wrapper {
+		float:right;
+	}
+	
+	#toolbar a {
+		color:#4d4d4d
+		font-size:11px;
+	}
+	
+	#toolbar .downplay,
+	#toolbar .downplay a {
+		color: #999999;
+	}
+	
+	#toolbar .fed_customers a,
+	#toolbar .feedback a {
+		line-height:26px;
+		margin-right:18px;
+		text-decoration:none;
+	}
+	
+	#toolbar .tab {
+		background-color: #4d4d4d;
+		-webkit-border-top-left-radius: 3px;
+		-webkit-border-top-right-radius: 3px;
+		-moz-border-radius-topleft: 3px;
+		-moz-border-radius-topright: 3px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;	
+		-moz-box-shadow: -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		-webkit-box-shadow: -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		box-shadow: -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		height:19px;
+		margin:0 1px;
+		padding:7px 5px 0;
+	}
+	#toolbar .tab.active {
+		background-color:#ffffff;
+		-moz-box-shadow: 0 1px #fff, -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		-webkit-box-shadow: 0 1px #fff, -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+		box-shadow: 0 1px #fff, -1px 0 1px #999, 0 -1px 2px #999, 1px 0 1px #999;
+	}
+	#toolbar .tab.staples {
+		padding:3px 5px 4px;
+	}
+	#toolbar .tab a{
+		display:block;
+	}
+		
+/* new header CSS */
+.new-header { 
+	color:#000000;
+	display:none;
+	font-size:11px;
+}
+	.new-header .sprite a{
+		background-image:url(images/header-sprite.png);
+		background-repeat:no-repeat;
+		padding-left:30px;
+	}
+	.new-header a:link, 
+	.new-header a:visited, 
+	.new-header a:hover, 
+	.new-header a:active {
+		color:#000000;
+		text-decoration:none;
+	}
+
+	.new-header .logo {
+		clear:left;
+		float:left;
+		height:63px;
+		padding:8px;
+		width:123px;
+	}
+		.new-header .logo a {
+			line-height:80px;
+		}
+
+	.new-header .message-links-wrapper {
+	    clear:right;
+		float:left;
+		width:820px;
+	}
+	.new-header .message { 
+		clear:left;
+		float:right;
+		height:33px;
+		padding:5px 0 10px;
+	}
+		.new-header .offer{
+			padding-right:17px;
+		}
+			.new-header .offer a{
+				color:#c00;
+				font-weight:bold;
+			}
+
+		.new-header .chat a {
+			border-left:1px solid #aaa;
+			display:block;
+			margin-left: 15px;
+			padding-left:35px;
+			background-position:10px -176px;
+		}
+		.new-header .chat a:hover {
+			background-position:10px -194px;
+		}
+	
+	.new-header .links {
+		clear:left;
+		float:right;
+	}
+		.new-header .links div a {
+			border-right:1px solid #aaa;
+			display:block;
+			margin-top:10px;
+			padding:0 15px 0 30px;
+		}
+		.new-header .links .ink_toner a:hover {
+			background-position: 0 -18px;
+		}
+		.new-header .links .order_item a{
+			background-position:13px -35px;
+			padding-left:35px;
+		}
+		.new-header .links .order_item a:hover {
+			background-position:13px -53px;
+		}
+		.new-header .links .gift_cards a{
+			background-position:15px -70px;
+		}
+		.new-header .links .gift_cards a:hover {
+			background-position:15px -88px;
+		}
+		.new-header .links .online_deals a{
+			background-position:12px -106px;
+		}
+		.new-header .links .online_deals a:hover{
+			background-position:12px -124px;
+		}
+		.new-header .links .online_deals .arrow{
+			border-bottom:none;
+			border-left:5px solid transparent;
+			border-right:5px solid transparent;
+			border-top:5px solid #333;
+			display:inline-block;
+			height:0;
+			margin-bottom:2px;
+			margin-left:5px;
+			width:0;
+		}
+		.new-header .links .online_deals a:hover .arrow{
+			border-bottom:5px solid #0092db;
+			border-top:none;
+		}
+		.new-header .links .store_locator a{
+			background-position:15px -142px;
+		}
+		.new-header .links .store_locator a:hover {
+			background-position:15px -160px;
+		}
+		.new-header .links .weekly_flyer a{
+			background-position:10px -216px;
+			border:none;
+			margin-top:0;
+			padding:10px 0 5px 75px;
+		}
+		
+	
+/* Sticky Header */
+.sticky-header {
+	display:none;
+	float:none;
+	left:0;
+	min-width:960px;
+	position:absolute;
+	text-align:left;
+	width:100%;
+	z-index:99;
+}
+	.sticky-header.stuck {
+		position:fixed;
+		top:0 !important;
+	}
+	.sticky-header .header-nav{
+		background-color:#ccc;
+		background: -moz-linear-gradient(top,  #eee 0%, #bbb 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(100%,#bbb));
+		background: -webkit-linear-gradient(top,  #eee 0%,#bbb 100%);
+		background: -o-linear-gradient(top,  #eee 0%,#bbb 100%);
+		background: -ms-linear-gradient(top,  #eee 0%,#bbb 100%);
+		background: linear-gradient(to bottom,  #eee 0%,#bbb 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#bbbbbb',GradientType=0 );
+		border-bottom:1px solid #bbb;
+		border-top:1px solid #eee;
+		float:none;
+		font-size:14px;
+		height:44px;
+		margin:0 auto;
+		padding:0;
+		position:relative;
+		text-align:center;
+		width:980px;
+	}
+	.sticky-header.stuck .header-nav {
+		border-top:4px solid #590000;
+	}
+	.sticky-header .header-nav small{
+		font-size:11px;
+	}
+	.sticky-header .header-nav .secondary_color{
+		color:#0092db;
+	}
+	.sticky-header .header-nav .ribbon{
+		border:5px solid #878787;
+		border-bottom:5px solid transparent;
+		bottom:-73px;
+		display:none;
+		height:0;
+		position:absolute;
+		width:0;
+		z-index:-1;
+	}
+	.sticky-header .header-nav .ribbon.first{
+		border-left:5px solid transparent;
+		left:0;
+	}
+	.sticky-header .header-nav .ribbon.second{
+		border-right:5px solid transparent;
+		right:0;
+	}
+	
+	.sticky-header .header-nav .highlight{
+		font-weight:normal;
+	}
+	.sticky-header .header-nav .wrapper{
+		display:inline-block;
+		float:none;
+		line-height:14px;
+		text-align:left;
+		padding-top:5px;
+	}
+	
+	.sticky-header .shop_category.closed,
+	.sticky-header .search_div, 
+	.sticky-header .reorder_div,
+	.sticky-header .my_account_login,
+	.sticky-header .cart_div { 
+		background-color:#ececec;
+		background: -moz-linear-gradient(top,  #fff 0%, #dfdfdf 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#dfdfdf));
+		background: -webkit-linear-gradient(top,  #fff 0%,#dfdfdf 100%);
+		background: -o-linear-gradient(top,  #fff 0%,#dfdfdf 100%);
+		background: -ms-linear-gradient(top,  #fff 0%,#dfdfdf 100%);
+		background: linear-gradient(to bottom,  #fff 0%,#dfdfdf 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=0 );
+		height:44px;
+		text-shadow:1px 1px 1px #fff;
+
+	}
+	.sticky-header .shop_category{
+		background: -moz-linear-gradient(top,  #dfdfdf 0%, #fff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfdf), color-stop(100%,#fff));
+		background: -webkit-linear-gradient(top,  #dfdfdf 0%,#fff 100%);
+		background: -o-linear-gradient(top,  #dfdfdf 0%,#fff 100%);
+		background: -ms-linear-gradient(top,  #dfdfdf 0%,#fff 100%);
+		background: linear-gradient(to bottom,  #dfdfdf 0%,#fff 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#ffffff',GradientType=0 );
+		cursor:pointer;
+		line-height:44px;
+		margin-left:1px;
+		width:158px;
+	}
+		.sticky-header .shop_category:hover {
+			color:#0092db;
+		}
+		.sticky-header .shop_category .arrow {
+			border-bottom:5px solid #333;
+			border-left:5px solid transparent;
+			border-right:5px solid transparent;
+			border-top:none;
+			display:inline-block;
+			height:0;
+			margin-bottom:2px;
+			width:0;
+		}
+		.sticky-header .shop_category.closed .arrow {
+			border-bottom:none;
+			border-top:5px solid #333;
+		}
+
+	.sticky-header .search_div { 
+		margin:0 1px;
+		padding:0 2px;
+	}
+	
+		.sticky-header .search_div #hsearch {
+			background-color:white;
+			margin:2px;
+		}
+		.sticky-header .search_div .searchForm input[type='text'] {
+			width:302px;
+		}
+		.sticky-header .search_div .searchForm input[type='submit']{
+			border-top: 1px solid #a87777;
+			border-right: 1px solid #590000;		
+			border-bottom: 1px solid #590000;
+			border-left: 1px solid #a87777;
+			background: #c00;
+			color: white;
+			font-size:13px;
+			height: 28px;
+			margin: 0;
+			margin-right:3px;
+			text-indent:0;
+			text-shadow: 1px 1px 1px #590000;
+			width: 60px;
+		}
+
+	.sticky-header .my_account_login {
+		position:relative;
+		width:130px;
+		z-index:10;
+	}
+		.sticky-header .my_account_login small b {
+			font-weight:normal;
+			color:#4d4d4d;
+		}
+		.sticky-header .my_account_login small #wmsg,
+		.sticky-header .my_account_login small #lginwmsg {
+			border-right:none;
+			font-size:11px;
+			padding:0;
+		}
+		.sticky-header .my_account_login a {
+			text-decoration:none;
+		}
+
+		.sticky-header .my_account_login:hover {
+			background:#fff;
+		}
+			.sticky-header .my_account_login .my_account .navSelect {
+				background:none;
+			}
+			.sticky-header .my_account_login:hover .my_account .navSelect {
+				color:#0092db;
+			}
+				.sticky-header .my_account_login .my_account .navSelect .arrow {
+					border-bottom:none;
+					border-left:5px solid transparent;
+					border-right:5px solid transparent;
+					border-top:5px solid #333;
+					display:inline-block;
+					height:0;
+					margin-bottom:2px;
+					margin-left:5px;
+					width:0;
+				}
+				.sticky-header .my_account_login:hover .my_account .navSelect .arrow {
+					border-bottom:5px solid #0092db;
+					border-top:none;
+				}
+			.sticky-header .my_account_login:hover .my_account ul {
+				display:block;
+				left:0;
+				padding-top:0;
+				top:45px;
+				z-index:10;
+			}
+			.sticky-header .my_account_login .my_account li.login_link b {
+				font-weight:normal;
+			}
+
+	.sticky-header .reorder_div {
+		margin:0 1px;
+		width:160px;
+	}
+		.sticky-header .reorder_div a {
+			color:inherit;
+			text-decoration:none;
+		}
+	
+	
+	.sticky-header #cartNav { 
+		float:left;
+		margin:0;
+		padding:0 10px;
+		text-align:left;
+		width:113px;		
+	} 
+		.sticky-header #cartNav .wrapper { 
+		}
+		.sticky-header #cartNav a{ 
+			background-image:url(images/header-sprite.png);
+			background-position:0 -382px;
+			color:inherit;
+			display:block;
+			font-size:inherit;
+			padding:0 0 0 40px;
+		}
+			.sticky-header #cartNav a small{ 
+				font-size:11px;	
+				font-weight:normal;
+			}
+
+	.boxshadow .sticky-header .drop-shadow {
+		box-shadow: 0 3px 5px #DDD;
+		float:none;
+		height:5px;
+		margin:-5px auto 0;
+		width:982px;
+		
+	}	
+			
+	/* ******* Full width **************** */
+	@media screen and (min-width:1002px){
+		.sticky-header .header-nav{
+			width:1002px;
+		}
+		.sticky-header .header-nav .ribbon{
+			display:block;
+		}
+		.sticky-header .shop_category {
+			width:169px;
+		}
+		.sticky-header #cartNav {
+			width:124px;
+		}
+		.main-navigation {
+			width:1002px;
+		}
+		.main-navigation .navigation-link {
+			width:219px;
+		}
+		.main-navigation .navigation-link:first-child {
+			width:220px;
+		}
+		.main-navigation .navigation-content {
+			width:1000px;
+		}
+			.main-navigation .navigation-content .navigation-categories {
+				width:297px;
+			}
+			.main-navigation .navigation-content .featured-items {
+				width:322px;
+			}
+	}
+
+
+</style>
+
+<script>
+
+$(function(){
+	// Navigation links
+	// On clicking Nav link
+	$(".main-navigation .navigation-link").click(function(){
+		// if the user clicks a link that is already selected
+		if( $(this).hasClass('selected') ){
+			// hide the carousel 
+			$(".main-navigation .navigation-content").slideUp();
+			// hide the items in the carousel
+			$(".main-navigation .navigation-items.selected").removeClass("selected").hide();
+			// mark the navigation link as unselected
+			$(this).removeClass("selected");
+			$(".main-navigation").removeClass('expanded');
+			// skip the rest
+			return false;
+		}
+
+		// load the correct category
+		// figure out which navigation link was clicked (first, second, third, etc...)
+		var index = $(this).index();
+		// hide the currently selected category
+		$(".main-navigation .navigation-items.selected").removeClass("selected").hide();
+		// show the corresponding category
+		var $carousel_to_show = $(".main-navigation .navigation-items").eq(index);
+		$carousel_to_show.addClass("selected").show();
+
+		// Switch selected state to this link
+		// unmark the currently selected navigation link
+		$(".main-navigation .navigation-link.selected").removeClass("selected");
+		// mark this navigation link as selected
+		$(this).addClass("selected");
+		
+		// expand the height of the carousel slider
+		$(".main-navigation .navigation-content").slideDown("fast");
+		
+		// reset the carousel to show the first page
+		$carousel_to_show.data('current_page',1).css("left",0);
+		$(".main-navigation").addClass('expanded');
+	});
+	
+
+// Start Frankenstiening the header from existing parts
+	// Site Feedback
+	$('.toolbar-new .feedback').html('<div class="toolsFeedbackDiv">' + $('#toolbar .toolsFeedback').html() + '</div>');
+
+	// Logo
+	$('.new-header .logo a').attr('href',$('#logoContainer a').attr('href') );
+	// Free shipping message
+	$('.new-header .message .offer').html( $('#bmsging li:nth-child(2) a') );
+
+	// Weekly Ad
+	$('.new-header .links .weekly_flyer a').attr('href', $('#weeklyAdZone a').attr('href') );
+	
+	// Chat icon
+	$('.new-header .message .chat').html($('#toolbar .toolsChat').html());
+
+	// Sticky header
+	// Search form
+	$('.sticky-header .search_div').html( $('#hsearch') );
+	$('#hsearch #searchkey').attr('placeholder','Search 1 million products on Staples');
+
+	//Welcome message
+	var welcome_message = $('#liwmsg').html();
+	welcome_message = welcome_message.replace(',','');
+	welcome_message = welcome_message.replace('Welcome','Hello,');
+	welcome_message = welcome_message.replace(' please.','');
+	$('.sticky-header .my_account_login small').html( welcome_message );
+	
+	// My Account
+	$('.sticky-header .my_account_login .my_account').html( $('#myAccountNavButton').html() );
+	// Add Login logout to dropdown menu
+	$('.sticky-header .my_account .nav_dropdown').prepend('<li class="login_link">' + $('#hlogout').html() + '</li>');
+	// Add arrow to My Account link
+	$('.sticky-header .my_account a.navSelect').append('<span class="arrow"></span>');
+	
+	// Reorder
+	$('.sticky-header .reorder_div a').attr('href', $('.toolsMyOrders a').attr('href') );
+
+	// Shopping Cart
+	$('.sticky-header .cart_div .wrapper').html( $('header #cartNav').html() )
+		.find('a').prepend('<small>Cart</small><br />');
+	var cart_string = $('.sticky-header .cart_div a').html();
+	cart_string = cart_string.replace('(','');
+	cart_string = cart_string.replace(')','');
+	$('.sticky-header .cart_div a').html(cart_string);
+
+// END Frankenstein
+
+// Display new header and Toolbar	
+	//put the header in the correct place on the page.
+	$('header').html( $('.new-header').slideDown() );
+	// show the navigation
+	$('.main-navigation').slideDown();
+
+	// update the Toolbar
+	$('#toolbar').html('<div class="wrapper">'+ $('.toolbar-new').html() + '</div>').show();
+
+	
+// Make sticky header sticky
+	// determine the current top offset
+	var sticky_top_offset = $('.sticky-placeholder').offset().top;
+	// properly position the sticky header
+	// show the sticky header
+	$('.sticky-header').css('top',sticky_top_offset + 'px').slideDown();
+	
+	var sticky_fixed = false;
+	// Decides weather the navigation bar should have "fixed" css position or not.
+	function sticky_navigation(){
+		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+		
+		// if we've scrolled more than the navigation 
+		if (scroll_top > sticky_top_offset && !sticky_fixed) { 
+			//change its position to fixed to stick to top
+			$('.sticky-header').addClass('stuck');
+			if( $('.sticky-header .shop_category').hasClass('closed') != true ){
+				$('.sticky-header .shop_category').click();
+			}
+			// record state of sticky header 
+			sticky_fixed = true;
+		}
+		if(scroll_top < sticky_top_offset && sticky_fixed){
+			//otherwise change it back to absolute
+			$('.sticky-header').removeClass('stuck');
+			//show the LOB menu
+			$('.sticky-header .shop_category.closed').click();
+			// record state of sticky header 
+			sticky_fixed = false;
+		}   
+	};
+	
+	// run our function on load
+	sticky_navigation();
+	
+	// and run it again every time you scroll
+	$(window).scroll(function() {
+		 sticky_navigation();
+	});
+
+	//show hide the navigation
+	// record the current height of the header
+	var header_height = parseInt($('header').css('height').replace("px", ""));
+	// record the location of the ribbon arrows
+	var ribbon_bottom = parseInt($('.header-nav .ribbon.first').css('bottom').replace("px", ""));
+	$('.sticky-header .shop_category').click(function(){
+		if($(this).hasClass('closed') ){
+			$(this).removeClass('closed');
+			$('.sticky-header .main-navigation').stop(true, true).slideDown();
+			// increase the height the header to make room for the navigation
+			$('header').stop(true, true).animate({height:header_height + 'px'});
+			// move the ribbon arrows to appear under the LOB links
+			$('.header-nav .ribbon').stop(true, true).animate({bottom:ribbon_bottom + 'px'});
+		} else {
+			$(this).addClass('closed');
+			$(".main-navigation .navigation-link.selected").click();
+			$('.sticky-header .main-navigation').stop(true, true).slideUp();
+			// decrease the height the header to make room for the navigation
+			$('header').stop(true, true).animate({height:(header_height - 63) + 'px'});
+			// move the ribbon arrows to appear under the sticky header
+			$('.header-nav .ribbon').stop(true, true).animate({bottom:(ribbon_bottom + 63) + 'px'});
+		}
+	});
+	
+});
+
+</script>
+<div class="toolbar-new">
+	<div class="downplay fed_customers">
+		<a href="http://www.staples4government.com">Federal Government Customers</a>
+	</div>
+	<div class="feedback">
+		<a class="gsa" id="siteFeedbackUrl" href="#">Site Feedback</a>
+	</div>
+	<div class="tab app"><a href="http://www.staples.com/sbd/cre/marketing/technology-research-centers/business-apps/index.html"><img src="images/tab-appcenter.png" /></a></div>
+	<div class="tab copy"><a href="http://www.staples.com/sbd/content/copyandprint/index.html"><img src="images/tab-copyprint.png" /></a></div>
+	<div class="tab rewards"><a href="http://www.staplesrewardscenter.com/"><img src="images/tab-rewards.png" /></a></div>
+	<div class="tab staples active"><img src="images/tab-staples.png" /></div>
+</div>
+<div class="new-header">
+	<div class="logo"><a href="/"><img src="images/logo-staples-new.png" alt="staples" /></a></div>
+	<div class="message-links-wrapper">
+		<div class="message">
+			<div class="offer"></div>
+			<div class="help"><a href="/sbd/cre/programs/customerservice/index.html">Help Center <strong>1-800-333-3330</strong></a></div>
+			<div class="chat sprite">Chat</div>
+		</div>
+		<div class="links">
+			<div class="ink_toner sprite">
+				<a href="/Ink-Toner-Finder/cat_SC43">Ink & Toner Finder</a>
+			</div>
+			<div class="order_item sprite">
+				<a href="/office/supplies/qobin?first=true&catalogId=10051&langId=-1&storeId=10001">Order by Item #</a>
+			</div>
+			<div class="gift_cards sprite">
+				<a href="/Gifts-Gift-Cards/cat_CG1225_1">Gift Cards</a>
+			</div>
+			<div class="online_deals sprite">
+				<a href="/Hot-Deals-Center/cat_HC2_HC2">Deals<span class="arrow"></span></a>
+			</div>
+			<div class="store_locator sprite">
+				<a href="http://storelocator.staples.com/">Store Locator</a>
+			</div>
+			<div class="weekly_flyer sprite">
+				<a href="#">Weekly Ad</a>
+			</div>
+		</div>
+	</div>
+	<div class="sticky-placeholder clear"></div>
+</div>
+<div class="sticky-header">
+	<div class="header-nav">
+		<div class="shop_category">
+			<div class="wrapper">
+				Shop By Category
+				<span class="arrow"></span>
+			</div>
+		</div>
+		<div class="search_div"></div>
+		<div class="my_account_login">
+			<div class="wrapper">
+				<small>Hello, <a href="#" class="login primary_color">Sign In</a></small><br />
+				<div class="my_account">
+				
+				</div>
+			</div>
+		</div>
+		<div class="reorder_div">
+			<div class="wrapper">
+				<small><span class="secondary_color">Reorder Today!</span></small><br />
+				<a href="#">Favorites &amp; Reorder</a>
+			</div>
+		</div>
+		<div id="cartNav" class="cart_div sprite">
+			<div class="wrapper">
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="ribbon first"></div>
+		<div class="ribbon second"></div>
+	</div>
+	<div class="main-navigation">
+		<div class="navigation-link-wrapper">
+			<div class="navigation-link">
+				<ul>
+					<li>Paper &amp; Ink</li>
+					<li>Office Supplies</li>
+					<li>Furniture</li>
+				</ul>
+				<span class="arrow"></span>
+			</div>
+			<div class="navigation-link">
+				<ul>
+					<li>Computers &amp; Printers</li>
+					<li>Electronics</li>
+					<li>Software</li>
+				</ul>
+				<span class="arrow"></span>
+			</div>
+			<div class="navigation-link">
+				<ul>
+					<li>Cleaning</li>
+					<li>Breakroom</li>
+					<li>Safety Supplies</li>
+				</ul>
+				<span class="arrow"></span>
+			</div>
+			<div class="navigation-link">
+				<ul>
+					<li>Copies &amp; Documents</li>
+					<li>Custom Printing</li>
+					<li>Promotional Products</li>
+				</ul>
+				<span class="arrow"></span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="navigation-content">
+			<div class="navigation-items">
+				<div class="background-grouping">
+					<div class="navigation-categories">
+						<ul>
+							<li>
+								<a href="http://www.staples.com/Ink-Toner-Finder/cat_SC43">Ink & Toner</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Paper-Notebooks-Post-it/cat_SC1676">Paper |	Notebooks | Post-it&reg;</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Filing-Binders-Organizers/cat_SC1677">Filing | Binders | Organizers</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Pens-Tape-Desk-Supplies/cat_SC1678">Pens | Tape | Desk Supplies</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Envelopes-Labels-Mailing/cat_SC1679">Envelopes | Labels | Mailing</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Furniture-Chairs-Cabinets/cat_SC2">Furniture | Chairs | Cabinets</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Boards-Easels-Dry-Erase/cat_CG101">Boards | Easels | Dry-Erase</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Teaching-Drafting-Art/cat_SC1686">Teaching | Drafting | Art</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Calendars-Planners/cat_CG12">Calendars | Planners</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Accounting-Forms-Security/cat_SC1688">Accounting | Forms | Security</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divider"></div>
+					<div class="quick-links">
+						<h2>QUICK LINKS</h2>
+						<ul>
+							<li>
+								<a href="#">Copy Paper</a>
+							</li>
+							<li>
+								<a href="#">Staplers</a>
+							</li>
+							<li>
+								<a href="#">Post-its&reg;</a>
+							</li>
+							<li>
+								<a href="#">Top Tab file Folders</a>
+							</li>
+							<li>
+								<a href="#">Hanging File Folders</a>
+							</li>
+							<li>
+								<a href="#">Pens</a>
+							</li>
+							<li>
+								<a href="#">Binders</a>
+							</li>
+							<li>
+								<a href="#">Wall Calendars</a>
+							</li>
+							<li>
+								<a href="#">Chair Mats</a>
+							</li>
+							<li>
+								<a href="#">Office Chairs</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="featured-items">
+					<div class="wrapper">
+						<h2>FEATURED</h2>
+						<table>
+							<tr>
+								<td>
+									<ul>
+										<li>
+											<a href="http://www.staples.com/Office-Supplies/cat_SC1">All Office Supplies</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/Gifts-Gift-Cards/cat_SC1699">Gifts | Gift Cards</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/sbd/cre/marketing/easy-on-the-planet/shop-green-products.html">Eco-conscious Products</a>
+										</li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li>
+											<a href="http://www.staples.com/Featured-Brands/cat_DP5043">Featured Brands</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/sbd/cre/tech-services/index.html">Solution Center</a>
+										</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+				</div>
+			</div>
+			<div class="navigation-items">
+				<div class="background-grouping">
+					<div class="navigation-categories">
+						<ul>
+							<li>
+								<a href="http://www.staples.com/Apple/cat_SC1949">Apple&reg;</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/PCs-Drives-Accessories/cat_SC3">PCs | Drives | Accessories</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/All-Laptop-Computers/cat_CL167289">Laptop Computers</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Tablets/cat_CL204449">Tablets</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Software-Online-Apps-Tech-Support/cat_SC1941">Software | Online Apps | Tech Support</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Printers-Shredders-Machines/cat_SC1681">Printers | Shredders | Machines</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/TV-Home-Entertainment/cat_SC1786">TV | Home Entertainment</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Phones-Cameras-Electronics/cat_SC1682">Phones | Cameras | Electronics</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Mobile-Phones-Accessories/cat_SC5308">Mobile Phones &amp; Accessories</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Batteries-Power/cat_CG75">Batteries &amp; Power</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divider"></div>
+					<div class="quick-links">
+						<h2>QUICK LINKS</h2>
+						<ul>
+							<li>
+								<a href="#">Batteries</a>
+							</li>
+							<li>
+								<a href="#">Microsoft Surface</a>
+							</li>
+							<li>
+								<a href="#">Printers</a>
+							</li>
+							<li>
+								<a href="#">Computer Monitors</a>
+							</li>
+							<li>
+								<a href="#">Flash Drives</a>
+							</li>
+							<li>
+								<a href="#">Shredders</a>
+							</li>
+							<li>
+								<a href="#">Keyboards</a>
+							</li>
+							<li>
+								<a href="#">Scanners</a>
+							</li>
+							<li>
+								<a href="#">iPhone Cases</a>
+							</li>
+							<li>
+								<a href="#">Headphones</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="featured-items">
+					<div class="wrapper">
+						<h2>FEATURED</h2>
+						<table>
+							<tr>
+								<td>
+									<ul>
+										<li>
+											<a href="#">Tech Services</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/Gifts-Gift-Cards/cat_SC1699">Gifts | Gift Cards</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/sbd/cre/marketing/easy-on-the-planet/shop-green-products.html#technology">Eco-conscious Products</a>
+										</li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li>
+											<a href="http://www.staples.com/Featured-Brands/cat_DP5043">Featured Brands</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/sbd/cre/tech-services/technology.html">Tech Solutions Center</a>
+										</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+				</div>
+			</div>
+			<div class="navigation-items">
+				<div class="background-grouping">
+					<div class="navigation-categories">
+						<ul>
+							<li>
+								<a href="http://www.staples.com/Cleaners-Chemicals-Soaps-Wipes/cat_CG1238">Chemicals | Soaps | Wipes</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Paper-Towels-Tissues-Napkins/cat_DP1865">Paper Towels | Tissues | Napkins</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Coffee-Water-Snacks/cat_SC1684">Coffee | Water | Snacks</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Kitchen-Appliances/cat_DP800 ">Kitchen Appliances</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Safety-Supplies/cat_SC1718">Safety Supplies</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/First-Aid-Medical-Supplies/cat_SC1929">First Aid | Medical Supplies</a>
+							</li>
+							<li>
+								<a href="http://www.staples.com/Tools-Flashlights-Cords/cat_CG1244">Tools | Flashlights | Cords</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divider"></div>
+					<div class="quick-links">
+						<h2>QUICK LINKS</h2>
+						<ul>
+							<li>
+								<a href="#">K-Cups</a>
+							</li>
+							<li>
+								<a href="#">Paper Towels</a>
+							</li>
+							<li>
+								<a href="#">Toilet Paper</a>
+							</li>
+							<li>
+								<a href="#">Coffee</a>
+							</li>
+							<li>
+								<a href="#">Coffee Makers</a>
+							</li>
+							<li>
+								<a href="#">Water &amp; Juice</a>
+							</li>
+							<li>
+								<a href="#">Healthy Snacks</a>
+							</li>
+							<li>
+								<a href="#">Popcorn, Pretzels, Snacks</a>
+							</li>
+							<li>
+								<a href="#">All Purpose Cleaners</a>
+							</li>
+							<li>
+								<a href="#">Cleaning Wipes</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="featured-items">
+					<div class="wrapper">
+						<h2>FEATURED</h2>
+						<table>
+							<tr>
+								<td>
+									<ul>
+										<li>
+											<a href="http://www.staples.com/Gifts-Gift-Cards/cat_SC1699">Gifts | Gift Cards</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/sbd/cre/marketing/easy-on-the-planet/shop-green-products.html#cleaning-breakroom">Eco-conscious	Products</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/Featured-Brands/cat_DP5043">Featured Brands</a>
+										</li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li>
+											<a href="http://www.staples.com/sbd/cre/tech-services/index.html">Solution Center</a>
+										</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="navigation-items">
+				<div class="background-grouping">
+					<div class="navigation-categories">
+						<ul>
+							<li>				
+								<a href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_custom_documents_presentations_flyers_postcards">Copies | Presentations | Flyers | Postcards</a>
+							</li>
+							<li>				
+								<a href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_business_cards_letterhead_stamps_labels">Business Cards | Letterhead | Stamps | Labels</a>
+							</li>
+							<li>				
+								<a href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_banners_signs_engineering_prints_oversized_prints">Banners &amp; Signs | Engineering Prints | Oversized Prints</a>
+							</li>
+							<li>				
+								<a href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_cards_invitations_calendars_photo_gifts">Cards &amp; Invitations | Calendars | Photo Gifts</a>
+							</li>
+							<li>				
+								<a href="http://www.staples.com/sbd/content/copyandprint/index.html#nav_apparel_giveaways_promotional_items">Apparel | Giveaways | Promotional Items</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divider"></div>
+					<div class="quick-links">
+						<h2>QUICK LINKS</h2>
+						<ul>
+							<li>
+								<a href="#">Banners</a>
+							</li>
+							<li>
+								<a href="#">Business Cards</a>
+							</li>
+							<li>
+								<a href="#">Brochures</a>
+							</li>
+							<li>
+								<a href="#">Calendars</a>
+							</li>
+							<li>
+								<a href="#">Copies &amp; Documents</a>
+							</li>
+							<li>
+								<a href="#">Envelopes</a>
+							</li>
+							<li>
+								<a href="#">Flyers</a>
+							</li>
+							<li>
+								<a href="#">Holiday Cards</a>
+							</li>
+							<li>
+								<a href="#">Post Cards</a>
+							</li>
+							<li>
+								<a href="#">Presentations</a>
+							</li>
+							<li>
+								<a href="#">T-shirts</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="featured-items">
+					<div class="wrapper">
+						<h2>FEATURED</h2>
+						<table>
+							<tr>
+								<td>
+									<ul>
+										<li>
+											<a href="http://www.staples.com/Gifts-Gift-Cards/cat_SC1699">Gifts | Gift Cards</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/sbd/cre/marketing/easy-on-the-planet/shop-green-products.html">Eco-conscious	Products</a>
+										</li>
+										<li>
+											<a href="http://www.staples.com/Featured-Brands/cat_DP5043">Featured Brands</a>
+										</li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li>
+											<a href="http://www.staples.com/sbd/cre/tech-services/index.html">Solution Center</a>
+										</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="drop-shadow"></div>
+</div>
+
+<!-- End new Header -->

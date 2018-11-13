@@ -1,0 +1,88 @@
+/*
+CSS for Multi Frame Slider
+	Home Page (720px wide by 360px tall)
+	PDB Landing Page (960px wide by 200px tall)
+*/
+#z_mfpb {
+  width: 698px;
+  height: 360px;
+  position: relative;
+  border: 1px solid #000000; }
+  #z_mfpb.pdb_lp {
+    width: 958px;
+    height: 165px;
+    overflow: hidden; }
+  #z_mfpb.temp-width-fix {
+    width: 698px  !important;
+    margin-left: 0px;
+    overflow: hidden; }
+  #z_mfpb #z_nav {
+    position: absolute;
+    right: 8px;
+    top: 7px; }
+    #z_mfpb #z_nav .z_pagination {
+      margin: 0px;
+      float: left; }
+      #z_mfpb #z_nav .z_pagination li {
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        cursor: pointer; }
+        #z_mfpb #z_nav .z_pagination li span {
+          width: 14px;
+          height: 14px;
+          background: url("http://www.staples.com/sbd/cre/products/130331/25199/images/circle.gif");
+          display: block;
+          float: left;
+          margin: 0px 4px 0px 0px; }
+        #z_mfpb #z_nav .z_pagination li.active span {
+          background: url("http://www.staples.com/sbd/cre/products/130331/25199/images/circle_on.gif"); }
+    #z_mfpb #z_nav #z_playpause {
+      width: 17px;
+      height: 17px;
+      display: block;
+      float: left;
+      cursor: pointer;
+      margin: -2px 0px 0px 4px; }
+      #z_mfpb #z_nav #z_playpause.z_pause {
+        background: url("http://www.staples.com/sbd/cre/products/130331/25199/images/pause.gif"); }
+      #z_mfpb #z_nav #z_playpause.z_play {
+        background: url("http://www.staples.com/sbd/cre/products/130331/25199/images/play.gif"); }
+  #z_mfpb #z_container {
+    clear: both;
+    float: none;
+    height: 334px;
+    width: 698px;
+    overflow: hidden;
+    position: relative;
+    top: 26px; }
+    #z_mfpb #z_container.pdb_lp {
+      width: 958px;
+      height: 200px;
+      overflow: hidden; }
+    #z_mfpb #z_container.temp-width-fix {
+      width: 698px !important;
+      overflow: hidden; }
+    #z_mfpb #z_container #z_slider {
+      left: 0px;
+      overflow: visible;
+      position: absolute;
+      top: 0px; }
+      #z_mfpb #z_container #z_slider div {
+        float: left;
+        position: relative;
+        width: 698px; }
+        #z_mfpb #z_container #z_slider div.pdb_lp {
+          width: 958px !important;
+          height: 200px !important; }
+        #z_mfpb #z_container #z_slider div.temp-width-fix {
+          width: 698px !important;
+          overflow: hidden; }
+        #z_mfpb #z_container #z_slider div.z_sliderimage {
+          clear: none;
+          float: left;
+          height: 334px;
+          margin: 0px;
+          padding: 0px; }
+        #z_mfpb #z_container #z_slider div img {
+          display: block; }
