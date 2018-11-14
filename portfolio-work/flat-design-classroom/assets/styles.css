@@ -1,11 +1,147 @@
 :root {
   --bg-blue: #01b0cf;  
+  --bg-orange: #fe5037;  
 }
 
 body {
-  background-image: linear-gradient(180deg, #01b0cf 750px, #008ca5 750px);
+  background-image: linear-gradient(180deg, var(--bg-blue) 750px, #008ca5 750px);
+  min-height: 100vh;
 }
 
 .classroom {
   height: 840px;
+  position: relative;
+  width: 1500px;
 }
+
+/* Start desk and stuff on top */
+.desk {
+  background-image: linear-gradient(21deg, #215b73 70%, #1d5167 70%);
+  height: 280px;
+  position: absolute;
+    bottom: 35px;
+    left: 210px;
+  width: 526px;
+}
+
+.desk::before {
+  border-radius: 7px;
+  background-color: #101630;
+  content: "";
+  height: 14px;
+  position: absolute;
+    top: 0;
+    left: -28px;
+  width: calc(100% + 56px);
+}
+
+.name-card {
+  background-color: #fdfeee;
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  height: 12px;
+  line-height: 13px;
+  padding: 0 8px;
+  position: absolute;
+    bottom: calc(100% + 6px);
+    right: -3px;
+  text-align: bottom;
+  text-transform: uppercase;
+  transform: scaleY(2) skew(35deg);
+}
+
+.name-card:before {
+  border-right: 18px solid #bbb;
+  border-top: 12px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+    right: 100%;
+    top: 0;
+  width: 0;
+}
+
+.newtons-cradle {
+  border: 7px solid #006696;
+  border-bottom: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-sizing: border-box;
+  display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  height: 95px;
+  position: absolute;
+    bottom: 100%;
+    left: -2px;
+  width: 90px;
+}
+
+.newtons-cradle::after {
+  border-radius: 5px;
+  background-color: #006696;
+  content: "";
+  height: 10px;
+  position: absolute;
+    bottom: 0;
+    left: -15px;
+  width: calc(100% + 30px);
+}
+
+.newtons-cradle__ball {
+  background-image: linear-gradient(90deg, #0FCB90, #42fec3, #0FCB90);
+  box-sizing: border-box;
+  height: calc(80% - 12px);
+  margin: 0 4px;
+  position: relative;
+  transform-origin: top center;
+  width: 4px;
+  z-index: -1;
+}
+
+@keyframes rockTheLeftCradle {
+  0%, 25% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(40deg);
+  }
+
+  75%, 100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rockTheRightCradle {
+  0%, 100% {
+    transform: rotate(-40deg);
+  }
+
+  25%, 75% {
+    transform: rotate(0deg);
+  }
+}
+
+.newtons-cradle__ball:first-child {
+  animation: 2s rockTheLeftCradle infinite ease;
+}
+
+.newtons-cradle__ball:last-child {
+  animation: 2s rockTheRightCradle infinite ease;
+}
+
+.newtons-cradle__ball:after {
+  background-color: var(--bg-orange);
+  border-radius: 100%;
+  content: "";
+  height: 12px;
+  position: absolute;
+    left: -4px;
+    top: 100%;
+  width: 12px;
+
+}
+/* End desk and stuff on top */
