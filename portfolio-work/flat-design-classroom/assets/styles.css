@@ -3,6 +3,22 @@
   --bg-orange: #fe5037;  
 }
 
+@font-face {
+  font-family: 'eraserdust';
+  src: url('./fonts/eraserdust-webfont.woff2') format('woff2'),
+       url('./fonts/eraserdust-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'eraserregular';
+  src: url('./fonts/eraserregular-webfont.woff2') format('woff2'),
+       url('./fonts/eraserregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-image: linear-gradient(180deg, var(--bg-blue) 750px, #008ca5 750px);
   min-height: 100vh;
@@ -145,3 +161,50 @@ body {
 
 }
 /* End desk and stuff on top */
+
+/* Start of the black board */
+.black-board {
+  background-color: #4a4a4a;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-sizing: border-box;
+  color: #fcfee9;
+  font-family: eraserdust;
+  font-size: 50px;
+  height: 330px;
+  letter-spacing: .02em;
+  padding-top: 100px;
+  position: absolute;
+    left: 855px;
+    top: 170px;
+  text-align: center;
+  width: 525px;
+}
+
+.black-board::before {
+  background-color: #fcfee9;
+  border-radius: 2px;
+  content: "";
+  height: 13px;
+  position: absolute;
+    bottom: 0;
+    left: 315px;
+  width: 60px;
+}
+
+.black-board::after {
+  background-color: #bb7134;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -2px #000;
+  content: "";
+  height: 30px;
+  position: absolute;
+    top: 100%;
+    left: -15px;
+  width: calc(100% + 30px);
+}
+
+.black-board .text {
+  display: block;
+  transform: perspective(100px) rotateX(-20deg);
+}
