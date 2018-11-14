@@ -205,6 +205,47 @@ body {
 }
 
 .black-board .text {
-  display: block;
+  display: inline-block;
   transform: perspective(100px) rotateX(-20deg);
 }
+
+.black-board .text::after {
+  border-top: solid 5px #fcfee9;
+  border-top-right-radius: 100% 50px;
+  content: "";
+  display: block;
+  height: 60px;
+  margin: 15px -60px 0;
+  transform: rotate(-8deg);
+  width: calc(100% + 120px);
+}
+
+.triangle-square {
+  background-color: #4a4a4a;
+  background-image: 
+    linear-gradient(to right bottom, #4a4a4a 50%, #ffc602 50%, #ffc602 59%, transparent 59%),
+    linear-gradient(0deg, #ffc602 10px, transparent 10px),
+    linear-gradient(-90deg, #ffc602 10px, transparent 10px);
+  box-sizing: border-box;
+  display: block;
+  height: 75px;
+  position: absolute;
+    bottom: 0;
+    right: 20px;
+  width: 120px;
+}
+
+.triangle-square::before {
+  background-image: 
+    repeating-linear-gradient(90deg, #ffc602 0, #ffc602 3px, #4a4a4a 3px, #4a4a4a 4px, #ffc602 4px, #ffc602 7px, transparent 7px, transparent 8px),
+    linear-gradient(0deg, #4a4a4a 50%, transparent 50%); 
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+    bottom: 0;
+    right: 10px;
+  width: 70%;
+}
+/* End of the black board */
+
