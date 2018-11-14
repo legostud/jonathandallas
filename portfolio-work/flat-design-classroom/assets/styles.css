@@ -30,6 +30,10 @@ body {
   width: 1500px;
 }
 
+/* Start Wall art */
+
+/* End Wall art */
+
 /* Start desk and stuff on top */
 .desk {
   background-image: linear-gradient(21deg, #215b73 70%, #1d5167 70%);
@@ -106,17 +110,6 @@ body {
   width: calc(100% + 30px);
 }
 
-.newtons-cradle__ball {
-  background-image: linear-gradient(90deg, #0FCB90, #42fec3, #0FCB90);
-  box-sizing: border-box;
-  height: calc(80% - 12px);
-  margin: 0 4px;
-  position: relative;
-  transform-origin: top center;
-  width: 4px;
-  z-index: -1;
-}
-
 @keyframes rockTheLeftCradle {
   0%, 25% {
     transform: rotate(0deg);
@@ -141,12 +134,38 @@ body {
   }
 }
 
+@keyframes giggleTheCradle {
+  24%, 26%, 74%, 76%, 100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(1deg);
+  }
+
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+.newtons-cradle__ball {
+  animation: 1.5s giggleTheCradle infinite linear;
+  background-image: linear-gradient(90deg, #0FCB90, #42fec3, #0FCB90);
+  box-sizing: border-box;
+  height: calc(80% - 12px);
+  margin: 0 4px;
+  position: relative;
+  transform-origin: top center;
+  width: 4px;
+  z-index: -1;
+}
+
 .newtons-cradle__ball:first-child {
-  animation: 2s rockTheLeftCradle infinite ease;
+  animation: 1.5s rockTheLeftCradle infinite cubic-bezier(0.04, 0.78, 0.68, 1.16);
 }
 
 .newtons-cradle__ball:last-child {
-  animation: 2s rockTheRightCradle infinite ease;
+  animation: 1.5s rockTheRightCradle infinite cubic-bezier(0.04, 0.78, 0.68, 1.16);
 }
 
 .newtons-cradle__ball:after {
