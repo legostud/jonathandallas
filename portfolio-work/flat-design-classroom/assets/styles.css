@@ -76,6 +76,43 @@ body {
 .einstein__text sup {
   font-size: .5em;
 }
+
+.word-doc {
+  background-color: #e7e7e7;
+  background-image: 
+    repeating-linear-gradient(0deg, #ccc, #ccc 4px, transparent 4px, transparent 11px),
+    linear-gradient(90deg, transparent 50%, #e7e7e7 50%),
+    repeating-linear-gradient(0deg, #ccc, #ccc 4px, transparent 4px, transparent 11px);
+  background-size: 70% 71px, 70% 100%, 70% 82px;
+  background-repeat: no-repeat;
+  background-position: center 12px;
+  height: 117px;
+  position: absolute;
+    top: 30px;
+    left: 1090px;
+  width: 80px;
+}
+
+.word-doc::before,
+.word-doc::after {
+  background-color: #ed5031;
+  content: "";
+  height: 8px;
+  position: absolute;
+    top: 2px;
+  width: 30px;
+}
+
+.word-doc::before {
+  transform: rotate(-43deg);
+  left: -8px;
+}
+
+.word-doc::after {
+  transform: rotate(43deg);
+  right: -8px;
+}
+
 /* End Wall art */
 
 /* Start desk and stuff on top */
