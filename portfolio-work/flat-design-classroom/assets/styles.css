@@ -478,6 +478,70 @@ body {
 }
 /* End desk and stuff on top */
 
+/* Start of the brief case board */
+.brief-case {
+  background-color: #814b1c;
+  background-image: 
+    linear-gradient(0deg, #eca900 15px, transparent 15px),
+    radial-gradient(#eca900 10px, transparent 10px),
+    linear-gradient(20deg, transparent 40%, #754217 40%);
+  background-repeat: no-repeat;
+  background-position: center 55px, center 60px, left bottom;
+  background-size: 20px 15px, 20px 20px, 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: block;
+  height: 140px;
+  position: absolute;
+    left: 775px;
+    bottom: 50px;
+  width: 196px;
+}
+
+.brief-case::before {
+  border: 15px solid #814c1a;
+  border-bottom: 0;
+  border-radius: 30px;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 70px;
+  position: absolute;
+    bottom: calc(100% - 35px);
+    left: 50%;
+  transform: translateX(-50%);
+  width: 85px;
+}
+
+.brief-case::after {
+  background-color: #bb7134;
+  background-image: linear-gradient(0deg, #eca900 15px, transparent 15px);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 20px 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  content: "";
+  height: 47%;
+  position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.brief-case__paper {
+  background-color: #fdfef0;
+  box-shadow: 9px 8px 0 -4px #ccc;
+  height: 55px;
+  position: absolute;
+    right: -15px;
+    top: 10px;
+  transform: perspective(200px) rotateY(-30deg) rotateZ(4deg);
+  width: 130px;
+}
+/* End brief case and stuff on top */
+
 /* Start of the black board */
 .black-board {
   background-color: #4a4a4a;
