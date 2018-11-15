@@ -89,7 +89,7 @@ body {
   height: 117px;
   position: absolute;
     top: 30px;
-    left: 1090px;
+    left: 1075px;
   width: 80px;
 }
 
@@ -113,6 +113,69 @@ body {
   right: -8px;
 }
 
+.info-graph {
+  background-color: #e7e7e7;
+  background-image:
+    radial-gradient(circle at center, #e7ab15 4px, #e7e7e7 4px),
+    radial-gradient(circle at center, #e7ab15 4px, #e7e7e7 4px),
+    linear-gradient(0deg, #008892 3px, transparent 3px),
+    linear-gradient(90deg, #008892 3px, transparent 3px),
+    repeating-linear-gradient(90deg, #008892 4px, transparent 5px, transparent 10px, #008892 11px, #008892 17px);
+  background-repeat: no-repeat;
+  background-position: 5% 6px, 96% 6px, 20px 25px, 20px 25px, center;
+  background-size: 8px 8px, 8px 8px, 121px 70px, 121px 70px, 120px 3px;
+  height: 115px;
+  position: absolute;
+    top: 30px;
+    left: 1200px;
+  width: 161px;
+}
+
+.info-graph::before {
+  border-bottom: 8px solid #008892;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  content: "";
+  height: 0;
+  position: absolute;
+    top: 22px;
+    left: 18px;
+  transform: translateX(-6%);
+  width: 0;
+}
+
+.info-graph::after {
+  border-bottom: 4px solid transparent;
+  border-left: 8px solid #008892;
+  border-top: 4px solid transparent;
+  box-sizing: border-box;
+  content: "";
+  height: 0;
+  position: absolute;
+    top: 90px;
+    left: 138px;
+  transform: translateY(-6%);
+  width: 0;
+}
+
+.info-graph__line {
+  border-bottom: 2px solid #eb4217;
+  border-left: 2px solid #eb4217;
+
+  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+
+  box-sizing: border-box;
+  display: block;
+  height: 50px;
+  position: absolute;
+    left: 55px;
+    top: 32px;
+  transform: rotate(-60deg) skew(-30deg);
+  width: 58px;
+}
 /* End Wall art */
 
 /* Start desk and stuff on top */
