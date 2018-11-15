@@ -160,21 +160,47 @@ body {
 }
 
 .info-graph__line {
-  border-bottom: 2px solid #eb4217;
-  border-left: 2px solid #eb4217;
-
-  border-bottom-left-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-left-radius: 50%;
-
+  border-top: 3px solid #eb4217;
+  border-right: 4px solid #eb4217;
+  border-top-right-radius: 100%;
   box-sizing: border-box;
   display: block;
-  height: 50px;
+  height: 22px;
   position: absolute;
-    left: 55px;
-    top: 32px;
-  transform: rotate(-60deg) skew(-30deg);
-  width: 58px;
+    left: 26px;
+    top: 36px;
+  transform: skew(20deg);
+  width: 20px;
+}
+
+.info-graph__line::before {
+  border-bottom: 3px solid #eb4217;
+  border-left: 5px solid #eb4217;
+  border-bottom-left-radius: 50%;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 43px;
+  position: absolute;
+    left: 12px;
+    top: -3px;
+  transform: rotate(-47deg) skew(-30deg);
+  width: 68px;
+}
+
+.info-graph__line::after {
+  border-top: 4px solid #eb4217;
+  border-left: 4px solid #eb4217;
+  border-top-left-radius: 100%;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 22px;
+  position: absolute;
+    right: -85px;
+    top: -4px;
+  transform: skew(-40deg);
+  width: 20px;
 }
 /* End Wall art */
 
