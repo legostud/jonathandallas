@@ -48,9 +48,29 @@ body {
 
 .einstein__text {
   color: #008892;
-  font-family: sans-serif;
+  font-family: "Comic Sans MS", sans-serif;
   font-size: 40px;
   font-weight: 600;
+}
+
+.einstein__text::before,
+.einstein__text::after {
+  background-color: #0071af;
+  content: "";
+  height: 10px;
+  position: absolute;
+    top: 2px;
+  width: 30px;
+}
+
+.einstein__text::before {
+  transform: rotate(-43deg);
+  left: -8px;
+}
+
+.einstein__text::after {
+  transform: rotate(43deg);
+  right: -8px;
 }
 
 .einstein__text sup {
