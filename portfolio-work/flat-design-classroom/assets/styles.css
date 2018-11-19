@@ -483,27 +483,106 @@ body {
   --c-hair: #58453f;
   --c-mouth: #a67e64;
   --c-skin: #ffc691;
-  outline: 1px solid black;
+  --c-shirt: #eca900;
+  --c-nose: #f4a16f;
+  --c-glasses: #683206;
+  --c-eyes: #6f5f52;
+  --c-hair: #6f5f52;
   background-image:
+    radial-gradient(closest-side, var(--c-eyes) 70%, transparent 70%),  /* eyes */
+    radial-gradient(closest-side, var(--c-eyes) 70%, transparent 70%),  /* eyes */
+    linear-gradient(var(--c-glasses), var(--c-glasses)), /* glasses */
+    radial-gradient(closest-side, #ffd2a8 55%, var(--c-glasses) 55%, var(--c-glasses) 70%, transparent 70%),  /* glasses */
+    radial-gradient(closest-side, #ffd2a8 55%, var(--c-glasses) 55%, var(--c-glasses) 70%, transparent 70%),  /* glasses */
     radial-gradient(ellipse at 50% -5px, transparent 30%, var(--c-mouth) 30%, var(--c-mouth) 42%,transparent 42%),  /* mouth */
+    linear-gradient(var(--c-nose), var(--c-nose)), /* nose */
+    radial-gradient(circle, var(--c-nose) 50%, transparent 50%), /* nose */
     radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* face */
     linear-gradient(0deg, var(--c-skin), var(--c-skin)), /* face */
-    radial-gradient(circle, var(--c-skin) 50%, transparent 50%); 
+    radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* face */
+    radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* ear */
+    radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* ear */
+    linear-gradient(0deg, var(--c-skin), var(--c-skin)), /* neck */
+    radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* neck */
+    radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* arms */
+    radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* arms */
+    radial-gradient(circle, var(--c-shirt) 50%, transparent 50%), /* arms */
+    radial-gradient(circle, var(--c-shirt) 50%, transparent 50%), /* arms */
+    radial-gradient(circle, var(--c-shirt) 50%, transparent 50%), /* arms */
+    radial-gradient(circle, var(--c-shirt) 50%, transparent 50%), /* arms */
+    linear-gradient(67deg, transparent 40%, var(--c-shirt) 40%, var(--c-shirt) 65%, transparent 65%), /* arms */
+    linear-gradient(-67deg, transparent 40%, var(--c-shirt) 40%, var(--c-shirt) 65%, transparent 65%), /* arms */
+    linear-gradient(90deg, transparent 6px, var(--c-shirt) 6px, var(--c-shirt) 50px, var(--c-skin) 50px, var(--c-skin) 86px, transparent 86px, transparent 114px, var(--c-skin) 114px, var(--c-skin) 150px, var(--c-shirt) 150px, var(--c-shirt) 194px, transparent 194px), /* arms */
+    linear-gradient(-69deg, var(--c-shirt) 50%, transparent 50%), /* body */
+    linear-gradient(69deg, var(--c-shirt) 50%, transparent 50%), /* body */
+    linear-gradient(0deg, #fff, #fff), /* body */
+    linear-gradient(94deg, transparent 2%, var(--c-shirt) 2%, var(--c-shirt) 50%, transparent 50%), /* body */
+    linear-gradient(-94deg, transparent 2%, var(--c-shirt) 2%, var(--c-shirt) 50%, transparent 50%); /* body */
   background-position: 
-    65px 170px, /* mouth */
-    -20px 25px, /* face */
-    29px 100px, 
-    -20px 75px;
+    120px 106px, /* eyes */
+    68px 106px, /* eyes */
+    center 108px, /* glasses */
+    95px 75px, /* glasses */
+    30px 75px, /* glasses */
+    center 170px, /* mouth */
+    center 112px, /* nose */
+    center 120px, /* nose */
+    -20px 15px, /* face */
+    center 90px,  /* face */
+    -20px 65px, /* face */
+    152px 95px, /* ear */
+    13px 95px, /* ear */
+    center 195px, /* neck */
+    center 205px, /* neck */
+    98px 319px, /* arms */
+    69px 319px, /* arms */
+    125px 215px, /* arms */
+    40px 215px, /* arms */
+    168px 315px, /* arms */
+    -2px 315px, /* arms */
+    128px 232px, /* arms */
+    6px 232px, /* arms */
+    left bottom, /* arms */
+    100px 220px, /* body */
+    67px 220px, /* body */
+    67px 220px, /* body */
+    100px 220px, /* body */
+    12px 220px; /* body */
   background-size: 
+    13px 13px, /* eyes */
+    13px 13px, /* eyes */
+    20px 6px, /* glasses */
+    75px 75px, /* glasses */
+    75px 75px, /* glasses */
     75px 15px, /* mouth */
+    13px 23px, /* nose */
+    25px 25px, /* nose */
     240px 150px, /* face */
-    142px 50px,
-    240px 150px;
+    142px 50px, /* face */
+    240px 150px, /* face */
+    35px 35px, /* ear */
+    35px 35px, /* ear */
+    25px 25px, /* neck */
+    35px 35px, /* neck */
+    35px 35px, /* arms */
+    35px 35px, /* arms */
+    35px 35px, /* arms */
+    35px 35px, /* arms */
+    35px 35px, /* arms */
+    35px 35px, /* arms */
+    66px 102px, /* arms */
+    66px 102px, /* arms */
+    200px 16px, /* arms */
+    33px 90px, /* body */
+    33px 90px, /* body */
+    66px 90px, /* body */
+    88px 120px, /* body */
+    88px 120px; /* body */
   background-repeat: no-repeat;
   height: 340px;
   position: absolute;
     left: 380px;
-    top: 187px;
+    top: 185px;
   width: 200px;
 }
 /* End Person */
