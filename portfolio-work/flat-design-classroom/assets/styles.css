@@ -487,8 +487,11 @@ body {
   --c-nose: #f4a16f;
   --c-glasses: #683206;
   --c-eyes: #6f5f52;
-  --c-hair: #6f5f52;
+  --c-hair: #725136;
   background-image:
+    radial-gradient(circle at center 100%, transparent 50%, var(--bg-blue) 50%),  /* hair */
+    radial-gradient(ellipse at -30px 100%, transparent 70%, var(--c-hair) 70%),  /* hair */
+    radial-gradient(circle at -90% 50%, var(--c-hair) 70%, transparent 70%),  /* hair */
     radial-gradient(closest-side, var(--c-eyes) 70%, transparent 70%),  /* eyes */
     radial-gradient(closest-side, var(--c-eyes) 70%, transparent 70%),  /* eyes */
     linear-gradient(var(--c-glasses), var(--c-glasses)), /* glasses */
@@ -497,7 +500,8 @@ body {
     radial-gradient(ellipse at 50% -5px, transparent 30%, var(--c-mouth) 30%, var(--c-mouth) 42%,transparent 42%),  /* mouth */
     linear-gradient(var(--c-nose), var(--c-nose)), /* nose */
     radial-gradient(circle, var(--c-nose) 50%, transparent 50%), /* nose */
-    radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* face */
+    radial-gradient(ellipse at 60% 0, transparent 52%, var(--c-skin) 52%), /* face */
+    radial-gradient(circle at center 100%, var(--c-hair) 50%, transparent 50%), /* hair */
     linear-gradient(0deg, var(--c-skin), var(--c-skin)), /* face */
     radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* face */
     radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* ear */
@@ -519,6 +523,9 @@ body {
     linear-gradient(94deg, transparent 2%, var(--c-shirt) 2%, var(--c-shirt) 50%, transparent 50%), /* body */
     linear-gradient(-94deg, transparent 2%, var(--c-shirt) 2%, var(--c-shirt) 50%, transparent 50%); /* body */
   background-position: 
+    0px -10px, /* hair / mask */
+    117px 45px, /* hair */
+    29px 4px, /* hair */
     120px 106px, /* eyes */
     68px 106px, /* eyes */
     center 108px, /* glasses */
@@ -527,7 +534,8 @@ body {
     center 170px, /* mouth */
     center 112px, /* nose */
     center 120px, /* nose */
-    -20px 15px, /* face */
+    center 50px,  /* face */
+    -20px 15px, /* hair */
     center 90px,  /* face */
     -20px 65px, /* face */
     152px 95px, /* ear */
@@ -549,6 +557,9 @@ body {
     100px 220px, /* body */
     12px 220px; /* body */
   background-size: 
+    200px 100px, /* hair / mask */
+    54px 50px, /* hair */
+    30px 100px, /* hair */
     13px 13px, /* eyes */
     13px 13px, /* eyes */
     20px 6px, /* glasses */
@@ -557,7 +568,8 @@ body {
     75px 15px, /* mouth */
     13px 23px, /* nose */
     25px 25px, /* nose */
-    240px 150px, /* face */
+    132px 40px, /* face */
+    240px 75px, /* hair */
     142px 50px, /* face */
     240px 150px, /* face */
     35px 35px, /* ear */
@@ -584,6 +596,10 @@ body {
     left: 380px;
     top: 185px;
   width: 200px;
+}
+
+.person::before {
+  position: absolute;
 }
 /* End Person */
 
