@@ -478,6 +478,36 @@ body {
 }
 /* End desk and stuff on top */
 
+/* Start Person */
+.person {
+  --c-hair: #58453f;
+  --c-mouth: #a67e64;
+  --c-skin: #ffc691;
+  outline: 1px solid black;
+  background-image:
+    radial-gradient(ellipse at 50% -5px, transparent 30%, var(--c-mouth) 30%, var(--c-mouth) 42%,transparent 42%),  /* mouth */
+    radial-gradient(circle, var(--c-skin) 50%, transparent 50%), /* face */
+    linear-gradient(0deg, var(--c-skin), var(--c-skin)), /* face */
+    radial-gradient(circle, var(--c-skin) 50%, transparent 50%); 
+  background-position: 
+    65px 170px, /* mouth */
+    -20px 25px, /* face */
+    29px 100px, 
+    -20px 75px;
+  background-size: 
+    75px 15px, /* mouth */
+    240px 150px, /* face */
+    142px 50px,
+    240px 150px;
+  background-repeat: no-repeat;
+  height: 340px;
+  position: absolute;
+    left: 380px;
+    top: 187px;
+  width: 200px;
+}
+/* End Person */
+
 /* Start of the brief case board */
 .brief-case {
   background-color: #814b1c;
