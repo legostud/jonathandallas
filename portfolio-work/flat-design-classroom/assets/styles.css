@@ -30,6 +30,33 @@ body {
   width: 1500px;
 }
 
+@keyframes showLinks {
+  0%, 29%, 41%, 51%, 61%, 100% {
+    outline: 3px solid transparent;
+  }
+
+  30% {
+    outline-color: var(--bg-orange);
+  }
+
+  40% {
+    outline-color: var(--bg-orange);
+  }
+
+  50% {
+    outline-color: var(--bg-orange);
+  }
+
+  60% {
+    outline-color: var(--bg-orange);
+  }
+}
+
+
+.classroom a {
+    animation: showLinks 3s ease 1s 3;
+}
+
 /* Start book shelf */
 .bookshelf {
   background-image:
@@ -224,6 +251,7 @@ body {
 .word-doc::after {
   background-color: #ed5031;
   content: "";
+  display: block;
   height: 8px;
   position: absolute;
     top: 2px;
@@ -262,6 +290,7 @@ body {
   border-bottom: 8px solid #008892;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   height: 0;
@@ -276,6 +305,7 @@ body {
   border-bottom: 4px solid transparent;
   border-left: 8px solid #008892;
   border-top: 4px solid transparent;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   height: 0;
@@ -290,6 +320,7 @@ body {
   border-top: 3px solid #eb4217;
   border-right: 4px solid #eb4217;
   border-top-right-radius: 100%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
   height: 22px;
@@ -304,6 +335,7 @@ body {
   border-bottom: 3px solid #eb4217;
   border-left: 5px solid #eb4217;
   border-bottom-left-radius: 50%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   display: block;
@@ -319,6 +351,7 @@ body {
   border-top: 4px solid #eb4217;
   border-left: 4px solid #eb4217;
   border-top-left-radius: 100%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   display: block;
@@ -385,6 +418,7 @@ body {
   border-bottom: 0;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: flex;
     align-items: flex-start;
@@ -431,7 +465,7 @@ body {
   }
 }
 
-@keyframes giggleTheCradle {
+@keyframes jiggleTheCradle {
   24%, 26%, 74%, 76%, 100% {
     transform: rotate(0deg);
   }
@@ -446,8 +480,9 @@ body {
 }
 
 .newtons-cradle__ball {
-  animation: 1.5s giggleTheCradle infinite linear;
+  animation: 1.5s jiggleTheCradle infinite linear;
   background-image: linear-gradient(90deg, #0FCB90, #42fec3, #0FCB90);
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: calc(80% - 12px);
   margin: 0 4px;
@@ -627,6 +662,7 @@ body {
   border: 15px solid #814c1a;
   border-bottom: 0;
   border-radius: 30px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   display: block;
@@ -672,6 +708,7 @@ body {
   background-color: #4a4a4a;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #fcfee9;
   font-family: eraserdust;
@@ -731,6 +768,7 @@ body {
     linear-gradient(to right bottom, #4a4a4a 50%, #ffc602 50%, #ffc602 59%, transparent 59%),
     linear-gradient(0deg, #ffc602 10px, transparent 10px),
     linear-gradient(-90deg, #ffc602 10px, transparent 10px);
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
   height: 75px;
