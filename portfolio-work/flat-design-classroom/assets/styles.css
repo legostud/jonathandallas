@@ -27,7 +27,7 @@ body {
 .classroom {
   height: 840px;
   position: relative;
-  width: 1500px;
+  width: 1400px;
 }
 
 @keyframes showLinks {
@@ -792,3 +792,245 @@ body {
 }
 /* End of the black board */
 
+/* Start Mouse hole */
+.mouse-hole {
+  background-image: 
+    radial-gradient(circle, #000 50%, transparent 50%), 
+    linear-gradient(0deg, #000, #000);
+  background-repeat: no-repeat;
+  background-position: 
+    252px 2px, 
+    260px 30px;
+  background-size: 
+    56px 56px, 
+    40px 30px;
+  height: 30px;
+  padding-top: 30px;
+  position: absolute;
+    bottom: 98px;
+    right: 50px;
+  width: 300px;
+}
+
+.mouse-hole__input {
+  opacity: 0;
+  overflow: hidden;
+  width: 1px;
+}
+
+.mouse-hole__arrow {
+  background-image: 
+    linear-gradient(to right top, transparent 50%, var(--bg-orange) 50%, var(--bg-orange) 80%, transparent 80%),
+    linear-gradient(to right bottom, transparent 50%, var(--bg-orange) 50%, var(--bg-orange) 80%, transparent 80%),
+    linear-gradient(0deg, var(--bg-orange), var(--bg-orange));
+  background-repeat: no-repeat;
+  background-position:
+    bottom left,
+    top left,
+    center left;
+  background-size:
+    10px 10px,
+    10px 10px,
+    20px 4px;
+  cursor: pointer;
+  display: inline-block;
+  height: 24px;
+  margin: 5px 3px;
+  width: 30px;
+}
+
+.mouse-hole__input:checked ~ .mouse-hole__arrow {
+  background-image: 
+    linear-gradient(to left top, transparent 50%, var(--bg-orange) 50%, var(--bg-orange) 70%, transparent 70%),
+    linear-gradient(to left bottom, transparent 50%, var(--bg-orange) 50%, var(--bg-orange) 70%, transparent 70%),
+    linear-gradient(0deg, var(--bg-orange), var(--bg-orange));
+  background-position:
+    bottom right,
+    top right,
+    center right;
+}
+
+.mouse-hole__cheese {
+  --hole: #ff9e29;
+  background-color: #fabe12;
+  height: 18px;
+  position: absolute;
+    bottom: 0;
+    left: 0;
+  transform: skewY(10deg);
+  width: 40px;
+}
+
+.mouse-hole__cheese::before {
+  background-repeat: no-repeat;
+  background-image: 
+    radial-gradient(closest-side, var(--hole) 100%, transparent 100%),
+    radial-gradient(circle at right 25px, #ffdf50 50%, transparent 50%),
+    linear-gradient(-155deg, transparent 50%, #ffdf50 50%);
+  background-position:
+    10px 10px,
+    -2px -9px,
+    bottom right;
+  background-size: 
+    5px 5px,
+    15px 24px,
+    30px 16px;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+    bottom: calc(100% - 1px);
+    left: 0;
+  width: 100%;
+}
+
+.mouse-hole__cheese::after {
+  background-repeat: no-repeat;
+  background-image: 
+    radial-gradient(closest-side, var(--hole) 100%, transparent 100%),
+    radial-gradient(closest-side, var(--hole) 100%, transparent 100%),
+    radial-gradient(closest-side, var(--hole) 100%, transparent 100%);
+  background-position:
+    30px 2px,
+    5px 5px,
+    20px 10px;
+  background-size: 
+    4px 5px,
+    6px 7px,
+    5px 6px;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.mouse-hole__input:checked:nth-child(4) ~ .mouse-hole__cheese {
+  left: 53px;
+}
+
+.mouse-hole__input:checked:nth-child(6) ~ .mouse-hole__cheese {
+  left: 108px;
+}
+
+.mouse-hole__input:checked:nth-child(8) ~ .mouse-hole__cheese {
+  left: 160px;
+}
+
+@keyframes hideTheCheese {
+  0%, 20% {
+    left: 210px;
+    opacity: 1;
+  }
+
+  99% {
+    left: 210px;
+  }
+  
+  100% {
+    left: 0;
+    opacity: 0;
+  }
+}
+
+.mouse-hole__input:checked:nth-child(10) ~ .mouse-hole__cheese {
+  animation: hideTheCheese 4s ease;
+  left: 0;
+  opacity: 1;
+}
+
+@keyframes mouseBlink {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.mouse-hole__mouse {
+  background-image: 
+    radial-gradient(closest-side, #000 75%, transparent 75%),
+    radial-gradient(closest-side, #000 75%, transparent 75%),
+    radial-gradient(closest-side, #fff 75%, transparent 75%),
+    radial-gradient(closest-side, #fff 75%, transparent 75%);
+  background-repeat: no-repeat;
+  background-position: 
+    10px 7px,
+    25px 7px,
+    5px 0,
+    20px 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    15px 15px,
+    15px 15px;
+  height: 30px;
+  opacity: 0;
+  position: absolute;
+    bottom: 0;
+    right: 0;
+  transition: height 500ms ease, right 500ms ease, background 500ms ease, opacity 500ms ease;
+  width: 40px;
+}
+
+.mouse-hole__input:checked:nth-child(2) ~ .mouse-hole__mouse {
+  animation: mouseBlink 4s ease;
+}
+
+.mouse-hole__input:checked:nth-child(6) ~ .mouse-hole__mouse {
+  animation: mouseBlink 4s ease;
+}
+
+.mouse-hole__input:checked:nth-child(8) ~ .mouse-hole__mouse {
+  background-position: 
+    7px 7px,
+    23px 7px,
+    5px 0,
+    20px 0;
+  opacity: 1;
+}
+
+@keyframes eatTheCheese {
+  10%, 90% {
+    background-image: 
+      radial-gradient(closest-side, #000 70%, transparent 70%),
+      radial-gradient(closest-side, #000 70%, transparent 70%),
+      radial-gradient(closest-side, #000 70%, transparent 70%),
+      radial-gradient(closest-side, #987 75%, transparent 75%),
+      radial-gradient(closest-side, #987 75%, transparent 75%),
+      radial-gradient(closest-side, #987 75%, transparent 75%),
+      radial-gradient(closest-side, #987 75%, transparent 75%);
+    background-repeat: no-repeat;
+    background-position: 
+      23px 29px,
+      20px 23px,
+      28px 25px,
+      8px 1px,
+      31px 10px,
+      10px 15px,
+      0 35px;
+    background-size:
+      6px 6px,
+      6px 6px,
+      6px 6px,
+      22px 22px,
+      22px 22px,
+      30px 30px,
+      40px 40px;
+    height: 70px;
+    opacity: 1;
+    position: absolute;
+      right: 30px;
+    width: 50px;
+  }
+}
+
+
+.mouse-hole__input:checked:nth-child(10) ~ .mouse-hole__mouse {
+  animation: eatTheCheese 3s ease;
+  animation-delay: 500ms;
+}
+
+
+/* End Mouse hole */
