@@ -1,13 +1,34 @@
-var gulp        = require('gulp');
-var browserSync = require('browser-sync').create();
+const gulp         = require('gulp');
+const browserSync  = require('browser-sync').create();
+const postcss      = require('gulp-postcss');
+const sourcemaps   = require('gulp-sourcemaps');
+const autoprefixer = require('autoprefixer');
+const rename       = require("gulp-rename");
 
-// Static server
-gulp.task('default', function() {
-    browserSync.init({
-        server: {
-            baseDir: "./"
-        }
-    });
+gulp.task('autoprefixer', function () {
 
-    gulp.watch(["./index.html", "./assets/**/*.*"]).on('change', browserSync.reload);
+  return gulp.src('./assets/styles.css')
+    .pipe(sourcemaps.init())
+    .pipe(postcss([ autoprefixer() ]))
+    .pipe(rename({
+      suffix: "-generated"
+    }))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('./assets'))
+    .pipe(browserSync.reload({
+      stream: true
+    }));
+});
+
+gulp.task('browserSync', function() {
+  browserSync.init({
+    server: {
+      baseDir: "./"
+    },
+  })
+});
+
+gulp.task('default', ['browserSync', 'autoprefixer'], function(){
+  gulp.watch('./assets/styles.css', ['autoprefixer']); 
+  gulp.watch('./index.html', browserSync.reload); 
 });
