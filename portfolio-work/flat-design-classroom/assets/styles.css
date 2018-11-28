@@ -652,6 +652,7 @@ body {
   border-bottom-right-radius: 15px;
   display: block;
   height: 140px;
+  perspective: 200px;
   position: absolute;
     left: 775px;
     bottom: 50px;
@@ -698,8 +699,7 @@ body {
   position: absolute;
     right: -15px;
     top: 10px;
-  -webkit-transform: perspective(200px) rotateY(-30deg) rotateZ(4deg);
-  transform: perspective(200px) rotateY(-30deg) rotateZ(4deg);
+  transform: rotateY(-30deg) rotateZ(4deg);
   width: 130px;
 }
 /* End brief case and stuff on top */
@@ -717,6 +717,7 @@ body {
   height: 330px;
   letter-spacing: .02em;
   padding-top: 100px;
+  perspective: 100px;
   position: absolute;
     left: 855px;
     top: 170px;
@@ -749,8 +750,7 @@ body {
 
 .black-board__text {
   display: inline-block;
-  -webkit-transform: perspective(100px) rotateX(-20deg);
-  transform: perspective(100px) rotateX(-20deg);
+  transform: rotateX(-20deg);
 }
 
 .black-board__text::after {
