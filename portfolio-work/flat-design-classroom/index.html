@@ -63,6 +63,25 @@
       <div class="mouse-hole__mouse" title="feed the mouse"></div>
       <div class="mouse-hole__cheese" title="move the cheese"></div>
     </div>
+    <time class="clock js-clock">
+      <span class="clock__text">Clock</span>
+      <div class="clock__hour js-clock-hour"></div>
+      <div class="clock__minute js-clock-minute"></div>
+      <div class="clock__second js-clock-second"></div>
+    </time>
+    <script>
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      var hd = -90 + (h * 30) + (m / 2) + (s / 10);
+      var md = -90 + (m * 6) + (s / 10);
+      var sd = -90 + (s * 6);
+      document.querySelector(".js-clock").setAttribute("datetime", "T" + h + ":" + m + ":" + s);
+      document.querySelector(".js-clock-hour").setAttribute("style", "transform: rotate(" + hd + "deg)");
+      document.querySelector(".js-clock-minute").setAttribute("style", "transform: rotate(" + md + "deg)");
+      document.querySelector(".js-clock-second").setAttribute("style", "transform: rotate(" + sd + "deg)");
+    </script>
   </div>
 </body>
 </html>

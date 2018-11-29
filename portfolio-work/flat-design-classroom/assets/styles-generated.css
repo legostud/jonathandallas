@@ -1173,8 +1173,137 @@ body {
   right: 0;
   width: 50px;
 }
-
-
 /* End Mouse hole */
+
+/* Start Clock */
+@-webkit-keyframes animateClock {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes animateClock {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.clock {
+  background-image: 
+    radial-gradient(circle, #000 70%, transparent 70%),
+    radial-gradient(circle, #fff 70%, transparent 70%),
+    linear-gradient(160deg, #aaa 2px, #666 2px, #000 60%);
+  background-position:
+    center center;
+  background-repeat: no-repeat;
+  background-size:
+    12px 12px,
+    80% 80%,
+    100% 100%;
+  border-radius: 50%;
+  display: block;
+  height: 100px;
+  position: absolute;
+    left: 660px;
+    top: 45px;
+  width: 100px;
+}
+
+.clock__text {
+  font-size: 0;
+}
+
+.clock__hour,
+.clock__minute {
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+  position: absolute;
+    left: 50%; 
+    top: calc(50% - 3px);
+}
+
+.clock__hour::after,
+.clock__minute::after {
+  background-color: #000;
+  border-radius: 3px;
+  content: "";
+  display: block;
+  height: 6px;
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+}
+
+.clock__hour {
+  height: 6px;
+  width: 28%;
+  z-index: 1;
+}
+
+.clock__hour::after {
+  -webkit-animation: animateClock 43200s linear infinite;
+          animation: animateClock 43200s linear infinite; /* 12h */
+}
+
+.clock__minute {
+  height: 6px;
+  width: 35%;
+  z-index: 2;
+}
+
+.clock__minute::after {
+  -webkit-animation: animateClock 3600s linear infinite;
+          animation: animateClock 3600s linear infinite; /* 60m */
+}
+
+.clock__second {
+  height: 2px;
+  position: absolute;
+    left: 50%;
+    top: calc(50% - 1px);
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+  width: 35%;
+  z-index: 3;
+}
+
+.clock__second::before {
+  background-color: #fe377a;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 8px;
+  position: absolute;
+    left: -4px;
+    top: -2px;
+  width: 8px;
+}
+
+.clock__second::after {
+  -webkit-animation: animateClock 60s linear infinite;
+          animation: animateClock 60s linear infinite; /* 60m */
+  background-color: #fe377a;
+  border-radius: 1px;
+  content: "";
+  display: block;
+  height: 2px;
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+}
+
+
+/* End Clock */
+
+
 
 /*# sourceMappingURL=styles-generated.css.map */
