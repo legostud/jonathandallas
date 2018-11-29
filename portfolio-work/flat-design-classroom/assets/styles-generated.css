@@ -20,8 +20,12 @@
 }
 
 body {
+  background-color: #008ca5;
   background-image: linear-gradient(180deg, var(--bg-blue) 750px, #008ca5 750px);
+  background-repeat: no-repeat;
+  margin: 0;
   min-height: 100vh;
+  padding: 0;
 }
 
 .classroom {
@@ -737,8 +741,6 @@ body {
   border-bottom-right-radius: 15px;
   display: block;
   height: 140px;
-  -webkit-perspective: 200px;
-          perspective: 200px;
   position: absolute;
     left: 775px;
     bottom: 50px;
@@ -774,8 +776,10 @@ body {
   position: absolute;
     top: 0;
     left: 0;
+    -webkit-transform: translateZ(200px);
+            transform: translateZ(200px);
   width: 100%;
-  z-index: 2;
+  z-index: 9;
 }
 
 .brief-case__paper {
@@ -785,9 +789,10 @@ body {
   position: absolute;
     right: -15px;
     top: 10px;
-  -webkit-transform: rotateY(-30deg) rotateZ(4deg);
-          transform: rotateY(-30deg) rotateZ(4deg);
+    -webkit-transform: perspective(200px) rotateY(-30deg) rotateZ(4deg);
+            transform: perspective(200px) rotateY(-30deg) rotateZ(4deg);
   width: 130px;
+  z-index: 1;
 }
 /* End brief case and stuff on top */
 
@@ -897,7 +902,7 @@ body {
   height: 30px;
   padding-top: 30px;
   position: absolute;
-    bottom: 98px;
+    bottom: 90px;
     right: 50px;
   width: 300px;
 }
@@ -950,6 +955,7 @@ body {
   -webkit-transform: skewY(10deg);
           transform: skewY(10deg);
   width: 40px;
+  z-index: 2;
 }
 
 .mouse-hole__cheese::before {
@@ -1042,7 +1048,7 @@ body {
 .mouse-hole__input:checked:nth-child(10) ~ .mouse-hole__cheese {
   -webkit-animation: hideTheCheese 4s ease;
           animation: hideTheCheese 4s ease;
-  left: 0;
+  left: 210px;
   opacity: 1;
 }
 
@@ -1066,6 +1072,7 @@ body {
   }
 }
 
+/* eye balls */
 .mouse-hole__mouse {
   background-image: 
     radial-gradient(closest-side, #000 75%, transparent 75%),
@@ -1090,6 +1097,7 @@ body {
     right: 0;
   transition: height 500ms ease, right 500ms ease, background 500ms ease, opacity 500ms ease;
   width: 40px;
+  z-index: 1;
 }
 
 .mouse-hole__input:checked:nth-child(2) ~ .mouse-hole__mouse {
@@ -1111,72 +1119,20 @@ body {
   opacity: 1;
 }
 
+/* shows the mouse */
 @-webkit-keyframes eatTheCheese {
   10%, 90% {
-    background-image: 
-      radial-gradient(closest-side, #000 70%, transparent 70%),
-      radial-gradient(closest-side, #000 70%, transparent 70%),
-      radial-gradient(closest-side, #000 70%, transparent 70%),
-      radial-gradient(closest-side, #987 75%, transparent 75%),
-      radial-gradient(closest-side, #987 75%, transparent 75%),
-      radial-gradient(closest-side, #987 75%, transparent 75%),
-      radial-gradient(closest-side, #987 75%, transparent 75%);
-    background-repeat: no-repeat;
-    background-position: 
-      23px 29px,
-      20px 23px,
-      28px 25px,
-      8px 1px,
-      31px 10px,
-      10px 15px,
-      0 35px;
-    background-size:
-      6px 6px,
-      6px 6px,
-      6px 6px,
-      22px 22px,
-      22px 22px,
-      30px 30px,
-      40px 40px;
     height: 70px;
     opacity: 1;
-    position: absolute;
-      right: 30px;
+    right: 30px;
     width: 50px;
   }
 }
-
 @keyframes eatTheCheese {
   10%, 90% {
-    background-image: 
-      radial-gradient(closest-side, #000 70%, transparent 70%),
-      radial-gradient(closest-side, #000 70%, transparent 70%),
-      radial-gradient(closest-side, #000 70%, transparent 70%),
-      radial-gradient(closest-side, #987 75%, transparent 75%),
-      radial-gradient(closest-side, #987 75%, transparent 75%),
-      radial-gradient(closest-side, #987 75%, transparent 75%),
-      radial-gradient(closest-side, #987 75%, transparent 75%);
-    background-repeat: no-repeat;
-    background-position: 
-      23px 29px,
-      20px 23px,
-      28px 25px,
-      8px 1px,
-      31px 10px,
-      10px 15px,
-      0 35px;
-    background-size:
-      6px 6px,
-      6px 6px,
-      6px 6px,
-      22px 22px,
-      22px 22px,
-      30px 30px,
-      40px 40px;
     height: 70px;
     opacity: 1;
-    position: absolute;
-      right: 30px;
+    right: 30px;
     width: 50px;
   }
 }
@@ -1187,6 +1143,35 @@ body {
           animation: eatTheCheese 3s ease;
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
+  background-image: 
+    radial-gradient(closest-side, #000 70%, transparent 70%),
+    radial-gradient(closest-side, #000 70%, transparent 70%),
+    radial-gradient(closest-side, #000 70%, transparent 70%),
+    radial-gradient(closest-side, #987 75%, transparent 75%),
+    radial-gradient(closest-side, #987 75%, transparent 75%),
+    radial-gradient(closest-side, #987 75%, transparent 75%),
+    radial-gradient(closest-side, #987 75%, transparent 75%);
+  background-repeat: no-repeat;
+  background-position: 
+    23px 29px,
+    20px 23px,
+    28px 25px,
+    31px 10px,
+    8px 1px,
+    10px 15px,
+    0 35px;
+  background-size:
+    6px 6px,
+    6px 6px,
+    6px 6px,
+    22px 22px,
+    22px 22px,
+    30px 30px,
+    40px 40px;
+  height: 50px;
+  opacity: 0;
+  right: 0;
+  width: 50px;
 }
 
 
