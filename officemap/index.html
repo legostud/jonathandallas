@@ -1,1 +1,76 @@
-<img src="img/office_map_sprite.jpg" />
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Velir</title>
+
+	<link rel="stylesheet" href="./css/normalize.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<script src="./js/vendor/modernizr.min.js"></script>
+</head>
+<body ng-app="mapApp">
+	<div class="visual-wrapper" ng-controller="mapCtrl">
+		<header>
+			<h1><img src="./img/velir-logo.svg" /> Velir Office Map</h1>
+		</header>
+		<nav>
+			<div class="innerwrapper">
+				<section class="rooms" ng-controller="roomCtrl">
+					<h4>Conferences</h4>
+					<ul>
+						<li id="{{room.seat_num}}" ng-repeat="room in rooms | orderBy:'name'">
+							<a href="#/room/{{room.seat_num}}">{{room.name}}</a>
+						</li>
+					</ul>
+				</section>
+				<section class="printers" ng-controller="printerCtrl">
+					<h4>Printers</h4>			
+					<ul>
+						<li id="{{printer.seat_num}}" ng-repeat="printer in printers | orderBy:'name'">
+							<a href="#/printer/{{printer.seat_num}}">{{printer.name}}</a>
+						</li>
+					</ul>
+				</section>
+				<section class="employees" ng-controller="employeeCtrl">
+					<h4>Employees</h4>
+					<input class="emp-search" type="text" placeholder="Search Employees" ng-model="empQuery" /> 
+					<ul>
+						<li id="{{emp.seat_num}}" ng-repeat="emp in employees | filter:empQuery | orderBy:'name'">
+							<a href="#/employee/{{emp.seat_num}}">{{emp.name}}</a>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</nav>
+		<section class="map" 
+			ng-click="outputCoords($event); closeOverlay($event)">
+			<div class="overlay" ng-click="hideOverlay()" ng-style="{top: overlay.top, left:overlay.left}">
+				<div class="pointer"></div>
+				<div class="pointer2"></div>
+				<div class="data">
+					<div ng-view></div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="./js/vendor/angular.min.js"></script>
+	<script src="./js/vendor/angular-route.min.js"></script>
+
+	<script src="./js/app.js"></script>
+	
+	<script src="./js/controllers/map.js"></script>
+	<script src="./js/controllers/room.js"></script>
+	<script src="./js/controllers/printer.js"></script>
+	<script src="./js/controllers/employee.js"></script>
+	<script src="./js/controllers/overlay.js"></script>
+	<script src="./js/services/fetchService.js"></script>
+
+<!--
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="./js/handlebars.js"></script>
+	<script src="./js/typeahead.js"></script>
+	<script src="./js/main.js"></script>
+-->
+</body>

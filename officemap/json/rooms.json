@@ -1,0 +1,29 @@
+[{
+	"name":"Mordor",
+	"phone":"555.555.5555",
+	"seat_num":"mordor"
+},{
+	"name":"Rohan",
+	"phone":"555.555.5555",
+	"seat_num":"rohan"
+},{
+	"name":"Gondor",
+	"phone":"555.555.5555",
+	"seat_num":"gondor"
+},{
+	"name":"The Shire",
+	"phone":"555.555.5555",
+	"seat_num":"shire"
+},{
+	"name":"Pod 1",
+	"phone":"555.555.5555",
+	"seat_num":"pod-1"
+},{
+	"name":"Pod 2",
+	"phone":"555.555.5555",
+	"seat_num":"pod-2"
+},{
+	"name":"Pod 3",
+	"phone":"555.555.5555",
+	"seat_num":"pod-3"
+}]
