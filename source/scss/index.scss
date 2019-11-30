@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.velir-logo {
+  $rotations: 10;
+
+  transform: rotate(0deg);
+  transition: transform 5s;
+  padding-bottom: 150px;
+
+  &:hover {
+    transform: rotate(#{$rotations * 360}deg);
+  }
+}
