@@ -3,14 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <title>ClassRoom in CSS</title>
-  <link rel="stylesheet" href="./assets/styles.css" />
+  <meta name="viewport" content="width=1400, initial-scale=1">
+  <meta name="description" content="Personal Challenge to convert a Flat Design classroom into pure CSS" />
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" value="Personal Challenge to convert a Flat Design classroom into pure CSS">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="ClassRoom in CSS" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="http://www.jonathandallas.com/portfolio-work/flat-design-classroom/assets/flat-design-classroom.png" />
+  <meta property="og:description" content="Personal Challenge to convert a Flat Design classroom into pure CSS" />
+
+  <link rel="stylesheet" href="./assets/styles-generated.css" />
 </head>
 <body>
   <div class="classroom">
-    <div class="desk"><span class="text">Mx. Teacher</span></div>
-    <div class="black-board">
-      <span class="text">Physics</span>
+    <div class="bookshelf">
+      <a href="https://a.singlediv.com/" title="tardis design from the Single Div website" class="tardis"></a>
     </div>
+    <div class="einstein">
+      <span class="einstein__text" aria-hidden>:focus</span>
+    </div>
+    <a href="https://www.linkedin.com/in/legostud" class="word-doc" title="View my Linkedin profile"></a>
+    <div class="info-graph">
+      <span class="info-graph__line"></span>
+    </div>
+    <div class="desk">
+      <div class="name-card">Mx. Dallas</div>
+      <div class="newtons-cradle">
+        <span class="newtons-cradle__ball"></span>
+        <span class="newtons-cradle__ball"></span>
+        <span class="newtons-cradle__ball"></span>
+        <span class="newtons-cradle__ball"></span>
+        <span class="newtons-cradle__ball"></span>
+      </div>
+    </div>
+    <div class="person">
+
+    </div>
+    <a href="/portfolio-work" class="brief-case" title="view other portfolio work">
+      <div class="brief-case__paper"></div>
+    </a>
+    <div class="black-board">
+      <span class="black-board__text">Pure CSS</span>
+      <span class="triangle-square"></span>
+    </div>
+    <div class="mouse-hole">
+      <label class="mouse-hole__arrow" for="arrow1"></label>
+      <input class="mouse-hole__input" type="radio" id="arrow1" name="arrow" value="1" checked>
+      <label class="mouse-hole__arrow" for="arrow2"></label>
+      <input class="mouse-hole__input" type="radio" id="arrow2" name="arrow" value="2" >
+      <label class="mouse-hole__arrow" for="arrow3"></label>
+      <input class="mouse-hole__input" type="radio" id="arrow3" name="arrow" value="3" >
+      <label class="mouse-hole__arrow" for="arrow4"></label>
+      <input class="mouse-hole__input" type="radio" id="arrow4" name="arrow" value="4" >
+      <label class="mouse-hole__arrow" for="arrow5"></label>
+      <input class="mouse-hole__input" type="radio" id="arrow5" name="arrow" value="5" >
+      <div class="mouse-hole__mouse" title="feed the mouse"></div>
+      <div class="mouse-hole__cheese" title="move the cheese"></div>
+    </div>
+    <time class="clock js-clock">
+      <span class="clock__text">Clock</span>
+      <div class="clock__hour js-clock-hour"></div>
+      <div class="clock__minute js-clock-minute"></div>
+      <div class="clock__second js-clock-second"></div>
+    </time>
+    <script>
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      var hd = -90 + (h * 30) + (m / 2) + (s / 10);
+      var md = -90 + (m * 6) + (s / 10);
+      var sd = -90 + (s * 6);
+      document.querySelector(".js-clock").setAttribute("datetime", "T" + h + ":" + m + ":" + s);
+      document.querySelector(".js-clock-hour").setAttribute("style", "transform: rotate(" + hd + "deg)");
+      document.querySelector(".js-clock-minute").setAttribute("style", "transform: rotate(" + md + "deg)");
+      document.querySelector(".js-clock-second").setAttribute("style", "transform: rotate(" + sd + "deg)");
+    </script>
   </div>
 </body>
 </html>
