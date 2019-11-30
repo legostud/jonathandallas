@@ -1,0 +1,22 @@
+@import "../variables/_breakpoints.scss";
+
+.page-title {
+  // color: $c-font-dark;
+  // font-family: $f-trueno;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.23;
+  margin-bottom: 15px;
+
+  @media ($bp-small-min) {
+    font-size: 42px;
+  }
+
+  @media ($bp-medium-min) {
+    font-size: 50px;
+  }
+
+  @media ($bp-large-min) {
+    font-size: 60px;
+  }
+}
