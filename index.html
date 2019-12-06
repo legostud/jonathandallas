@@ -6,43 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Jonathan Dallas' Portfolio Site</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,400i,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise|Roboto+Slab:400,700|Roboto:400,400i,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/assets/css/index-generated.css" />
   </head>
   <body>
     <header class="global-header">
-      <div class="global-header__logo">
-        Jonathan Dallas
-      </div>
-      <nav class="primary-nav" aria-labelled-by="primary-nav-label-by">
-        <h2 class="visually-hidden" id="primary-nav-label-by">
-          Primary Navigation
-        </h2>
-        <ul class="primary-nav__items">
-          <li class="primary-nav__item">
-            <a class="primary-nav__link" href="/about">About</a>
-          </li>
-          <li class="primary-nav__item">
-            <a class="primary-nav__link" href="/portfolio">Portfolio</a>
-          </li>
-          <li class="primary-nav__item">
-            <a class="primary-nav__link" href="/contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="ultility-nav">
-        <a href="http://www.linkedin.com">Linked In</a>
+      <div class="global-header__container  site-container">
+        <div class="global-header__logo">
+          Jonathan Dallas
+        </div>
+        <nav class="primary-nav" aria-label="Primary Navigation">
+          <ul class="primary-nav__items">
+            <li class="primary-nav__item">
+              <a class="primary-nav__link" href="/about">About</a>
+            </li>
+            <li class="primary-nav__item">
+              <a class="primary-nav__link" href="/portfolio">Portfolio</a>
+            </li>
+            <li class="primary-nav__item">
+              <a class="primary-nav__link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="ultility-nav">
+          <a href="http://www.linkedin.com">Linked In</a>
+        </div>
       </div>
     </header>
     <main>
-      <section class="page-header">
+      <section class="page-header page-header--home">
         <div class="page-header__container site-container">
           <h1 class="page-header__title page-title">Welcome</h1>
           <div class="page-header__summary">
             <p>
-              Something about this site.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dignissimos nobis praesentium vero voluptates deserunt, deleniti
+              magnam alias aliquid recusandae illo facere similique ipsa
+              explicabo quisquam? Perspiciatis tempora optio, provident
+              corporis!.
             </p>
           </div>
         </div>
@@ -50,7 +53,7 @@
       <div class="divider-line"></div>
       <section class="color-box">
         <div class="color-box__image">
-          <img alt="legostud avatar" src="/assets/img/avatar.png" />
+          <img alt="legostud avatar" src="/assets/img/mln_avatar_large.png" />
         </div>
         <div class="color-box__content">
           <h2 class="color-box__title">What is Jonathan Dallas</h2>
@@ -157,7 +160,17 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="global-footer">
+      <div class="global-footer__container  site-container">
+        <div class="global-footer__copyright">
+          &copy; Copyright
+          <script>
+            var d = new Date();
+            document.write(d.getFullYear());
+          </script>
+        </div>
+      </div>
+    </footer>
     <script src="/assets/js/index-generated.js"></script>
   </body>
 </html>

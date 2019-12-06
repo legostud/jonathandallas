@@ -1,0 +1,17 @@
+.primary-nav {
+  &__items {
+    display: flex;
+    list-style: none;
+  }
+
+  &__item {
+  }
+
+  &__item + &__item {
+    margin-left: 16px;
+  }
+
+  &__link {
+    min-height: 60px;
+  }
+}

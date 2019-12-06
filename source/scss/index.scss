@@ -1,10 +1,12 @@
-@import "./variables/_fonts.scss";
+@import "./00-variables/_fonts.scss";
+@import "./00-variables/_colors.scss";
 
 html {
   height: 100%;
 }
 
 body {
+  background-color: $c-sky-blue;
   font-family: $font-serif;
   margin: 0;
   min-height: 100vh;
