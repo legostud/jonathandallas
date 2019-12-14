@@ -2,11 +2,11 @@
 @import "../00-variables/_fonts.scss";
 
 .page-header {
-  // font-family: $font-cursive;
-  min-height: 400px;
+  background-color: white;
+  transform: perspective(1000px) rotateY(18deg) skew(-10deg) translateX(8%);
 
   &--home &__container {
-    background-color: white;
     max-width: 960px;
+    transform: perspective(1000px) rotateY(-18deg) skew(10deg) translateX(-8%);
   }
 }
