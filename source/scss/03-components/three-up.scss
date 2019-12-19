@@ -1,0 +1,20 @@
+@import "../00-variables/_breakpoints.scss";
+
+.three-up {
+  &__container {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto auto auto;
+    grid-gap: 30px;
+
+    @media ($bp-small-min) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+    }
+
+    @media ($bp-large-min) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+    }
+  }
+}

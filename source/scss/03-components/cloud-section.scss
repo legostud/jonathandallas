@@ -15,18 +15,21 @@
     content: "";
     position: absolute;
     top: 0;
-    right: 0;
+    right: 20px;
     bottom: 0;
     left: 0;
-    transform: perspective(1000px) rotateY(-8deg) skew(-10deg);
-    width: calc(100% - 80px);
+    transform: perspective(1000px) rotateY(-8deg) skew(-10deg) scale(0.9);
     z-index: -1;
+
+    @media ($bp-medium-min) {
+      left: -40px;
+    }
   }
 
   &__image {
     flex: none;
-    max-width: 240px;
-    padding: 5px 0 15px;
+    max-width: 270px;
+    padding: 20px 15px;
 
     @media ($bp-small-min) {
       width: 30%;
