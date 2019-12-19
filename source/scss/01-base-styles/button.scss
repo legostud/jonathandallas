@@ -1,0 +1,30 @@
+@import "../00-variables/mixins/_button-reset.scss";
+@import "../00-variables/_colors.scss";
+@import "../00-variables/_fonts.scss";
+
+.button {
+  @include mx-button-reset;
+  background-color: $c-rainbow-orange;
+  border-left: 5px dotted #fff;
+  border-right: 5px dotted #fff;
+  color: $c-font-base;
+  font-family: $font-sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.375;
+  display: inline-block;
+  min-width: 170px;
+  padding: 10px 14px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  transition: transform 200ms ease-in-out, font-size 200ms ease-in-out;
+  vertical-align: middle;
+  z-index: 2;
+
+  &:focus,
+  &:hover {
+    transform: skew(-4deg) rotate(-4deg);
+  }
+}

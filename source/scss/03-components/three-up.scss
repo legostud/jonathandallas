@@ -1,6 +1,10 @@
 @import "../00-variables/_breakpoints.scss";
+@import "../00-variables/_colors.scss";
 
 .three-up {
+  padding-bottom: 30px;
+  padding-top: 30px;
+
   &__container {
     display: grid;
     grid-template-columns: 1;
@@ -16,5 +20,50 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto;
     }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 24px;
+    position: relative;
+    z-index: 2;
+
+    &::before {
+      background-color: #fff;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 1.5%;
+      transform: perspective(1000px) rotate3d(-1.5, -3, -0.25, 8deg) skew(1deg);
+      z-index: -1;
+    }
+  }
+
+  &__image {
+    flex: none;
+  }
+
+  &__content {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 16px;
+  }
+
+  &__title {
+  }
+
+  &__summary {
+    margin-bottom: 24px;
+  }
+
+  &__cta {
+    align-self: flex-end;
+    margin-top: auto;
+    margin-right: -16px;
   }
 }

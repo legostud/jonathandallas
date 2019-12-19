@@ -1,6 +1,21 @@
 @import "../00-variables/_colors.scss";
 
 .global-footer {
-  background-color: $c-ground-green;
+  margin-top: 85px;
+  overflow: hidden;
   padding: 50px 0;
+  position: relative;
+  z-index: 2;
+
+  &::before {
+    background-color: $c-ground-green;
+    border-radius: 50%/5%;
+    content: "";
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
 }
