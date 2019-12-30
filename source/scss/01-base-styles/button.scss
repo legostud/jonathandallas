@@ -5,6 +5,7 @@
 .button {
   @include mx-button-reset;
   background-color: $c-rainbow-orange;
+  background-image: none;
   border-left: 5px dotted #fff;
   border-right: 5px dotted #fff;
   color: $c-font-base;

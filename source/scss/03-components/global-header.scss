@@ -1,18 +1,43 @@
 @import "../00-variables/_colors.scss";
 @import "../00-variables/_fonts.scss";
+@import "../00-variables/_z-index.scss";
 
 .global-header {
   font-family: $font-sans-serif;
-  background-color: white;
-  box-shadow: 0 0 5px #999;
+  position: relative;
+  z-index: $z-sticky-content;
+
+  @supports (position: sticky) {
+    position: sticky;
+    top: 0;
+  }
+
+  &::before {
+    background-image: linear-gradient(-1deg, #ddd, white 30%);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: "";
+    height: 200%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(1deg) skew(1deg);
+    transform-origin: left bottom;
+    width: 100%;
+    z-index: -1;
+  }
 
   &__logo {
     font-size: 28px;
   }
 
   &__container {
-    display: flex;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto;
     align-items: center;
-    justify-content: space-between;
+    min-height: 42px;
   }
 }

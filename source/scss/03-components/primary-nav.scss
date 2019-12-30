@@ -1,7 +1,11 @@
+@import "../00-variables/_colors.scss";
+
 .primary-nav {
   &__items {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   &__item {
@@ -12,6 +16,8 @@
   }
 
   &__link {
-    min-height: 60px;
+    color: $c-font-base;
+    font-size: 18px;
+    line-height: 1.5;
   }
 }
