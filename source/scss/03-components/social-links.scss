@@ -1,0 +1,35 @@
+@import "../00-variables/_colors.scss";
+
+.social-links {
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    margin-left: -15px;
+    padding: 0;
+  }
+
+  &__item {
+    border: 2px solid white;
+    height: 45px;
+    margin-left: 15px;
+    transition: background 500ms ease;
+    width: 45px;
+
+    &:hover {
+      background-color: rgba(#fff, 0.3);
+    }
+  }
+
+  &__link {
+    background-image: none;
+    display: block;
+    padding: 8px;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

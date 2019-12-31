@@ -1,5 +1,6 @@
 @import "../00-variables/_breakpoints.scss";
 @import "../00-variables/_fonts.scss";
+@import "../00-variables/_colors.scss";
 
 .cloud-promo {
   position: relative;
@@ -65,5 +66,6 @@
   }
 
   &__cta {
+    margin-top: 16px;
   }
 }

@@ -1,4 +1,5 @@
 @import "../00-variables/_fonts.scss";
+@import "../00-variables/_colors.scss";
 
 h1,
 h2,
@@ -11,6 +12,7 @@ a {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 0 2px;
+  color: $c-rainbow-orange;
   text-decoration: none;
   transition: background 500ms ease;
 
