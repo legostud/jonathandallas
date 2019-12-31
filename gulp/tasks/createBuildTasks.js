@@ -7,13 +7,13 @@ const runBrowserSyncTask = require("../quench/runBrowserSyncTask.js");
 
 module.exports = function createBuildTasks(projectRoot) {
   const buildDir = `${projectRoot}/assets`;
-  const clientDir = `${projectRoot}/source`;
+  const clientDir = `${projectRoot}/assets-source`;
 
   const copy = () =>
     runCopyTask({
       src: [`${clientDir}/index.html`],
       dest: buildDir,
-      base: `${clientDir}`
+      base: `${clientDir}`,
     });
 
   const js = () =>
@@ -23,14 +23,14 @@ module.exports = function createBuildTasks(projectRoot) {
         {
           entry: `${clientDir}/js/index.js?(x)`, // .js or .jsx
           filename: "index.js",
-          watch: [`${clientDir}/js/**/*.js`, `${clientDir}/js/**/*.jsx`]
+          watch: [`${clientDir}/js/**/*.js`, `${clientDir}/js/**/*.jsx`],
         },
         {
           entry: `${clientDir}/polyfill/index.js`,
           filename: "polyfill.js",
-          watch: [`${clientDir}/polyfill/**`]
-        }
-      ]
+          watch: [`${clientDir}/polyfill/**`],
+        },
+      ],
     });
 
   const sass = () =>
@@ -38,26 +38,27 @@ module.exports = function createBuildTasks(projectRoot) {
       src: [`${clientDir}/scss/**/*.scss`, `${clientDir}/js/**/*.scss`],
       dest: `${buildDir}/css/`,
       watch: [`${clientDir}/scss/**/*.scss`, `${clientDir}/js/**/*.scss`],
-      filename: "index.css"
+      filename: "index.css",
     });
 
   const image = () =>
     runCopyTask({
       src: [`${clientDir}/img/**/*.{jpg,png,gif}`],
       dest: `${buildDir}`,
-      base: `${clientDir}`
+      base: `${clientDir}`,
     });
 
   const browserSync = () =>
     runBrowserSyncTask({
-      server: projectRoot
+      server: projectRoot,
     });
 
   const buildTasks = gulp.parallel(sass, image, js);
 
   if (quench.isWatching()) {
     return gulp.series(buildTasks, browserSync);
-  } else {
+  }
+  else {
     return buildTasks;
   }
 };
