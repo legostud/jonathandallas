@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="/assets/css/index-generated.css" />
   </head>
   <body>
-    <header class="global-header">
+    <header class="global-header js-global-header">
+      <a href="#main-content" class="global-header__skip-link visually-hidden"
+        >Skip Navigation</a
+      >
       <div class="global-header__container  site-container">
         <div class="global-header__logo">
           Jonathan Dallas
@@ -20,26 +23,31 @@
         <nav class="primary-nav" aria-label="Primary Navigation">
           <ul class="primary-nav__items">
             <li class="primary-nav__item">
-              <a class="primary-nav__link" href="/about">About</a>
+              <a class="primary-nav__link js-header-link" href="/about"
+                >About</a
+              >
             </li>
             <li class="primary-nav__item">
-              <a class="primary-nav__link" href="/portfolio">Portfolio</a>
+              <a class="primary-nav__link js-header-link" href="/portfolio"
+                >Portfolio</a
+              >
             </li>
             <li class="primary-nav__item">
-              <a class="primary-nav__link" href="/contact">Contact</a>
+              <a class="primary-nav__link js-header-link" href="/contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </nav>
-        <div class="utility-nav">
-          <a href="https://www.linkedin.com/in/legostud/"
-            ><img
-              alt="Linked In"
-              src="/assets/img/linkedIn.png"
-              height="20"
-              width="20"
-          /></a>
-        </div>
+        <button
+          class="global-header__hamburger js-hamburger-button"
+          type="button"
+          aria-label="open or close the Main Navigation"
+        >
+          <span>Menu</span>
+        </button>
       </div>
+      <a name="main-content" id="main-content"></a>
     </header>
     <main>
       <section
@@ -193,6 +201,18 @@
             var d = new Date();
             document.write(d.getFullYear());
           </script>
+        </div>
+        <div class="global-footer__social-links">
+          <a
+            href="https://www.linkedin.com/in/legostud/"
+            title="linkedIn profile for Jonathan Dallas"
+            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                fill="#fff"
+                d="M150.7 100.7c0 28-22.5 50.7-50.3 50.7s-50.3-22.7-50.3-50.7S72.6 50 100.4 50s50.3 22.7 50.3 50.7zm-7.3 86.6h-85V462h85V187.3zm135.9 0h-81.5V462h81.5V317.8c0-38.6 17.8-61.6 51.8-61.6 31.3 0 46.3 22.1 46.3 61.6V462H462V288.1c0-73.6-41.7-109.1-99.9-109.1s-82.8 45.3-82.8 45.3v-37z"
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </footer>

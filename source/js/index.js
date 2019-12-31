@@ -1,1 +1,3 @@
-console.log("index.js loaded!");
+import GlobalHeader from "./global-header.js";
+
+GlobalHeader(document, window);

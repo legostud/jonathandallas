@@ -23,3 +23,6 @@ $bp-x-large-max: "max-width:" + $bp-xl;
 
 $bp-characters-min: "min-width: " + ($bp-characters);
 $bp-characters-max: "max-width: " + $bp-characters;
+
+$bp-header-min: "min-width: " + ($bp-s + 1);
+$bp-header-max: "max-width:" + $bp-s;

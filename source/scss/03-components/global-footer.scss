@@ -1,4 +1,5 @@
 @import "../00-variables/_colors.scss";
+@import "../00-variables/_fonts.scss";
 
 .global-footer {
   margin-top: 85px;
@@ -17,5 +18,33 @@
     left: 0;
     width: 100%;
     z-index: -1;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__copyright {
+    color: white;
+    font-family: $font-sans-serif;
+  }
+
+  &__social-links {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 45px;
+    width: 45px;
+
+    a {
+      display: block;
+      padding: 8px;
+    }
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
   }
 }
