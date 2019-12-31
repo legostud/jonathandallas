@@ -30,6 +30,13 @@
     color: $c-font-base;
     font-size: 18px;
     line-height: 1.5;
+    transition: color 500ms ease, background 500ms ease;
+
+    &.is-active,
+    &:hover,
+    &:focus {
+      color: $c-rainbow-orange;
+    }
 
     @media ($bp-header-max) {
       background-image: linear-gradient(
