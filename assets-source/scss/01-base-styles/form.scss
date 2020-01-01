@@ -1,0 +1,234 @@
+@import "../00-variables/_colors.scss";
+@import "../00-variables/_breakpoints.scss";
+@import "../00-variables/_fonts.scss";
+@import "../00-variables/_layout.scss";
+
+.form {
+  margin: 0 auto;
+  max-width: $max-width-form;
+
+  &__fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__split-row {
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @media ($bp-small-min) {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -30px;
+
+      & > * {
+        margin-left: 30px;
+        width: calc(50% - 30px);
+      }
+
+      & > *:nth-last-child(2) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__summary {
+    margin-bottom: 40px;
+    margin-top: 25px;
+  }
+
+  &__item {
+    display: block;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &--terms {
+      margin-top: 40px;
+      padding-left: 35px;
+      position: relative;
+    }
+  }
+
+  &__label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 0.5em;
+  }
+
+  &__item--terms &__label {
+    font-weight: 400;
+
+    &::before {
+      border: 2px solid $c-gray-c3c3c3;
+      content: "";
+      height: 24px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 24px;
+    }
+
+    &::after {
+      border-left: 2px solid $c-theme-secondary;
+      border-bottom: 2px solid $c-theme-secondary;
+      content: "";
+      height: 0;
+      opacity: 0;
+      position: absolute;
+      left: 5px;
+      top: 12px;
+      transform: rotate(-45deg);
+      transform-origin: left top;
+      transition: height 250ms ease, width 250ms ease 250ms;
+      width: 0;
+    }
+  }
+
+  &__item--terms input:focus ~ &__label::before {
+    outline: highlight auto 5px;
+    outline: -webkit-focus-ring-color auto 5px;
+  }
+
+  &__helper-label {
+    display: block;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0.5em;
+  }
+
+  &__field {
+    background-color: $c-bg-subtle;
+    border: 2px solid transparent;
+    border-radius: 1px;
+    color: $c-font-base;
+    font-family: $font-sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+    min-height: 48px;
+    padding: 6px 10px;
+    transition: border 500ms ease;
+    width: 100%;
+
+    &[readonly] {
+      background-color: transparent;
+      border-color: $c-bg-subtle;
+    }
+  }
+
+  &__item--terms &__field {
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  &__item--terms &__field:checked + &__label:after {
+    height: 8px;
+    opacity: 1;
+    width: 14px;
+  }
+
+  &__item.has-warning &__field:not([readonly]) {
+    border: 2px solid $c-bd-warning;
+  }
+
+  &__item.has-error &__field:not([readonly]) {
+    border: 2px solid $c-bd-error;
+  }
+
+  &__general-success,
+  &__error-msg {
+    color: $c-font-warning;
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 12px;
+
+    &.has-error,
+    .has-error & {
+      color: $c-font-error;
+    }
+  }
+
+  &__error-msg.has-warning,
+  &__item.has-warning &__error-msg,
+  &__error-msg.has-error,
+  &__item.has-error &__error-msg {
+    display: block;
+  }
+
+  &__general-success,
+  &__general-error {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__general-success {
+    color: $c-font-success;
+  }
+
+  &__general-success.is-visible {
+    display: block;
+  }
+
+  &__field[readonly] ~ &__error-msg {
+    display: none;
+  }
+}
+
+.text-input {
+  &__field {
+  }
+}
+
+.textarea {
+  &__field {
+    min-height: 200px;
+  }
+}
+
+.select-input {
+  &__input-wrapper {
+    position: relative;
+
+    input:not([type="hidden"]) + & {
+      display: none;
+    }
+
+    &::after {
+      border-right: 3px solid currentColor;
+      border-bottom: 3px solid currentColor;
+      content: "";
+      height: 0.75em;
+      pointer-events: none;
+      position: absolute;
+      bottom: 20px;
+      right: 16px;
+      transform: rotate(45deg);
+      width: 0.75em;
+    }
+  }
+
+  &__field {
+    appearance: none;
+    line-height: 30px;
+    padding-right: 35px;
+  }
+
+  /* for IE and Edge */
+  &__field:disabled::-ms-expand,
+  &__field::-ms-expand {
+    display: none;
+  }
+}
