@@ -1,0 +1,32 @@
+jewel.storage = (function() {
+
+    var cookieKey = "JewelData";
+    
+    function load() {
+        var re = new RegExp("(?:^|;)\\s?" + escape(cookieKey)
+                 + "=(.*?)(?:;|$)", "i"),
+            match = document.cookie.match(re),
+            data = match ? unescape(match[1]) : "{}";
+            
+            return JSON.parse(data);
+    }
+    
+    function get(key) {
+        var db = load(),
+            value = db[key];
+            
+        return (value !== undefined ? value : null);
+    }
+    
+    function set(key, data) {
+        var db = load();
+        db[key] = data;
+        document.cookie = cookieKey + "=" + escape(JSON.stringify(db)) + "; path=/";
+    }
+    
+    return {
+        get : get,
+        set : set
+    };
+
+})();
