@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+    google.load("language", "1");
+
+    function translate(layer_id) {
+      var text = document.getElementById(layer_id).innerHTML;
+      google.language.detect(text, function(result) {
+        if (!result.error && result.language) {
+          google.language.translate(text, result.language, "en",
+                                    function(result) {
+            var translated = document.getElementById("translation");
+            if (result.translation) {
+              translated.innerHTML = result.translation;
+            }
+          });
+        }
+      });
+    }
+    google.setOnLoadCallback(initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="comment">
+    	<div id="text">你好，很高興見到你。</div>
+        <script type="text/javascript" language="javascript">
+        	document.write("<input type=\"button\" value=\"translate\" onclick=\"javascript:translate('text');\" />");
+		</script>
+    </div>
+    <div id="translation"></div>
+  </body>
+</html>
