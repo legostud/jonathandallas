@@ -1,0 +1,28 @@
+[06-Jan-2020 19:56:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
+[06-Jan-2020 19:56:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
+[06-Jan-2020 19:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
+[06-Jan-2020 19:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
+[06-Jan-2020 19:56:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
+[06-Jan-2020 19:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
+[06-Jan-2020 19:57:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6

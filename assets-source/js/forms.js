@@ -22,7 +22,6 @@ export default function(document = document, window = window) {
         }
       }
       else {
-        console.log(elForm.querySelectorAll(".has-error [aria-required]")[0]);
         elForm.querySelectorAll(".has-error [aria-required]")[0].focus();
       }
     });
@@ -97,7 +96,6 @@ export default function(document = document, window = window) {
         else {
           elForm.querySelectorAll(".js-form-general-error").forEach(el => {
             el.classList.add("has-error");
-            el.innerHTML = data.Error;
           });
         }
         submitButtons.forEach(resetButton);
