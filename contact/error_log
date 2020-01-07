@@ -1,4 +1,1 @@
-[06-Jan-2020 21:45:59 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 18
-[07-Jan-2020 15:55:50 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 18
-[07-Jan-2020 18:32:16 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 14
-[07-Jan-2020 18:33:47 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 14
+[07-Jan-2020 19:28:55 UTC] PHP Fatal error:  Cannot use temporary expression in write context in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 9
