@@ -1,28 +1,4 @@
-[06-Jan-2020 19:56:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
-Stack trace:
-#0 {main}
-  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
-[06-Jan-2020 19:56:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
-Stack trace:
-#0 {main}
-  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
-[06-Jan-2020 19:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
-Stack trace:
-#0 {main}
-  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
-[06-Jan-2020 19:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
-Stack trace:
-#0 {main}
-  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
-[06-Jan-2020 19:56:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
-Stack trace:
-#0 {main}
-  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
-[06-Jan-2020 19:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
-Stack trace:
-#0 {main}
-  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
-[06-Jan-2020 19:57:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echojson_encode() in /home1/legostud/public_html/jonathandallas-com/contact/contact.php:6
-Stack trace:
-#0 {main}
-  thrown in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 6
+[06-Jan-2020 21:45:59 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 18
+[07-Jan-2020 15:55:50 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 18
+[07-Jan-2020 18:32:16 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 14
+[07-Jan-2020 18:33:47 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home1/legostud/public_html/jonathandallas-com/contact/contact.php on line 14

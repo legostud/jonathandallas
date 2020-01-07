@@ -2,19 +2,16 @@
 header('Access-Control-Allow-Origin: http://jonathandallas.com');
 header('Content-type: application/json');
 
-if ($_POST) {
+if ($_POST && &_POST["recaptcha"] ) {
 	// set response code - 200 OK
 	http_response_code(200);
 
 	$subject = "Jonathan Dallas Enquiry Form";
-	$to = "nospam@dallasdesigns.org";
-	$from = "contact-form@jonathandallas.com";
+	$to = "contact-form@jonathandallas.com";
+	$from = $_POST["email"];
 
 	// data
-	while (list($key,$val)=each($_POST))
-	{
-		$msg = $msg."$key : $val \n ";
-	}
+	$msg = $_POST["name"] . "\r\n" . $_POST["message"];
 
 	// Headers
 	$headers = "MIME-Version: 1.0\r\n";
