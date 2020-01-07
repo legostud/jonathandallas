@@ -1,0 +1,23 @@
+@import "../00-variables/_fonts.scss";
+@import "../00-variables/_colors.scss";
+
+h1,
+h2,
+h3 {
+  font-family: $font-sans-serif;
+}
+
+a {
+  background-image: linear-gradient(0deg, currentColor, currentColor);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 0 2px;
+  color: $c-rainbow-orange;
+  text-decoration: none;
+  transition: background 500ms ease;
+
+  &:hover,
+  &:focus {
+    background-size: 100% 2px;
+  }
+}

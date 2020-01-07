@@ -1,0 +1,33 @@
+@import "../00-variables/_colors.scss";
+@import "../00-variables/_fonts.scss";
+
+.global-footer {
+  margin-top: 85px;
+  overflow: hidden;
+  padding: 50px 0;
+  position: relative;
+  z-index: 2;
+
+  &::before {
+    background-color: $c-ground-green;
+    border-radius: 50%/5%;
+    content: "";
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__copyright {
+    color: white;
+    font-family: $font-sans-serif;
+  }
+}

@@ -1,0 +1,71 @@
+@import "../00-variables/_breakpoints.scss";
+@import "../00-variables/_fonts.scss";
+@import "../00-variables/_colors.scss";
+
+.cloud-promo {
+  position: relative;
+  transform: rotate(-1deg);
+  z-index: 2;
+
+  @media ($bp-small-min) {
+    display: flex;
+  }
+
+  &::before {
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    left: 0;
+    transform: perspective(1000px) rotateY(-8deg) skew(-10deg) scale(0.9);
+    z-index: -1;
+
+    @media ($bp-medium-min) {
+      left: -40px;
+    }
+  }
+
+  &__image {
+    flex: none;
+    max-width: 270px;
+    padding: 20px 15px;
+
+    @media ($bp-small-min) {
+      width: 30%;
+    }
+
+    figure {
+      display: block;
+      margin: 0;
+    }
+  }
+
+  &__caption {
+    font-family: $font-sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  &__content {
+    flex: auto;
+    padding: 0px 60px 40px 20px;
+
+    @media ($bp-small-min) {
+      padding-top: 24px;
+      padding-left: 40px;
+    }
+  }
+
+  &__title {
+  }
+
+  &__summary {
+  }
+
+  &__cta {
+    margin-top: 16px;
+  }
+}

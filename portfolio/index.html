@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jonathan Dallas' Portfolio Site</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise|Roboto+Slab:400,700|Roboto:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/index-generated.css" />
+  </head>
+  <body>
+    <header class="global-header js-global-header">
+      <a href="#main-content" class="global-header__skip-link visually-hidden"
+        >Skip Navigation</a
+      >
+      <div class="global-header__container  site-container">
+        <div class="global-header__logo">
+          <a href="/">Jonathan Dallas</a>
+        </div>
+        <nav class="primary-nav" aria-label="Primary Navigation">
+          <ul class="primary-nav__items">
+            <li class="primary-nav__item">
+              <a
+                class="primary-nav__link js-header-link"
+                href="/about/"
+                aria-current="page"
+                >About</a
+              >
+            </li>
+            <li class="primary-nav__item">
+              <a
+                class="primary-nav__link js-header-link is-active"
+                href="/portfolio/"
+                aria-current="page"
+                >Portfolio</a
+              >
+            </li>
+            <li class="primary-nav__item">
+              <a class="primary-nav__link js-header-link" href="/contact/"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="global-header__hamburger js-hamburger-button"
+          type="button"
+          aria-label="open or close the Main Navigation"
+        >
+          <span>Menu</span>
+        </button>
+      </div>
+      <a name="main-content" id="main-content"></a>
+    </header>
+    <main>
+      <section class="paper-wrapper site-component site-container">
+        <div class="paper-wrapper__container site-container">
+          <ul>
+            <li>
+              PRB World Population Data Sheet
+              <a href="http://www.prb.org/wpds/2015/" target="_blank">(link)</a
+              >. Converted Illustrator designs into working HTML, CSS, and
+              JavaScript. I was able to reuse some of the exisiting JavaScript
+              from 2014 to do the scrolling. Note: the Data Sheet section was
+              built by a co-worker.
+            </li>
+            <li>
+              Brain Games -
+              <a href="portfolio-work/blink-test/">blinking circles</a>. Are the
+              inner circles blinking at the same time or alternating? Used
+              JavaScript to switch an id value at a set interval. CSS then
+              changes the color.
+            </li>
+            <li>
+              Experiment with responsive design of the
+              <a href="/portfolio-work/nelug/">NELUG</a> website. This prototype
+              was built as a mobile site that then adds content and high
+              resolution images as the browser increases in size. JavaScript and
+              media queries were used to create the affect.
+            </li>
+            <li>
+              Light weight
+              <a href="/portfolio-work/zoom">product zoom</a> widget designed to
+              replace a Flash based version in an attempt to improve site
+              performance. This prototype uses jQuery to display an element with
+              a larger background image of the product over the smaller one. The
+              position of the background image is then adjusted as you mouse
+              over it.
+            </li>
+            <li>
+              Reskin of the
+              <a href="portfolio-work/ep-reskin/">Everest Poker</a> website.
+              Stakeholders wanted to quickly (2 weeks) update the look and feel
+              of the entire Everest Poker website. I found a way with just using
+              CSS and adjusting some of the CMS content to pull this off. A
+              rough version was shown to them within an hour using just the
+              Firebug console.
+            </li>
+            <li>
+              Promotion page for
+              <a href="/portfolio-work/ep-laronda/">Laronda</a> built within a
+              Plone CMS content type field. Content type had two wysiwyg editor
+              fields and a raw html field. CSS and JavaScript was placed in the
+              raw html field to style the content. I also added an Easter egg
+              for fun - click on the computer five times to see the Easter egg
+            </li>
+            <!-- li>Converted the <a href="http://www.everestcasino.com">Everest Casino</a> website from Perl Mason to Plone with a new look a feel.  Worked with a Plone developer to get the Plone framework setup and added to a new Mercurial repository.  To manipulate the default html for the various pages, I used Diazo to apply an XSL template.  CSS and JavaScript was then applied to finish off the design.  The site was also released in phases and was complete major sections.</li -->
+            <!-- li>In preparation for the launch of a new Everest Poker site for France we needed to create a <a href="/portfolio-work/er-one-page-site/">landing page</a>.  One page design created from PSD mockups.
+							</li -->
+            <!-- li>Updated the look and feel of the <a href="/portfolio-work/imperialcasino/">Imperial Casino</a> website.  New homepage, download page, and interior page. Perl Mason templates were created and all new CSS (from scratch to remove old code) was added to the site.
+							</li -->
+            <!-- li>Custom <a href="/portfolio-work/ltd-404/">404 page</a> for the Live the Dream website</li -->
+            <!-- li>Designed and built the <a href="http://www.kickasscupcakes.com">Kickass Cupcakes</a> website (built in 2007)
+							</li -->
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="global-footer">
+      <div class="global-footer__container site-container">
+        <div class="global-footer__copyright">
+          Jonathan Dallas &copy; Copyright
+          <script>
+            var d = new Date();
+            document.write(d.getFullYear());
+          </script>
+        </div>
+        <nav
+          class="global-footer__social-links social-links"
+          aria-label="Social Links"
+        >
+          <ul class="social-links__items">
+            <li class="social-links__item">
+              <a
+                href="https://github.com/legostud/jonathandallas"
+                title="Github repo this site"
+                class="social-links__link"
+                ><img
+                  alt="github mark"
+                  src="/assets/img/github-mark-light-64px.png"
+                />
+              </a>
+            </li>
+            <li class="social-links__item">
+              <a
+                href="https://www.linkedin.com/in/legostud/"
+                title="linkedIn profile for Jonathan Dallas"
+                class="social-links__link"
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    fill="#fff"
+                    d="M150.7 100.7c0 28-22.5 50.7-50.3 50.7s-50.3-22.7-50.3-50.7S72.6 50 100.4 50s50.3 22.7 50.3 50.7zm-7.3 86.6h-85V462h85V187.3zm135.9 0h-81.5V462h81.5V317.8c0-38.6 17.8-61.6 51.8-61.6 31.3 0 46.3 22.1 46.3 61.6V462H462V288.1c0-73.6-41.7-109.1-99.9-109.1s-82.8 45.3-82.8 45.3v-37z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="/assets/js/index-generated.js"></script>
+  </body>
+</html>

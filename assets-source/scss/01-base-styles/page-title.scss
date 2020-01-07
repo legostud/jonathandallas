@@ -1,0 +1,16 @@
+@import "../00-variables/_breakpoints.scss";
+
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.23;
+  margin-bottom: 15px;
+
+  @media ($bp-small-min) {
+    font-size: 5vw;
+  }
+
+  @media ($bp-x-large-min) {
+    font-size: 60px;
+  }
+}
