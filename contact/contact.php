@@ -2,12 +2,14 @@
 header('Access-Control-Allow-Origin: http://jonathandallas.com');
 header('Content-type: application/json');
 
+require_once "/home1/legostud/secure/recaptcha_key.php";
+
 if ($_POST && $_POST["recaptcha"] ) {
 	// set response code - 200 OK
 	http_response_code(200);
 
 	$captcha = $_POST["recaptcha"];
-	$secretKey = "6LeYf8sUAAAAAOE1tUUg4ciBb8f8q9OgJTa83bWb";
+	$secretKey = $api_key;
 	$ip = $_SERVER['REMOTE_ADDR'];
 
   // post request to server
