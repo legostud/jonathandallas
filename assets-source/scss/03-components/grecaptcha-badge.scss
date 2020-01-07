@@ -2,5 +2,6 @@
 
 .grecaptcha-badge {
   bottom: 175px !important;
+  position: absolute !important;
   z-index: $z-sticky-content + 1;
 }
