@@ -8,7 +8,7 @@ const initRecaptcha = () => {
   if (grecaptcha) {
     grecaptcha.ready(function() {
       grecaptcha
-        .execute("6LeYf8sUAAAAAJS-lw76lzcr-UoyCB6iqZP9CbJ9", {
+        .execute("6Lf1SM0UAAAAAD-bKbwCYcFTpI5VhcNEVf3sGLQn", {
           action: "homepage",
         })
         .then(function(token) {
