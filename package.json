@@ -23,7 +23,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
-    "find-babel-config": "^1.2.0",
+    "find-babel-config": "^2.0.0",
     "find-up": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-changed": "^4.0.0",
